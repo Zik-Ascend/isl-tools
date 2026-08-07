@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zik-ascend.github.io/isl-tools/wiki/sitemap.xml

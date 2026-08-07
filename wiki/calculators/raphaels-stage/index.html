@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive Raphael&#x27;s Stage layout calculator for testing fan levels, support items, directional bonuses, and total Support Value.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  
+  <meta property="og:site_name" content="Isekai Slow Life Wiki">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Raphael&#x27;s Stage Calculator | Isekai Slow Life Wiki">
+  <meta property="og:description" content="Interactive Raphael&#x27;s Stage layout calculator for testing fan levels, support items, directional bonuses, and total Support Value.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Raphael&#x27;s Stage Calculator | Isekai Slow Life Wiki">
+  <meta name="twitter:description" content="Interactive Raphael&#x27;s Stage layout calculator for testing fan levels, support items, directional bonuses, and total Support Value.">
+  <link rel="canonical" href="https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/">
+  <meta property="og:url" content="https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/#webpage","url":"https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/","name":"Raphael's Stage Calculator | Isekai Slow Life Wiki","description":"Interactive Raphael's Stage layout calculator for testing fan levels, support items, directional bonuses, and total Support Value.","inLanguage":"en","isPartOf":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#website"},"mainEntity":{"@type":"WebApplication","name":"Raphael's Stage Calculator","applicationCategory":"GameApplication","operatingSystem":"Web browser","description":"Build and score custom Raphael's Stage fan and support-item layouts.","url":"https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/","@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/#entity"},"breadcrumb":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"wiki","item":"https://zik-ascend.github.io/isl-tools/wiki/home/"},{"@type":"ListItem","position":2,"name":"calculators","item":"https://zik-ascend.github.io/isl-tools/wiki/calculators/"},{"@type":"ListItem","position":3,"name":"Raphael's Stage","item":"https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/"}]}]}</script>
+  <title>Raphael&#x27;s Stage Calculator | Isekai Slow Life Wiki</title>
+  <link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+  <link rel="stylesheet" href="../../assets/wiki.css?v=202608071657">
+</head>
+<body>
+  <header class="wiki-topbar">
+    <a class="brand" href="../../home/"><span class="brand-full">Isekai Slow Life Wiki</span><span class="brand-short">ISL Wiki</span></a>
+    <a class="beta-report-link" href="../../beta/" title="found an issue? report it here" aria-label="Beta: found an issue? report it here">Beta ★</a>
+    <nav class="top-links desktop-links" aria-label="Wiki navigation">
+      <a href="../../home/">Home</a>
+      <details class="nav-dropdown">
+        <summary>Categories</summary>
+        <div class="nav-dropdown-menu">
+          <a href="../../fellows/">Fellows</a>
+          <a href="../../family/">Family</a>
+          <a href="../../familiars/">Familiars</a>
+          <a href="../../artifacts/">Artifacts</a>
+          <a href="../../fishing/">Fishing</a>
+          <a href="../../inn/">Inn</a>
+          <a href="../../apothecary/">Apothecary</a>
+          <a href="../../magic-farm/">Magic Farm</a>
+          <a href="../../player-figures/">Player Figures</a>
+          <a href="../../calculators/">Calculators</a>
+        </div>
+      </details>
+    </nav>
+    <div class="search-wrap desktop-search">
+      <input id="wiki-search" data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
+      <div id="wiki-search-results" data-wiki-search-results class="search-results" hidden></div>
+    </div>
+    <button class="mobile-search-toggle" type="button" aria-expanded="false" aria-controls="wiki-mobile-search" aria-label="Open wiki search" data-mobile-search-toggle>
+      <span class="mobile-search-icon" aria-hidden="true"></span>
+    </button>
+    <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="wiki-mobile-menu" aria-label="Open wiki navigation" data-mobile-menu-toggle>
+      <span></span><span></span><span></span>
+    </button>
+    <div id="wiki-mobile-search" class="mobile-search-overlay" hidden data-mobile-search>
+      <div class="mobile-search-panel" role="dialog" aria-modal="true" aria-label="Wiki search">
+        <div class="mobile-nav-header">
+          <strong>Search Wiki</strong>
+          <button class="mobile-menu-close" type="button" aria-label="Close wiki search" data-mobile-search-close>×</button>
+        </div>
+        <div class="search-wrap mobile-search-popover">
+          <input data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
+          <div data-wiki-search-results class="search-results" hidden></div>
+        </div>
+      </div>
+    </div>
+    <div id="wiki-mobile-menu" class="mobile-nav-overlay" hidden data-mobile-menu>
+      <div class="mobile-nav-panel" role="dialog" aria-modal="true" aria-label="Wiki navigation menu">
+        <div class="mobile-nav-header">
+          <strong>Wiki Menu</strong>
+          <button class="mobile-menu-close" type="button" aria-label="Close wiki navigation" data-mobile-menu-close>×</button>
+        </div>
+        <nav class="mobile-menu-links" aria-label="Mobile wiki navigation">
+          <a href="../../home/">Home</a>
+          <a href="../../fellows/">Fellows</a>
+          <a href="../../family/">Family</a>
+          <a href="../../familiars/">Familiars</a>
+          <a href="../../artifacts/">Artifacts</a>
+          <a href="../../fishing/">Fishing</a>
+          <a href="../../inn/">Inn</a>
+          <a href="../../apothecary/">Apothecary</a>
+          <a href="../../magic-farm/">Magic Farm</a>
+          <a href="../../player-figures/">Player Figures</a>
+          <a href="../../calculators/">Calculators</a>
+          <a href="../../beta/">Beta ★</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wiki-page">
+    <div class="breadcrumbs" aria-label="Breadcrumbs"><a href="../../home/">wiki</a><span class="crumb-sep">/</span><a href="../">calculators</a><span class="crumb-sep">/</span><span>Raphael&#x27;s Stage</span></div>
+    <div class="page-meta">Last updated: <time>2026-08-07 16:57 UTC</time></div>
+    
+<section class="section-block category-summary rs-calculator-intro">
+  <p class="eyebrow">Calculator</p>
+  <h1>Raphael's Stage</h1>
+  <p class="lead">Create a custom 5×5 stage layout with any fan levels and up to four unique support items. The calculator applies the event's directional fan and item bonuses and updates the total Support Value immediately.</p>
+  <div class="summary-chip-row">
+    <span class="summary-chip">27 fan types</span>
+    <span class="summary-chip">8 support items</span>
+    <span class="summary-chip">25 stage tiles</span>
+  </div>
+</section>
+
+<section class="section-block rs-calculator" data-raphaels-stage-calculator data-config="../../assets/raphaels-stage-data.json">
+  <div class="rs-calculator-topline">
+    <div class="rs-score-card">
+      <span>Total Support Value</span>
+      <strong data-rs-total-score>0</strong>
+    </div>
+    <div class="rs-score-card compact">
+      <span>Fans</span>
+      <strong data-rs-fan-count>0</strong>
+    </div>
+    <div class="rs-score-card compact">
+      <span>Items</span>
+      <strong><span data-rs-item-count>0</span>/4</strong>
+    </div>
+    <button class="button" type="button" data-rs-clear>Clear Stage</button>
+  </div>
+
+  <div class="rs-calculator-layout">
+    <aside class="rs-palette-panel" aria-label="Fans and support items">
+      <div class="rs-palette-controls">
+        <label>Placement level
+          <input type="number" min="1" max="350" value="1" inputmode="numeric" data-rs-placement-level>
+        </label>
+        <label>Search
+          <input type="search" placeholder="Fan or item name" autocomplete="off" data-rs-palette-search>
+        </label>
+      </div>
+      <div class="rs-palette-tabs" role="tablist" aria-label="Toolbar type">
+        <button type="button" class="active" data-rs-kind-filter="fan">Fans</button>
+        <button type="button" data-rs-kind-filter="item">Items</button>
+      </div>
+      <p class="rs-palette-help">Drag an entry onto the stage, or select it and then choose an empty tile. Fans may be duplicated. Each support item may be used once.</p>
+      <div class="rs-palette-list" data-rs-palette aria-live="polite"></div>
+    </aside>
+
+    <div class="rs-stage-panel">
+      <div class="rs-stage-grid" data-rs-grid aria-label="Raphael's Stage 5 by 5 grid"></div>
+      <p class="rs-stage-status" data-rs-status aria-live="polite">Choose a fan or item to begin.</p>
+      <div class="rs-score-breakdown">
+        <h2>Current Score Breakdown</h2>
+        <dl>
+          <div><dt>Base stage value</dt><dd data-rs-base-score>1</dd></div>
+          <div><dt>Fan base value</dt><dd data-rs-fan-base>0</dd></div>
+          <div><dt>Fan bonuses</dt><dd data-rs-fan-bonus>0</dd></div>
+          <div><dt>Item bonuses</dt><dd data-rs-item-bonus>0</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <div class="rs-editor-overlay" data-rs-editor hidden>
+    <div class="rs-editor" role="dialog" aria-modal="true" aria-labelledby="rs-editor-title">
+      <h2 id="rs-editor-title" data-rs-editor-title>Edit Stage Entry</h2>
+      <p data-rs-editor-effect></p>
+      <label>Level
+        <input type="number" min="1" value="1" inputmode="numeric" data-rs-edit-level>
+      </label>
+      <div class="rs-editor-actions">
+        <button class="button primary" type="button" data-rs-edit-apply>Apply</button>
+        <button class="button" type="button" data-rs-edit-remove>Remove</button>
+        <button class="button" type="button" data-rs-edit-cancel>Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <noscript><p class="empty-note">JavaScript is required to use this calculator.</p></noscript>
+</section>
+
+  </main>
+
+  <footer class="wiki-footer">
+    <span>Fanmade resource maintained by The Ascended discord.</span>
+    <a href="https://discord.gg/the-ascended" target="_blank" rel="noopener">Join Discord</a>
+    <a class="issue-footer-link" href="../../beta/">Report an issue</a>
+  </footer>
+
+  <script src="../../assets/wiki.js?v=202608071657" data-search-index="../../wiki_manifest.json"></script>
+</body>
+</html>
