@@ -1,0 +1,93 @@
+{
+  "title": "ISL Tools",
+  "subtitle": "Community leaderboard archive",
+  "last_updated": "2026-08-07",
+  "server_summary": "NA P1-S772 --- EU S1-S472",
+  "site_version": "LB_26_08_07",
+  "generated_at": "2026-08-07T16:55:56.278471+00:00",
+  "latest": {
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1xYyifKaN4e5lZbN4LSzFWUP4nXNWlQUcemwAMEpRUN4/edit?usp=drivesdk",
+    "google_embed": "https://docs.google.com/spreadsheets/d/1xYyifKaN4e5lZbN4LSzFWUP4nXNWlQUcemwAMEpRUN4/preview"
+  },
+  "images": {
+    "power": "images/LB_26_08_07/power.png?v=LB_26_08_07",
+    "intimacy": "images/LB_26_08_07/intimacy.png?v=LB_26_08_07",
+    "earnings": "images/LB_26_08_07/earnings.png?v=LB_26_08_07",
+    "guild": "images/LB_26_08_07/guild.png?v=LB_26_08_07",
+    "Pets": "images/LB_26_08_07/Pets.png?v=LB_26_08_07",
+    "NApower": "images/LB_26_08_07/NApower.png?v=LB_26_08_07",
+    "NAintimacy": "images/LB_26_08_07/NAintimacy.png?v=LB_26_08_07",
+    "NAearnings": "images/LB_26_08_07/NAearnings.png?v=LB_26_08_07",
+    "NAguild": "images/LB_26_08_07/NAguild.png?v=LB_26_08_07",
+    "EUpower": "images/LB_26_08_07/EUpower.png?v=LB_26_08_07",
+    "EUintimacy": "images/LB_26_08_07/EUintimacy.png?v=LB_26_08_07",
+    "EUEarnings": "images/LB_26_08_07/EUEarnings.png?v=LB_26_08_07",
+    "EUGuild": "images/LB_26_08_07/EUGuild.png?v=LB_26_08_07"
+  },
+  "history": [
+    {
+      "date": "2026-08-07",
+      "batch_name": "LB_26_08_07",
+      "xlsx_name": "LB_26_08_07_public.xlsx",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1xYyifKaN4e5lZbN4LSzFWUP4nXNWlQUcemwAMEpRUN4/edit?usp=drivesdk",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1xYyifKaN4e5lZbN4LSzFWUP4nXNWlQUcemwAMEpRUN4/preview",
+      "published_at": "2026-08-07T16:55:56.015971+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "batch_name": "LB_26_07_22",
+      "xlsx_name": "LB_26_07_22_public.xlsx",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1-4qSCGKDq6ss8ALgDCq538CtM6FLSfqJY7fDHRtuGAQ/edit?usp=drivesdk",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1-4qSCGKDq6ss8ALgDCq538CtM6FLSfqJY7fDHRtuGAQ/preview",
+      "published_at": "2026-07-23T00:45:10.896044+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "batch_name": "LB_26_07_07",
+      "xlsx_name": "LB_26_07_07_public.xlsx",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1SKZXyEuvG3mFszLXc1WccRgGgwE4jUojSTqLTS1TGm0/edit?usp=drivesdk",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1SKZXyEuvG3mFszLXc1WccRgGgwE4jUojSTqLTS1TGm0/preview",
+      "published_at": "2026-07-07T18:01:14.386980+00:00"
+    },
+    {
+      "date": "2026-06-22",
+      "batch_name": "LB_26_06_22",
+      "xlsx_name": "LB_26_06_22_public.xlsx",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1lLzIV9jaXtwSmGwoka7CUzh7sT6zVA5HL1P9gf2Z7vQ/edit?usp=drivesdk",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1lLzIV9jaXtwSmGwoka7CUzh7sT6zVA5HL1P9gf2Z7vQ/preview",
+      "published_at": "2026-07-07T18:00:58.703388+00:00"
+    },
+    {
+      "date": "2026-05-26",
+      "batch_name": "",
+      "xlsx_name": "LB_26_05_26_public.xlsx",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1iggCT4feT1ti8b1jrOgjmYN86yE8vORP7VCGE1IfQf0/edit?usp=drivesdk",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1iggCT4feT1ti8b1jrOgjmYN86yE8vORP7VCGE1IfQf0/preview",
+      "published_at": "2026-06-21T15:59:29.960210+00:00"
+    },
+    {
+      "date": "2026-04-23",
+      "batch_name": "",
+      "xlsx_name": "legacy_2026_05_20",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1qmImKkNA_2lkvd6soKA3iqkfy0LyVAz6KP-dH2q9KQw/edit?usp=sharing",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1qmImKkNA_2lkvd6soKA3iqkfy0LyVAz6KP-dH2q9KQw/preview",
+      "published_at": "2026-04-23T00:00:00+00:00"
+    },
+    {
+      "date": "2026-04-09",
+      "batch_name": "",
+      "xlsx_name": "legacy_2026_05_20",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/17_y1eQ5AZ0nkWUZS2P2vMr5WMU7wJIYE075Bvb9roYo/edit?usp=sharing",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/17_y1eQ5AZ0nkWUZS2P2vMr5WMU7wJIYE075Bvb9roYo/preview",
+      "published_at": "2026-04-09T00:00:00+00:00"
+    },
+    {
+      "date": "2026-03-26",
+      "batch_name": "",
+      "xlsx_name": "legacy_2026_05_20",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1T4Z5DqXROJrq31vmyv3uT73hHBsuR0qfNrKizjEA3EA/edit?usp=sharing",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1T4Z5DqXROJrq31vmyv3uT73hHBsuR0qfNrKizjEA3EA/preview",
+      "published_at": "2026-03-26T00:00:00+00:00"
+    }
+  ]
+}

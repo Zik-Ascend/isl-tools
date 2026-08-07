@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Leaderboards</title>
+  <link rel="stylesheet" href="assets/styles.css?v=LB_26_08_07">
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <h1 id="site-title">Leaderboards</h1>
+      <p id="site-subtitle"></p>
+      <p class="updated">Last updated: <span id="last-updated">loading...</span></p>
+	  <p class="updated">Servers: <span id="server-summary">loading...</span></p>
+    </div>
+    <div class="actions">
+      <a id="view-sheet" class="button primary" href="#" target="_blank" rel="noopener">View latest sheet</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="sheet-section" class="card">
+      <h2>Latest sheet</h2>
+      <div id="sheet-embed-wrap" class="sheet-embed-wrap hidden">
+        <iframe id="sheet-embed" title="Latest leaderboard spreadsheet"></iframe>
+      </div>
+      <p id="sheet-fallback" class="muted hidden">No Google Sheet link is available for this update.</p>
+    </section>
+
+    <section class="card">
+      <h2>Preview images</h2>
+      <div id="image-grid" class="image-grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>Version history</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Google Sheet</th>
+            </tr>
+          </thead>
+          <tbody id="history-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Static page hosted on GitHub Pages. Spreadsheet viewer hosted by Google Sheets.
+  </footer>
+
+  <script src="assets/app.js?v=LB_26_08_07"></script>
+</body>
+</html>

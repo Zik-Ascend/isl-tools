@@ -1,0 +1,99 @@
+:root {
+  --bg: #0f1115;
+  --panel: #171a21;
+  --panel-2: #1f2430;
+  --text: #f0f2f5;
+  --muted: #aab0bd;
+  --border: #303644;
+  --accent: #7aa2ff;
+  --accent-text: #07111f;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: var(--accent); }
+.page-header {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, #171a21, #11141a);
+}
+
+h1, h2, h3, p { margin-top: 0; }
+.updated, .muted, footer { color: var(--muted); }
+.actions { display: flex; gap: .75rem; flex-wrap: wrap; }
+.button {
+  display: inline-block;
+  padding: .75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: .6rem;
+  background: var(--panel-2);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+}
+.button.primary { background: var(--accent); color: var(--accent-text); }
+.button.disabled { opacity: .45; pointer-events: none; }
+
+main { max-width: 1500px; margin: 0 auto; padding: 1.5rem; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: .9rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.sheet-embed-wrap {
+  width: 100%;
+  height: 80vh;
+  min-height: 600px;
+  border: 1px solid var(--border);
+  border-radius: .75rem;
+  overflow: hidden;
+  background: white;
+}
+.sheet-embed-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.hidden { display: none; }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1rem;
+}
+.image-card {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: .75rem;
+  padding: .75rem;
+}
+.image-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: .4rem;
+  background: white;
+}
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: .65rem; border-bottom: 1px solid var(--border); text-align: left; }
+th { color: var(--muted); font-size: .9rem; }
+footer { padding: 2rem; text-align: center; border-top: 1px solid var(--border); }
+
+@media (max-width: 700px) {
+  .page-header { flex-direction: column; align-items: flex-start; padding: 1rem; }
+  main { padding: 1rem; }
+  .image-grid { grid-template-columns: 1fr; }
+}
