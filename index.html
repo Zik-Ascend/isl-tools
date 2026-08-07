@@ -3,59 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <title>Leaderboards</title>
-  <link rel="stylesheet" href="assets/styles.css?v=LB_26_08_07">
+  <title>ISL Tools</title>
+  <meta name="description" content="Community tools and reference projects for Isekai: Slow Life, including the fanmade wiki and leaderboard archive.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="google-site-verification" content="XxNZnK57SzD4BQwUmHYv0hj6RNbZdokH11OLhhwNZb8">
+  <link rel="canonical" href="https://zik-ascend.github.io/isl-tools/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ISL Tools">
+  <meta property="og:description" content="Community tools and reference projects for Isekai: Slow Life, including the fanmade wiki and leaderboard archive.">
+  <meta property="og:url" content="https://zik-ascend.github.io/isl-tools/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"ISL Tools","url":"https://zik-ascend.github.io/isl-tools/","description":"Community tools and reference projects for Isekai: Slow Life, including the fanmade wiki and leaderboard archive.","hasPart":[{"@type":"WebSite","name":"Isekai: Slow Life Wiki","url":"https://zik-ascend.github.io/isl-tools/wiki/"},{"@type":"CollectionPage","name":"Isekai: Slow Life Leaderboards","url":"https://zik-ascend.github.io/isl-tools/leaderboards/"}]}</script>
+  <style>
+    :root { color-scheme: dark; --bg:#0d1015; --panel:#171c24; --line:#303947; --text:#f4f7fb; --muted:#aab4c2; --accent:#86c9ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; font-family:system-ui,-apple-system,Segoe UI,sans-serif; background:radial-gradient(circle at top,#1b2634 0,#0d1015 48%); color:var(--text); }
+    main { width:min(980px,calc(100% - 2rem)); margin:0 auto; padding:clamp(3rem,9vw,7rem) 0; }
+    .eyebrow { margin:0 0 .65rem; color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.16em; text-transform:uppercase; }
+    h1 { margin:0; font-size:clamp(2.6rem,7vw,5.4rem); line-height:.95; letter-spacing:-.045em; }
+    .intro { max-width:720px; margin:1.25rem 0 2.5rem; color:var(--muted); font-size:clamp(1rem,2vw,1.18rem); line-height:1.65; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:1rem; }
+    .project { display:flex; min-height:210px; flex-direction:column; justify-content:space-between; gap:1.5rem; padding:1.4rem; border:1px solid var(--line); border-radius:20px; background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.025)); color:inherit; text-decoration:none; box-shadow:0 18px 50px rgba(0,0,0,.22); transition:transform .16s ease,border-color .16s ease,background .16s ease; }
+    .project:hover,.project:focus-visible { transform:translateY(-3px); border-color:var(--accent); background:linear-gradient(145deg,rgba(134,201,255,.12),rgba(255,255,255,.035)); outline:none; }
+    .project h2 { margin:0 0 .55rem; font-size:1.55rem; }
+    .project p { margin:0; color:var(--muted); line-height:1.55; }
+    .open { color:var(--accent); font-weight:750; }
+    footer { margin-top:2rem; color:#7f8b99; font-size:.86rem; }
+  </style>
 </head>
 <body>
-  <header class="page-header">
-    <div>
-      <h1 id="site-title">Leaderboards</h1>
-      <p id="site-subtitle"></p>
-      <p class="updated">Last updated: <span id="last-updated">loading...</span></p>
-	  <p class="updated">Servers: <span id="server-summary">loading...</span></p>
-    </div>
-    <div class="actions">
-      <a id="view-sheet" class="button primary" href="#" target="_blank" rel="noopener">View latest sheet</a>
-    </div>
-  </header>
-
   <main>
-    <section id="sheet-section" class="card">
-      <h2>Latest sheet</h2>
-      <div id="sheet-embed-wrap" class="sheet-embed-wrap hidden">
-        <iframe id="sheet-embed" title="Latest leaderboard spreadsheet"></iframe>
-      </div>
-      <p id="sheet-fallback" class="muted hidden">No Google Sheet link is available for this update.</p>
+    <p class="eyebrow">Isekai: Slow Life Community Projects</p>
+    <h1>ISL Tools</h1>
+    <p class="intro">Choose a project below. The wiki contains game data, reference pages, and calculators; the leaderboard archive contains current and historical community rankings.</p>
+    <section class="projects" aria-label="Projects">
+      <a class="project" href="wiki/">
+        <div><h2>Wiki</h2><p>Fanmade Isekai: Slow Life reference data, characters, systems, collections, and interactive calculators.</p></div>
+        <span class="open">Open Wiki →</span>
+      </a>
+      <a class="project" href="leaderboards/">
+        <div><h2>Leaderboards</h2><p>Community leaderboard archive with current rankings, preview images, Google Sheets, and version history.</p></div>
+        <span class="open">Open Leaderboards →</span>
+      </a>
     </section>
-
-    <section class="card">
-      <h2>Preview images</h2>
-      <div id="image-grid" class="image-grid"></div>
-    </section>
-
-    <section class="card">
-      <h2>Version history</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Google Sheet</th>
-            </tr>
-          </thead>
-          <tbody id="history-body"></tbody>
-        </table>
-      </div>
-    </section>
+    <footer>Fanmade community resources.</footer>
   </main>
-
-  <footer>
-    Static page hosted on GitHub Pages. Spreadsheet viewer hosted by Google Sheets.
-  </footer>
-
-  <script src="assets/app.js?v=LB_26_08_07"></script>
 </body>
 </html>

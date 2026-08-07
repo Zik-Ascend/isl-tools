@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Leaderboards</title>
+  <link rel="stylesheet" href="assets/styles.css?v=LB_26_08_07">
+  <!-- data-isl-leaderboard-seo -->
+  <meta name="description" content="Community Isekai: Slow Life leaderboard archive with current rankings, preview images, and historical Google Sheets.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="google-site-verification" content="XxNZnK57SzD4BQwUmHYv0hj6RNbZdokH11OLhhwNZb8">
+  <link rel="canonical" href="https://zik-ascend.github.io/isl-tools/leaderboards/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Isekai: Slow Life Leaderboards">
+  <meta property="og:description" content="Community Isekai: Slow Life leaderboard archive with current rankings, preview images, and historical Google Sheets.">
+  <meta property="og:url" content="https://zik-ascend.github.io/isl-tools/leaderboards/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Isekai: Slow Life Leaderboards">
+  <meta name="twitter:description" content="Community Isekai: Slow Life leaderboard archive with current rankings, preview images, and historical Google Sheets.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Isekai: Slow Life Leaderboards","url":"https://zik-ascend.github.io/isl-tools/leaderboards/","description":"Community Isekai: Slow Life leaderboard archive with current rankings, preview images, and historical Google Sheets.","isPartOf":{"@type":"WebSite","name":"ISL Tools","url":"https://zik-ascend.github.io/isl-tools/"}}</script>
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <h1 id="site-title">Leaderboards</h1>
+      <p id="site-subtitle"></p>
+      <p class="updated">Last updated: <span id="last-updated">loading...</span></p>
+	  <p class="updated">Servers: <span id="server-summary">loading...</span></p>
+    </div>
+    <div class="actions">
+      <a class="button" href="../">ISL Tools Home</a>
+      <a id="view-sheet" class="button primary" href="#" target="_blank" rel="noopener">View latest sheet</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="sheet-section" class="card">
+      <h2>Latest sheet</h2>
+      <div id="sheet-embed-wrap" class="sheet-embed-wrap hidden">
+        <iframe id="sheet-embed" title="Latest leaderboard spreadsheet"></iframe>
+      </div>
+      <p id="sheet-fallback" class="muted hidden">No Google Sheet link is available for this update.</p>
+    </section>
+
+    <section class="card">
+      <h2>Preview images</h2>
+      <div id="image-grid" class="image-grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>Version history</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Google Sheet</th>
+            </tr>
+          </thead>
+          <tbody id="history-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Static page hosted on GitHub Pages. Spreadsheet viewer hosted by Google Sheets.
+  </footer>
+
+  <script src="assets/app.js?v=LB_26_08_07"></script>
+</body>
+</html>
