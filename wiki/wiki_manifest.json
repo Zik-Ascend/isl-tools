@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 17:59 UTC",
+  "generated_at": "2026-08-08 00:43 UTC",
   "counts": {
     "fellows": 159,
     "family": 126,
@@ -10,6 +10,7 @@
     "apothecary": 20,
     "magic-farm": 39,
     "player-figures": 59,
+    "treasure-hunt": 49,
     "calculators": 1
   },
   "entries": [
@@ -90,6 +91,12 @@
       "category": "category",
       "url": "player-figures/",
       "summary": "Player Figure category index"
+    },
+    {
+      "title": "Treasure Hunt",
+      "category": "category",
+      "url": "treasure-hunt/",
+      "summary": "Treasure Hunt areas, maps, gemstones, relic drop rates, and relic skills"
     },
     {
       "title": "Calculators",
@@ -8201,6 +8208,398 @@
       "internal_id": "Play_C53",
       "url": "player-figures/#player-figure-shap53",
       "summary": "Player figure ID shap53"
+    },
+    {
+      "title": "Original Ruins",
+      "category": "treasure hunt areas",
+      "id": "Relic001",
+      "internal_id": "Relic001",
+      "url": "treasure-hunt/#treasure-area-relic001",
+      "summary": "Treasure Hunt area Relic001 · Map Map001 · Hidden Map LimitMap001 · Normal Gemstone (Original Ruins), Advanced Gemstone (Original Ruins), Premium Gemstone (Original Ruins), Limited Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Memory Cave",
+      "category": "treasure hunt areas",
+      "id": "Relic002",
+      "internal_id": "Relic002",
+      "url": "treasure-hunt/#treasure-area-relic002",
+      "summary": "Treasure Hunt area Relic002 · Map Map002 · Hidden Map LimitMap002 · Normal Gemstone (Memory Cave), Advanced Gemstone (Memory Cave), Premium Gemstone (Memory Cave), Limited Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Frozen Abyss",
+      "category": "treasure hunt areas",
+      "id": "Relic003",
+      "internal_id": "Relic003",
+      "url": "treasure-hunt/#treasure-area-relic003",
+      "summary": "Treasure Hunt area Relic003 · Map Map003 · Hidden Map LimitMap003 · Normal Gemstone (Frozen Abyss), Advanced Gemstone (Frozen Abyss), Premium Gemstone (Frozen Abyss), Limited Gemstone (Frozen Abyss)"
+    },
+    {
+      "title": "Ice Shipwreck",
+      "category": "treasure hunt areas",
+      "id": "Relic004",
+      "internal_id": "Relic004",
+      "url": "treasure-hunt/#treasure-area-relic004",
+      "summary": "Treasure Hunt area Relic004 · Map Map004 · Hidden Map LimitMap004 · Normal Gemstone (Ice Shipwreck), Advanced Gemstone (Ice Shipwreck), Premium Gemstone (Ice Shipwreck), Limited Gemstone (Ice Shipwreck)"
+    },
+    {
+      "title": "Ladon's Skeleton",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2501",
+      "internal_id": "SimGame5_2501",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2501",
+      "summary": "Treasure Hunt relic Item_SimGame5_2501 · Gemstone source"
+    },
+    {
+      "title": "Ancient Golden Mural",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2901",
+      "internal_id": "SimGame5_2901",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2901",
+      "summary": "Treasure Hunt relic Item_SimGame5_2901 · Gemstone source"
+    },
+    {
+      "title": "Snow Cyclops' Eye Fossil",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2401",
+      "internal_id": "SimGame5_2401",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2401",
+      "summary": "Treasure Hunt relic Item_SimGame5_2401 · Advanced Gemstone (Memory Cave), Limited Gemstone (Memory Cave), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Iceborg Monster Wolf",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2402",
+      "internal_id": "SimGame5_2402",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2402",
+      "summary": "Treasure Hunt relic Item_SimGame5_2402 · Advanced Gemstone (Frozen Abyss), Limited Gemstone (Frozen Abyss), Premium Gemstone (Frozen Abyss)"
+    },
+    {
+      "title": "Oyster Trap",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2403",
+      "internal_id": "SimGame5_2403",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2403",
+      "summary": "Treasure Hunt relic Item_SimGame5_2403 · Advanced Gemstone (Ice Shipwreck), Limited Gemstone (Ice Shipwreck), Premium Gemstone (Ice Shipwreck)"
+    },
+    {
+      "title": "Narwhal Fossil",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2404",
+      "internal_id": "SimGame5_2404",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2404",
+      "summary": "Treasure Hunt relic Item_SimGame5_2404 · Advanced Gemstone (Frozen Abyss), Premium Gemstone (Frozen Abyss)"
+    },
+    {
+      "title": "Sledge",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2405",
+      "internal_id": "SimGame5_2405",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2405",
+      "summary": "Treasure Hunt relic Item_SimGame5_2405 · Advanced Gemstone (Ice Shipwreck), Premium Gemstone (Ice Shipwreck)"
+    },
+    {
+      "title": "Bear-Eared Seal",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2406",
+      "internal_id": "SimGame5_2406",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2406",
+      "summary": "Treasure Hunt relic Item_SimGame5_2406 · Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Golden Dragon Scale",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1401",
+      "internal_id": "SimGame5_1401",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1401",
+      "summary": "Treasure Hunt relic Item_SimGame5_1401 · Advanced Gemstone (Original Ruins), Premium Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Saber-Toothed Tiger",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1402",
+      "internal_id": "SimGame5_1402",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1402",
+      "summary": "Treasure Hunt relic Item_SimGame5_1402 · Advanced Gemstone (Original Ruins), Limited Gemstone (Original Ruins), Premium Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Lucky Megaloceros",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1403",
+      "internal_id": "SimGame5_1403",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1403",
+      "summary": "Treasure Hunt relic Item_SimGame5_1403 · Advanced Gemstone (Original Ruins), Premium Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Mammoth",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2407",
+      "internal_id": "SimGame5_2407",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2407",
+      "summary": "Treasure Hunt relic Item_SimGame5_2407 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Memory Cave), Premium Gemstone (Frozen Abyss), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Ironhead Turtle",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2408",
+      "internal_id": "SimGame5_2408",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2408",
+      "summary": "Treasure Hunt relic Item_SimGame5_2408 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck)"
+    },
+    {
+      "title": "Golden Mural",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1301",
+      "internal_id": "SimGame5_1301",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1301",
+      "summary": "Treasure Hunt relic Item_SimGame5_1301 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins), Premium Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Four-Legged Shark Fossil",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1302",
+      "internal_id": "SimGame5_1302",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1302",
+      "summary": "Treasure Hunt relic Item_SimGame5_1302 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins), Premium Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Medusa Statue",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1303",
+      "internal_id": "SimGame5_1303",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1303",
+      "summary": "Treasure Hunt relic Item_SimGame5_1303 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins), Premium Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Miracle Medicine",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2301",
+      "internal_id": "SimGame5_2301",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2301",
+      "summary": "Treasure Hunt relic Item_SimGame5_2301 · Advanced Gemstone (Memory Cave), Normal Gemstone (Memory Cave), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Master Key",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2302",
+      "internal_id": "SimGame5_2302",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2302",
+      "summary": "Treasure Hunt relic Item_SimGame5_2302 · Advanced Gemstone (Frozen Abyss), Normal Gemstone (Frozen Abyss), Premium Gemstone (Frozen Abyss)"
+    },
+    {
+      "title": "Protective Battle Flag",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2303",
+      "internal_id": "SimGame5_2303",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2303",
+      "summary": "Treasure Hunt relic Item_SimGame5_2303 · Advanced Gemstone (Ice Shipwreck), Normal Gemstone (Ice Shipwreck), Premium Gemstone (Ice Shipwreck)"
+    },
+    {
+      "title": "Giant Serpent Egg",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2304",
+      "internal_id": "SimGame5_2304",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2304",
+      "summary": "Treasure Hunt relic Item_SimGame5_2304 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Memory Cave), Premium Gemstone (Frozen Abyss), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Spatial Mirror",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2305",
+      "internal_id": "SimGame5_2305",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2305",
+      "summary": "Treasure Hunt relic Item_SimGame5_2305 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck)"
+    },
+    {
+      "title": "Golden Cloak",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2306",
+      "internal_id": "SimGame5_2306",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2306",
+      "summary": "Treasure Hunt relic Item_SimGame5_2306 · Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Golden Mushroom Statue",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1201",
+      "internal_id": "SimGame5_1201",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1201",
+      "summary": "Treasure Hunt relic Item_SimGame5_1201 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Behemoth Footprint",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1202",
+      "internal_id": "SimGame5_1202",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1202",
+      "summary": "Treasure Hunt relic Item_SimGame5_1202 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Survival of the Fittest Fossil",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1203",
+      "internal_id": "SimGame5_1203",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1203",
+      "summary": "Treasure Hunt relic Item_SimGame5_1203 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Hornstone",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2201",
+      "internal_id": "SimGame5_2201",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2201",
+      "summary": "Treasure Hunt relic Item_SimGame5_2201 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Debt Ledger",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2202",
+      "internal_id": "SimGame5_2202",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2202",
+      "summary": "Treasure Hunt relic Item_SimGame5_2202 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Copper Hot Pot",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2203",
+      "internal_id": "SimGame5_2203",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2203",
+      "summary": "Treasure Hunt relic Item_SimGame5_2203 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Circular Stone Formation",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2204",
+      "internal_id": "SimGame5_2204",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2204",
+      "summary": "Treasure Hunt relic Item_SimGame5_2204 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Anomalocaris Fossil",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1101",
+      "internal_id": "SimGame5_1101",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1101",
+      "summary": "Treasure Hunt relic Item_SimGame5_1101 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Horned Seahorse Fossil",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1102",
+      "internal_id": "SimGame5_1102",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1102",
+      "summary": "Treasure Hunt relic Item_SimGame5_1102 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Giant Trilobite",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_1103",
+      "internal_id": "SimGame5_1103",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-1103",
+      "summary": "Treasure Hunt relic Item_SimGame5_1103 · Advanced Gemstone (Original Ruins), Normal Gemstone (Original Ruins)"
+    },
+    {
+      "title": "Giant Ammonite",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2101",
+      "internal_id": "SimGame5_2101",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2101",
+      "summary": "Treasure Hunt relic Item_SimGame5_2101 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Unfettered Oracle Stone Tablet",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2102",
+      "internal_id": "SimGame5_2102",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2102",
+      "summary": "Treasure Hunt relic Item_SimGame5_2102 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "No Entry Sign",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2103",
+      "internal_id": "SimGame5_2103",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2103",
+      "summary": "Treasure Hunt relic Item_SimGame5_2103 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Beast Taming Gloves",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5_2104",
+      "internal_id": "SimGame5_2104",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5-2104",
+      "summary": "Treasure Hunt relic Item_SimGame5_2104 · Advanced Gemstone (Frozen Abyss), Advanced Gemstone (Ice Shipwreck), Advanced Gemstone (Memory Cave), Normal Gemstone (Frozen Abyss), Normal Gemstone (Ice Shipwreck), Normal Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Dragon Leg Bones",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_25015",
+      "internal_id": "SimGame5_2501E",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-25015",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_25015 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Dragon Skull",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_25011",
+      "internal_id": "SimGame5_2501A",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-25011",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_25011 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Dragon Spine",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_25012",
+      "internal_id": "SimGame5_2501B",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-25012",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_25012 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Dragon Tail Bones",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_25016",
+      "internal_id": "SimGame5_2501F",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-25016",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_25016 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Dragon Tarsal Bones",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_25014",
+      "internal_id": "SimGame5_2501D",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-25014",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_25014 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Dragon Wing Bones",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_25013",
+      "internal_id": "SimGame5_2501C",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-25013",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_25013 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Incoming Cataclysm",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_29012",
+      "internal_id": "SimGame5_2901B",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-29012",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_29012 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Primordial Thermal Circle",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_29013",
+      "internal_id": "SimGame5_2901C",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-29013",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_29013 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Protection from Northrealm Guardian",
+      "category": "treasure hunt relics",
+      "id": "Item_SimGame5Part_29011",
+      "internal_id": "SimGame5_2901A",
+      "url": "treasure-hunt/#treasure-relic-item-simgame5part-29011",
+      "summary": "Treasure Hunt relic Item_SimGame5Part_29011 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
     }
   ]
 }
