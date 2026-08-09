@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08 00:43 UTC",
+  "generated_at": "2026-08-09 23:18 UTC",
   "counts": {
     "fellows": 159,
     "family": 126,
@@ -11,6 +11,7 @@
     "magic-farm": 39,
     "player-figures": 59,
     "treasure-hunt": 49,
+    "museum": 134,
     "calculators": 1
   },
   "entries": [
@@ -97,6 +98,12 @@
       "category": "category",
       "url": "treasure-hunt/",
       "summary": "Treasure Hunt areas, maps, gemstones, relic drop rates, and relic skills"
+    },
+    {
+      "title": "Museum",
+      "category": "category",
+      "url": "museum/",
+      "summary": "Museum exhibits organized by exhibition hall, rarity, source, and skills"
     },
     {
       "title": "Calculators",
@@ -8600,6 +8607,1346 @@
       "internal_id": "SimGame5_2901A",
       "url": "treasure-hunt/#treasure-relic-item-simgame5part-29011",
       "summary": "Treasure Hunt relic Item_SimGame5Part_29011 · Premium Gemstone (Frozen Abyss), Premium Gemstone (Ice Shipwreck), Premium Gemstone (Memory Cave)"
+    },
+    {
+      "title": "Owl Magnifier",
+      "category": "museum exhibits",
+      "id": "Collection_12",
+      "internal_id": "Collection_12",
+      "url": "museum/#museum-exhibit-collection-12",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_12 · Hall1 · Rarity R · Unlocks after building the Museum."
+    },
+    {
+      "title": "Cool tea beverage machine",
+      "category": "museum exhibits",
+      "id": "Collection_2",
+      "internal_id": "Collection_2",
+      "url": "museum/#museum-exhibit-collection-2",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_2 · Hall1 · Rarity R · Inn level: 2\nDish unlocked: Kitty Sandwich\nObtain Fellow: Maxim"
+    },
+    {
+      "title": "Noble Lamp",
+      "category": "museum exhibits",
+      "id": "Collection_3",
+      "internal_id": "Collection_3",
+      "url": "museum/#museum-exhibit-collection-3",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_3 · Hall1 · Rarity R · Inn level: 7\nDish unlocked: Slime Supreme"
+    },
+    {
+      "title": "Twin Dragon",
+      "category": "museum exhibits",
+      "id": "Collection_4",
+      "internal_id": "Collection_4",
+      "url": "museum/#museum-exhibit-collection-4",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_4 · Hall1 · Rarity R · Inn level: 3\nDish unlocked: Spicy Chimera Wings"
+    },
+    {
+      "title": "Phonograph in Sea",
+      "category": "museum exhibits",
+      "id": "Collection_5",
+      "internal_id": "Collection_5",
+      "url": "museum/#museum-exhibit-collection-5",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_5 · Hall1 · Rarity SR · Inn level: 6\nDish unlocked: Instant Noodles\nObtain Family: Selena"
+    },
+    {
+      "title": "Tou's Affinity Umbrella",
+      "category": "museum exhibits",
+      "id": "Collection_6",
+      "internal_id": "Collection_6",
+      "url": "museum/#museum-exhibit-collection-6",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_6 · Hall1 · Rarity R · Inn level: 4\nDish unlocked: Kimchi"
+    },
+    {
+      "title": "Lavish Doghouse",
+      "category": "museum exhibits",
+      "id": "Collection_8",
+      "internal_id": "Collection_8",
+      "url": "museum/#museum-exhibit-collection-8",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_8 · Hall1 · Rarity R · Inn level: 5\nDish unlocked: Oatmeal Porridge"
+    },
+    {
+      "title": "Golden Camel",
+      "category": "museum exhibits",
+      "id": "Collection_9",
+      "internal_id": "Collection_9",
+      "url": "museum/#museum-exhibit-collection-9",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_9 · Hall1 · Rarity R · Inn level: 6\nDish unlocked: Beef Stew"
+    },
+    {
+      "title": "Hunter's Hat",
+      "category": "museum exhibits",
+      "id": "Collection_10",
+      "internal_id": "Collection_10",
+      "url": "museum/#museum-exhibit-collection-10",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_10 · Hall1 · Rarity R · Inn level: 7\nDish unlocked: Onion Rings"
+    },
+    {
+      "title": "Outsized Omamori",
+      "category": "museum exhibits",
+      "id": "Collection_11",
+      "internal_id": "Collection_11",
+      "url": "museum/#museum-exhibit-collection-11",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_11 · Hall1 · Rarity R · Inn level: 9\nDish unlocked: Roast Assorted Food"
+    },
+    {
+      "title": "Remote Control Dragon",
+      "category": "museum exhibits",
+      "id": "Collection_21",
+      "internal_id": "Collection_21",
+      "url": "museum/#museum-exhibit-collection-21",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_21 · Hall1 · Rarity R · Inn level: 4\nDish unlocked: Fried Chicken\nObtain Fellow: Mammon"
+    },
+    {
+      "title": "Monster Statue",
+      "category": "museum exhibits",
+      "id": "Collection_22",
+      "internal_id": "Collection_22",
+      "url": "museum/#museum-exhibit-collection-22",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_22 · Hall1 · Rarity R · Inn level: 10\nDish unlocked: Dungeon Chowder\nObtain Fellow: Anne"
+    },
+    {
+      "title": "Golden Mushroom",
+      "category": "museum exhibits",
+      "id": "Collection_13",
+      "internal_id": "Collection_13",
+      "url": "museum/#museum-exhibit-collection-13",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_13 · Hall1 · Rarity R · After participating actively in the Trade Festival, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Mini World Tree Nightlight",
+      "category": "museum exhibits",
+      "id": "Collection_14",
+      "internal_id": "Collection_14",
+      "url": "museum/#museum-exhibit-collection-14",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_14 · Hall1 · Rarity R · After participating actively in the World Tree series of events, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "King Salmon Statue",
+      "category": "museum exhibits",
+      "id": "Collection_15",
+      "internal_id": "Collection_15",
+      "url": "museum/#museum-exhibit-collection-15",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_15 · Hall1 · Rarity R · After resolving the crisis in the Northrealm, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Mushroom's Trade Route",
+      "category": "museum exhibits",
+      "id": "Collection_16",
+      "internal_id": "Collection_16",
+      "url": "museum/#museum-exhibit-collection-16",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_16 · Hall1 · Rarity R · After toasting with Amaterasu in the Touno Island Story, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Gold Mushroom Mask",
+      "category": "museum exhibits",
+      "id": "Collection_17",
+      "internal_id": "Collection_17",
+      "url": "museum/#museum-exhibit-collection-17",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_17 · Hall1 · Rarity R · After actively participating in the Sandtopia Pilgrimage, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Bubble Music Box",
+      "category": "museum exhibits",
+      "id": "Collection_18",
+      "internal_id": "Collection_18",
+      "url": "museum/#museum-exhibit-collection-18",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_18 · Hall1 · Rarity R · After actively participating in the Aloha, Bubble Island event, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Dark Flame Grail",
+      "category": "museum exhibits",
+      "id": "Collection_19",
+      "internal_id": "Collection_19",
+      "url": "museum/#museum-exhibit-collection-19",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_19 · Hall1 · Rarity SR · After participating actively in the Trade Festival, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "1st Anniversary Cake",
+      "category": "museum exhibits",
+      "id": "Collection_20",
+      "internal_id": "Collection_20",
+      "url": "museum/#museum-exhibit-collection-20",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_20 · Hall1 · Rarity SR · Obtained in Kemomimi Village Ceremony."
+    },
+    {
+      "title": "2nd Anniversary Cake",
+      "category": "museum exhibits",
+      "id": "Collection_33",
+      "internal_id": "Collection_33",
+      "url": "museum/#museum-exhibit-collection-33",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_33 · Hall1 · Rarity SR · Village Ceremony"
+    },
+    {
+      "title": "Celestial Maiden's Goshuin",
+      "category": "museum exhibits",
+      "id": "Collection_23",
+      "internal_id": "Collection_23",
+      "url": "museum/#museum-exhibit-collection-23",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_23 · Hall1 · Rarity SR · Obtainable during the Celestial Maiden Wish Festival."
+    },
+    {
+      "title": "Electric Ant",
+      "category": "museum exhibits",
+      "id": "Collection_37",
+      "internal_id": "Collection_37",
+      "url": "museum/#museum-exhibit-collection-37",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_37 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Golden Dumbbells",
+      "category": "museum exhibits",
+      "id": "Collection_38",
+      "internal_id": "Collection_38",
+      "url": "museum/#museum-exhibit-collection-38",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_38 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Hiemspresent Photo",
+      "category": "museum exhibits",
+      "id": "Collection_24",
+      "internal_id": "Collection_24",
+      "url": "museum/#museum-exhibit-collection-24",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_24 · Hall1 · Rarity SSR · Obtained in Dragon Maid on Hiemspresent event."
+    },
+    {
+      "title": "Red Spider Lily",
+      "category": "museum exhibits",
+      "id": "Collection_36",
+      "internal_id": "Collection_36",
+      "url": "museum/#museum-exhibit-collection-36",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_36 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Valkyrie's Crown",
+      "category": "museum exhibits",
+      "id": "Collection_35",
+      "internal_id": "Collection_35",
+      "url": "museum/#museum-exhibit-collection-35",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_35 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Divine Cube",
+      "category": "museum exhibits",
+      "id": "Collection_26",
+      "internal_id": "Collection_26",
+      "url": "museum/#museum-exhibit-collection-26",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_26 · Hall1 · Rarity R · Complete Main Quest in Dungeon Dev to obtain."
+    },
+    {
+      "title": "ホットココアの氷の彫刻",
+      "category": "museum exhibits",
+      "id": "Collection_25",
+      "internal_id": "Collection_25",
+      "url": "museum/#museum-exhibit-collection-25",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_25 · Hall1 · Rarity SR · 「氷雪の町校外実習～頑張れ！モンスター娘！」イベントで獲得。"
+    },
+    {
+      "title": "Axis Order Goddess's Statue",
+      "category": "museum exhibits",
+      "id": "Collection_Konosuba",
+      "internal_id": "Collection_Konosuba",
+      "url": "museum/#museum-exhibit-collection-konosuba",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_Konosuba · Hall1 · Rarity SR · Obtained from [Progress Rewards] from the [God's Blessing on This Laid-Back Isekai!] crossover event."
+    },
+    {
+      "title": "Café LycoReco Memorial Statue",
+      "category": "museum exhibits",
+      "id": "Collection_LycoReco",
+      "internal_id": "Collection_LycoReco",
+      "url": "museum/#museum-exhibit-collection-lycoreco",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_LycoReco · Hall1 · Rarity SR · Food Truck shop in the [Café LycoReco Crossing into Isekai] crossover event."
+    },
+    {
+      "title": "Championship Statue",
+      "category": "museum exhibits",
+      "id": "Collection_48",
+      "internal_id": "Collection_48",
+      "url": "museum/#museum-exhibit-collection-48",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_48 · Hall1 · Rarity SR · Obtained from completing all Story Missions in [Fight! FAIRY TAIL and the Magic Academy Sports Day!] event."
+    },
+    {
+      "title": "Crown of the Park",
+      "category": "museum exhibits",
+      "id": "Collection_44",
+      "internal_id": "Collection_44",
+      "url": "museum/#museum-exhibit-collection-44",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_44 · Hall1 · Rarity SR · Obtained by completing the main exploration tasks in the Kawaiimush crossover event."
+    },
+    {
+      "title": "Dungeon Medal",
+      "category": "museum exhibits",
+      "id": "Collection_41",
+      "internal_id": "Collection_41",
+      "url": "museum/#museum-exhibit-collection-41",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_41 · Hall1 · Rarity SR · Obtained by completing the main exploration tasks in the Encounter in Another World crossover event."
+    },
+    {
+      "title": "Relaxing Camping",
+      "category": "museum exhibits",
+      "id": "Collection_27",
+      "internal_id": "Collection_27",
+      "url": "museum/#museum-exhibit-collection-27",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_27 · Hall1 · Rarity SR · Obtain during the Camping with A Slime event"
+    },
+    {
+      "title": "Roxy Figure",
+      "category": "museum exhibits",
+      "id": "Collection_47",
+      "internal_id": "Collection_47",
+      "url": "museum/#museum-exhibit-collection-47",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_47 · Hall1 · Rarity SR · Complete story missions in the [Mushoku Tensei and Magic Creativity Show] crossover event to get."
+    },
+    {
+      "title": "Waterfall Camp Model",
+      "category": "museum exhibits",
+      "id": "Collection_TenSuraS2",
+      "internal_id": "Collection_TenSuraS2",
+      "url": "museum/#museum-exhibit-collection-tensuras2",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_TenSuraS2 · Hall1 · Rarity SR · Complete story missions in the [Camping with A Slime Season 2] crossover event to get."
+    },
+    {
+      "title": "アインズ・ウール・ゴウンの彫像",
+      "category": "museum exhibits",
+      "id": "Collection_Overlord",
+      "internal_id": "Collection_Overlord",
+      "url": "museum/#museum-exhibit-collection-overlord",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_Overlord · Hall1 · Rarity SR · 「オーバーロード農園物語」イベントでメイン探索ミッションを完了すると獲得できる。"
+    },
+    {
+      "title": "Obsidian Compass",
+      "category": "museum exhibits",
+      "id": "Collection_28",
+      "internal_id": "Collection_28",
+      "url": "museum/#museum-exhibit-collection-28",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_28 · Hall1 · Rarity R · Obtained upon reaching specific levels in Penglai Immortal."
+    },
+    {
+      "title": "Mystic Cauldron",
+      "category": "museum exhibits",
+      "id": "Collection_29",
+      "internal_id": "Collection_29",
+      "url": "museum/#museum-exhibit-collection-29",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_29 · Hall1 · Rarity SSR · Obtained after unlocking Premium Penglai Battle Pass."
+    },
+    {
+      "title": "5,000,000 Gold Check",
+      "category": "museum exhibits",
+      "id": "Collection_30",
+      "internal_id": "Collection_30",
+      "url": "museum/#museum-exhibit-collection-30",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_30 · Hall1 · Rarity SR · Increase Adventurer Team Level in the event From Old Country Bumpkin to Master Swordsman in Isekai to obtain."
+    },
+    {
+      "title": "Signed Poster",
+      "category": "museum exhibits",
+      "id": "Collection_31",
+      "internal_id": "Collection_31",
+      "url": "museum/#museum-exhibit-collection-31",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_31 · Hall1 · Rarity SR · Super Star of Light and Shadow"
+    },
+    {
+      "title": "Gold Poker",
+      "category": "museum exhibits",
+      "id": "Collection_42",
+      "internal_id": "Collection_42",
+      "url": "museum/#museum-exhibit-collection-42",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_42 · Hall1 · Rarity SSR · Unlock Premium Pass in Casino on Yacht to get."
+    },
+    {
+      "title": "Medal of 15 Trails",
+      "category": "museum exhibits",
+      "id": "Collection_32",
+      "internal_id": "Collection_32",
+      "url": "museum/#museum-exhibit-collection-32",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_32 · Hall1 · Rarity SSR · Unlocks Premium Privilege in the Cloud Kingdom Games to obtain."
+    },
+    {
+      "title": "1000000 Fans Plaque",
+      "category": "museum exhibits",
+      "id": "Collection_34",
+      "internal_id": "Collection_34",
+      "url": "museum/#museum-exhibit-collection-34",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_34 · Hall1 · Rarity SR · Obtained in the [Hanamiya Rica Special ~Isekai Episode~] event."
+    },
+    {
+      "title": "Battle Flag",
+      "category": "museum exhibits",
+      "id": "Collection_43",
+      "internal_id": "Collection_43",
+      "url": "museum/#museum-exhibit-collection-43",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_43 · Hall1 · Rarity R · Participate in the Siege Warfare event and obtain it from the guild score ranking."
+    },
+    {
+      "title": "Love Mocktail",
+      "category": "museum exhibits",
+      "id": "Collection_45",
+      "internal_id": "Collection_45",
+      "url": "museum/#museum-exhibit-collection-45",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_45 · Hall1 · Rarity SR · Obtained in [Love Spell ~ Black Cat & Mocktail ~] event."
+    },
+    {
+      "title": "Wild Motorcycle",
+      "category": "museum exhibits",
+      "id": "Collection_46",
+      "internal_id": "Collection_46",
+      "url": "museum/#museum-exhibit-collection-46",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_46 · Hall1 · Rarity SSR · Unlocks in the Inferno Rally event upon purchasing the Premium Pass."
+    },
+    {
+      "title": "Bloodline Puppet",
+      "category": "museum exhibits",
+      "id": "Collection_DJDemonCastle",
+      "internal_id": "Collection_DJDemonCastle",
+      "url": "museum/#museum-exhibit-collection-djdemoncastle",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_DJDemonCastle · Hall1 · Rarity SSR · Unlock Premium Pass in the Crimson Moon Fantasia event to obtain."
+    },
+    {
+      "title": "Money Tree Miniature",
+      "category": "museum exhibits",
+      "id": "Collection_GveCoinFight",
+      "internal_id": "Collection_GveCoinFight",
+      "url": "museum/#museum-exhibit-collection-gvecoinfight",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveCoinFight · Hall1 · Rarity SSR · Unlock the Premium Pass in the Wealth from All Sides: Bazaar Mania event to get."
+    },
+    {
+      "title": "Stoneblade",
+      "category": "museum exhibits",
+      "id": "Collection_GveKingArthur",
+      "internal_id": "Collection_GveKingArthur",
+      "url": "museum/#museum-exhibit-collection-gvekingarthur",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveKingArthur · Hall1 · Rarity SSR · Obtained after unlocking premium pass in the Time to Eat! Delicious Dungeon Quest."
+    },
+    {
+      "title": "Thunder God Helm",
+      "category": "museum exhibits",
+      "id": "Collection_49",
+      "internal_id": "Collection_49",
+      "url": "museum/#museum-exhibit-collection-49",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_49 · Hall1 · Rarity SSR · Obtained by unlocking the Premium Pass of the March of the Northrealm event."
+    },
+    {
+      "title": "Verity's Textbook",
+      "category": "museum exhibits",
+      "id": "Collection_GveMedicine",
+      "internal_id": "Collection_GveMedicine",
+      "url": "museum/#museum-exhibit-collection-gvemedicine",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveMedicine · Hall1 · Rarity SSR · Unlocks Premium Pass during the Apothecary: Proud Mentor & Rebellious Apprentice event to obtain."
+    },
+    {
+      "title": "Golden Realm Golemore",
+      "category": "museum exhibits",
+      "id": "Collection_50",
+      "internal_id": "Collection_50",
+      "url": "museum/#museum-exhibit-collection-50",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_50 · Hall1 · Rarity SSR · Unlock Premium Pass in the Golden Realm Expedition event to obtain."
+    },
+    {
+      "title": "3rd Anniversary Cake",
+      "category": "museum exhibits",
+      "id": "Collection_Anniversary_EN3",
+      "internal_id": "Collection_Anniversary_EN3",
+      "url": "museum/#museum-exhibit-collection-anniversary-en3",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_Anniversary_EN3 · Hall1 · Rarity SR · Village Ceremony"
+    },
+    {
+      "title": "Construction Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_1",
+      "internal_id": "Achievement_1",
+      "url": "museum/#museum-exhibit-achievement-1",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_1 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Encounters Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_2",
+      "internal_id": "Achievement_2",
+      "url": "museum/#museum-exhibit-achievement-2",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_2 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Progress Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_3",
+      "internal_id": "Achievement_3",
+      "url": "museum/#museum-exhibit-achievement-3",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_3 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Treasure Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_4",
+      "internal_id": "Achievement_4",
+      "url": "museum/#museum-exhibit-achievement-4",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_4 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Lifestyle Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_5",
+      "internal_id": "Achievement_5",
+      "url": "museum/#museum-exhibit-achievement-5",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_5 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "World Tree Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_6",
+      "internal_id": "Achievement_6",
+      "url": "museum/#museum-exhibit-achievement-6",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_6 · Hall2 · Rarity SR · World Tree Series\nPersonal"
+    },
+    {
+      "title": "Sakura Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_7",
+      "internal_id": "Achievement_7",
+      "url": "museum/#museum-exhibit-achievement-7",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_7 · Hall2 · Rarity SR · Touno Island Story\nTotal Sakura Coin"
+    },
+    {
+      "title": "Snowflake Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_8",
+      "internal_id": "Achievement_8",
+      "url": "museum/#museum-exhibit-achievement-8",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_8 · Hall2 · Rarity SR · Northern Odyssey\nExploration"
+    },
+    {
+      "title": "Pirate Chess Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_18",
+      "internal_id": "Achievement_18",
+      "url": "museum/#museum-exhibit-achievement-18",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Achievement_18 · Hall2 · Rarity SSR · Pirate Chess\nChampion Group Points"
+    },
+    {
+      "title": "The Joy of Fishing",
+      "category": "museum exhibits",
+      "id": "Achievement_9",
+      "internal_id": "Achievement_9",
+      "url": "museum/#museum-exhibit-achievement-9",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_9 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Prosperous and Flourishing",
+      "category": "museum exhibits",
+      "id": "Achievement_10",
+      "internal_id": "Achievement_10",
+      "url": "museum/#museum-exhibit-achievement-10",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_10 · Hall2 · Rarity SR · Ranking Rush\nVillage Earnings Ranking Rush"
+    },
+    {
+      "title": "Heartfelt Connection",
+      "category": "museum exhibits",
+      "id": "Achievement_11",
+      "internal_id": "Achievement_11",
+      "url": "museum/#museum-exhibit-achievement-11",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_11 · Hall2 · Rarity SR · Ranking Rush\nFamily Intimacy Ranking Rush"
+    },
+    {
+      "title": "Strength Training",
+      "category": "museum exhibits",
+      "id": "Achievement_12",
+      "internal_id": "Achievement_12",
+      "url": "museum/#museum-exhibit-achievement-12",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_12 · Hall2 · Rarity SR · Ranking Rush\nFellow Power Ranking Rush"
+    },
+    {
+      "title": "Gentle Guardianship",
+      "category": "museum exhibits",
+      "id": "Achievement_13",
+      "internal_id": "Achievement_13",
+      "url": "museum/#museum-exhibit-achievement-13",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_13 · Hall2 · Rarity SR · Ranking Rush\nFamily Blessing Power Ranking"
+    },
+    {
+      "title": "Joyful Gathering",
+      "category": "museum exhibits",
+      "id": "Achievement_14",
+      "internal_id": "Achievement_14",
+      "url": "museum/#museum-exhibit-achievement-14",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_14 · Hall2 · Rarity SR · Ranking Rush\nBanquet Popularity Ranking Rush"
+    },
+    {
+      "title": "Dragon Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_15",
+      "internal_id": "Achievement_15",
+      "url": "museum/#museum-exhibit-achievement-15",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_15 · Hall2 · Rarity SR · Guild Trade Festival\nPoints Ranking"
+    },
+    {
+      "title": "Bubble Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_16",
+      "internal_id": "Achievement_16",
+      "url": "museum/#museum-exhibit-achievement-16",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_16 · Hall2 · Rarity SR · Aloha! Bubble Island\nPoints Ranking"
+    },
+    {
+      "title": "Raphael Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_17",
+      "internal_id": "Achievement_17",
+      "url": "museum/#museum-exhibit-achievement-17",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_17 · Hall2 · Rarity SR · Raphael's Stage\nHighest Support Value"
+    },
+    {
+      "title": "Ore Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_19",
+      "internal_id": "Achievement_19",
+      "url": "museum/#museum-exhibit-achievement-19",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_19 · Hall2 · Rarity SR · Explore! Mines in Dungeon!\nPoints Ranking"
+    },
+    {
+      "title": "Sandtopia Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_20",
+      "internal_id": "Achievement_20",
+      "url": "museum/#museum-exhibit-achievement-20",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_20 · Hall2 · Rarity SR · Sandtopia Pilgrimage\nGuild Race Ranking"
+    },
+    {
+      "title": "Frantic Forest Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_22",
+      "internal_id": "Achievement_22",
+      "url": "museum/#museum-exhibit-achievement-22",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_22 · Hall2 · Rarity SR · Purification of Frantic Forest\nPersonal"
+    },
+    {
+      "title": "Sand Dungeon Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_21",
+      "internal_id": "Achievement_21",
+      "url": "museum/#museum-exhibit-achievement-21",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_21 · Hall2 · Rarity SR · Dungeon Dev\nEndless Dungeon Personal Ranking"
+    },
+    {
+      "title": "Penglai Immortal Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_23",
+      "internal_id": "Achievement_23",
+      "url": "museum/#museum-exhibit-achievement-23",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_23 · Hall2 · Rarity SR · Penglai Immortal\nPersonal Point Ranking"
+    },
+    {
+      "title": "Drakenberg Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_24",
+      "internal_id": "Achievement_24",
+      "url": "museum/#museum-exhibit-achievement-24",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Achievement_24 · Hall2 · Rarity SSR · Drakenberg Arena"
+    },
+    {
+      "title": "Desire Yacht",
+      "category": "museum exhibits",
+      "id": "Achievement_27",
+      "internal_id": "Achievement_27",
+      "url": "museum/#museum-exhibit-achievement-27",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_27 · Hall2 · Rarity SR · Casino on Yacht\nScore Ranking"
+    },
+    {
+      "title": "Trails Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_25",
+      "internal_id": "Achievement_25",
+      "url": "museum/#museum-exhibit-achievement-25",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_25 · Hall2 · Rarity SR · Cloud Kingdom Games\nPersonal Points"
+    },
+    {
+      "title": "Challenge Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_26",
+      "internal_id": "Achievement_26",
+      "url": "museum/#museum-exhibit-achievement-26",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_26 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Commander's Badge",
+      "category": "museum exhibits",
+      "id": "Achievement_28",
+      "internal_id": "Achievement_28",
+      "url": "museum/#museum-exhibit-achievement-28",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Achievement_28 · Hall2 · Rarity SSR · Siege Warfare ~Showdown~\nGuild Score Ranking"
+    },
+    {
+      "title": "Speed Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_29",
+      "internal_id": "Achievement_29",
+      "url": "museum/#museum-exhibit-achievement-29",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_29 · Hall2 · Rarity SR · Savage! Inferno Rally\nPersonal Ranking"
+    },
+    {
+      "title": "Thunder Hammer",
+      "category": "museum exhibits",
+      "id": "Achievement_30",
+      "internal_id": "Achievement_30",
+      "url": "museum/#museum-exhibit-achievement-30",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_30 · Hall2 · Rarity SR · March of the Northrealm\nPersonal Stamina Consumption Ranking"
+    },
+    {
+      "title": "Totem Pillar",
+      "category": "museum exhibits",
+      "id": "Achievement_31",
+      "internal_id": "Achievement_31",
+      "url": "museum/#museum-exhibit-achievement-31",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_31 · Hall2 · Rarity SR · Golden Realm Expedition\nPersonal Ranking"
+    },
+    {
+      "title": "Treasure Chest Collector",
+      "category": "museum exhibits",
+      "id": "Achievement_32",
+      "internal_id": "Achievement_32",
+      "url": "museum/#museum-exhibit-achievement-32",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_32 · Hall2 · Rarity SR · Delicious Dungeon Quest\nPersonal Exploration Power Ranking"
+    },
+    {
+      "title": "Brewing Cauldron",
+      "category": "museum exhibits",
+      "id": "Achievement_33",
+      "internal_id": "Achievement_33",
+      "url": "museum/#museum-exhibit-achievement-33",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_33 · Hall2 · Rarity SR · Apothecary: Proud Mentor & Rebellious Apprentice\nPersonal Exploration Power Ranking"
+    },
+    {
+      "title": "Antique Candlestick",
+      "category": "museum exhibits",
+      "id": "Achievement_34",
+      "internal_id": "Achievement_34",
+      "url": "museum/#museum-exhibit-achievement-34",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_34 · Hall2 · Rarity SR · Crimson Moon Fantasia\nPersonal Highest Chapter Ranking"
+    },
+    {
+      "title": "God of Wealth's Gold Coin",
+      "category": "museum exhibits",
+      "id": "Achievement_35",
+      "internal_id": "Achievement_35",
+      "url": "museum/#museum-exhibit-achievement-35",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_35 · Hall2 · Rarity SR · Wealth from All Sides: Bazaar Mania\nPersonal Highest Earning Ranking"
+    },
+    {
+      "title": "Owl Clock",
+      "category": "museum exhibits",
+      "id": "Exhibit_1",
+      "internal_id": "Exhibit_1",
+      "url": "museum/#museum-exhibit-exhibit-1",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Exhibit_1 · Hall3 · Rarity R · Museum Rating reaches Lv.1 to unlock"
+    },
+    {
+      "title": "Cheerleader",
+      "category": "museum exhibits",
+      "id": "Exhibit_2",
+      "internal_id": "Exhibit_2",
+      "url": "museum/#museum-exhibit-exhibit-2",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Exhibit_2 · Hall3 · Rarity SR · Obtain through Museum Rating Rewards"
+    },
+    {
+      "title": "Stoneblade",
+      "category": "museum exhibits",
+      "id": "Exhibit_3",
+      "internal_id": "Exhibit_3",
+      "url": "museum/#museum-exhibit-exhibit-3",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Exhibit_3 · Hall3 · Rarity R · Complete the top of the Drakenberg Challenge to obtain."
+    },
+    {
+      "title": "Mushroom Statue",
+      "category": "museum exhibits",
+      "id": "Exhibit_4",
+      "internal_id": "Exhibit_4",
+      "url": "museum/#museum-exhibit-exhibit-4",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Exhibit_4 · Hall3 · Rarity R · Obtain through Museum Rating Rewards"
+    },
+    {
+      "title": "Golden Scale",
+      "category": "museum exhibits",
+      "id": "Exhibit_5",
+      "internal_id": "Exhibit_5",
+      "url": "museum/#museum-exhibit-exhibit-5",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Exhibit_5 · Hall3 · Rarity SR · Reaching a certain amount of Influence in the guild to obtain."
+    },
+    {
+      "title": "Ladon's Skeleton",
+      "category": "museum exhibits",
+      "id": "SimGame5_2501",
+      "internal_id": "SimGame5_2501",
+      "url": "museum/#museum-exhibit-simgame5-2501",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Museum exhibit SimGame5_2501 · Hall5 · Rarity UR · Premium Gemstone (Frozen Abyss) 14% | Premium Gemstone (Ice Shipwreck) 14% | Premium Gemstone (Memory Cave) 14%"
+    },
+    {
+      "title": "Ancient Golden Mural",
+      "category": "museum exhibits",
+      "id": "SimGame5_2901",
+      "internal_id": "SimGame5_2901",
+      "url": "museum/#museum-exhibit-simgame5-2901",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "summary": "Museum exhibit SimGame5_2901 · Hall5 · Rarity SSR+ · Premium Gemstone (Frozen Abyss) 21% | Premium Gemstone (Ice Shipwreck) 21% | Premium Gemstone (Memory Cave) 21%"
+    },
+    {
+      "title": "Snow Cyclops' Eye Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_2401",
+      "internal_id": "SimGame5_2401",
+      "url": "museum/#museum-exhibit-simgame5-2401",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2401 · Hall5 · Rarity SSR · Advanced Gemstone (Memory Cave) 1.67% | Limited Gemstone (Memory Cave) 100% | Premium Gemstone (Memory Cave) 8.33%"
+    },
+    {
+      "title": "Iceborg Monster Wolf",
+      "category": "museum exhibits",
+      "id": "SimGame5_2402",
+      "internal_id": "SimGame5_2402",
+      "url": "museum/#museum-exhibit-simgame5-2402",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2402 · Hall5 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Limited Gemstone (Frozen Abyss) 100% | Premium Gemstone (Frozen Abyss) 6.25%"
+    },
+    {
+      "title": "Oyster Trap",
+      "category": "museum exhibits",
+      "id": "SimGame5_2403",
+      "internal_id": "SimGame5_2403",
+      "url": "museum/#museum-exhibit-simgame5-2403",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2403 · Hall5 · Rarity SSR · Advanced Gemstone (Ice Shipwreck) 1.25% | Limited Gemstone (Ice Shipwreck) 100% | Premium Gemstone (Ice Shipwreck) 6.25%"
+    },
+    {
+      "title": "Narwhal Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_2404",
+      "internal_id": "SimGame5_2404",
+      "url": "museum/#museum-exhibit-simgame5-2404",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2404 · Hall5 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Premium Gemstone (Frozen Abyss) 6.25%"
+    },
+    {
+      "title": "Sledge",
+      "category": "museum exhibits",
+      "id": "SimGame5_2405",
+      "internal_id": "SimGame5_2405",
+      "url": "museum/#museum-exhibit-simgame5-2405",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2405 · Hall5 · Rarity SSR · Advanced Gemstone (Ice Shipwreck) 1.25% | Premium Gemstone (Ice Shipwreck) 6.25%"
+    },
+    {
+      "title": "Bear-Eared Seal",
+      "category": "museum exhibits",
+      "id": "SimGame5_2406",
+      "internal_id": "SimGame5_2406",
+      "url": "museum/#museum-exhibit-simgame5-2406",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2406 · Hall5 · Rarity SSR · Advanced Gemstone (Ice Shipwreck) 1.25% | Advanced Gemstone (Memory Cave) 1.67% | Premium Gemstone (Ice Shipwreck) 6.25% | Premium Gemstone (Memory Cave) 8.33%"
+    },
+    {
+      "title": "Golden Dragon Scale",
+      "category": "museum exhibits",
+      "id": "SimGame5_1401",
+      "internal_id": "SimGame5_1401",
+      "url": "museum/#museum-exhibit-simgame5-1401",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_1401 · Hall6 · Rarity SSR · Advanced Gemstone (Original Ruins) 1.67% | Premium Gemstone (Original Ruins) 8.33%"
+    },
+    {
+      "title": "Saber-Toothed Tiger",
+      "category": "museum exhibits",
+      "id": "SimGame5_1402",
+      "internal_id": "SimGame5_1402",
+      "url": "museum/#museum-exhibit-simgame5-1402",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_1402 · Hall6 · Rarity SSR · Advanced Gemstone (Original Ruins) 1.67% | Limited Gemstone (Original Ruins) 100% | Premium Gemstone (Original Ruins) 8.33%"
+    },
+    {
+      "title": "Lucky Megaloceros",
+      "category": "museum exhibits",
+      "id": "SimGame5_1403",
+      "internal_id": "SimGame5_1403",
+      "url": "museum/#museum-exhibit-simgame5-1403",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_1403 · Hall6 · Rarity SSR · Advanced Gemstone (Original Ruins) 1.67% | Premium Gemstone (Original Ruins) 8.33%"
+    },
+    {
+      "title": "Mammoth",
+      "category": "museum exhibits",
+      "id": "SimGame5_2407",
+      "internal_id": "SimGame5_2407",
+      "url": "museum/#museum-exhibit-simgame5-2407",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2407 · Hall6 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Advanced Gemstone (Memory Cave) 1.67% | Premium Gemstone (Frozen Abyss) 6.25% | Premium Gemstone (Memory Cave) 8.33%"
+    },
+    {
+      "title": "Ironhead Turtle",
+      "category": "museum exhibits",
+      "id": "SimGame5_2408",
+      "internal_id": "SimGame5_2408",
+      "url": "museum/#museum-exhibit-simgame5-2408",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2408 · Hall6 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Advanced Gemstone (Ice Shipwreck) 1.25% | Premium Gemstone (Frozen Abyss) 6.25% | Premium Gemstone (Ice Shipwreck) 6.25%"
+    },
+    {
+      "title": "Abandoned Portal",
+      "category": "museum exhibits",
+      "id": "SimGame5_2409",
+      "internal_id": "SimGame5_2409",
+      "url": "museum/#museum-exhibit-simgame5-2409",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2409 · Hall6 · Rarity SSR · Unlocks after receiving the rewards of Treasure Hunt BP."
+    },
+    {
+      "title": "Golden Mural",
+      "category": "museum exhibits",
+      "id": "SimGame5_1301",
+      "internal_id": "SimGame5_1301",
+      "url": "museum/#museum-exhibit-simgame5-1301",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_1301 · Hall6 · Rarity SR · Advanced Gemstone (Original Ruins) 1.67% | Normal Gemstone (Original Ruins) 1% | Premium Gemstone (Original Ruins) 13.33%"
+    },
+    {
+      "title": "Four-Legged Shark Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1302",
+      "internal_id": "SimGame5_1302",
+      "url": "museum/#museum-exhibit-simgame5-1302",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_1302 · Hall6 · Rarity SR · Advanced Gemstone (Original Ruins) 1.67% | Normal Gemstone (Original Ruins) 1% | Premium Gemstone (Original Ruins) 13.33%"
+    },
+    {
+      "title": "Medusa Statue",
+      "category": "museum exhibits",
+      "id": "SimGame5_1303",
+      "internal_id": "SimGame5_1303",
+      "url": "museum/#museum-exhibit-simgame5-1303",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_1303 · Hall6 · Rarity SR · Advanced Gemstone (Original Ruins) 1.67% | Normal Gemstone (Original Ruins) 1% | Premium Gemstone (Original Ruins) 13.33%"
+    },
+    {
+      "title": "Miracle Medicine",
+      "category": "museum exhibits",
+      "id": "SimGame5_2301",
+      "internal_id": "SimGame5_2301",
+      "url": "museum/#museum-exhibit-simgame5-2301",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2301 · Hall6 · Rarity SR · Advanced Gemstone (Memory Cave) 1.67% | Normal Gemstone (Memory Cave) 1% | Premium Gemstone (Memory Cave) 13.33%"
+    },
+    {
+      "title": "Master Key",
+      "category": "museum exhibits",
+      "id": "SimGame5_2302",
+      "internal_id": "SimGame5_2302",
+      "url": "museum/#museum-exhibit-simgame5-2302",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2302 · Hall6 · Rarity SR · Advanced Gemstone (Frozen Abyss) 1.67% | Normal Gemstone (Frozen Abyss) 1% | Premium Gemstone (Frozen Abyss) 13.33%"
+    },
+    {
+      "title": "Protective Battle Flag",
+      "category": "museum exhibits",
+      "id": "SimGame5_2303",
+      "internal_id": "SimGame5_2303",
+      "url": "museum/#museum-exhibit-simgame5-2303",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2303 · Hall6 · Rarity SR · Advanced Gemstone (Ice Shipwreck) 1.67% | Normal Gemstone (Ice Shipwreck) 1% | Premium Gemstone (Ice Shipwreck) 13.33%"
+    },
+    {
+      "title": "Giant Serpent Egg",
+      "category": "museum exhibits",
+      "id": "SimGame5_2304",
+      "internal_id": "SimGame5_2304",
+      "url": "museum/#museum-exhibit-simgame5-2304",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2304 · Hall6 · Rarity SR · Advanced Gemstone (Frozen Abyss) 1.67% | Advanced Gemstone (Memory Cave) 1.67% | Normal Gemstone (Frozen Abyss) 1% | Normal Gemstone (Memory Cave) 1% | Premium Gemstone (Frozen Abyss) 13.33% | Premium Gemstone (Memory Cave) 13.33%"
+    },
+    {
+      "title": "Spatial Mirror",
+      "category": "museum exhibits",
+      "id": "SimGame5_2305",
+      "internal_id": "SimGame5_2305",
+      "url": "museum/#museum-exhibit-simgame5-2305",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2305 · Hall6 · Rarity SR · Advanced Gemstone (Frozen Abyss) 1.67% | Advanced Gemstone (Ice Shipwreck) 1.67% | Normal Gemstone (Frozen Abyss) 1% | Normal Gemstone (Ice Shipwreck) 1% | Premium Gemstone (Frozen Abyss) 13.33% | Premium Gemstone (Ice Shipwreck) 13.33%"
+    },
+    {
+      "title": "Golden Cloak",
+      "category": "museum exhibits",
+      "id": "SimGame5_2306",
+      "internal_id": "SimGame5_2306",
+      "url": "museum/#museum-exhibit-simgame5-2306",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2306 · Hall6 · Rarity SR · Advanced Gemstone (Ice Shipwreck) 1.67% | Advanced Gemstone (Memory Cave) 1.67% | Normal Gemstone (Ice Shipwreck) 1% | Normal Gemstone (Memory Cave) 1% | Premium Gemstone (Ice Shipwreck) 13.33% | Premium Gemstone (Memory Cave) 13.33%"
+    },
+    {
+      "title": "Golden Mushroom Statue",
+      "category": "museum exhibits",
+      "id": "SimGame5_1201",
+      "internal_id": "SimGame5_1201",
+      "url": "museum/#museum-exhibit-simgame5-1201",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_1201 · Hall6 · Rarity R · Advanced Gemstone (Original Ruins) 20% | Normal Gemstone (Original Ruins) 7.33%"
+    },
+    {
+      "title": "Behemoth Footprint",
+      "category": "museum exhibits",
+      "id": "SimGame5_1202",
+      "internal_id": "SimGame5_1202",
+      "url": "museum/#museum-exhibit-simgame5-1202",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_1202 · Hall6 · Rarity R · Advanced Gemstone (Original Ruins) 20% | Normal Gemstone (Original Ruins) 7.33%"
+    },
+    {
+      "title": "Survival of the Fittest Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1203",
+      "internal_id": "SimGame5_1203",
+      "url": "museum/#museum-exhibit-simgame5-1203",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_1203 · Hall6 · Rarity R · Advanced Gemstone (Original Ruins) 20% | Normal Gemstone (Original Ruins) 7.33%"
+    },
+    {
+      "title": "Hornstone",
+      "category": "museum exhibits",
+      "id": "SimGame5_2201",
+      "internal_id": "SimGame5_2201",
+      "url": "museum/#museum-exhibit-simgame5-2201",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2201 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Debt Ledger",
+      "category": "museum exhibits",
+      "id": "SimGame5_2202",
+      "internal_id": "SimGame5_2202",
+      "url": "museum/#museum-exhibit-simgame5-2202",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2202 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Copper Hot Pot",
+      "category": "museum exhibits",
+      "id": "SimGame5_2203",
+      "internal_id": "SimGame5_2203",
+      "url": "museum/#museum-exhibit-simgame5-2203",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2203 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Circular Stone Formation",
+      "category": "museum exhibits",
+      "id": "SimGame5_2204",
+      "internal_id": "SimGame5_2204",
+      "url": "museum/#museum-exhibit-simgame5-2204",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2204 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Anomalocaris Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1101",
+      "internal_id": "SimGame5_1101",
+      "url": "museum/#museum-exhibit-simgame5-1101",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_1101 · Hall6 · Rarity N · Advanced Gemstone (Original Ruins) 10% | Normal Gemstone (Original Ruins) 25%"
+    },
+    {
+      "title": "Horned Seahorse Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1102",
+      "internal_id": "SimGame5_1102",
+      "url": "museum/#museum-exhibit-simgame5-1102",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_1102 · Hall6 · Rarity N · Advanced Gemstone (Original Ruins) 10% | Normal Gemstone (Original Ruins) 25%"
+    },
+    {
+      "title": "Giant Trilobite",
+      "category": "museum exhibits",
+      "id": "SimGame5_1103",
+      "internal_id": "SimGame5_1103",
+      "url": "museum/#museum-exhibit-simgame5-1103",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_1103 · Hall6 · Rarity N · Advanced Gemstone (Original Ruins) 10% | Normal Gemstone (Original Ruins) 25%"
+    },
+    {
+      "title": "Giant Ammonite",
+      "category": "museum exhibits",
+      "id": "SimGame5_2101",
+      "internal_id": "SimGame5_2101",
+      "url": "museum/#museum-exhibit-simgame5-2101",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2101 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "Unfettered Oracle Stone Tablet",
+      "category": "museum exhibits",
+      "id": "SimGame5_2102",
+      "internal_id": "SimGame5_2102",
+      "url": "museum/#museum-exhibit-simgame5-2102",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2102 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "No Entry Sign",
+      "category": "museum exhibits",
+      "id": "SimGame5_2103",
+      "internal_id": "SimGame5_2103",
+      "url": "museum/#museum-exhibit-simgame5-2103",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2103 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "Beast Taming Gloves",
+      "category": "museum exhibits",
+      "id": "SimGame5_2104",
+      "internal_id": "SimGame5_2104",
+      "url": "museum/#museum-exhibit-simgame5-2104",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2104 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "Fortune Figurine Miniature",
+      "category": "museum exhibits",
+      "id": "GveCoinFight_01",
+      "internal_id": "GveCoinFight_01",
+      "url": "museum/#museum-exhibit-gvecoinfight-01",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Museum exhibit GveCoinFight_01 · Hall7 · Rarity UR · Obtained from the Exhibit Gacha in the Wealth from All Sides: Bazaar Mania event."
+    },
+    {
+      "title": "The Lost City Miniature",
+      "category": "museum exhibits",
+      "id": "DJDemonCastle_01",
+      "internal_id": "DJDemonCastle_01",
+      "url": "museum/#museum-exhibit-djdemoncastle-01",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Museum exhibit DJDemonCastle_01 · Hall7 · Rarity UR · Obtained from the Exhibit Gacha in the Crimson Moon Fantasia event."
     }
   ]
 }

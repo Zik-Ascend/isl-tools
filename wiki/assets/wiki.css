@@ -5124,3 +5124,166 @@ html.wiki-modal-open body {
     max-width: none;
   }
 }
+
+/* Museum */
+.museum-hall-section,
+.museum-hall-content,
+.museum-exhibit-grid {
+  overflow: visible;
+}
+
+.museum-hall-content {
+  padding-top: 1rem;
+}
+
+.museum-exhibit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  gap: .7rem;
+  margin: 0;
+  padding: .15rem 0 0;
+  list-style: none;
+}
+
+.museum-exhibit-row,
+.museum-exhibit-row::marker {
+  list-style: none;
+}
+
+.museum-exhibit-row::marker {
+  content: "";
+}
+
+.museum-exhibit-node {
+  min-height: 7rem;
+  overflow: visible;
+}
+
+.museum-exhibit-image-shell,
+.museum-exhibit-placeholder {
+  width: 5rem;
+  height: 5rem;
+  flex: 0 0 5rem;
+  border-radius: 12px;
+}
+
+.museum-exhibit-image-shell {
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.museum-exhibit-placeholder {
+  display: block;
+  border: 1px dashed rgba(139, 213, 255, .30);
+  background:
+    radial-gradient(circle at 35% 25%, rgba(255,255,255,.10), transparent 36%),
+    rgba(139, 213, 255, .045);
+}
+
+.museum-exhibit-image-shell .museum-exhibit-placeholder {
+  position: absolute;
+  inset: 0;
+}
+
+.museum-exhibit-image {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.museum-exhibit-card-main {
+  display: grid;
+  flex: 1 1 auto;
+  min-width: 0;
+  gap: .35rem;
+}
+
+.museum-exhibit-card-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .65rem;
+  min-width: 0;
+  color: #dce8f4;
+  font-size: .8rem;
+  line-height: 1.25;
+}
+
+.museum-exhibit-card-row small {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.museum-exhibit-card-name {
+  display: block;
+  color: var(--text);
+  font-size: .93rem;
+  font-weight: 850;
+  overflow-wrap: anywhere;
+}
+
+.museum-exhibit-card-id {
+  align-items: flex-start;
+}
+
+.museum-exhibit-card-id > span {
+  min-width: 0;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: .7rem;
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+
+.museum-exhibit-tooltip {
+  width: min(28rem, 90vw);
+}
+
+.museum-exhibit-detail {
+  display: grid;
+  gap: .2rem;
+  border-top: 1px solid rgba(139, 213, 255, .11);
+  padding-top: .4rem;
+}
+
+.museum-exhibit-detail > strong {
+  color: var(--accent);
+  font-size: .78rem;
+}
+
+.museum-exhibit-detail > span {
+  color: #dce8f4;
+  font-size: .79rem;
+  font-weight: 620;
+  line-height: 1.35;
+}
+
+.museum-exhibit-inn-source-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: .12rem;
+  color: #dce8f4;
+  font-size: .79rem;
+  font-weight: 620;
+  line-height: 1.35;
+}
+
+@media (max-width: 620px) {
+  .museum-exhibit-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .museum-exhibit-card-row {
+    align-items: flex-start;
+  }
+}
