@@ -396,6 +396,9 @@
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/player-figures/figures/Play_C53/default.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/player-figures/figures/Play_C54/default.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/treasure-hunt/</loc>
@@ -668,6 +671,9 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_47/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_DemonSlayer/default.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_TenSuraS2/default.webp</image:loc>
@@ -1925,12 +1931,57 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/shinobu-kocho/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_264/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_264/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/giyu-tomioka/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_301/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_301/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/inosuke-hashibira/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_304/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/zenitsu-agatsuma/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_303/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/tanjiro-kamado/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_302/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/linlang/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_305/default.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_305/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/rissette/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_308/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_308/aa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2678,6 +2729,21 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/family/sachikoo/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_172/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/family/shinobu-kocho/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_185/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_185/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/family/nezuko-kamado/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_186/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -4010,6 +4076,36 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/takina-inoue-plushie/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_W184/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/shinobu-kocho-s-nichirin-sword/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H264/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/giyu-tomioka-s-nichirin-sword/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H301/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/tanjiro-kamado-s-nichirin-sword/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H302/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/zenitsu-agatsuma-s-nichirin-sword/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H303/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/inosuke-hashibira-s-nichirin-sword/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H304/default.webp</image:loc>
     </image:image>
   </url>
   <url>
