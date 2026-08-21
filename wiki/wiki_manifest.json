@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20 09:58 UTC",
+  "generated_at": "2026-08-21 22:49 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -12,6 +12,7 @@
     "player-figures": 60,
     "treasure-hunt": 49,
     "museum": 135,
+    "events": 71,
     "calculators": 1
   },
   "entries": [
@@ -104,6 +105,12 @@
       "category": "category",
       "url": "museum/",
       "summary": "Museum exhibits organized by exhibition hall, rarity, source, and skills"
+    },
+    {
+      "title": "Events",
+      "category": "category",
+      "url": "events/",
+      "summary": "Event phases, durations, core rewards, related activities, and score-shop offerings"
     },
     {
       "title": "Calculators",
@@ -10107,6 +10114,3278 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Museum exhibit DJDemonCastle_01 · Hall7 · Rarity UR · Obtained from the Exhibit Gacha in the Crimson Moon Fantasia event."
+    },
+    {
+      "title": "A Blessed Encounter",
+      "category": "events",
+      "id": "SignInEvent",
+      "internal_id": "SignInEvent",
+      "url": "events/sign-in-event/",
+      "summary": "5 phases · 7, 9, or 14 days · Core rewards: Costume [Exotic Etiquette] (★2), 着せ替え「漂う赤蓮のごとく」（★2）"
+    },
+    {
+      "title": "A Blessed Encounter",
+      "category": "event phases",
+      "id": "SignInEvent_01",
+      "internal_id": "SignInEvent",
+      "url": "events/sign-in-event/#event-phase-signinevent-01",
+      "summary": "A Blessed Encounter phase · 14 days"
+    },
+    {
+      "title": "Poetry of Spring",
+      "category": "event phases",
+      "id": "SignInEvent_02",
+      "internal_id": "SignInEvent",
+      "url": "events/sign-in-event/#event-phase-signinevent-02",
+      "summary": "A Blessed Encounter phase · 7 or 9 days"
+    },
+    {
+      "title": "Log-in Rewards",
+      "category": "event phases",
+      "id": "SignInEvent_FifiCustom_SEA",
+      "internal_id": "SignInEvent",
+      "url": "events/sign-in-event/#event-phase-signinevent-fificustom-sea",
+      "summary": "A Blessed Encounter phase · Not configured · Core rewards: Costume [Exotic Etiquette] (★2)"
+    },
+    {
+      "title": "ログイン報酬",
+      "category": "event phases",
+      "id": "SignInEvent_FifiCustom_VN",
+      "internal_id": "SignInEvent",
+      "url": "events/sign-in-event/#event-phase-signinevent-fificustom-vn",
+      "summary": "A Blessed Encounter phase · Not configured · Core rewards: 着せ替え「漂う赤蓮のごとく」（★2）"
+    },
+    {
+      "title": "Bijin at Home",
+      "category": "event phases",
+      "id": "SignInEvent_Wife66_EN",
+      "internal_id": "SignInEvent",
+      "url": "events/sign-in-event/#event-phase-signinevent-wife66-en",
+      "summary": "A Blessed Encounter phase · 7 or 9 days"
+    },
+    {
+      "title": "Aloha! Bubble Island",
+      "category": "events",
+      "id": "GveResortIsland",
+      "internal_id": "GveResortIsland",
+      "url": "events/gve-resort-island/",
+      "summary": "4 phases · 7 or 8 days · Core rewards: Alanna, Nierus, Usuri, Costume [Underwater Train Conductor] (★5), Black"
+    },
+    {
+      "title": "Aloha! Bubble Island",
+      "category": "event phases",
+      "id": "GveResortIsland_01",
+      "internal_id": "GveResortIsland",
+      "url": "events/gve-resort-island/#event-phase-gveresortisland-01",
+      "summary": "Aloha! Bubble Island phase · 7 or 8 days · Core rewards: Alanna, Nierus"
+    },
+    {
+      "title": "Aloha! Bubble Island",
+      "category": "event phases",
+      "id": "GveResortIsland_02",
+      "internal_id": "GveResortIsland",
+      "url": "events/gve-resort-island/#event-phase-gveresortisland-02",
+      "summary": "Aloha! Bubble Island phase · 7 or 8 days · Core rewards: Usuri, Nierus"
+    },
+    {
+      "title": "Aloha! Bubble Island",
+      "category": "event phases",
+      "id": "GveResortIsland_03",
+      "internal_id": "GveResortIsland",
+      "url": "events/gve-resort-island/#event-phase-gveresortisland-03",
+      "summary": "Aloha! Bubble Island phase · 7 or 8 days · Core rewards: Costume [Underwater Train Conductor] (★5), Usuri, Nierus"
+    },
+    {
+      "title": "Aloha! Bubble Island",
+      "category": "event phases",
+      "id": "GveResortIsland_04",
+      "internal_id": "GveResortIsland",
+      "url": "events/gve-resort-island/#event-phase-gveresortisland-04",
+      "summary": "Aloha! Bubble Island phase · 7 or 8 days · Core rewards: Costume [Underwater Train Conductor] (★5), Black, Usuri"
+    },
+    {
+      "title": "Be My Family",
+      "category": "events",
+      "id": "HeroVote",
+      "internal_id": "HeroVote",
+      "url": "events/hero-vote/",
+      "summary": "2 phases · 13 or 16 days · Core rewards: Skill Pearl, Gemstone Ring, Jewel Necklace"
+    },
+    {
+      "title": "Be My Family",
+      "category": "event phases",
+      "id": "Herovoting",
+      "internal_id": "HeroVote",
+      "url": "events/hero-vote/#event-phase-herovoting",
+      "summary": "Be My Family phase · 13 days · Core rewards: Skill Pearl, Gemstone Ring, Jewel Necklace"
+    },
+    {
+      "title": "キャラクター人気投票",
+      "category": "event phases",
+      "id": "PopuLarityVoting",
+      "internal_id": "HeroVote",
+      "url": "events/hero-vote/#event-phase-popularityvoting",
+      "summary": "Be My Family phase · 16 days · Core rewards: Skill Pearl, Gemstone Ring, Jewel Necklace"
+    },
+    {
+      "title": "Black Friday",
+      "category": "events",
+      "id": "CustomPackage",
+      "internal_id": "CustomPackage",
+      "url": "events/custom-package/",
+      "summary": "6 phases · 5, 6, 7, 10, 14, or 21 days · Core rewards: Fellow Costume Essence, Selectable Insignias, Voucher Envelope, Faded Magi Token Fragment"
+    },
+    {
+      "title": "Custom Anniversary Bundle",
+      "category": "event phases",
+      "id": "Anniversary2025_CustomPackage_01",
+      "internal_id": "CustomPackage",
+      "url": "events/custom-package/#event-phase-anniversary2025-custompackage-01",
+      "summary": "Black Friday phase · 7, 10, 14, or 21 days"
+    },
+    {
+      "title": "Custome Bundle",
+      "category": "event phases",
+      "id": "CustomPackage01",
+      "internal_id": "CustomPackage",
+      "url": "events/custom-package/#event-phase-custompackage01",
+      "summary": "Black Friday phase · Not configured"
+    },
+    {
+      "title": "Black Friday",
+      "category": "event phases",
+      "id": "CustomPackage02",
+      "internal_id": "CustomPackage",
+      "url": "events/custom-package/#event-phase-custompackage02",
+      "summary": "Black Friday phase · Not configured"
+    },
+    {
+      "title": "Black Friday",
+      "category": "event phases",
+      "id": "CustomPackage03",
+      "internal_id": "CustomPackage",
+      "url": "events/custom-package/#event-phase-custompackage03",
+      "summary": "Black Friday phase · 6 days · Core rewards: Fellow Costume Essence, Selectable Insignias, Voucher Envelope, Faded Magi Token Fragment"
+    },
+    {
+      "title": "Black Friday",
+      "category": "event phases",
+      "id": "CustomPackage03_jp",
+      "internal_id": "CustomPackage",
+      "url": "events/custom-package/#event-phase-custompackage03-jp",
+      "summary": "Black Friday phase · 5 days · Core rewards: Fellow Costume Essence, Selectable Insignias, Voucher Envelope, Faded Magi Token Fragment"
+    },
+    {
+      "title": "Black Friday",
+      "category": "event phases",
+      "id": "CustomPackage03_tw",
+      "internal_id": "CustomPackage",
+      "url": "events/custom-package/#event-phase-custompackage03-tw",
+      "summary": "Black Friday phase · 5 days · Core rewards: Fellow Costume Essence, Selectable Insignias, Voucher Envelope, Faded Magi Token Fragment"
+    },
+    {
+      "title": "Black Friday",
+      "category": "events",
+      "id": "LotteryDIYbag",
+      "internal_id": "LotteryDIYbag",
+      "url": "events/lottery-diybag/",
+      "summary": "2 phases · 3 days · Core rewards: Costume [A Gift Just for You] (★4), Costume [Fate Musician] (★4), Costume [Planned Surprise] (★5), Costume [Run Toward Happiness] (★4)"
+    },
+    {
+      "title": "Black Friday",
+      "category": "event phases",
+      "id": "DIYbag_2025BlackFriday_EN",
+      "internal_id": "LotteryDIYbag",
+      "url": "events/lottery-diybag/#event-phase-diybag-2025blackfriday-en",
+      "summary": "Black Friday phase · 3 days · Core rewards: Costume [A Gift Just for You] (★4), Costume [Fate Musician] (★4), Costume [Planned Surprise] (★5), Costume [Run Toward Happiness] (★4)"
+    },
+    {
+      "title": "New Year Lucky Bag",
+      "category": "event phases",
+      "id": "DIYbag_NewYear2026",
+      "internal_id": "LotteryDIYbag",
+      "url": "events/lottery-diybag/#event-phase-diybag-newyear2026",
+      "summary": "Black Friday phase · Not configured"
+    },
+    {
+      "title": "Blossoming Wealth",
+      "category": "events",
+      "id": "KeepAnimals",
+      "internal_id": "KeepAnimals",
+      "url": "events/keep-animals/",
+      "summary": "1 phases · 6 or 7 days · Core rewards: Mermaid's Tear"
+    },
+    {
+      "title": "Blossoming Wealth",
+      "category": "event phases",
+      "id": "KeepAnimals_Single_02",
+      "internal_id": "KeepAnimals",
+      "url": "events/keep-animals/#event-phase-keepanimals-single-02",
+      "summary": "Blossoming Wealth phase · 6 or 7 days · Core rewards: Mermaid's Tear"
+    },
+    {
+      "title": "Café LycoReco Crossing into Isekai",
+      "category": "events",
+      "id": "LycoReco",
+      "internal_id": "LycoReco",
+      "url": "events/lyco-reco/",
+      "summary": "1 phases · 7, 10, 14, or 21 days · Core rewards: Chisato Nishikigi, Takina Inoue"
+    },
+    {
+      "title": "Café LycoReco Crossing into Isekai",
+      "category": "event phases",
+      "id": "LycoReco_01",
+      "internal_id": "LycoReco",
+      "url": "events/lyco-reco/#event-phase-lycoreco-01",
+      "summary": "Café LycoReco Crossing into Isekai phase · 7, 10, 14, or 21 days · Core rewards: Chisato Nishikigi, Takina Inoue"
+    },
+    {
+      "title": "Casino on Yacht",
+      "category": "events",
+      "id": "GveCruiseCasino",
+      "internal_id": "GveCruiseCasino",
+      "url": "events/gve-cruise-casino/",
+      "summary": "3 phases · 7 or 8 days · Core rewards: Nyar, Sylthiel, Magellan, Costume [Advent] (★5)"
+    },
+    {
+      "title": "Casino on Yacht",
+      "category": "event phases",
+      "id": "GveCruiseCasino_01",
+      "internal_id": "GveCruiseCasino",
+      "url": "events/gve-cruise-casino/#event-phase-gvecruisecasino-01",
+      "summary": "Casino on Yacht phase · 7 or 8 days · Core rewards: Nyar, Sylthiel"
+    },
+    {
+      "title": "Casino on Yacht",
+      "category": "event phases",
+      "id": "GveCruiseCasino_02",
+      "internal_id": "GveCruiseCasino",
+      "url": "events/gve-cruise-casino/#event-phase-gvecruisecasino-02",
+      "summary": "Casino on Yacht phase · 7 or 8 days · Core rewards: Nyar, Magellan"
+    },
+    {
+      "title": "Casino on Yacht",
+      "category": "event phases",
+      "id": "GveCruiseCasino_03",
+      "internal_id": "GveCruiseCasino",
+      "url": "events/gve-cruise-casino/#event-phase-gvecruisecasino-03",
+      "summary": "Casino on Yacht phase · 7 or 8 days · Core rewards: Costume [Advent] (★5), Nyar, Magellan"
+    },
+    {
+      "title": "Cloud Kingdom Games",
+      "category": "events",
+      "id": "CloudKingdom",
+      "internal_id": "CloudKingdom",
+      "url": "events/cloud-kingdom/",
+      "summary": "3 phases · 7 or 8 days · Core rewards: Heracles, Mercuria, Eros, Athena, Stheno, Athena"
+    },
+    {
+      "title": "Cloud Kingdom Games: Fifteen Trials of Heroes",
+      "category": "event phases",
+      "id": "CloudKingdom_01",
+      "internal_id": "CloudKingdom",
+      "url": "events/cloud-kingdom/#event-phase-cloudkingdom-01",
+      "summary": "Cloud Kingdom Games phase · 7 or 8 days · Core rewards: Heracles, Mercuria, Eros"
+    },
+    {
+      "title": "Cloud Kingdom Games ~Goddess Training~",
+      "category": "event phases",
+      "id": "CloudKingdom_02",
+      "internal_id": "CloudKingdom",
+      "url": "events/cloud-kingdom/#event-phase-cloudkingdom-02",
+      "summary": "Cloud Kingdom Games phase · 7 or 8 days · Core rewards: Athena, Stheno"
+    },
+    {
+      "title": "Cloud Kingdom Games ~Snake in Home~",
+      "category": "event phases",
+      "id": "CloudKingdom_03",
+      "internal_id": "CloudKingdom",
+      "url": "events/cloud-kingdom/#event-phase-cloudkingdom-03",
+      "summary": "Cloud Kingdom Games phase · 7 or 8 days · Core rewards: Athena, Ouro"
+    },
+    {
+      "title": "Crimson Moon Fantasia",
+      "category": "events",
+      "id": "DemonCastle",
+      "internal_id": "DemonCastle",
+      "url": "events/demon-castle/",
+      "summary": "2 phases · 7 or 8 days · Core rewards: Aurora, Figure [Vampire Hunter M], Figure [Vampire Hunter F], Lailah"
+    },
+    {
+      "title": "Crimson Moon Fantasia",
+      "category": "event phases",
+      "id": "DemonCastle_01",
+      "internal_id": "DemonCastle",
+      "url": "events/demon-castle/#event-phase-demoncastle-01",
+      "summary": "Crimson Moon Fantasia phase · 7 or 8 days · Core rewards: Aurora, Figure [Vampire Hunter M], Figure [Vampire Hunter F]"
+    },
+    {
+      "title": "Crimson Moon Fantasia",
+      "category": "event phases",
+      "id": "DemonCastle_02",
+      "internal_id": "DemonCastle",
+      "url": "events/demon-castle/#event-phase-demoncastle-02",
+      "summary": "Crimson Moon Fantasia phase · 7 or 8 days · Core rewards: Lailah, Aurora, Figure [Vampire Hunter M], Figure [Vampire Hunter F]"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "events",
+      "id": "Jackpot",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/",
+      "summary": "18 phases · 6 days · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2), Costume [Mascot Trainee Maid] (★4), Costume [Perfect Trainee Maid] (★3), Costume [Cool Trainee Maid] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot01",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot01",
+      "summary": "Crow's Theatre phase · Not configured · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot01_FEVER",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot01-fever",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot01_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot01-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot02_FEVER",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot02-fever",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Mascot Trainee Maid] (★4), Costume [Perfect Trainee Maid] (★3), Costume [Cool Trainee Maid] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot02_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot02-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Mascot Trainee Maid] (★4), Costume [Perfect Trainee Maid] (★3), Costume [Cool Trainee Maid] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot03_FEVER",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot03-fever",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Storm Slasher] (★4), Costume [Unexpected Doctor] (★3), Costume [Lil Helper in Ship] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot03_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot03-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Storm Slasher] (★4), Costume [Unexpected Doctor] (★3), Costume [Lil Helper in Ship] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot04_FEVER",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot04-fever",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [[Magic King]] (★4), Costume [Diligent Genius] (★3), Costume [Magician's Assistant] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot04_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot04-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [[Magic King]] (★4), Costume [Diligent Genius] (★3), Costume [Magician's Assistant] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot05_FEVER",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot05-fever",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Fallen! Shining Heart!] (★4), Costume [Dark Heart, Transform!] (★3), Costume [Little Mascot] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot05_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot05-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Fallen! Shining Heart!] (★4), Costume [Dark Heart, Transform!] (★3), Costume [Little Mascot] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot06_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot06-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [New Adventurer Pro] (★4), Costume [Open the Treasure Chest!] (★3), Costume [Fresh Honey Bread!] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot07_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot07-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Night Journey] (★4), Costume [Resolute Guardian] (★3), Costume [Suit in Style] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot08_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot08-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Rebellious Adventurer] (★4), Costume [Fearless Adventurer] (★3), Costume [Trainee Teacher] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot09_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot09-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Princess's Harvest] (★4), Costume [Fruit Salesperson] (★3), Costume [A Good Wife's Fruit List] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot10_FEVER_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot10-fever-n",
+      "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Shelter Guardian] (★4), Costume [Hunter or Prey?] (★3), Costume [Aim, smash!] (★2)"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot_Rerun",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot-rerun",
+      "summary": "Crow's Theatre phase · 6 days"
+    },
+    {
+      "title": "Crow's Theatre",
+      "category": "event phases",
+      "id": "Jackpot_Rerun_N",
+      "internal_id": "Jackpot",
+      "url": "events/jackpot/#event-phase-jackpot-rerun-n",
+      "summary": "Crow's Theatre phase · 6 days"
+    },
+    {
+      "title": "Dash! Familiar Track & Field",
+      "category": "events",
+      "id": "DIYURPlus3",
+      "internal_id": "DIYURPlus3",
+      "url": "events/diyurplus3/",
+      "summary": "1 phases · 7, 10, 14, or 21 days · Core rewards: Hattie"
+    },
+    {
+      "title": "Dash! Familiar Track & Field",
+      "category": "event phases",
+      "id": "DIYURPlus3_01",
+      "internal_id": "DIYURPlus3",
+      "url": "events/diyurplus3/#event-phase-diyurplus3-01",
+      "summary": "Dash! Familiar Track & Field phase · 7, 10, 14, or 21 days · Core rewards: Hattie"
+    },
+    {
+      "title": "Drakenberg Arena",
+      "category": "events",
+      "id": "DrakenbergArena",
+      "internal_id": "DrakenbergArena",
+      "url": "events/drakenberg-arena/",
+      "summary": "4 phases · 5 days · Core rewards: Figure [The Strongest Tamer], Figure [Will of Protection]"
+    },
+    {
+      "title": "Drakenberg Arena",
+      "category": "event phases",
+      "id": "DrakenbergArena_01",
+      "internal_id": "DrakenbergArena",
+      "url": "events/drakenberg-arena/#event-phase-drakenbergarena-01",
+      "summary": "Drakenberg Arena phase · 5 days · Core rewards: Figure [The Strongest Tamer]"
+    },
+    {
+      "title": "Drakenberg Arena",
+      "category": "event phases",
+      "id": "DrakenbergArena_03",
+      "internal_id": "DrakenbergArena",
+      "url": "events/drakenberg-arena/#event-phase-drakenbergarena-03",
+      "summary": "Drakenberg Arena phase · 5 days · Core rewards: Figure [Will of Protection]"
+    },
+    {
+      "title": "Drakenberg Arena: Familiar Theme",
+      "category": "event phases",
+      "id": "DrakenbergArenaPet_01",
+      "internal_id": "DrakenbergArena",
+      "url": "events/drakenberg-arena/#event-phase-drakenbergarenapet-01",
+      "summary": "Drakenberg Arena phase · 5 days · Core rewards: Figure [The Strongest Tamer]"
+    },
+    {
+      "title": "Drakenberg Arena: Familiar Theme",
+      "category": "event phases",
+      "id": "DrakenbergArenaPet_03",
+      "internal_id": "DrakenbergArena",
+      "url": "events/drakenberg-arena/#event-phase-drakenbergarenapet-03",
+      "summary": "Drakenberg Arena phase · 5 days · Core rewards: Figure [Will of Protection]"
+    },
+    {
+      "title": "Dungeon Dev",
+      "category": "events",
+      "id": "RogueTD",
+      "internal_id": "RogueTD",
+      "url": "events/rogue-td/",
+      "summary": "3 phases · 7 or 8 days · Core rewards: Phinphinx, Lunaria, Scorion, Wadjetta, Lula, Costume [Dungeon Master's Diversion] (★5)"
+    },
+    {
+      "title": "Dungeon Dev",
+      "category": "event phases",
+      "id": "RogueTD_01",
+      "internal_id": "RogueTD",
+      "url": "events/rogue-td/#event-phase-roguetd-01",
+      "summary": "Dungeon Dev phase · 7 or 8 days · Core rewards: Phinphinx, Lunaria, Scorion"
+    },
+    {
+      "title": "Dungeon Dev",
+      "category": "event phases",
+      "id": "RogueTD_02",
+      "internal_id": "RogueTD",
+      "url": "events/rogue-td/#event-phase-roguetd-02",
+      "summary": "Dungeon Dev phase · 7 or 8 days · Core rewards: Phinphinx, Wadjetta, Lunaria, Lula, Scorion"
+    },
+    {
+      "title": "Dungeon Dev",
+      "category": "event phases",
+      "id": "RogueTD_03",
+      "internal_id": "RogueTD",
+      "url": "events/rogue-td/#event-phase-roguetd-03",
+      "summary": "Dungeon Dev phase · 7 or 8 days · Core rewards: Phinphinx, Costume [Dungeon Master's Diversion] (★5), Wadjetta, Lunaria, Lula, Scorion"
+    },
+    {
+      "title": "Elixir Workshop",
+      "category": "events",
+      "id": "Game2048",
+      "internal_id": "Game2048",
+      "url": "events/game2048/",
+      "summary": "1 phases · 3 or 4 days · Core rewards: 「Flavor of Elixir」, Skill Pearl, Valiant Insignia Fragment"
+    },
+    {
+      "title": "Elixir Workshop",
+      "category": "event phases",
+      "id": "Game2048_1",
+      "internal_id": "Game2048",
+      "url": "events/game2048/#event-phase-game2048-1",
+      "summary": "Elixir Workshop phase · 3 or 4 days · Core rewards: 「Flavor of Elixir」, Skill Pearl, Valiant Insignia Fragment"
+    },
+    {
+      "title": "Encounter in Another World",
+      "category": "events",
+      "id": "Maidragon",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/",
+      "summary": "9 phases · 7, 10, 14, or 21 days · Core rewards: Hestia, Ais Wallenstein, Figure [Healer], Ryu Lion, Liliruca Arde, Bell Cranel"
+    },
+    {
+      "title": "Encounter in Another World",
+      "category": "event phases",
+      "id": "DanMachi",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-danmachi",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Hestia, Ais Wallenstein, Figure [Healer], Ryu Lion, Liliruca Arde, Bell Cranel"
+    },
+    {
+      "title": "Fight! Magic Academy Sports Day!",
+      "category": "event phases",
+      "id": "FairyTail",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-fairytail",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Natsu, Lucy, Gray, Erza, Costume [Ignite the field!] (★4), Wendy"
+    },
+    {
+      "title": "Dragon Maid on Hiemspresent",
+      "category": "event phases",
+      "id": "Maidragon_EN",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-maidragon-en",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Kanna, Tohru, Elma, Fafnir, Lucoa"
+    },
+    {
+      "title": "氷雪の町校外実習～頑張れ！モンスター娘！",
+      "category": "event phases",
+      "id": "MonsterGirl_EN",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-monstergirl-en",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Mia, ラクネラ, セントレア, メロ"
+    },
+    {
+      "title": "Mushoku Tensei and Magic Creativity Show",
+      "category": "event phases",
+      "id": "Mushoku",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-mushoku",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Roxy Migurdia, Sylphiette Greyrat, Aisha Greyrat, Norn Greyrat, Rudeus Greyrat"
+    },
+    {
+      "title": "オーバーロードvs異世界農園物語",
+      "category": "event phases",
+      "id": "Overlord",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-overlord",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: アルベド, シャルティア・ブラッドフォールン, アインズ・ウール・ゴウン, ナーベラル・ガンマ, デミウルゴス, 変身着せ替え「漆黒のモモン」"
+    },
+    {
+      "title": "Kawaiimush",
+      "category": "event phases",
+      "id": "Sanrio",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-sanrio",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Mushimi, Costume [Spinning Sunny Day] (★4), Costume [Pudding Day] (★4), Figure [Sweet Melody], Figure [Slide Acceleration], Figure [Hello, Mushroom!]"
+    },
+    {
+      "title": "Camping with A Slime",
+      "category": "event phases",
+      "id": "TenSura",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-tensura",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Rimuru Tempest, Shuna, Diablo, Benimaru, Figure [Happy Camper]"
+    },
+    {
+      "title": "Camping with a Slime Season 2",
+      "category": "event phases",
+      "id": "TenSuraS2",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-tensuras2",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Milim Nava, Shion, Veldora Tempest, Luminus Valentine, Costume [Surging Through Cascades] (★4), Figure [Happy Camper]"
+    },
+    {
+      "title": "Explore! Mines in Dungeon!",
+      "category": "events",
+      "id": "GveVeins",
+      "internal_id": "GveVeins",
+      "url": "events/gve-veins/",
+      "summary": "4 phases · 7 or 8 days · Core rewards: Beelsebub, Myner, Curren, Bathery, Costume [After Work Drinks] (★4), Costume [Reckless Devouring] (★5)"
+    },
+    {
+      "title": "Explore! Mines in Dungeon! I",
+      "category": "event phases",
+      "id": "GveVeins_01",
+      "internal_id": "GveVeins",
+      "url": "events/gve-veins/#event-phase-gveveins-01",
+      "summary": "Explore! Mines in Dungeon! phase · 7 or 8 days · Core rewards: Beelsebub, Myner"
+    },
+    {
+      "title": "Explore! Mines in Dungeon! II",
+      "category": "event phases",
+      "id": "GveVeins_02",
+      "internal_id": "GveVeins",
+      "url": "events/gve-veins/#event-phase-gveveins-02",
+      "summary": "Explore! Mines in Dungeon! phase · 7 or 8 days · Core rewards: Curren, Bathery"
+    },
+    {
+      "title": "Explore! Mines in Dungeon! III",
+      "category": "event phases",
+      "id": "GveVeins_03",
+      "internal_id": "GveVeins",
+      "url": "events/gve-veins/#event-phase-gveveins-03",
+      "summary": "Explore! Mines in Dungeon! phase · 7 or 8 days · Core rewards: Curren, Beelsebub, Costume [After Work Drinks] (★4)"
+    },
+    {
+      "title": "Explore! Mines in Dungeon! Ⅳ",
+      "category": "event phases",
+      "id": "GveVeins_04",
+      "internal_id": "GveVeins",
+      "url": "events/gve-veins/#event-phase-gveveins-04",
+      "summary": "Explore! Mines in Dungeon! phase · 7 or 8 days · Core rewards: Costume [Reckless Devouring] (★5), Curren, Beelsebub"
+    },
+    {
+      "title": "Family Diary",
+      "category": "events",
+      "id": "MonthlyActivitiesBingo",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/",
+      "summary": "36 phases · 14 days · Core rewards: Costume [Talented Gardener] (★2), Fairy Bottle, Acquaint Stone Fragment, Costume [Shining Wisdom] (★2), Costume [Woodland Red Hood] (★2), Costume [Flowing Dress] (★2)"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_01",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-01",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Talented Gardener] (★2), Fairy Bottle, Acquaint Stone Fragment"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_02",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-02",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Shining Wisdom] (★2), Fairy Bottle, Acquaint Stone Fragment"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_03",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-03",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Woodland Red Hood] (★2), Fairy Bottle, Acquaint Stone Fragment"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_04",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-04",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Flowing Dress] (★2), Fairy Bottle, Acquaint Stone Fragment"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_05",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-05",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Gift of Harvest] (★2), Fairy Bottle, Acquaint Stone Fragment"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_06",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-06",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [A Designer's Service] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_07",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-07",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [A Special Delivery] (★2), Fairy Bottle, Token Fragment Random Chest"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_08",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-08",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Butler's Vacation] (★2), Fairy Bottle, Token Fragment Random Chest"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_09",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-09",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [The Ocean, How Scary!] (★2), Fairy Bottle, Token Fragment Random Chest"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_10",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-10",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Seize Every Opportunity] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_11",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-11",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Not So Relaxing Holiday] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_12",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-12",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Growing Fish!] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_13",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-13",
+      "summary": "Family Diary phase · 14 days · Core rewards: Fresh Experience, Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_14",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-14",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Fishing—Nailed It!] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_15",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-15",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Afternoon Downtime] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_16",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-16",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Playing to Breathlessness] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_17",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-17",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Spring Sunshine] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_18",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-18",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Experiments and Side Effects] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_19",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-19",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Magic Circle and Omelet Rice] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_20",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-20",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [The Lost Hiking Bento] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_21",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-21",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Drinking Beer Rules] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_22",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-22",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Little Merchant's Promo] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_23",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-23",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Dangerous Dishes] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_24",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-24",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [The Best Public Place] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_25",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-25",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [What's the Letter?] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_26",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-26",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Sweet Autumn] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_27",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-27",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Miracle Observation] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_28",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-28",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [A Little Wish] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_29",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-29",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Bunny Tour Group] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_30",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-30",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Temporary Maid] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_31",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-31",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [\"Perfect\" Disguise] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_32",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-32",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Post-Performance Cleanup] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_33",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-33",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Intimate Interaction] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_34",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-34",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [The Secret to Be Taller] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fellow Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_35",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-35",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Check-up Day] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Family Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_36",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-36",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [The Perfect \"Flower\"] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Fluffy Ranch",
+      "category": "events",
+      "id": "GameTurkSquare",
+      "internal_id": "GameTurkSquare",
+      "url": "events/game-turk-square/",
+      "summary": "2 phases · 3 or 4 days · Core rewards: Lambs, Don't Run, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Fluffy Ranch",
+      "category": "event phases",
+      "id": "GameTurkSquare_1",
+      "internal_id": "GameTurkSquare",
+      "url": "events/game-turk-square/#event-phase-gameturksquare-1",
+      "summary": "Fluffy Ranch phase · 3 or 4 days · Core rewards: Lambs, Don't Run, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Fluffy Ranch",
+      "category": "event phases",
+      "id": "GameTurkSquare_2",
+      "internal_id": "GameTurkSquare",
+      "url": "events/game-turk-square/#event-phase-gameturksquare-2",
+      "summary": "Fluffy Ranch phase · 3 or 4 days · Core rewards: Lambs, Don't Run, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Fluffy Ranch",
+      "category": "events",
+      "id": "GameTurkSquareNew",
+      "internal_id": "GameTurkSquareNew",
+      "url": "events/game-turk-square-new/",
+      "summary": "1 phases · 12 days · Core rewards: Lambs, Don't Run, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Fluffy Ranch",
+      "category": "event phases",
+      "id": "GameTurkSquare_New01",
+      "internal_id": "GameTurkSquareNew",
+      "url": "events/game-turk-square-new/#event-phase-gameturksquare-new01",
+      "summary": "Fluffy Ranch phase · 12 days · Core rewards: Lambs, Don't Run, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Food Truck Management",
+      "category": "events",
+      "id": "KitchenGame",
+      "internal_id": "KitchenGame",
+      "url": "events/kitchen-game/",
+      "summary": "2 phases · 7, 10, 14, or 21 days · Core rewards: Mermaid's Tear, Quenching Stone, Skill Pearl, Golden Apple, Orivita Fragment"
+    },
+    {
+      "title": "Food Truck Management",
+      "category": "event phases",
+      "id": "KitchenGame_Single_01",
+      "internal_id": "KitchenGame",
+      "url": "events/kitchen-game/#event-phase-kitchengame-single-01",
+      "summary": "Food Truck Management phase · 7 or 10 days · Core rewards: Mermaid's Tear, Quenching Stone, Skill Pearl"
+    },
+    {
+      "title": "Food Truck Management",
+      "category": "event phases",
+      "id": "KitchenGame_Single_02",
+      "internal_id": "KitchenGame",
+      "url": "events/kitchen-game/#event-phase-kitchengame-single-02",
+      "summary": "Food Truck Management phase · 7, 10, 14, or 21 days · Core rewards: Golden Apple, Orivita Fragment, Quenching Stone"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "events",
+      "id": "URPlusSmashEggs",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/",
+      "summary": "4 phases · 14 days · Core rewards: Hina, Frogella, Gabrael, Thalia, Mushimi"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_01",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-01",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Hina, Frogella"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_02",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-02",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Gabrael, Thalia"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_03",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-03",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Mushimi, Frogella"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_04",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-04",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Mushimi, Frogella"
+    },
+    {
+      "title": "Golden Realm Expedition",
+      "category": "events",
+      "id": "GveGoldenRealm",
+      "internal_id": "GveGoldenRealm",
+      "url": "events/gve-golden-realm/",
+      "summary": "2 phases · 7 or 8 days · Core rewards: Kuku, Ixchel, Figure [Inheritor], Figure [Divine Envoy Priestess]"
+    },
+    {
+      "title": "Golden Realm Expedition",
+      "category": "event phases",
+      "id": "GveGoldenRealm_01",
+      "internal_id": "GveGoldenRealm",
+      "url": "events/gve-golden-realm/#event-phase-gvegoldenrealm-01",
+      "summary": "Golden Realm Expedition phase · 7 or 8 days · Core rewards: Kuku, Ixchel, Figure [Inheritor]"
+    },
+    {
+      "title": "Golden Realm Expedition",
+      "category": "event phases",
+      "id": "GveGoldenRealm_02",
+      "internal_id": "GveGoldenRealm",
+      "url": "events/gve-golden-realm/#event-phase-gvegoldenrealm-02",
+      "summary": "Golden Realm Expedition phase · 7 or 8 days · Core rewards: Kuku, Ixchel, Figure [Inheritor], Figure [Divine Envoy Priestess]"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "events",
+      "id": "TradeFes",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/",
+      "summary": "7 phases · 7 or 8 days · Core rewards: Pthahnil, Eter & NAL, Moork, Vlad XIII, Kerr & Bel & Ross, Costume [Airborne Savior] (★4)"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "event phases",
+      "id": "TradeFes_1",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/#event-phase-tradefes-1",
+      "summary": "Guild Trade Festival phase · 7 days · Core rewards: Pthahnil, Eter & NAL, Moork"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "event phases",
+      "id": "TradeFes_2",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/#event-phase-tradefes-2",
+      "summary": "Guild Trade Festival phase · 7 days · Core rewards: Vlad XIII, Kerr & Bel & Ross"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "event phases",
+      "id": "TradeFes_3",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/#event-phase-tradefes-3",
+      "summary": "Guild Trade Festival phase · 7 days · Core rewards: Costume [Airborne Savior] (★4)"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "event phases",
+      "id": "TradeFes_N1",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/#event-phase-tradefes-n1",
+      "summary": "Guild Trade Festival phase · 7 or 8 days · Core rewards: Pthahnil, Eter & NAL, Moork"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "event phases",
+      "id": "TradeFes_N2",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/#event-phase-tradefes-n2",
+      "summary": "Guild Trade Festival phase · 7 or 8 days · Core rewards: Kerr & Bel & Ross, Pthahnil, Vlad XIII"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "event phases",
+      "id": "TradeFes_N3",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/#event-phase-tradefes-n3",
+      "summary": "Guild Trade Festival phase · 7 or 8 days · Core rewards: Kerr & Bel & Ross, Pthahnil, Costume [Airborne Savior] (★4)"
+    },
+    {
+      "title": "Guild Trade Festival",
+      "category": "event phases",
+      "id": "TradeFes_S1",
+      "internal_id": "TradeFes",
+      "url": "events/trade-fes/#event-phase-tradefes-s1",
+      "summary": "Guild Trade Festival phase · 7 days · Core rewards: Pthahnil, Eter & NAL, Moork"
+    },
+    {
+      "title": "Hanamiya Rica Special",
+      "category": "events",
+      "id": "HanamiyaRica",
+      "internal_id": "HanamiyaRica",
+      "url": "events/hanamiya-rica/",
+      "summary": "1 phases · 7, 10, 14, or 21 days · Core rewards: Hanamiya Rica"
+    },
+    {
+      "title": "Hanamiya Rica Special",
+      "category": "event phases",
+      "id": "HanamiyaRica_01",
+      "internal_id": "HanamiyaRica",
+      "url": "events/hanamiya-rica/#event-phase-hanamiyarica-01",
+      "summary": "Hanamiya Rica Special phase · 7, 10, 14, or 21 days · Core rewards: Hanamiya Rica"
+    },
+    {
+      "title": "Hero Summon",
+      "category": "events",
+      "id": "CommonLottery",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/",
+      "summary": "27 phases · 6, 7, 8, 9, 12, 14, 15, 21, or 36500 days · Core rewards: Avril, Stephanie, Kaye, Nip, Lux, Super"
+    },
+    {
+      "title": "Gift Tree",
+      "category": "event phases",
+      "id": "CG01",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg01",
+      "summary": "Hero Summon phase · 15 days"
+    },
+    {
+      "title": "Love's Gift",
+      "category": "event phases",
+      "id": "CG02",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg02",
+      "summary": "Hero Summon phase · 6 or 7 days"
+    },
+    {
+      "title": "Demiplane Supply Station",
+      "category": "event phases",
+      "id": "CG03",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg03",
+      "summary": "Hero Summon phase · 6, 9, 12, 14, or 21 days"
+    },
+    {
+      "title": "Hero Summon",
+      "category": "event phases",
+      "id": "CG04",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg04",
+      "summary": "Hero Summon phase · 8 days · Core rewards: Avril, Stephanie, Kaye, Nip"
+    },
+    {
+      "title": "Archdemon Summon",
+      "category": "event phases",
+      "id": "CG05",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg05",
+      "summary": "Hero Summon phase · 8 or 14 days · Core rewards: Lux, Super, Acedia, Avar"
+    },
+    {
+      "title": "SEAorVN",
+      "category": "event phases",
+      "id": "CG05_SEA",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg05-sea",
+      "summary": "Hero Summon phase · 8 or 14 days · Core rewards: Lux, Super, Acedia, Avar"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG06_Day7",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg06-day7",
+      "summary": "Hero Summon phase · 6 or 7 days · Core rewards: Costume [Rest in Wild] (★4), Costume [Bug Catcher Jewlry!] (★4)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG06_Day7_New",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg06-day7-new",
+      "summary": "Hero Summon phase · 6 or 7 days · Core rewards: Costume [Rest in Wild] (★4), Costume [Bug Catcher Jewlry!] (★4)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG07",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg07",
+      "summary": "Hero Summon phase · 6 or 7 days · Core rewards: Costume [Owner of the Yacht] (★4), Costume [Afternoon Tea by the Pool] (★4), Costume [Azure Wanderer] (★3), Costume [A Nap on Calming Waves] (★3)"
+    },
+    {
+      "title": "Group Photo",
+      "category": "event phases",
+      "id": "CG08",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg08",
+      "summary": "Hero Summon phase · Not configured"
+    },
+    {
+      "title": "Ceremony Costume",
+      "category": "event phases",
+      "id": "CG_Anniversary2025",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-anniversary2025",
+      "summary": "Hero Summon phase · 9 days · Core rewards: Costume [Run Toward Happiness] (★4), Costume [Fate Musician] (★4), Costume [Luscious Champagne] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG_Halloween",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-halloween",
+      "summary": "Hero Summon phase · 6, 9, 12, or 14 days · Core rewards: Costume [Caged Bird] (★4), Costume [Scarlet Lady] (★4), Costume [Angie Scissorhands] (★3), Costume [Skeleton Ninja] (★2)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG_Hotspring",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-hotspring",
+      "summary": "Hero Summon phase · 6, 9, 12, or 14 days · Core rewards: Costume [Another Round!] (★4), Costume [Tales Under a Maple Tree] (★4)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG_NewYear2025",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-newyear2025",
+      "summary": "Hero Summon phase · 6 or 7 days · Core rewards: Costume [New Year Preparation] (★4), Costume [Decorating for New Year] (★3), Costume [Vigorous Writing] (★4)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG_Sakura2025",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-sakura2025",
+      "summary": "Hero Summon phase · 9 days · Core rewards: Costume [Among the Sakura Clusters] (★4), Costume [Nighttime Elegance] (★4), Costume [First Sakura Viewing] (★3), Costume [Flavor or Blossom: A Tough Call] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG_Sakura2025_JPTW",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-sakura2025-jptw",
+      "summary": "Hero Summon phase · 9 days · Core rewards: Costume [Among the Sakura Clusters] (★4), Costume [Nighttime Elegance] (★4), Costume [First Sakura Viewing] (★3), Costume [Flavor or Blossom: A Tough Call] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG_Summer2025",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-summer2025",
+      "summary": "Hero Summon phase · 9 days · Core rewards: Costume [A Meow-llow Summer] (★4), Costume [Evinced by Fireflies] (★4), Costume [Fresh and Sweet] (★3), Costume [Swaying Wind Chimes] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "CG_Summer2025_JPTW",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-summer2025-jptw",
+      "summary": "Hero Summon phase · 9 days · Core rewards: Costume [A Meow-llow Summer] (★4), Costume [Evinced by Fireflies] (★4), Costume [Fresh and Sweet] (★3), Costume [Swaying Wind Chimes] (★3)"
+    },
+    {
+      "title": "CG_Test",
+      "category": "event phases",
+      "id": "CG_Test",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-cg-test",
+      "summary": "Hero Summon phase · 9 days"
+    },
+    {
+      "title": "Friendly Chess Match",
+      "category": "event phases",
+      "id": "CountrySide_CG01",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-countryside-cg01",
+      "summary": "Hero Summon phase · 12 days"
+    },
+    {
+      "title": "Emiru Gacha",
+      "category": "event phases",
+      "id": "Emiru_CG01",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-emiru-cg01",
+      "summary": "Hero Summon phase · Not configured"
+    },
+    {
+      "title": "Emiru Gacha",
+      "category": "event phases",
+      "id": "Emiru_CG02",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-emiru-cg02",
+      "summary": "Hero Summon phase · Not configured"
+    },
+    {
+      "title": "Livestream Gacha",
+      "category": "event phases",
+      "id": "HanamiyaRica_CG01",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-hanamiyarica-cg01",
+      "summary": "Hero Summon phase · Not configured"
+    },
+    {
+      "title": "Livestream Gacha",
+      "category": "event phases",
+      "id": "HanamiyaRica_CG01_JPTW",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-hanamiyarica-cg01-jptw",
+      "summary": "Hero Summon phase · Not configured"
+    },
+    {
+      "title": "Livestream Gacha",
+      "category": "event phases",
+      "id": "HanamiyaRica_CG02_JPTW",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-hanamiyarica-cg02-jptw",
+      "summary": "Hero Summon phase · Not configured"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "LimitClothes_CG09",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-limitclothes-cg09",
+      "summary": "Hero Summon phase · 14, 12, or 6 days · Core rewards: Costume [Foodie Night] (★4), Costume [End of the Festival] (★4), Costume [Exotic Maid Doll] (★4)"
+    },
+    {
+      "title": "Mole Diggers",
+      "category": "event phases",
+      "id": "RelicCommonLottery",
+      "internal_id": "CommonLottery",
+      "url": "events/common-lottery/#event-phase-reliccommonlottery",
+      "summary": "Hero Summon phase · 36500 days"
+    },
+    {
+      "title": "Hiemspresent Gathering",
+      "category": "events",
+      "id": "ChristmasEvent",
+      "internal_id": "ChristmasEvent",
+      "url": "events/christmas-event/",
+      "summary": "1 phases · 15 days · Core rewards: Costume [Top-Rated Sale] (★4), Costume [Winter Night's Tale] (★4), Costume [A Gift Just for You] (★4), Costume [Late Night Reverie] (★3)"
+    },
+    {
+      "title": "Hiemspresent Gathering",
+      "category": "event phases",
+      "id": "ChristmasEvent_1",
+      "internal_id": "ChristmasEvent",
+      "url": "events/christmas-event/#event-phase-christmasevent-1",
+      "summary": "Hiemspresent Gathering phase · 15 days · Core rewards: Costume [Top-Rated Sale] (★4), Costume [Winter Night's Tale] (★4), Costume [A Gift Just for You] (★4), Costume [Late Night Reverie] (★3)"
+    },
+    {
+      "title": "Isekai Demon Hunter Arc",
+      "category": "events",
+      "id": "Konosuba",
+      "internal_id": "Konosuba",
+      "url": "events/konosuba/",
+      "summary": "2 phases · 7, 10, 14, or 21 days · Core rewards: Shinobu Kocho, Giyu Tomioka, Tanjiro Kamado, Zenitsu Agatsuma, Nezuko Kamado, Inosuke Hashibira"
+    },
+    {
+      "title": "Isekai Demon Hunter Arc",
+      "category": "event phases",
+      "id": "DemonSlayer",
+      "internal_id": "Konosuba",
+      "url": "events/konosuba/#event-phase-demonslayer",
+      "summary": "Isekai Demon Hunter Arc phase · 7, 10, 14, or 21 days · Core rewards: Shinobu Kocho, Giyu Tomioka, Tanjiro Kamado, Zenitsu Agatsuma, Nezuko Kamado, Inosuke Hashibira"
+    },
+    {
+      "title": "God's Blessing on This Laid-Back Isekai!",
+      "category": "event phases",
+      "id": "Konosuba",
+      "internal_id": "Konosuba",
+      "url": "events/konosuba/#event-phase-konosuba",
+      "summary": "Isekai Demon Hunter Arc phase · 7, 10, 14, or 21 days · Core rewards: Aqua, Megumin, Kazuma, Darkness, Figure [Cooking Master]"
+    },
+    {
+      "title": "Kemomimi Village Ceremony",
+      "category": "events",
+      "id": "Anniversary",
+      "internal_id": "Anniversary",
+      "url": "events/anniversary/",
+      "summary": "1 phases · 12 days · Core rewards: Costume [Planned Surprise] (★5), Costume [Run Toward Happiness] (★4), Costume [Fate Musician] (★4), Costume [Luscious Champagne] (★3)"
+    },
+    {
+      "title": "Kemomimi Village Ceremony",
+      "category": "event phases",
+      "id": "Anniversary_01",
+      "internal_id": "Anniversary",
+      "url": "events/anniversary/#event-phase-anniversary-01",
+      "summary": "Kemomimi Village Ceremony phase · 12 days · Core rewards: Costume [Planned Surprise] (★5), Costume [Run Toward Happiness] (★4), Costume [Fate Musician] (★4), Costume [Luscious Champagne] (★3)"
+    },
+    {
+      "title": "Koi Blessing",
+      "category": "events",
+      "id": "PictureGuess",
+      "internal_id": "PictureGuess",
+      "url": "events/picture-guess/",
+      "summary": "2 phases · 12 days · Core rewards: Kohaku, Gold Crown Kohaku"
+    },
+    {
+      "title": "Koi Blessing",
+      "category": "event phases",
+      "id": "PictureGuess_01",
+      "internal_id": "PictureGuess",
+      "url": "events/picture-guess/#event-phase-pictureguess-01",
+      "summary": "Koi Blessing phase · 12 days · Core rewards: Kohaku, Gold Crown Kohaku"
+    },
+    {
+      "title": "Koi Blessing",
+      "category": "event phases",
+      "id": "PictureGuess_02",
+      "internal_id": "PictureGuess",
+      "url": "events/picture-guess/#event-phase-pictureguess-02",
+      "summary": "Koi Blessing phase · 12 days · Core rewards: Kohaku, Gold Crown Kohaku"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "events",
+      "id": "PetLottery",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/",
+      "summary": "11 phases · 7 days · Core rewards: Fenrir, Rainbel, Taniadraco, Everwool, Winged Firelion, Jewel Serploom"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_01",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-01",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Fenrir, Rainbel"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_02",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-02",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Taniadraco, Everwool"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_03",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-03",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Winged Firelion, Jewel Serploom"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_04",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-04",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Ness, Bubble Axolotl"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_04_1",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-04-1",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Ness"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_05",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-05",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Thunderdrac"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_06",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-06",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Seasonfox"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_07",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-07",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Lightning Hawk"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_08",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-08",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Dream Eater"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_09",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-09",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Umbradrake"
+    },
+    {
+      "title": "Legendary Familiar",
+      "category": "event phases",
+      "id": "PetLottery_10",
+      "internal_id": "PetLottery",
+      "url": "events/pet-lottery/#event-phase-petlottery-10",
+      "summary": "Legendary Familiar phase · 7 days · Core rewards: Hellhound"
+    },
+    {
+      "title": "Legends from Land of Sand",
+      "category": "events",
+      "id": "ResidentDraw",
+      "internal_id": "ResidentDraw",
+      "url": "events/resident-draw/",
+      "summary": "1 phases · 7 days · Core rewards: Leon, Mia"
+    },
+    {
+      "title": "Legends from Land of Sand",
+      "category": "event phases",
+      "id": "RD_01",
+      "internal_id": "ResidentDraw",
+      "url": "events/resident-draw/#event-phase-rd-01",
+      "summary": "Legends from Land of Sand phase · 7 days · Core rewards: Leon, Mia"
+    },
+    {
+      "title": "Leisurely Village!",
+      "category": "events",
+      "id": "CountrySide",
+      "internal_id": "CountrySide",
+      "url": "events/country-side/",
+      "summary": "2 phases · 6 or 12 days · Core rewards: Loo, Tier, Flora, Hakuren, Ria"
+    },
+    {
+      "title": "Build! A Leisurely Countryside Village!",
+      "category": "event phases",
+      "id": "CountrySide_01_EN",
+      "internal_id": "CountrySide",
+      "url": "events/country-side/#event-phase-countryside-01-en",
+      "summary": "Leisurely Village! phase · 12 days · Core rewards: Loo, Tier, Flora, Hakuren, Ria"
+    },
+    {
+      "title": "Leisurely Village!",
+      "category": "event phases",
+      "id": "CountrySide_01_EN_Day6",
+      "internal_id": "CountrySide",
+      "url": "events/country-side/#event-phase-countryside-01-en-day6",
+      "summary": "Leisurely Village! phase · 6 days · Core rewards: Loo, Tier, Flora, Hakuren, Ria"
+    },
+    {
+      "title": "Let's Fish, Fishaholics!",
+      "category": "events",
+      "id": "TeamFishing",
+      "internal_id": "TeamFishing",
+      "url": "events/team-fishing/",
+      "summary": "1 phases · 6 or 7 days · Core rewards: Acquaint Stone Fragment, Golden Fame Card, Advanced Bait"
+    },
+    {
+      "title": "Let's Fish, Fishaholics!",
+      "category": "event phases",
+      "id": "TeamFishing_1",
+      "internal_id": "TeamFishing",
+      "url": "events/team-fishing/#event-phase-teamfishing-1",
+      "summary": "Let's Fish, Fishaholics! phase · 6 or 7 days · Core rewards: Acquaint Stone Fragment, Golden Fame Card, Advanced Bait"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "events",
+      "id": "ClothesLimitFestival",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/",
+      "summary": "7 phases · 9 days · Core rewards: Costume [Dance of Remembrance] (★4), Costume [Night as a Gown] (★4), Costume [Corner of the Banquet] (★3), Costume [Moonlight Tea Party] (★3), Costume [Welcome to the Shadow Kingdom Hotel] (★4), Costume [Room Service Hours] (★4)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "Ball2025",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-ball2025",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Dance of Remembrance] (★4), Costume [Night as a Gown] (★4), Costume [Corner of the Banquet] (★3), Costume [Moonlight Tea Party] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "DemonHotel2026",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-demonhotel2026",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Welcome to the Shadow Kingdom Hotel] (★4), Costume [Room Service Hours] (★4), Costume [Go, Little Bellhop!] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "FairyTaleStage2026",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-fairytalestage2026",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Little Match Mouse] (★4), Costume [White Leopard Princess] (★4), Costume [Wolfgirl Red Riding Hood] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "Halloween2025",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-halloween2025",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Surprising Prankster] (★4), Costume [Crimson Honey] (★4), Costume [Pumpkin Field Party] (★3), Costume [Late Night Story Session] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "PengLaiSpring2026",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-penglaispring2026",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Beauty by the Window] (★4), Costume [Soaring High] (★4), Costume [Silver Strings of Spring] (★3), Costume [Junior Penglai Taoist] (★3)"
+    },
+    {
+      "title": "Summer Festival",
+      "category": "event phases",
+      "id": "SummerFestival2025",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-summerfestival2025",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Taiko Master] (★4), Costume [Above the Lanterns] (★4), Costume [Rest Under Fireworks] (★3), Costume [Festival Explorer] (★3)"
+    },
+    {
+      "title": "Limited Costume",
+      "category": "event phases",
+      "id": "TounoIslandHoliday2026",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-tounoislandholiday2026",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Eternal Sunset] (★4), Costume [Nap Under the Shade] (★4), Costume [Riding the Waves] (★3), Costume [\"Surprise\" Service] (★3)"
+    },
+    {
+      "title": "Love Spell ~ Black Cat & Mocktail ~",
+      "category": "events",
+      "id": "Emiru",
+      "internal_id": "Emiru",
+      "url": "events/emiru/",
+      "summary": "1 phases · 7, 10, 14, or 21 days · Core rewards: Emiru"
+    },
+    {
+      "title": "Love Spell",
+      "category": "event phases",
+      "id": "Emiru_01",
+      "internal_id": "Emiru",
+      "url": "events/emiru/#event-phase-emiru-01",
+      "summary": "Love Spell ~ Black Cat & Mocktail ~ phase · 7, 10, 14, or 21 days · Core rewards: Emiru"
+    },
+    {
+      "title": "Magi's Artifact",
+      "category": "events",
+      "id": "SageEvent",
+      "internal_id": "SageEvent",
+      "url": "events/sage-event/",
+      "summary": "5 phases · 7 days · Core rewards: Hermes' Token, Valiant Insignia, Mysterious Magic Insignia, Andras' Token, Nemetona's Token, Ao Li Token"
+    },
+    {
+      "title": "Magi's Artifact",
+      "category": "event phases",
+      "id": "SageEvent01",
+      "internal_id": "SageEvent",
+      "url": "events/sage-event/#event-phase-sageevent01",
+      "summary": "Magi's Artifact phase · 7 days · Core rewards: Hermes' Token, Valiant Insignia, Mysterious Magic Insignia"
+    },
+    {
+      "title": "Magi's Artifact",
+      "category": "event phases",
+      "id": "SageEvent02_Day7",
+      "internal_id": "SageEvent",
+      "url": "events/sage-event/#event-phase-sageevent02-day7",
+      "summary": "Magi's Artifact phase · 7 days · Core rewards: Andras' Token, Valiant Insignia, Mysterious Magic Insignia"
+    },
+    {
+      "title": "Magi's Artifact",
+      "category": "event phases",
+      "id": "SageEvent03_Day7",
+      "internal_id": "SageEvent",
+      "url": "events/sage-event/#event-phase-sageevent03-day7",
+      "summary": "Magi's Artifact phase · 7 days · Core rewards: Nemetona's Token, Valiant Insignia, Mysterious Magic Insignia"
+    },
+    {
+      "title": "Magi's Artifact",
+      "category": "event phases",
+      "id": "SageEvent04_Day7",
+      "internal_id": "SageEvent",
+      "url": "events/sage-event/#event-phase-sageevent04-day7",
+      "summary": "Magi's Artifact phase · 7 days · Core rewards: Ao Li Token, Valiant Insignia, Mysterious Magic Insignia"
+    },
+    {
+      "title": "Magi's Artifact",
+      "category": "event phases",
+      "id": "SageEvent05_Day7",
+      "internal_id": "SageEvent",
+      "url": "events/sage-event/#event-phase-sageevent05-day7",
+      "summary": "Magi's Artifact phase · 7 days · Core rewards: Phanes' Token, Valiant Insignia, Mysterious Magic Insignia"
+    },
+    {
+      "title": "March of the Northrealm",
+      "category": "events",
+      "id": "DJNorthrealm",
+      "internal_id": "DJNorthrealm",
+      "url": "events/djnorthrealm/",
+      "summary": "2 phases · 7 or 8 days · Core rewards: Thora, Fawna, Figure [Northern Warrior], Lokia, Figure [Raven Apostle]"
+    },
+    {
+      "title": "March of the Northrealm",
+      "category": "event phases",
+      "id": "DJNorthrealm_01",
+      "internal_id": "DJNorthrealm",
+      "url": "events/djnorthrealm/#event-phase-djnorthrealm-01",
+      "summary": "March of the Northrealm phase · 7 or 8 days · Core rewards: Thora, Fawna, Figure [Northern Warrior]"
+    },
+    {
+      "title": "March of the Northrealm",
+      "category": "event phases",
+      "id": "DJNorthrealm_02",
+      "internal_id": "DJNorthrealm",
+      "url": "events/djnorthrealm/#event-phase-djnorthrealm-02",
+      "summary": "March of the Northrealm phase · 7 or 8 days · Core rewards: Lokia, Figure [Raven Apostle]"
+    },
+    {
+      "title": "Master Swordsman in Isekai",
+      "category": "events",
+      "id": "Blademaster",
+      "internal_id": "Blademaster",
+      "url": "events/blademaster/",
+      "summary": "1 phases · 21 days · Core rewards: Beryl, Allucia, Surena, Lucy, Mewi"
+    },
+    {
+      "title": "From Old Country Bumpkin to Master Swordsman in Isekai",
+      "category": "event phases",
+      "id": "Blademaster_JPTW_Day14",
+      "internal_id": "Blademaster",
+      "url": "events/blademaster/#event-phase-blademaster-jptw-day14",
+      "summary": "Master Swordsman in Isekai phase · 21 days · Core rewards: Beryl, Allucia, Surena, Lucy, Mewi"
+    },
+    {
+      "title": "Mentor & Apprentice",
+      "category": "events",
+      "id": "GveMedicine",
+      "internal_id": "GveMedicine",
+      "url": "events/gve-medicine/",
+      "summary": "3 phases · 7 or 8 days · Core rewards: Verity, Genessa, Figure [‌Apothecary], Future Maxim, Figure [‌Apothecary]"
+    },
+    {
+      "title": "Apothecary: Proud Mentor & Rebellious Apprentice",
+      "category": "event phases",
+      "id": "GveMedicine_01",
+      "internal_id": "GveMedicine",
+      "url": "events/gve-medicine/#event-phase-gvemedicine-01",
+      "summary": "Mentor & Apprentice phase · 7 or 8 days · Core rewards: Verity, Genessa, Figure [‌Apothecary]"
+    },
+    {
+      "title": "Apothecary: Kind Mentor and Sour Apprentice",
+      "category": "event phases",
+      "id": "GveMedicine_02",
+      "internal_id": "GveMedicine",
+      "url": "events/gve-medicine/#event-phase-gvemedicine-02",
+      "summary": "Mentor & Apprentice phase · 7 or 8 days · Core rewards: Future Maxim, Figure [‌Apothecary], Figure [‌Apothecary]"
+    },
+    {
+      "title": "Apothecary: Proud Mentor & Rebellious Apprentice",
+      "category": "event phases",
+      "id": "GveMedicine_RE01",
+      "internal_id": "GveMedicine",
+      "url": "events/gve-medicine/#event-phase-gvemedicine-re01",
+      "summary": "Mentor & Apprentice phase · 7 or 8 days · Core rewards: Verity, Genessa, Future Maxim, Figure [‌Apothecary], Figure [‌Apothecary]"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "events",
+      "id": "MoonlitEvent",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/",
+      "summary": "7 phases · 6, 9, 12, 14, or 21 days · Core rewards: Tomoe, Mio, Shiki, Emma's Token, Costume [Justice in the Night] (★5)"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "event phases",
+      "id": "MoonlitEvent_01",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/#event-phase-moonlitevent-01",
+      "summary": "Moonlit Chill Work phase · 12 days · Core rewards: Tomoe, Mio, Shiki, Emma's Token"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "event phases",
+      "id": "MoonlitEvent_02_EN",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/#event-phase-moonlitevent-02-en",
+      "summary": "Moonlit Chill Work phase · 12 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "event phases",
+      "id": "MoonlitEvent_02_EN_Day6",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/#event-phase-moonlitevent-02-en-day6",
+      "summary": "Moonlit Chill Work phase · 6 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "event phases",
+      "id": "MoonlitEvent_02_JP_Day6",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day6",
+      "summary": "Moonlit Chill Work phase · 6 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "event phases",
+      "id": "MoonlitEvent_02_JP_Day9",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day9",
+      "summary": "Moonlit Chill Work phase · 9 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "event phases",
+      "id": "MoonlitEvent_02_JP_Day14",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day14",
+      "summary": "Moonlit Chill Work phase · 14 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+    },
+    {
+      "title": "Moonlit Chill Work",
+      "category": "event phases",
+      "id": "MoonlitEvent_02_JP_Day21",
+      "internal_id": "MoonlitEvent",
+      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day21",
+      "summary": "Moonlit Chill Work phase · 21 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+    },
+    {
+      "title": "Mushroom Adventure",
+      "category": "events",
+      "id": "WifeGacha",
+      "internal_id": "WifeGacha",
+      "url": "events/wife-gacha/",
+      "summary": "1 phases · 7 or 8 days · Core rewards: Dante, Nonnette"
+    },
+    {
+      "title": "Mushroom Adventure",
+      "category": "event phases",
+      "id": "WifeGacha_02",
+      "internal_id": "WifeGacha",
+      "url": "events/wife-gacha/#event-phase-wifegacha-02",
+      "summary": "Mushroom Adventure phase · 7 or 8 days · Core rewards: Dante, Nonnette"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "events",
+      "id": "MoonEvent",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/",
+      "summary": "9 phases · 6 days · Core rewards: Willo, Costume [Queen of the Night] (★4), Costume [Howl of the Night] (★2), Phetia, Costume [Dream of a Giant] (★4), Costume [Focus Please] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_01",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-01",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Willo, Costume [Queen of the Night] (★4), Costume [Howl of the Night] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_02",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-02",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Phetia, Costume [Dream of a Giant] (★4), Costume [Focus Please] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_03",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-03",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Connie, Costume [Return of the Victor] (★4), Costume [Waiter in Disguise] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_04",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-04",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Puffair, Costume [Coco Bowl and Service] (★4), Costume [Sorbet Girl] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_05",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-05",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Devileer, Costume [The Archdemon's Arrival] (★4), Costume [Welcome Bear] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_06",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-06",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Leopolda, Costume [Polar Rescue] (★4), Costume [Culture Fit-In] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_07",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-07",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Pengia, Costume [Undercover Operation] (★4), Costume [Bad Fifi!] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_08",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-08",
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Chitana, Costume [Armed Maid] (★4), Costume [\"Lingering Melody\"] (★2)"
+    },
+    {
+      "title": "Mushroom's Travels",
+      "category": "event phases",
+      "id": "MoonEvent_Rerun",
+      "internal_id": "MoonEvent",
+      "url": "events/moon-event/#event-phase-moonevent-rerun",
+      "summary": "Mushroom's Travels phase · 6 days"
+    },
+    {
+      "title": "Northern Odyssey",
+      "category": "events",
+      "id": "Dungeon",
+      "internal_id": "Dungeon",
+      "url": "events/dungeon/",
+      "summary": "5 phases · 6 or 7 days · Core rewards: Paat, Bren, Skill Pearl, Quenching Stone, Acquaint Stone, Costume [Speech of Royal Heir] (★4)"
+    },
+    {
+      "title": "Northern Odyssey",
+      "category": "event phases",
+      "id": "Dungeon_1",
+      "internal_id": "Dungeon",
+      "url": "events/dungeon/#event-phase-dungeon-1",
+      "summary": "Northern Odyssey phase · 6 or 7 days · Core rewards: Paat, Bren, Skill Pearl, Quenching Stone, Acquaint Stone"
+    },
+    {
+      "title": "Northern Odyssey",
+      "category": "event phases",
+      "id": "Dungeon_2",
+      "internal_id": "Dungeon",
+      "url": "events/dungeon/#event-phase-dungeon-2",
+      "summary": "Northern Odyssey phase · 6 or 7 days · Core rewards: Costume [Speech of Royal Heir] (★4), Costume [Glacial Glint] (★3), Quenching Stone, Acquaint Stone"
+    },
+    {
+      "title": "Northern Odyssey",
+      "category": "event phases",
+      "id": "Dungeon_3",
+      "internal_id": "Dungeon",
+      "url": "events/dungeon/#event-phase-dungeon-3",
+      "summary": "Northern Odyssey phase · 6 or 7 days · Core rewards: Sunna, Dragon Summon Horn, Magi Token Fragment, Quenching Stone"
+    },
+    {
+      "title": "Northern Odyssey",
+      "category": "event phases",
+      "id": "Dungeon_4",
+      "internal_id": "Dungeon",
+      "url": "events/dungeon/#event-phase-dungeon-4",
+      "summary": "Northern Odyssey phase · 6 or 7 days · Core rewards: Costume [Light in the Dark] (★5), Magi Token Fragment, Dragon Summon Horn"
+    },
+    {
+      "title": "Northern Odyssey",
+      "category": "event phases",
+      "id": "Dungeon_Endless",
+      "internal_id": "Dungeon",
+      "url": "events/dungeon/#event-phase-dungeon-endless",
+      "summary": "Northern Odyssey phase · 6 or 7 days · Core rewards: Northern Odyssey Selectable Chest IV, Acquaint Stone Fragment, Skill Pearl"
+    },
+    {
+      "title": "Penglai Immortal",
+      "category": "events",
+      "id": "PLImmortal",
+      "internal_id": "PLImmortal",
+      "url": "events/plimmortal/",
+      "summary": "3 phases · 7 or 8 days · Core rewards: Master Tongxuan, Pan Pan, Huowang Dade, Cranelia, Tigris, Costume [Encounter Below Cliff] (★5)"
+    },
+    {
+      "title": "Penglai Immortal I",
+      "category": "event phases",
+      "id": "PLImmortal_01",
+      "internal_id": "PLImmortal",
+      "url": "events/plimmortal/#event-phase-plimmortal-01",
+      "summary": "Penglai Immortal phase · 7 or 8 days · Core rewards: Master Tongxuan, Pan Pan, Huowang Dade"
+    },
+    {
+      "title": "Penglai Immortal II",
+      "category": "event phases",
+      "id": "PLImmortal_02",
+      "internal_id": "PLImmortal",
+      "url": "events/plimmortal/#event-phase-plimmortal-02",
+      "summary": "Penglai Immortal phase · 7 or 8 days · Core rewards: Cranelia, Tigris"
+    },
+    {
+      "title": "Penglai Immortal III",
+      "category": "event phases",
+      "id": "PLImmortal_03",
+      "internal_id": "PLImmortal",
+      "url": "events/plimmortal/#event-phase-plimmortal-03",
+      "summary": "Penglai Immortal phase · 7 or 8 days · Core rewards: Costume [Encounter Below Cliff] (★5), Cranelia, Master Tongxuan"
+    },
+    {
+      "title": "Pirate Chess",
+      "category": "events",
+      "id": "GvGChess",
+      "internal_id": "GvGChess",
+      "url": "events/gv-gchess/",
+      "summary": "4 phases · 7 days · Core rewards: Figure [King of Pirates], Figure [Azure Commander]"
+    },
+    {
+      "title": "Pirate Chess",
+      "category": "event phases",
+      "id": "PirateChess_01",
+      "internal_id": "GvGChess",
+      "url": "events/gv-gchess/#event-phase-piratechess-01",
+      "summary": "Pirate Chess phase · 7 days · Core rewards: Figure [King of Pirates]"
+    },
+    {
+      "title": "Pirate Chess",
+      "category": "event phases",
+      "id": "PirateChess_02",
+      "internal_id": "GvGChess",
+      "url": "events/gv-gchess/#event-phase-piratechess-02",
+      "summary": "Pirate Chess phase · 7 days · Core rewards: Figure [Azure Commander], Figure [King of Pirates]"
+    },
+    {
+      "title": "Pirate Chess",
+      "category": "event phases",
+      "id": "PirateChess_02_2Hour",
+      "internal_id": "GvGChess",
+      "url": "events/gv-gchess/#event-phase-piratechess-02-2hour",
+      "summary": "Pirate Chess phase · 7 days · Core rewards: Figure [Azure Commander], Figure [King of Pirates]"
+    },
+    {
+      "title": "Pirate Chess",
+      "category": "event phases",
+      "id": "PirateChess_2Hour",
+      "internal_id": "GvGChess",
+      "url": "events/gv-gchess/#event-phase-piratechess-2hour",
+      "summary": "Pirate Chess phase · 7 days · Core rewards: Figure [King of Pirates]"
+    },
+    {
+      "title": "Prayer to the Heavens I",
+      "category": "events",
+      "id": "UrGet",
+      "internal_id": "UrGet",
+      "url": "events/ur-get/",
+      "summary": "4 phases · 14 days · Core rewards: Amaterasu, Tsukuyomi, Tamamo, Orivita, Namiko, Master Tongxuan"
+    },
+    {
+      "title": "Prayer to the Heavens I",
+      "category": "event phases",
+      "id": "UrGet_01",
+      "internal_id": "UrGet",
+      "url": "events/ur-get/#event-phase-urget-01",
+      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Amaterasu, Tsukuyomi, Tamamo"
+    },
+    {
+      "title": "Prayer to the Heavens II",
+      "category": "event phases",
+      "id": "UrGet_02",
+      "internal_id": "UrGet",
+      "url": "events/ur-get/#event-phase-urget-02",
+      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Orivita, Namiko"
+    },
+    {
+      "title": "Prayer to the Heavens III",
+      "category": "event phases",
+      "id": "UrGet_03",
+      "internal_id": "UrGet",
+      "url": "events/ur-get/#event-phase-urget-03",
+      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Master Tongxuan, Cranelia"
+    },
+    {
+      "title": "Prayer to the Heavens IV",
+      "category": "event phases",
+      "id": "UrGet_04",
+      "internal_id": "UrGet",
+      "url": "events/ur-get/#event-phase-urget-04",
+      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Leon, Mia"
+    },
+    {
+      "title": "Profiteer Card",
+      "category": "events",
+      "id": "BombCat",
+      "internal_id": "BombCat",
+      "url": "events/bomb-cat/",
+      "summary": "2 phases · 6, 7, or 15 days · Core rewards: Acquaint Stone Fragment, Skill Pearl, Unprocessed Druse"
+    },
+    {
+      "title": "Profiteer Card",
+      "category": "event phases",
+      "id": "BombCat_1",
+      "internal_id": "BombCat",
+      "url": "events/bomb-cat/#event-phase-bombcat-1",
+      "summary": "Profiteer Card phase · 15 days"
+    },
+    {
+      "title": "Profiteer Card",
+      "category": "event phases",
+      "id": "BombCat_2",
+      "internal_id": "BombCat",
+      "url": "events/bomb-cat/#event-phase-bombcat-2",
+      "summary": "Profiteer Card phase · 6 or 7 days · Core rewards: Acquaint Stone Fragment, Skill Pearl, Unprocessed Druse"
+    },
+    {
+      "title": "Purification of Frantic Forest",
+      "category": "events",
+      "id": "GveFranticForest",
+      "internal_id": "GveFranticForest",
+      "url": "events/gve-frantic-forest/",
+      "summary": "4 phases · 7 or 8 days · Core rewards: Mors, Healora, Freesia, Lud, Costume [Mountain Rescue] (★4), Costume [The Birth of Freesia] (★5)"
+    },
+    {
+      "title": "Purification of Frantic Forest I",
+      "category": "event phases",
+      "id": "GveFranticForest_01",
+      "internal_id": "GveFranticForest",
+      "url": "events/gve-frantic-forest/#event-phase-gvefranticforest-01",
+      "summary": "Purification of Frantic Forest phase · 7 or 8 days · Core rewards: Mors, Healora"
+    },
+    {
+      "title": "Purification of Frantic Forest II",
+      "category": "event phases",
+      "id": "GveFranticForest_02",
+      "internal_id": "GveFranticForest",
+      "url": "events/gve-frantic-forest/#event-phase-gvefranticforest-02",
+      "summary": "Purification of Frantic Forest phase · 7 or 8 days · Core rewards: Freesia, Lud"
+    },
+    {
+      "title": "Purification of Frantic Forest Ⅲ",
+      "category": "event phases",
+      "id": "GveFranticForest_03",
+      "internal_id": "GveFranticForest",
+      "url": "events/gve-frantic-forest/#event-phase-gvefranticforest-03",
+      "summary": "Purification of Frantic Forest phase · 7 or 8 days · Core rewards: Costume [Mountain Rescue] (★4), Mors, Freesia"
+    },
+    {
+      "title": "Purification of Frantic Forest IV",
+      "category": "event phases",
+      "id": "GveFranticForest_04",
+      "internal_id": "GveFranticForest",
+      "url": "events/gve-frantic-forest/#event-phase-gvefranticforest-04",
+      "summary": "Purification of Frantic Forest phase · 7 or 8 days · Core rewards: Costume [The Birth of Freesia] (★5), Costume [Mountain Rescue] (★4), Mors, Freesia"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "events",
+      "id": "SeasonJourney",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/",
+      "summary": "5 phases · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_001",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-001",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_002",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-002",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Under the Spotlight] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_003",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-003",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Exclusive Performance] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_004",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-004",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Artistic Guidance] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_005",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-005",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Candlelit Dinner] (★3)"
+    },
+    {
+      "title": "Raphael's Stage",
+      "category": "events",
+      "id": "RaphaelStage",
+      "internal_id": "RaphaelStage",
+      "url": "events/raphael-stage/",
+      "summary": "6 phases · 6, 7, or 8 days · Core rewards: Thalia, Skogul, Emily, Anpu, Raphael, Costume [Stunning Entrance] (★4)"
+    },
+    {
+      "title": "Raphael's Stage",
+      "category": "event phases",
+      "id": "RaphaelStage_01",
+      "internal_id": "RaphaelStage",
+      "url": "events/raphael-stage/#event-phase-raphaelstage-01",
+      "summary": "Raphael's Stage phase · 6 or 7 days · Core rewards: Thalia, Skogul, Emily"
+    },
+    {
+      "title": "Raphael's Stage",
+      "category": "event phases",
+      "id": "RaphaelStage_N1",
+      "internal_id": "RaphaelStage",
+      "url": "events/raphael-stage/#event-phase-raphaelstage-n1",
+      "summary": "Raphael's Stage phase · 7 or 8 days · Core rewards: Thalia, Skogul, Emily"
+    },
+    {
+      "title": "Raphael's Stage",
+      "category": "event phases",
+      "id": "RaphaelStage_N1and2",
+      "internal_id": "RaphaelStage",
+      "url": "events/raphael-stage/#event-phase-raphaelstage-n1and2",
+      "summary": "Raphael's Stage phase · 6 or 7 days · Core rewards: Thalia, Skogul, Anpu, Raphael"
+    },
+    {
+      "title": "Raphael's Stage",
+      "category": "event phases",
+      "id": "RaphaelStage_N2",
+      "internal_id": "RaphaelStage",
+      "url": "events/raphael-stage/#event-phase-raphaelstage-n2",
+      "summary": "Raphael's Stage phase · 7 or 8 days · Core rewards: Anpu, Raphael"
+    },
+    {
+      "title": "Raphael's Stage",
+      "category": "event phases",
+      "id": "RStage_N3",
+      "internal_id": "RaphaelStage",
+      "url": "events/raphael-stage/#event-phase-rstage-n3",
+      "summary": "Raphael's Stage phase · 7 or 8 days · Core rewards: Thalia, Skogul, Anpu, Raphael, Costume [Stunning Entrance] (★4)"
+    },
+    {
+      "title": "Raphael's Stage",
+      "category": "event phases",
+      "id": "RStage_N4",
+      "internal_id": "RaphaelStage",
+      "url": "events/raphael-stage/#event-phase-rstage-n4",
+      "summary": "Raphael's Stage phase · 7 or 8 days · Core rewards: Thalia, Skogul, Anpu, Raphael, Costume [Stunning Entrance] (★4), Costume [Divine Light Reborn] (★5)"
+    },
+    {
+      "title": "Sandtopia Pilgrimage",
+      "category": "events",
+      "id": "GuildWar",
+      "internal_id": "GuildWar",
+      "url": "events/guild-war/",
+      "summary": "6 phases · 6 or 7 days · Core rewards: Leon, Mysterious Magic Insignia, Skill Pearl, Mia"
+    },
+    {
+      "title": "Sandtopia Pilgrimage",
+      "category": "event phases",
+      "id": "GuildWar_01_6d",
+      "internal_id": "GuildWar",
+      "url": "events/guild-war/#event-phase-guildwar-01-6d",
+      "summary": "Sandtopia Pilgrimage phase · Not configured · Core rewards: Leon, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Sandtopia Pilgrimage",
+      "category": "event phases",
+      "id": "GuildWar_01_7d",
+      "internal_id": "GuildWar",
+      "url": "events/guild-war/#event-phase-guildwar-01-7d",
+      "summary": "Sandtopia Pilgrimage phase · Not configured · Core rewards: Leon, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Sandtopia Pilgrimage",
+      "category": "event phases",
+      "id": "GuildWar_02_6d",
+      "internal_id": "GuildWar",
+      "url": "events/guild-war/#event-phase-guildwar-02-6d",
+      "summary": "Sandtopia Pilgrimage phase · 6 days · Core rewards: Leon, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Sandtopia Pilgrimage",
+      "category": "event phases",
+      "id": "GuildWar_02_7d",
+      "internal_id": "GuildWar",
+      "url": "events/guild-war/#event-phase-guildwar-02-7d",
+      "summary": "Sandtopia Pilgrimage phase · 7 days · Core rewards: Leon, Mysterious Magic Insignia, Skill Pearl"
+    },
+    {
+      "title": "Sandtopia Pilgrimage",
+      "category": "event phases",
+      "id": "GuildWar_03_6d",
+      "internal_id": "GuildWar",
+      "url": "events/guild-war/#event-phase-guildwar-03-6d",
+      "summary": "Sandtopia Pilgrimage phase · 6 days · Core rewards: Leon, Mia, Mysterious Magic Insignia"
+    },
+    {
+      "title": "Sandtopia Pilgrimage",
+      "category": "event phases",
+      "id": "GuildWar_03_7d",
+      "internal_id": "GuildWar",
+      "url": "events/guild-war/#event-phase-guildwar-03-7d",
+      "summary": "Sandtopia Pilgrimage phase · 7 days · Core rewards: Leon, Mia, Mysterious Magic Insignia"
+    },
+    {
+      "title": "Savage! Inferno Rally",
+      "category": "events",
+      "id": "GveInfernoRally",
+      "internal_id": "GveInfernoRally",
+      "url": "events/gve-inferno-rally/",
+      "summary": "3 phases · 7 or 8 days · Core rewards: Gale, Justitia, Figure [Hell Racer], Umbra, Figure [Queen of Speed]"
+    },
+    {
+      "title": "Savage! Inferno Rally",
+      "category": "event phases",
+      "id": "GveInfernoRally_01",
+      "internal_id": "GveInfernoRally",
+      "url": "events/gve-inferno-rally/#event-phase-gveinfernorally-01",
+      "summary": "Savage! Inferno Rally phase · 7 or 8 days · Core rewards: Gale, Justitia, Figure [Hell Racer]"
+    },
+    {
+      "title": "Savage! Inferno Rally",
+      "category": "event phases",
+      "id": "GveInfernoRally_02",
+      "internal_id": "GveInfernoRally",
+      "url": "events/gve-inferno-rally/#event-phase-gveinfernorally-02",
+      "summary": "Savage! Inferno Rally phase · 7 or 8 days · Core rewards: Umbra, Figure [Queen of Speed], Gale, Justitia, Figure [Hell Racer]"
+    },
+    {
+      "title": "Savage! Inferno Rally",
+      "category": "event phases",
+      "id": "GveInfernoRally_N1",
+      "internal_id": "GveInfernoRally",
+      "url": "events/gve-inferno-rally/#event-phase-gveinfernorally-n1",
+      "summary": "Savage! Inferno Rally phase · 7 or 8 days · Core rewards: Gale, Justitia, Figure [Hell Racer]"
+    },
+    {
+      "title": "School Task",
+      "category": "events",
+      "id": "MasterTextHard",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/",
+      "summary": "9 phases · 3, 4, 6, or 7 days · Core rewards: Mermaid's Tear, 「Promising Pupil」Frame, Valiant Insignia, Skill Pearl, Super Contract, Advanced Incense"
+    },
+    {
+      "title": "School Task",
+      "category": "event phases",
+      "id": "MasterTextHard_01",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertexthard-01",
+      "summary": "School Task phase · 3 days · Core rewards: Mermaid's Tear, 「Promising Pupil」Frame, Valiant Insignia"
+    },
+    {
+      "title": "School Task",
+      "category": "event phases",
+      "id": "MasterTextHard_02",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertexthard-02",
+      "summary": "School Task phase · 3 or 4 days · Core rewards: Mermaid's Tear, 「Promising Pupil」Frame, Valiant Insignia"
+    },
+    {
+      "title": "School Task",
+      "category": "event phases",
+      "id": "MasterTextHard_03",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertexthard-03",
+      "summary": "School Task phase · 3 or 4 days · Core rewards: Mermaid's Tear, 「Promising Pupil」Frame, Valiant Insignia"
+    },
+    {
+      "title": "Inn Task",
+      "category": "event phases",
+      "id": "MasterTextInn_01",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertextinn-01",
+      "summary": "School Task phase · 3 or 4 days · Core rewards: Mermaid's Tear, Valiant Insignia, Skill Pearl"
+    },
+    {
+      "title": "Inn Task",
+      "category": "event phases",
+      "id": "MasterTextInn_02",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertextinn-02",
+      "summary": "School Task phase · 3 or 4 days · Core rewards: Mermaid's Tear, Valiant Insignia, Skill Pearl"
+    },
+    {
+      "title": "Familiar Task",
+      "category": "event phases",
+      "id": "MasterTextPet_01",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertextpet-01",
+      "summary": "School Task phase · 6 or 7 days · Core rewards: Super Contract, Advanced Incense, Familiar Crystal"
+    },
+    {
+      "title": "Familiar Adventure",
+      "category": "event phases",
+      "id": "MasterTextPet_02",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertextpet-02",
+      "summary": "School Task phase · 6 or 7 days · Core rewards: Refined Metamorphixir, Advanced Contract, Familiar Crystal"
+    },
+    {
+      "title": "Familiar Awakening",
+      "category": "event phases",
+      "id": "MasterTextPet_03",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertextpet-03",
+      "summary": "School Task phase · 6 or 7 days · Core rewards: Skill Pearl, Familiar Crystal, Magical Fruit"
+    },
+    {
+      "title": "Treasure Task",
+      "category": "event phases",
+      "id": "MasterTextRelic_01",
+      "internal_id": "MasterTextHard",
+      "url": "events/master-text-hard/#event-phase-mastertextrelic-01",
+      "summary": "School Task phase · 6 or 7 days · Core rewards: Mermaid's Tear, Mole Coin, Informed Coin Chest"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "events",
+      "id": "PhotoEvent",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/",
+      "summary": "17 phases · 12 days · Core rewards: Costume [Highly Praised Business!] (★3), Boudoir Photo: Gina, Costume [Witch in the Wind] (★3), Costume [Archmage of Light] (★3), Boudoir Photo: Catherine & Ena, Costume [Wisteria Beauty] (★3)"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_01",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-01",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Highly Praised Business!] (★3), Boudoir Photo: Gina"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_02",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-02",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Witch in the Wind] (★3), Costume [Archmage of Light] (★3), Boudoir Photo: Catherine & Ena"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_03",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-03",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Wisteria Beauty] (★3), Costume [Charming Flower] (★3), Boudoir Photo: Melody & Isatilra"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_04",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-04",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Cool Feast] (★3), Costume [Dreamy Bubbles] (★3), Boudoir Photo: Maynard & Sofia"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_05",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-05",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Shy Cheerleader] (★3), Costume [Royal Cheerleader] (★3), Boudoir Photo: Lulu & Merry"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_06",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-06",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Sculpt Perfect Curves] (★3), Costume [Vibrant] (★3), Boudoir Photo: Chihaya & Mater"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_07",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-07",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Morning after Overtime] (★3), Costume [Secrets after Work] (★3), Boudoir Photo: Nene & Freyja"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_08",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-08",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [The Silent Dealer] (★3), Costume [The Noble Escort] (★3), Boudoir Photo: Wenreesa & Vlad XIII"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N1",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n1",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Highly Praised Business!] (★3), Boudoir Photo: Gina"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N2",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n2",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Witch in the Wind] (★3), Costume [Archmage of Light] (★3), Boudoir Photo: Catherine & Ena"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N3",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n3",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Wisteria Beauty] (★3), Costume [Charming Flower] (★3), Boudoir Photo: Melody & Isatilra"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N4",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n4",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Cool Feast] (★3), Costume [Dreamy Bubbles] (★3), Boudoir Photo: Maynard & Sofia"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N5",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n5",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Shy Cheerleader] (★3), Costume [Royal Cheerleader] (★3), Boudoir Photo: Lulu & Merry"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N6",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n6",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Sculpt Perfect Curves] (★3), Costume [Vibrant] (★3), Boudoir Photo: Chihaya & Mater"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N7",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n7",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Morning after Overtime] (★3), Costume [Secrets after Work] (★3), Boudoir Photo: Nene & Freyja"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_N8",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-n8",
+      "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [The Silent Dealer] (★3), Costume [The Noble Escort] (★3), Boudoir Photo: Wenreesa & Vlad XIII"
+    },
+    {
+      "title": "Sepia Portrait Studio",
+      "category": "event phases",
+      "id": "PhotoEvent_rerun",
+      "internal_id": "PhotoEvent",
+      "url": "events/photo-event/#event-phase-photoevent-rerun",
+      "summary": "Sepia Portrait Studio phase · 12 days"
+    },
+    {
+      "title": "Siege Warfare ~Showdown~",
+      "category": "events",
+      "id": "SiegeWarfare",
+      "internal_id": "SiegeWarfare",
+      "url": "events/siege-warfare/",
+      "summary": "2 phases · 7 days · Core rewards: [Battlefield Commander] Figure, Guild Coin, Skill Pearl, Unprocessed Druse"
+    },
+    {
+      "title": "Siege Warfare ~Showdown~",
+      "category": "event phases",
+      "id": "SiegeWarfare_01",
+      "internal_id": "SiegeWarfare",
+      "url": "events/siege-warfare/#event-phase-siegewarfare-01",
+      "summary": "Siege Warfare ~Showdown~ phase · 7 days · Core rewards: [Battlefield Commander] Figure"
+    },
+    {
+      "title": "Siege Warfare",
+      "category": "event phases",
+      "id": "SiegeWarfare_01_Low",
+      "internal_id": "SiegeWarfare",
+      "url": "events/siege-warfare/#event-phase-siegewarfare-01-low",
+      "summary": "Siege Warfare ~Showdown~ phase · 7 days · Core rewards: Guild Coin, Skill Pearl, Unprocessed Druse"
+    },
+    {
+      "title": "Spring Festival",
+      "category": "events",
+      "id": "SpringFestival2025",
+      "internal_id": "SpringFestival2025",
+      "url": "events/spring-festival2025/",
+      "summary": "1 phases · 14 or 21 days · Core rewards: Costume [Fortune Arrives] (★4), Costume [The Beast Nian] (★4), Costume [Step Right In, Guests!] (★2), Costume [New Year First Bite] (★2), Figure [New Year Cheer], Figure [New Year Cheer]"
+    },
+    {
+      "title": "Happy New Year~Golden Fair Parade~",
+      "category": "event phases",
+      "id": "SpringFestival2025_TW",
+      "internal_id": "SpringFestival2025",
+      "url": "events/spring-festival2025/#event-phase-springfestival2025-tw",
+      "summary": "Spring Festival phase · 14 or 21 days · Core rewards: Costume [Fortune Arrives] (★4), Costume [The Beast Nian] (★4), Costume [Step Right In, Guests!] (★2), Costume [New Year First Bite] (★2), Figure [New Year Cheer], Figure [New Year Cheer]"
+    },
+    {
+      "title": "Sunrise of New Year in Isekai",
+      "category": "events",
+      "id": "NewYear",
+      "internal_id": "NewYear",
+      "url": "events/new-year/",
+      "summary": "1 phases · 14 days · Core rewards: Costume [Full-Power Swing] (★4), Costume [Reward for Hard Work] (★4), Costume [First Sunrise With You] (★3)"
+    },
+    {
+      "title": "Fortune Awaits! Sunrise of New Year in Isekai",
+      "category": "event phases",
+      "id": "NewYear2026",
+      "internal_id": "NewYear",
+      "url": "events/new-year/#event-phase-newyear2026",
+      "summary": "Sunrise of New Year in Isekai phase · 14 days · Core rewards: Costume [Full-Power Swing] (★4), Costume [Reward for Hard Work] (★4), Costume [First Sunrise With You] (★3)"
+    },
+    {
+      "title": "Super Star",
+      "category": "events",
+      "id": "URPlusGachaEvent",
+      "internal_id": "URPlusGachaEvent",
+      "url": "events/urplus-gacha-event/",
+      "summary": "3 phases · 7, 10, 14, or 21 days · Core rewards: Gabrael, Hina, Frogella"
+    },
+    {
+      "title": "Super Star of Light and Shadow",
+      "category": "event phases",
+      "id": "Hashimoto_Common_01",
+      "internal_id": "URPlusGachaEvent",
+      "url": "events/urplus-gacha-event/#event-phase-hashimoto-common-01",
+      "summary": "Super Star phase · 7, 10, 14, or 21 days · Core rewards: Gabrael"
+    },
+    {
+      "title": "Super Star of Light and Shadow",
+      "category": "event phases",
+      "id": "Hashimoto_JP_01",
+      "internal_id": "URPlusGachaEvent",
+      "url": "events/urplus-gacha-event/#event-phase-hashimoto-jp-01",
+      "summary": "Super Star phase · 7, 10, 14, or 21 days · Core rewards: Gabrael"
+    },
+    {
+      "title": "Celestial Maiden Wish Festival",
+      "category": "event phases",
+      "id": "URPlusGachaEvent_01",
+      "internal_id": "URPlusGachaEvent",
+      "url": "events/urplus-gacha-event/#event-phase-urplusgachaevent-01",
+      "summary": "Super Star phase · 14 days · Core rewards: Hina, Frogella"
+    },
+    {
+      "title": "Sweet Xocolate",
+      "category": "events",
+      "id": "ValentineChocolate",
+      "internal_id": "ValentineChocolate",
+      "url": "events/valentine-chocolate/",
+      "summary": "4 phases · 6, 7, 9, or 21 days · Core rewards: Costume [An Unexpected Outfit] (★3), Costume [A Bold Change] (★3), Costume [A Loving Painting] (★3), Costume [Full of Heart] (★4), Costume [Your Exclusive Idol] (★4), Costume [Warm Affections] (★3)"
+    },
+    {
+      "title": "Sweet Xocolate",
+      "category": "event phases",
+      "id": "ValentineChocolate_1",
+      "internal_id": "ValentineChocolate",
+      "url": "events/valentine-chocolate/#event-phase-valentinechocolate-1",
+      "summary": "Sweet Xocolate phase · 6 or 7 days · Core rewards: Costume [An Unexpected Outfit] (★3), Costume [A Bold Change] (★3), Costume [A Loving Painting] (★3)"
+    },
+    {
+      "title": "Sweet Xocolate",
+      "category": "event phases",
+      "id": "ValentineChocolate_2_EN",
+      "internal_id": "ValentineChocolate",
+      "url": "events/valentine-chocolate/#event-phase-valentinechocolate-2-en",
+      "summary": "Sweet Xocolate phase · 7 or 9 days · Core rewards: Costume [Full of Heart] (★4), Costume [Your Exclusive Idol] (★4), Costume [Warm Affections] (★3)"
+    },
+    {
+      "title": "Sweet Xocolate",
+      "category": "event phases",
+      "id": "ValentineChocolate_2_JPTW",
+      "internal_id": "ValentineChocolate",
+      "url": "events/valentine-chocolate/#event-phase-valentinechocolate-2-jptw",
+      "summary": "Sweet Xocolate phase · 9 days · Core rewards: Costume [Full of Heart] (★4), Costume [Your Exclusive Idol] (★4), Costume [Warm Affections] (★3)"
+    },
+    {
+      "title": "Sweet Xocolate",
+      "category": "event phases",
+      "id": "ValentineChocolate_3",
+      "internal_id": "ValentineChocolate",
+      "url": "events/valentine-chocolate/#event-phase-valentinechocolate-3",
+      "summary": "Sweet Xocolate phase · 21 days · Core rewards: Costume [Fluffy Chirp Park] (★4), Costume [Glow under the Sea] (★4), Costume [Gilded Sweet Affection] (★3)"
+    },
+    {
+      "title": "Time to Eat! Delicious Dungeon Quest",
+      "category": "events",
+      "id": "GveKingArthur",
+      "internal_id": "GveKingArthur",
+      "url": "events/gve-king-arthur/",
+      "summary": "2 phases · 7 or 8 days · Core rewards: Liona, Philo, Figure [Stalker], Figure [Stalker], Fifi"
+    },
+    {
+      "title": "Time to Eat! Delicious Dungeon Quest",
+      "category": "event phases",
+      "id": "GveKingArthur_01",
+      "internal_id": "GveKingArthur",
+      "url": "events/gve-king-arthur/#event-phase-gvekingarthur-01",
+      "summary": "Time to Eat! Delicious Dungeon Quest phase · 7 or 8 days · Core rewards: Liona, Philo, Figure [Stalker], Figure [Stalker]"
+    },
+    {
+      "title": "Time to Eat! Delicious Dungeon Quest",
+      "category": "event phases",
+      "id": "GveKingArthur_02",
+      "internal_id": "GveKingArthur",
+      "url": "events/gve-king-arthur/#event-phase-gvekingarthur-02",
+      "summary": "Time to Eat! Delicious Dungeon Quest phase · 7 or 8 days · Core rewards: Fifi, Liona, Philo, Figure [Stalker], Figure [Stalker]"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "events",
+      "id": "ESCeremony",
+      "internal_id": "ESCeremony",
+      "url": "events/esceremony/",
+      "summary": "4 phases · Not configured · Core rewards: Amaterasu, Iori, Kagura, Touno Flower"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCeremony_01",
+      "internal_id": "ESCeremony",
+      "url": "events/esceremony/#event-phase-esceremony-01",
+      "summary": "Touno Island Story phase · Not configured · Core rewards: Amaterasu, Iori, Kagura, Touno Flower"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCeremony_01_1",
+      "internal_id": "ESCeremony",
+      "url": "events/esceremony/#event-phase-esceremony-01-1",
+      "summary": "Touno Island Story phase · Not configured · Core rewards: Amaterasu, Iori, Kagura, Touno Flower"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCeremony_02_1",
+      "internal_id": "ESCeremony",
+      "url": "events/esceremony/#event-phase-esceremony-02-1",
+      "summary": "Touno Island Story phase · Not configured · Core rewards: Amaterasu, Iori, Kagura, Touno Flower"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCeremony_02_2",
+      "internal_id": "ESCeremony",
+      "url": "events/esceremony/#event-phase-esceremony-02-2",
+      "summary": "Touno Island Story phase · Not configured · Core rewards: Amaterasu, Iori, Kagura, Touno Flower"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "events",
+      "id": "ESCReborn",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/",
+      "summary": "13 phases · 7 or 8 days · Core rewards: Amaterasu, Iori, Kagura, Touno Flower, Tsukuyomi, Costume [Fleeting Glimpse] (★4)"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_01",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-01",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Amaterasu, Iori, Kagura, Touno Flower"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_02",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-02",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Amaterasu, Tsukuyomi, Iori, Kagura"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_03",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-03",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Amaterasu, Tsukuyomi, Costume [Fleeting Glimpse] (★4), Costume [The Joys Bringer] (★4)"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_04",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-04",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Costume [Divine Favor] (★5), Amaterasu, Tsukuyomi"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_05",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-05",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Tamamo, Futaba, Amaterasu, Tsukuyomi"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_N1",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-n1",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Amaterasu, Tsukuyomi, Iori, Kagura"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_N2",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-n2",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Amaterasu, Tsukuyomi, Iori, Kagura, Costume [Fleeting Glimpse] (★4), Costume [The Joys Bringer] (★4)"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_N3",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-n3",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Amaterasu, Tsukuyomi, Costume [Fleeting Glimpse] (★4), Costume [The Joys Bringer] (★4), Costume [Divine Favor] (★5)"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_N4",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-n4",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Amaterasu, Tsukuyomi, Costume [Divine Favor] (★5), Tamamo, Futaba"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_V2N1",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-v2n1",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Iori, Kagura"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_V2N2",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-v2n2",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Iori, Kagura, Costume [Fleeting Glimpse] (★4), Costume [The Joys Bringer] (★4)"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_V2N3",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-v2n3",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Iori, Kagura, Costume [Fleeting Glimpse] (★4), Costume [The Joys Bringer] (★4), Costume [Divine Favor] (★5)"
+    },
+    {
+      "title": "Touno Island Story",
+      "category": "event phases",
+      "id": "ESCReborn_V2N4",
+      "internal_id": "ESCReborn",
+      "url": "events/escreborn/#event-phase-escreborn-v2n4",
+      "summary": "Touno Island Story phase · 7 or 8 days · Core rewards: Iori, Kagura, Costume [Fleeting Glimpse] (★4), Costume [The Joys Bringer] (★4), Costume [Divine Favor] (★5), Futaba"
+    },
+    {
+      "title": "Treasure Hunting Night",
+      "category": "events",
+      "id": "monopoly",
+      "internal_id": "monopoly",
+      "url": "events/monopoly/",
+      "summary": "5 phases · 6, 7, or 15 days · Core rewards: Shiny Coin, Amber of Fish, Strange Pearl, Acquaint Stone"
+    },
+    {
+      "title": "Treasure Hunting Night",
+      "category": "event phases",
+      "id": "Monopoly_01_Day6",
+      "internal_id": "monopoly",
+      "url": "events/monopoly/#event-phase-monopoly-01-day6",
+      "summary": "Treasure Hunting Night phase · Not configured · Core rewards: Shiny Coin, Amber of Fish, Strange Pearl, Acquaint Stone"
+    },
+    {
+      "title": "Treasure Hunting Night",
+      "category": "event phases",
+      "id": "Monopoly_01_Day7",
+      "internal_id": "monopoly",
+      "url": "events/monopoly/#event-phase-monopoly-01-day7",
+      "summary": "Treasure Hunting Night phase · Not configured · Core rewards: Shiny Coin, Amber of Fish, Strange Pearl, Acquaint Stone"
+    },
+    {
+      "title": "Adeline's \"Treasure\"",
+      "category": "event phases",
+      "id": "Monopoly_02",
+      "internal_id": "monopoly",
+      "url": "events/monopoly/#event-phase-monopoly-02",
+      "summary": "Treasure Hunting Night phase · 6 days · Core rewards: Shiny Coin, Amber of Fish, Strange Pearl, Acquaint Stone"
+    },
+    {
+      "title": "Adeline's \"Treasure\"",
+      "category": "event phases",
+      "id": "Monopoly_02_Day7",
+      "internal_id": "monopoly",
+      "url": "events/monopoly/#event-phase-monopoly-02-day7",
+      "summary": "Treasure Hunting Night phase · 7 days · Core rewards: Shiny Coin, Amber of Fish, Strange Pearl, Acquaint Stone"
+    },
+    {
+      "title": "Festival Legend",
+      "category": "event phases",
+      "id": "Monopoly_03_Xmas",
+      "internal_id": "monopoly",
+      "url": "events/monopoly/#event-phase-monopoly-03-xmas",
+      "summary": "Treasure Hunting Night phase · 15 days"
+    },
+    {
+      "title": "Village Ceremony ~2nd Anniversary~",
+      "category": "events",
+      "id": "Anniversary2025",
+      "internal_id": "Anniversary2025",
+      "url": "events/anniversary2025/",
+      "summary": "4 phases · 7, 10, 14, 15, or 21 days · Core rewards: Costume [Swirling Skirt] (★4), Costume [Full Blast Launch] (★3), Costume [Rainbow Magic] (★4), Costume [A Riot of Color] (★3)"
+    },
+    {
+      "title": "Village Ceremony ~2nd Anniversary~",
+      "category": "event phases",
+      "id": "Anniversary_EN_02",
+      "internal_id": "Anniversary2025",
+      "url": "events/anniversary2025/#event-phase-anniversary-en-02",
+      "summary": "Village Ceremony ~2nd Anniversary~ phase · 7, 10, 14, or 21 days · Core rewards: Costume [Swirling Skirt] (★4), Costume [Full Blast Launch] (★3)"
+    },
+    {
+      "title": "Village Ceremony ~3rd Anniversary~",
+      "category": "event phases",
+      "id": "Anniversary_EN_03",
+      "internal_id": "Anniversary2025",
+      "url": "events/anniversary2025/#event-phase-anniversary-en-03",
+      "summary": "Village Ceremony ~2nd Anniversary~ phase · 7, 10, or 14 days · Core rewards: Costume [Rainbow Magic] (★4), Costume [A Riot of Color] (★3)"
+    },
+    {
+      "title": "Village Ceremony",
+      "category": "event phases",
+      "id": "Anniversary_JP_01",
+      "internal_id": "Anniversary2025",
+      "url": "events/anniversary2025/#event-phase-anniversary-jp-01",
+      "summary": "Village Ceremony ~2nd Anniversary~ phase · 7, 10, 14, 15, or 21 days · Core rewards: Costume [Swirling Skirt] (★4), Costume [Full Blast Launch] (★3)"
+    },
+    {
+      "title": "Village Ceremony ~2nd Anniversary~",
+      "category": "event phases",
+      "id": "Anniversary_JP_02",
+      "internal_id": "Anniversary2025",
+      "url": "events/anniversary2025/#event-phase-anniversary-jp-02",
+      "summary": "Village Ceremony ~2nd Anniversary~ phase · 7, 10, or 14 days · Core rewards: Costume [Rainbow Magic] (★4), Costume [A Riot of Color] (★3)"
+    },
+    {
+      "title": "Wealth from All Sides: Bazaar Mania",
+      "category": "events",
+      "id": "GveCoinFight",
+      "internal_id": "GveCoinFight",
+      "url": "events/gve-coin-fight/",
+      "summary": "1 phases · 7 or 8 days · Core rewards: Linlang, Figure [Harvest Day M], Figure [Harvest Day F]"
+    },
+    {
+      "title": "Wealth from All Sides: Bazaar Mania",
+      "category": "event phases",
+      "id": "GveCoinFight_01",
+      "internal_id": "GveCoinFight",
+      "url": "events/gve-coin-fight/#event-phase-gvecoinfight-01",
+      "summary": "Wealth from All Sides: Bazaar Mania phase · 7 or 8 days · Core rewards: Linlang, Figure [Harvest Day M], Figure [Harvest Day F]"
+    },
+    {
+      "title": "Wine Goddess and Fine Vintage",
+      "category": "events",
+      "id": "Anniversary2Half",
+      "internal_id": "Anniversary2Half",
+      "url": "events/anniversary2-half/",
+      "summary": "5 phases · 7, 10, 14, or 21 days · Core rewards: Dionysia, Fafnyria, Kerr & Bel & Ross, Crysta, Costume [Judgment: Never to Separate] (★4), Costume [Vow of the Crystal Queen] (★3)"
+    },
+    {
+      "title": "Wine Goddess and Fine Vintage",
+      "category": "event phases",
+      "id": "Anniversary2Half_EN",
+      "internal_id": "Anniversary2Half",
+      "url": "events/anniversary2-half/#event-phase-anniversary2half-en",
+      "summary": "Wine Goddess and Fine Vintage phase · 7, 10, 14, or 21 days · Core rewards: Dionysia"
+    },
+    {
+      "title": "Evil Dragon's Wedding Service",
+      "category": "event phases",
+      "id": "HeroOathEvent_01",
+      "internal_id": "Anniversary2Half",
+      "url": "events/anniversary2-half/#event-phase-herooathevent-01",
+      "summary": "Wine Goddess and Fine Vintage phase · 7, 10, 14, or 21 days · Core rewards: Fafnyria, Kerr & Bel & Ross, Crysta, Costume [Judgment: Never to Separate] (★4), Costume [Vow of the Crystal Queen] (★3)"
+    },
+    {
+      "title": "Evil Dragon's Wedding Service",
+      "category": "event phases",
+      "id": "HeroOathEvent_01_JP",
+      "internal_id": "Anniversary2Half",
+      "url": "events/anniversary2-half/#event-phase-herooathevent-01-jp",
+      "summary": "Wine Goddess and Fine Vintage phase · 7, 10, 14, or 21 days · Core rewards: Fafnyria, Amaterasu, Loya, Costume [Untainted Sun Goddess] (★4), Costume [Doll's Sincerity] (★3)"
+    },
+    {
+      "title": "Evil Dragon's Wedding Service",
+      "category": "event phases",
+      "id": "HeroOathEvent_02_EN",
+      "internal_id": "Anniversary2Half",
+      "url": "events/anniversary2-half/#event-phase-herooathevent-02-en",
+      "summary": "Wine Goddess and Fine Vintage phase · 7, 10, 14, or 21 days · Core rewards: Fafnyria, Amaterasu, Loya, Costume [Untainted Sun Goddess] (★4), Costume [Doll's Sincerity] (★3)"
+    },
+    {
+      "title": "Evil Dragon's Wedding Service",
+      "category": "event phases",
+      "id": "HeroOathEvent_02_TW",
+      "internal_id": "Anniversary2Half",
+      "url": "events/anniversary2-half/#event-phase-herooathevent-02-tw",
+      "summary": "Wine Goddess and Fine Vintage phase · 7, 10, 14, or 21 days · Core rewards: Fafnyria, Amaterasu, Loya, Costume [Untainted Sun Goddess] (★4), Costume [Doll's Sincerity] (★3)"
+    },
+    {
+      "title": "Woof Woof Bakery",
+      "category": "events",
+      "id": "GameThreeMatch",
+      "internal_id": "GameThreeMatch",
+      "url": "events/game-three-match/",
+      "summary": "2 phases · 3 or 4 days · Core rewards: 「Woof Woof Bread」"
+    },
+    {
+      "title": "Woof Woof Bakery",
+      "category": "event phases",
+      "id": "GameThreeMatch_1",
+      "internal_id": "GameThreeMatch",
+      "url": "events/game-three-match/#event-phase-gamethreematch-1",
+      "summary": "Woof Woof Bakery phase · 3 or 4 days · Core rewards: 「Woof Woof Bread」"
+    },
+    {
+      "title": "Woof Woof Bakery",
+      "category": "event phases",
+      "id": "GameThreeMatch_tishen",
+      "internal_id": "GameThreeMatch",
+      "url": "events/game-three-match/#event-phase-gamethreematch-tishen",
+      "summary": "Woof Woof Bakery phase · Not configured · Core rewards: 「Woof Woof Bread」"
+    },
+    {
+      "title": "World Tree Cup",
+      "category": "events",
+      "id": "navigation",
+      "internal_id": "navigation",
+      "url": "events/navigation/",
+      "summary": "6 phases · 7 or 8 days · Core rewards: Orivita, Tigirl, Holly, World Tree Sprout, Costume [Kitty the Rescuer] (★4)"
+    },
+    {
+      "title": "World Tree Cup",
+      "category": "event phases",
+      "id": "Navigation_01",
+      "internal_id": "navigation",
+      "url": "events/navigation/#event-phase-navigation-01",
+      "summary": "World Tree Cup phase · Not configured · Core rewards: Orivita, Tigirl, Holly, World Tree Sprout"
+    },
+    {
+      "title": "World Tree Cup",
+      "category": "event phases",
+      "id": "Navigation_02",
+      "internal_id": "navigation",
+      "url": "events/navigation/#event-phase-navigation-02",
+      "summary": "World Tree Cup phase · 7 or 8 days · Core rewards: Orivita, Tigirl, Holly, World Tree Sprout"
+    },
+    {
+      "title": "World Tree Cup",
+      "category": "event phases",
+      "id": "Navigation_02_JP",
+      "internal_id": "navigation",
+      "url": "events/navigation/#event-phase-navigation-02-jp",
+      "summary": "World Tree Cup phase · 7 or 8 days · Core rewards: Orivita, Tigirl, Holly, World Tree Sprout"
+    },
+    {
+      "title": "World Tree Cup",
+      "category": "event phases",
+      "id": "Navigation_N1",
+      "internal_id": "navigation",
+      "url": "events/navigation/#event-phase-navigation-n1",
+      "summary": "World Tree Cup phase · 7 or 8 days · Core rewards: Orivita, Tigirl, Holly, World Tree Sprout"
+    },
+    {
+      "title": "World Tree Cup",
+      "category": "event phases",
+      "id": "Navigation_N1_JP",
+      "internal_id": "navigation",
+      "url": "events/navigation/#event-phase-navigation-n1-jp",
+      "summary": "World Tree Cup phase · 7 or 8 days · Core rewards: Orivita, Tigirl, Holly, World Tree Sprout"
+    },
+    {
+      "title": "World Tree Cup",
+      "category": "event phases",
+      "id": "Navigation_S1",
+      "internal_id": "navigation",
+      "url": "events/navigation/#event-phase-navigation-s1",
+      "summary": "World Tree Cup phase · Not configured · Core rewards: Orivita, Tigirl, Holly, Costume [Kitty the Rescuer] (★4)"
+    },
+    {
+      "title": "World Tree: Water Fight",
+      "category": "events",
+      "id": "WaterFight",
+      "internal_id": "WaterFight",
+      "url": "events/water-fight/",
+      "summary": "4 phases · 7 or 8 days · Core rewards: Orivita, Costume [Avatar's Loving Gaze] (★5), Flos, Namiko, Costume [Water Gun Showdown!] (★4), Costume [Playing with Water] (★4)"
+    },
+    {
+      "title": "World Tree: Water Fight",
+      "category": "event phases",
+      "id": "WaterFight_01",
+      "internal_id": "WaterFight",
+      "url": "events/water-fight/#event-phase-waterfight-01",
+      "summary": "World Tree: Water Fight phase · 7 or 8 days · Core rewards: Orivita, Costume [Avatar's Loving Gaze] (★5), Flos"
+    },
+    {
+      "title": "World Tree: Water Fight",
+      "category": "event phases",
+      "id": "WaterFight_02",
+      "internal_id": "WaterFight",
+      "url": "events/water-fight/#event-phase-waterfight-02",
+      "summary": "World Tree: Water Fight phase · 7 or 8 days · Core rewards: Namiko, Costume [Avatar's Loving Gaze] (★5), Orivita"
+    },
+    {
+      "title": "World Tree: Water Fight",
+      "category": "event phases",
+      "id": "WaterFight_03",
+      "internal_id": "WaterFight",
+      "url": "events/water-fight/#event-phase-waterfight-03",
+      "summary": "World Tree: Water Fight phase · 7 or 8 days · Core rewards: Namiko, Costume [Avatar's Loving Gaze] (★5), Costume [Water Gun Showdown!] (★4), Costume [Playing with Water] (★4)"
+    },
+    {
+      "title": "World Tree: Water Fight",
+      "category": "event phases",
+      "id": "WaterFight_04",
+      "internal_id": "WaterFight",
+      "url": "events/water-fight/#event-phase-waterfight-04",
+      "summary": "World Tree: Water Fight phase · 7 or 8 days · Core rewards: Namiko, Costume [Avatar's Loving Gaze] (★5), Orivita, Onikiri"
+    },
+    {
+      "title": "Wrestling Championship",
+      "category": "events",
+      "id": "miniposter",
+      "internal_id": "miniposter",
+      "url": "events/miniposter/",
+      "summary": "5 phases · 3 or 4 days · Core rewards: Championship Statue, Valiant Insignia Fragment, Acquaint Stone Fragment, Song: “Unlucky Succubus”, Deep Sea Barreleye, Flaming Lion"
+    },
+    {
+      "title": "MP01",
+      "category": "event phases",
+      "id": "MP01",
+      "internal_id": "miniposter",
+      "url": "events/miniposter/#event-phase-mp01",
+      "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Championship Statue, Valiant Insignia Fragment, Acquaint Stone Fragment"
+    },
+    {
+      "title": "MP02",
+      "category": "event phases",
+      "id": "MP02",
+      "internal_id": "miniposter",
+      "url": "events/miniposter/#event-phase-mp02",
+      "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Song: “Unlucky Succubus”, Valiant Insignia Fragment, Acquaint Stone Fragment"
+    },
+    {
+      "title": "MP03",
+      "category": "event phases",
+      "id": "MP03",
+      "internal_id": "miniposter",
+      "url": "events/miniposter/#event-phase-mp03",
+      "summary": "Wrestling Championship phase · Not configured · Core rewards: Deep Sea Barreleye, Valiant Insignia Fragment, Acquaint Stone Fragment"
+    },
+    {
+      "title": "MP04",
+      "category": "event phases",
+      "id": "MP04",
+      "internal_id": "miniposter",
+      "url": "events/miniposter/#event-phase-mp04",
+      "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Flaming Lion, Valiant Insignia Fragment, Acquaint Stone Fragment"
+    },
+    {
+      "title": "MP05",
+      "category": "event phases",
+      "id": "MP05",
+      "internal_id": "miniposter",
+      "url": "events/miniposter/#event-phase-mp05",
+      "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Screaming Punching Bag, Valiant Insignia Fragment, Acquaint Stone Fragment"
     }
   ]
 }
