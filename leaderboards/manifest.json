@@ -1,30 +1,38 @@
 {
   "title": "ISL Tools",
   "subtitle": "Community leaderboard archive",
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-22",
   "server_summary": "NA P1-S772 --- EU S1-S472",
-  "site_version": "LB_26_08_07",
-  "generated_at": "2026-08-07T17:18:14.769472+00:00",
+  "site_version": "LB_26_08_22",
+  "generated_at": "2026-08-23T01:46:51.702723+00:00",
   "latest": {
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1xYyifKaN4e5lZbN4LSzFWUP4nXNWlQUcemwAMEpRUN4/edit?usp=drivesdk",
-    "google_embed": "https://docs.google.com/spreadsheets/d/1xYyifKaN4e5lZbN4LSzFWUP4nXNWlQUcemwAMEpRUN4/preview"
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1mwsUgNNfTmKLY0gtzJfRk2xZolmBSAHsk2fUso5Pztk/edit?usp=drivesdk",
+    "google_embed": "https://docs.google.com/spreadsheets/d/1mwsUgNNfTmKLY0gtzJfRk2xZolmBSAHsk2fUso5Pztk/preview"
   },
   "images": {
-    "power": "images/LB_26_08_07/power.png?v=LB_26_08_07",
-    "intimacy": "images/LB_26_08_07/intimacy.png?v=LB_26_08_07",
-    "earnings": "images/LB_26_08_07/earnings.png?v=LB_26_08_07",
-    "guild": "images/LB_26_08_07/guild.png?v=LB_26_08_07",
-    "Pets": "images/LB_26_08_07/Pets.png?v=LB_26_08_07",
-    "NApower": "images/LB_26_08_07/NApower.png?v=LB_26_08_07",
-    "NAintimacy": "images/LB_26_08_07/NAintimacy.png?v=LB_26_08_07",
-    "NAearnings": "images/LB_26_08_07/NAearnings.png?v=LB_26_08_07",
-    "NAguild": "images/LB_26_08_07/NAguild.png?v=LB_26_08_07",
-    "EUpower": "images/LB_26_08_07/EUpower.png?v=LB_26_08_07",
-    "EUintimacy": "images/LB_26_08_07/EUintimacy.png?v=LB_26_08_07",
-    "EUEarnings": "images/LB_26_08_07/EUEarnings.png?v=LB_26_08_07",
-    "EUGuild": "images/LB_26_08_07/EUGuild.png?v=LB_26_08_07"
+    "power": "images/LB_26_08_22/power.png?v=LB_26_08_22",
+    "intimacy": "images/LB_26_08_22/intimacy.png?v=LB_26_08_22",
+    "earnings": "images/LB_26_08_22/earnings.png?v=LB_26_08_22",
+    "guild": "images/LB_26_08_22/guild.png?v=LB_26_08_22",
+    "Pets": "images/LB_26_08_22/Pets.png?v=LB_26_08_22",
+    "NApower": "images/LB_26_08_22/NApower.png?v=LB_26_08_22",
+    "NAintimacy": "images/LB_26_08_22/NAintimacy.png?v=LB_26_08_22",
+    "NAearnings": "images/LB_26_08_22/NAearnings.png?v=LB_26_08_22",
+    "NAguild": "images/LB_26_08_22/NAguild.png?v=LB_26_08_22",
+    "EUpower": "images/LB_26_08_22/EUpower.png?v=LB_26_08_22",
+    "EUintimacy": "images/LB_26_08_22/EUintimacy.png?v=LB_26_08_22",
+    "EUEarnings": "images/LB_26_08_22/EUEarnings.png?v=LB_26_08_22",
+    "EUGuild": "images/LB_26_08_22/EUGuild.png?v=LB_26_08_22"
   },
   "history": [
+    {
+      "date": "2026-08-22",
+      "batch_name": "LB_26_08_22",
+      "xlsx_name": "LB_26_08_22_public.xlsx",
+      "google_sheet_url": "https://docs.google.com/spreadsheets/d/1mwsUgNNfTmKLY0gtzJfRk2xZolmBSAHsk2fUso5Pztk/edit?usp=drivesdk",
+      "google_embed_url": "https://docs.google.com/spreadsheets/d/1mwsUgNNfTmKLY0gtzJfRk2xZolmBSAHsk2fUso5Pztk/preview",
+      "published_at": "2026-08-23T01:46:51.542723+00:00"
+    },
     {
       "date": "2026-08-07",
       "batch_name": "LB_26_08_07",
