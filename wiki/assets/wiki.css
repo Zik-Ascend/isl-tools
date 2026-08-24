@@ -6614,3 +6614,140 @@ a.event-reward-chip-featured:focus-visible {
   border-radius: 16px 5px 16px 5px !important;
   corner-shape: scoop;
 }
+
+/* 2026-08-24 mobile viewport consistency and popup containment */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+.wiki-topbar,
+.wiki-page,
+.wiki-footer {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.wiki-page > *,
+.wiki-page :is(.section-block, .hero-panel, .character-header, details, summary) {
+  min-width: 0;
+}
+
+:is(
+  .skill-tooltip,
+  .costume-tooltip,
+  .stella-tooltip,
+  .custom-blessing-tooltip,
+  .inline-help-tooltip,
+  .fish-combination-tooltip,
+  .fish-antique-tooltip,
+  .inn-item-tooltip
+) {
+  max-width: calc(100vw - 1.5rem);
+  margin-left: var(--wiki-tooltip-shift-x, 0px);
+  overflow-wrap: anywhere;
+}
+
+:is(
+  .skill-tooltip,
+  .costume-tooltip,
+  .stella-tooltip,
+  .fish-combination-tooltip,
+  .fish-antique-tooltip,
+  .inn-item-tooltip
+)::after {
+  left: clamp(1.05rem, var(--wiki-tooltip-arrow-x, 50%), calc(100% - 1.05rem));
+}
+
+@media (max-width: 780px) {
+  html.mobile-menu-open,
+  html.mobile-search-open,
+  body.mobile-menu-open,
+  body.mobile-search-open {
+    overflow: hidden;
+  }
+
+  .wiki-topbar {
+    width: 100%;
+    max-width: 100vw;
+    min-width: 0;
+  }
+
+  .mobile-nav-overlay:not([hidden]),
+  .mobile-search-overlay:not([hidden]) {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    max-height: 100vh;
+    max-height: 100dvh;
+    overflow: hidden;
+    overscroll-behavior: contain;
+  }
+
+  .mobile-nav-panel,
+  .mobile-search-panel {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 0;
+    max-height: 100%;
+    overflow: hidden;
+    padding-top: max(1rem, env(safe-area-inset-top));
+    padding-right: max(1rem, env(safe-area-inset-right));
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+    padding-left: max(1rem, env(safe-area-inset-left));
+  }
+
+  .mobile-nav-panel {
+    grid-template-rows: auto minmax(0, 1fr) auto;
+  }
+
+  .mobile-search-panel {
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+
+  .mobile-menu-links {
+    min-height: 0;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: .75rem;
+  }
+
+  .mobile-theme-picker {
+    min-width: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .mobile-search-popover {
+    min-height: 0;
+    max-height: 100%;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  :is(
+    .skill-tooltip,
+    .costume-tooltip,
+    .stella-tooltip,
+    .custom-blessing-tooltip,
+    .inline-help-tooltip,
+    .fish-combination-tooltip,
+    .fish-antique-tooltip,
+    .inn-item-tooltip
+  ) {
+    max-width: calc(100vw - 1.5rem);
+    max-height: calc(100vh - 2rem);
+    max-height: calc(100dvh - 2rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}

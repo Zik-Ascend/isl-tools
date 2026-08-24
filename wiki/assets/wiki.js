@@ -169,10 +169,12 @@
       if (searchToggle) searchToggle.setAttribute('aria-expanded', 'false');
       topbar.classList.remove('mobile-search-open');
       document.body.classList.remove('mobile-search-open');
+      document.documentElement.classList.remove('mobile-search-open');
     }
     menu.hidden = !open;
     topbar.classList.toggle('mobile-menu-open', open);
     document.body.classList.toggle('mobile-menu-open', open);
+    document.documentElement.classList.toggle('mobile-menu-open', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   }
 
@@ -201,11 +203,13 @@
       if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
       topbar.classList.remove('mobile-menu-open');
       document.body.classList.remove('mobile-menu-open');
+      document.documentElement.classList.remove('mobile-menu-open');
     }
 
     searchOverlay.hidden = !open;
     topbar.classList.toggle('mobile-search-open', open);
     document.body.classList.toggle('mobile-search-open', open);
+    document.documentElement.classList.toggle('mobile-search-open', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
 
     if (open) {
@@ -407,14 +411,56 @@
 
 (() => {
   const nodeSelector = '.skill-node, .costume-node, .stella-node, .custom-blessing-node, .inline-help, .fish-combination-node, .fish-antique-node, .inn-item-node';
+  const tooltipSelector = '.skill-tooltip, .costume-tooltip, .stella-tooltip, .custom-blessing-tooltip, .inline-help-tooltip, .fish-combination-tooltip, .fish-antique-tooltip, .inn-item-tooltip';
+  const mobileViewport = window.matchMedia('(max-width: 780px)');
+
+  function clearTooltipPosition(node) {
+    const tooltip = node && node.querySelector ? node.querySelector(tooltipSelector) : null;
+    if (!tooltip) return;
+    tooltip.style.removeProperty('--wiki-tooltip-shift-x');
+    tooltip.style.removeProperty('--wiki-tooltip-arrow-x');
+  }
+
+  function centerTooltipInViewport(node) {
+    if (!node || !node.classList.contains('tooltip-open')) return;
+    const tooltip = node.querySelector(tooltipSelector);
+    if (!tooltip) return;
+
+    clearTooltipPosition(node);
+    if (!mobileViewport.matches) return;
+
+    window.requestAnimationFrame(() => {
+      if (!node.classList.contains('tooltip-open')) return;
+      const viewportWidth = document.documentElement.clientWidth || window.innerWidth;
+      const margin = 12;
+      const tooltipRect = tooltip.getBoundingClientRect();
+      const nodeRect = node.getBoundingClientRect();
+      if (!tooltipRect.width || !viewportWidth) return;
+
+      let shift = (viewportWidth / 2) - (tooltipRect.left + tooltipRect.width / 2);
+      const shiftedLeft = tooltipRect.left + shift;
+      const shiftedRight = tooltipRect.right + shift;
+      if (shiftedLeft < margin) shift += margin - shiftedLeft;
+      if (shiftedRight > viewportWidth - margin) shift -= shiftedRight - (viewportWidth - margin);
+
+      tooltip.style.setProperty('--wiki-tooltip-shift-x', `${Math.round(shift)}px`);
+      const arrowX = (nodeRect.left + nodeRect.width / 2) - (tooltipRect.left + shift);
+      tooltip.style.setProperty('--wiki-tooltip-arrow-x', `${Math.round(arrowX)}px`);
+    });
+  }
 
   function closeTooltipNodes(exceptNode) {
     document.querySelectorAll(`${nodeSelector}.tooltip-open`).forEach(node => {
       if (node !== exceptNode) {
         node.classList.remove('tooltip-open');
+        clearTooltipPosition(node);
         if (node.matches('.fish-combination-node, .fish-antique-node, .inn-item-node')) node.setAttribute('aria-expanded', 'false');
       }
     });
+  }
+
+  function recenterOpenTooltips() {
+    document.querySelectorAll(`${nodeSelector}.tooltip-open`).forEach(centerTooltipInViewport);
   }
 
   document.addEventListener('click', event => {
@@ -437,7 +483,7 @@
       return;
     }
 
-    if (event.target.closest('.skill-tooltip, .costume-tooltip, .stella-tooltip, .custom-blessing-tooltip, .inline-help-tooltip, .fish-combination-tooltip, .fish-antique-tooltip, .inn-item-tooltip')) {
+    if (event.target.closest(tooltipSelector)) {
       event.stopPropagation();
       return;
     }
@@ -450,10 +496,15 @@
     if (node.matches('.fish-combination-node, .fish-antique-node, .inn-item-node')) node.setAttribute('aria-expanded', String(!wasOpen));
     if (!wasOpen && typeof node.focus === 'function') {
       node.focus({ preventScroll: true });
+      centerTooltipInViewport(node);
     } else if (wasOpen && typeof node.blur === 'function') {
+      clearTooltipPosition(node);
       node.blur();
     }
   });
+
+  window.addEventListener('resize', recenterOpenTooltips, { passive: true });
+  window.addEventListener('orientationchange', () => window.setTimeout(recenterOpenTooltips, 50));
 
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {

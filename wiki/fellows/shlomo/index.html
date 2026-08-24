@@ -35,7 +35,7 @@
       } catch (error) {}
     })();
   </script>
-  <link rel="stylesheet" href="../../assets/wiki.css?v=202608240043">
+  <link rel="stylesheet" href="../../assets/wiki.css?v=202608240108">
 </head>
 <body>
   <header class="wiki-topbar">
@@ -83,59 +83,60 @@
     <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="wiki-mobile-menu" aria-label="Open wiki navigation" data-mobile-menu-toggle>
       <span></span><span></span><span></span>
     </button>
-    <div id="wiki-mobile-search" class="mobile-search-overlay" hidden data-mobile-search>
-      <div class="mobile-search-panel" role="dialog" aria-modal="true" aria-label="Wiki search">
-        <div class="mobile-nav-header">
-          <strong>Search Wiki</strong>
-          <button class="mobile-menu-close" type="button" aria-label="Close wiki search" data-mobile-search-close>×</button>
-        </div>
-        <div class="search-wrap mobile-search-popover">
-          <input data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
-          <div data-wiki-search-results class="search-results" hidden></div>
-        </div>
-      </div>
-    </div>
-    <div id="wiki-mobile-menu" class="mobile-nav-overlay" hidden data-mobile-menu>
-      <div class="mobile-nav-panel" role="dialog" aria-modal="true" aria-label="Wiki navigation menu">
-        <div class="mobile-nav-header">
-          <strong>Wiki Menu</strong>
-          <button class="mobile-menu-close" type="button" aria-label="Close wiki navigation" data-mobile-menu-close>×</button>
-        </div>
-        <nav class="mobile-menu-links" aria-label="Mobile wiki navigation">
-          <a href="../../home/">Home</a>
-          <a href="../../fellows/">Fellows</a>
-          <a href="../../family/">Family</a>
-          <a href="../../familiars/">Familiars</a>
-          <a href="../../artifacts/">Artifacts</a>
-          <a href="../../fishing/">Fishing</a>
-          <a href="../../inn/">Inn</a>
-          <a href="../../apothecary/">Apothecary</a>
-          <a href="../../magic-farm/">Magic Farm</a>
-          <a href="../../player-figures/">Player Figures</a>
-          <a href="../../treasure-hunt/">Treasure Hunt</a>
-          <a href="../../museum/">Museum</a>
-          <a href="../../events/">Events</a>
-          <a href="../../calculators/">Calculators</a>
-          <a href="../../beta/">Beta ★</a>
-        </nav>
-        <label class="theme-picker mobile-theme-picker">
-          <span>Theme</span>
-          <select data-wiki-theme-select aria-label="Wiki theme">
-            <option value="dark">Dark</option>
-            <option value="light">Light</option>
-            <option value="mocha">Mocha</option>
-            <option value="aqua">Aqua</option>
-            <option value="earth">Earth</option>
-            <option value="black">Black</option>
-          </select>
-        </label>
-      </div>
-    </div>
   </header>
+
+<div id="wiki-mobile-search" class="mobile-search-overlay" hidden data-mobile-search>
+  <div class="mobile-search-panel" role="dialog" aria-modal="true" aria-label="Wiki search">
+    <div class="mobile-nav-header">
+      <strong>Search Wiki</strong>
+      <button class="mobile-menu-close" type="button" aria-label="Close wiki search" data-mobile-search-close>×</button>
+    </div>
+    <div class="search-wrap mobile-search-popover">
+      <input data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
+      <div data-wiki-search-results class="search-results" hidden></div>
+    </div>
+  </div>
+</div>
+<div id="wiki-mobile-menu" class="mobile-nav-overlay" hidden data-mobile-menu>
+  <div class="mobile-nav-panel" role="dialog" aria-modal="true" aria-label="Wiki navigation menu">
+    <div class="mobile-nav-header">
+      <strong>Wiki Menu</strong>
+      <button class="mobile-menu-close" type="button" aria-label="Close wiki navigation" data-mobile-menu-close>×</button>
+    </div>
+    <nav class="mobile-menu-links" aria-label="Mobile wiki navigation">
+      <a href="../../home/">Home</a>
+      <a href="../../fellows/">Fellows</a>
+      <a href="../../family/">Family</a>
+      <a href="../../familiars/">Familiars</a>
+      <a href="../../artifacts/">Artifacts</a>
+      <a href="../../fishing/">Fishing</a>
+      <a href="../../inn/">Inn</a>
+      <a href="../../apothecary/">Apothecary</a>
+      <a href="../../magic-farm/">Magic Farm</a>
+      <a href="../../player-figures/">Player Figures</a>
+      <a href="../../treasure-hunt/">Treasure Hunt</a>
+      <a href="../../museum/">Museum</a>
+      <a href="../../events/">Events</a>
+      <a href="../../calculators/">Calculators</a>
+      <a href="../../beta/">Beta ★</a>
+    </nav>
+    <label class="theme-picker mobile-theme-picker">
+      <span>Theme</span>
+      <select data-wiki-theme-select aria-label="Wiki theme">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="mocha">Mocha</option>
+        <option value="aqua">Aqua</option>
+        <option value="earth">Earth</option>
+        <option value="black">Black</option>
+      </select>
+    </label>
+  </div>
+</div>
 
   <main class="wiki-page">
     <div class="breadcrumbs" aria-label="Breadcrumbs"><a href="../../home/">wiki</a><span class="crumb-sep">/</span><a href="../../fellows/">fellows</a><span class="crumb-sep">/</span><span>Shlomo</span></div>
-    <div class="page-meta">Last updated: <time>2026-08-24 00:43 UTC</time></div>
+    <div class="page-meta">Last updated: <time>2026-08-24 01:08 UTC</time></div>
     
 <nav class="character-adjacent-nav" data-character-nav data-category="fellows" data-current-path="../../fellows/shlomo/" aria-label="Adjacent characters">
   <a class="character-nav-link" data-character-nav-prev href="../../fellows/mammon/"><span>Previous</span><strong>Mammon</strong></a>
@@ -759,6 +760,6 @@
     <a class="issue-footer-link" href="../../beta/">Report an issue</a>
   </footer>
 
-  <script src="../../assets/wiki.js?v=202608240043" data-search-index="../../wiki_manifest.json"></script>
+  <script src="../../assets/wiki.js?v=202608240108" data-search-index="../../wiki_manifest.json"></script>
 </body>
 </html>
