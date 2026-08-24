@@ -7,19 +7,135 @@
   --line: #2d3642;
   --accent: #8bd5ff;
   --accent-2: #b48cff;
+  --accent-rgb: 139, 213, 255;
+  --accent-2-rgb: 180, 140, 255;
   --danger: #ff7b72;
   --radius: 16px;
+  --radius-small: 10px;
+  --radius-pill: 999px;
   --shadow: 0 18px 50px rgba(0,0,0,.28);
+  --panel-bg: var(--panel);
+  --border-color: var(--line);
+  --muted-text: var(--muted);
+  --text-soft: #c8d3dc;
+  --topbar-bg: rgba(14, 17, 23, .88);
+  --menu-bg: rgba(22, 27, 34, .98);
+  --overlay-bg: rgba(5, 8, 13, .82);
+  color-scheme: dark;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
+
+:root[data-theme="light"] {
+  --bg: #f4f7fa;
+  --panel: #ffffff;
+  --panel-2: #e9eef4;
+  --text: #18232f;
+  --muted: #5d6c7a;
+  --line: #c5d0db;
+  --accent: #087aa5;
+  --accent-2: #6552a8;
+  --accent-rgb: 8, 122, 165;
+  --accent-2-rgb: 101, 82, 168;
+  --danger: #b8323a;
+  --text-soft: #334657;
+  --topbar-bg: rgba(255, 255, 255, .92);
+  --menu-bg: rgba(255, 255, 255, .985);
+  --overlay-bg: rgba(35, 46, 58, .48);
+  --shadow: 0 18px 50px rgba(38, 55, 72, .14);
+  --radius: 12px;
+  --radius-small: 8px;
+  color-scheme: light;
+}
+
+:root[data-theme="mocha"] {
+  --bg: #120e0b;
+  --panel: #1d1510;
+  --panel-2: #2a1e17;
+  --text: #f5e6cf;
+  --muted: #c3a787;
+  --line: #493629;
+  --accent: #d6a56a;
+  --accent-2: #a66e50;
+  --accent-rgb: 214, 165, 106;
+  --accent-2-rgb: 166, 110, 80;
+  --danger: #ef8578;
+  --text-soft: #ead7bd;
+  --topbar-bg: rgba(18, 14, 11, .92);
+  --menu-bg: rgba(29, 21, 16, .985);
+  --overlay-bg: rgba(8, 5, 3, .86);
+  --radius: 20px;
+  --radius-small: 12px;
+}
+
+:root[data-theme="aqua"] {
+  --bg: #061a22;
+  --panel: #0a2931;
+  --panel-2: #103944;
+  --text: #e8fffb;
+  --muted: #9bcfc7;
+  --line: #1f5962;
+  --accent: #69e4d0;
+  --accent-2: #65bcec;
+  --accent-rgb: 105, 228, 208;
+  --accent-2-rgb: 101, 188, 236;
+  --danger: #ff8f8f;
+  --text-soft: #d4f4ef;
+  --topbar-bg: rgba(6, 26, 34, .91);
+  --menu-bg: rgba(10, 41, 49, .985);
+  --overlay-bg: rgba(2, 15, 20, .84);
+  --radius: 24px 8px 24px 8px;
+  --radius-small: 15px 5px 15px 5px;
+}
+
+:root[data-theme="earth"] {
+  --bg: #101710;
+  --panel: #192218;
+  --panel-2: #263124;
+  --text: #eef0df;
+  --muted: #abb79a;
+  --line: #46533d;
+  --accent: #a6c56f;
+  --accent-2: #6d9fc2;
+  --accent-rgb: 166, 197, 111;
+  --accent-2-rgb: 109, 159, 194;
+  --danger: #e98c78;
+  --text-soft: #dce3ca;
+  --topbar-bg: rgba(16, 23, 16, .92);
+  --menu-bg: rgba(25, 34, 24, .985);
+  --overlay-bg: rgba(6, 10, 6, .84);
+  --radius: 4px;
+  --radius-small: 3px;
+}
+
+:root[data-theme="black"] {
+  --bg: #050505;
+  --panel: #0d0d0d;
+  --panel-2: #171717;
+  --text: #f1f1f1;
+  --muted: #aaaaaa;
+  --line: #303030;
+  --accent: #d3d3d3;
+  --accent-2: #8b8b8b;
+  --accent-rgb: 211, 211, 211;
+  --accent-2-rgb: 139, 139, 139;
+  --danger: #f07f7f;
+  --text-soft: #dddddd;
+  --topbar-bg: rgba(5, 5, 5, .94);
+  --menu-bg: rgba(13, 13, 13, .99);
+  --overlay-bg: rgba(0, 0, 0, .9);
+  --radius: 0px;
+  --radius-small: 0px;
+  --radius-pill: 0px;
+}
+
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top left, rgba(139, 213, 255, .12), transparent 32rem),
-    radial-gradient(circle at top right, rgba(180, 140, 255, .10), transparent 34rem),
+    radial-gradient(circle at top left, rgba(var(--accent-rgb), .12), transparent 32rem),
+    radial-gradient(circle at top right, rgba(var(--accent-2-rgb), .10), transparent 34rem),
     var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -32,11 +148,11 @@ a { color: inherit; }
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: auto auto auto minmax(220px, 420px);
+  grid-template-columns: auto auto minmax(0, 1fr) auto minmax(220px, 420px);
   gap: 1rem;
   align-items: center;
   padding: .85rem clamp(1rem, 3vw, 2rem);
-  background: rgba(14, 17, 23, .88);
+  background: var(--topbar-bg);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(14px);
 }
@@ -91,7 +207,7 @@ a { color: inherit; }
 .discord-button:hover,
 .wiki-card:hover,
 .pill-link:hover {
-  border-color: rgba(139, 213, 255, .75);
+  border-color: rgba(var(--accent-rgb), .75);
   transform: translateY(-1px);
 }
 
@@ -114,7 +230,7 @@ a { color: inherit; }
 #wiki-search:focus,
 .search-wrap [data-wiki-search-input]:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(139, 213, 255, .14);
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), .14);
 }
 
 .search-results {
@@ -139,7 +255,7 @@ a { color: inherit; }
 }
 
 .search-result:last-child { border-bottom: 0; }
-.search-result:hover { background: rgba(139, 213, 255, .08); }
+.search-result:hover { background: rgba(var(--accent-rgb), .08); }
 .search-result strong { display: block; }
 .search-result span { color: var(--muted); font-size: .9rem; }
 
@@ -204,7 +320,7 @@ a { color: inherit; }
 .discord-button {
   display: inline-block;
   margin-top: 1rem;
-  background: linear-gradient(90deg, rgba(139, 213, 255, .18), rgba(180, 140, 255, .18));
+  background: linear-gradient(90deg, rgba(var(--accent-rgb), .18), rgba(var(--accent-2-rgb), .18));
 }
 
 .support-blurb {
@@ -295,8 +411,8 @@ a { color: inherit; }
   border-radius: 999px;
   padding: .55rem .8rem;
   color: var(--text);
-  background: linear-gradient(90deg, rgba(139, 213, 255, .18), rgba(180, 140, 255, .18));
-  border: 1px solid rgba(139, 213, 255, .35);
+  background: linear-gradient(90deg, rgba(var(--accent-rgb), .18), rgba(var(--accent-2-rgb), .18));
+  border: 1px solid rgba(var(--accent-rgb), .35);
   font-weight: 900;
 }
 
@@ -383,11 +499,11 @@ a { color: inherit; }
 .summary-chip {
   display: inline-flex;
   align-items: center;
-  border: 1px solid rgba(139, 213, 255, .35);
+  border: 1px solid rgba(var(--accent-rgb), .35);
   border-radius: 999px;
   padding: .45rem .72rem;
   color: var(--accent);
-  background: rgba(139, 213, 255, .08);
+  background: rgba(var(--accent-rgb), .08);
   font-weight: 750;
 }
 
@@ -454,8 +570,8 @@ a { color: inherit; }
 }
 
 .subpage-list a:hover {
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .06);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .06);
   transform: translateY(-1px);
 }
 
@@ -552,35 +668,35 @@ a { color: inherit; }
 .wiki-list-tools select:focus,
 .wiki-list-tools input[type="search"]:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(139, 213, 255, .14);
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), .14);
 }
 
 
-/* Keep native dropdown menus readable on the dark wiki theme. */
+/* Keep native dropdown menus readable in every selected theme. */
 .wiki-list-tools select {
-  background-color: #1f2630;
-  color: #ffffff;
-  color-scheme: dark;
+  background-color: var(--panel-2);
+  color: var(--text);
+  color-scheme: inherit;
 }
 
 .wiki-list-tools input[type="search"] {
-  background-color: #1f2630;
-  color: #ffffff;
-  color-scheme: dark;
+  background-color: var(--panel-2);
+  color: var(--text);
+  color-scheme: inherit;
 }
 
 .wiki-list-tools input[type="search"]::placeholder {
-  color: #8fa0b2;
+  color: var(--muted);
 }
 
 .wiki-list-tools select option,
 .wiki-list-tools select optgroup {
-  background-color: #1f2630;
-  color: #ffffff;
+  background-color: var(--panel-2);
+  color: var(--text);
 }
 
 .wiki-list-tools select option:checked {
-  background-color: #1f6fd1;
+  background-color: var(--accent);
   color: #ffffff;
 }
 
@@ -615,8 +731,8 @@ a { color: inherit; }
 }
 
 .sortable-character-list a:hover {
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .06);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .06);
   transform: translateY(-1px);
 }
 
@@ -650,7 +766,7 @@ a { color: inherit; }
   height: 4.5rem;
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(139, 213, 255, .22);
+  border: 1px solid rgba(var(--accent-rgb), .22);
   background: rgba(255, 255, 255, .06);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .04);
 }
@@ -803,7 +919,7 @@ a { color: inherit; }
   height: clamp(88px, 9vw, 112px);
   margin: 1.35rem 0 0 auto;
   padding: .28rem;
-  border: 1px solid rgba(139, 213, 255, .28);
+  border: 1px solid rgba(var(--accent-rgb), .28);
   border-radius: 20px;
   background: rgba(255,255,255,.055);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 10px 28px rgba(0,0,0,.22);
@@ -813,8 +929,8 @@ a { color: inherit; }
 
 .character-animated-avatar:hover,
 .character-animated-avatar:focus-visible {
-  border-color: rgba(139, 213, 255, .7);
-  background: rgba(139, 213, 255, .12);
+  border-color: rgba(var(--accent-rgb), .7);
+  background: rgba(var(--accent-rgb), .12);
   transform: translateY(-1px);
 }
 
@@ -855,7 +971,7 @@ a { color: inherit; }
   justify-content: center;
   gap: .45rem;
   min-width: 7rem;
-  border: 1px solid rgba(139, 213, 255, .22);
+  border: 1px solid rgba(var(--accent-rgb), .22);
   border-radius: 999px;
   background: rgba(255,255,255,.09);
   padding: .56rem .9rem;
@@ -864,7 +980,7 @@ a { color: inherit; }
 }
 
 .profile-status-pill > span {
-  color: #cfd8e3;
+  color: var(--text-soft);
   font-size: .88rem;
   font-weight: 850;
 }
@@ -927,7 +1043,7 @@ a { color: inherit; }
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid rgba(139, 213, 255, .18);
+  border: 1px solid rgba(var(--accent-rgb), .18);
   border-radius: 18px;
   background: rgba(255,255,255,.055);
   padding: .95rem 1rem;
@@ -946,7 +1062,7 @@ a { color: inherit; }
 }
 
 .profile-value {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-weight: 650;
   line-height: 1.38;
   text-align: center;
@@ -969,7 +1085,7 @@ a { color: inherit; }
 .profile-bio {
   margin: 0;
   max-width: 82ch;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-weight: 550;
   line-height: 1.52;
   text-align: center;
@@ -1006,7 +1122,7 @@ a { color: inherit; }
 .costume-preview-card {
   height: 100%;
   min-height: 24rem;
-  border: 1px solid rgba(139, 213, 255, .16);
+  border: 1px solid rgba(var(--accent-rgb), .16);
   border-radius: 18px;
   background: rgba(255,255,255,.04);
   overflow: hidden;
@@ -1041,7 +1157,7 @@ a { color: inherit; }
   border: 1px solid rgba(255,255,255,.16);
   border-radius: 999px;
   background: rgba(255,255,255,.075);
-  color: #d8e2ec;
+  color: var(--text-soft);
   font-weight: 900;
   font-size: .78rem;
   box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
@@ -1051,8 +1167,8 @@ a { color: inherit; }
 }
 
 .costume-tab-rail button.active {
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .24);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .24);
   color: #ffffff;
 }
 
@@ -1075,7 +1191,7 @@ a { color: inherit; }
   min-height: 16rem;
   border-bottom: 1px solid var(--line);
   background:
-    radial-gradient(circle at 50% 18%, rgba(139,213,255,.16), transparent 48%),
+    radial-gradient(circle at 50% 18%, rgba(var(--accent-rgb),.16), transparent 48%),
     linear-gradient(180deg, rgba(255,255,255,.045), rgba(0,0,0,.14));
   overflow: hidden;
 }
@@ -1106,7 +1222,7 @@ a { color: inherit; }
   aspect-ratio: 3 / 4;
   display: grid;
   place-items: center;
-  border: 1px dashed rgba(139, 213, 255, .34);
+  border: 1px dashed rgba(var(--accent-rgb), .34);
   border-radius: 16px;
   background: rgba(0,0,0,.16);
   color: var(--muted);
@@ -1123,7 +1239,7 @@ a { color: inherit; }
   display: grid;
   place-items: center;
   padding: .85rem 1rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   background: rgba(255,255,255,.055);
   font-weight: 650;
   text-align: center;
@@ -1141,7 +1257,7 @@ a { color: inherit; }
 
 .costume-note-desc {
   display: block;
-  color: #b7c2d0;
+  color: var(--muted);
   font-size: .84rem;
   font-weight: 560;
   line-height: 1.32;
@@ -1154,7 +1270,7 @@ a { color: inherit; }
 
 .costume-note-plain {
   display: block;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .75rem;
   font-weight: 400;
   line-height: 1.35;
@@ -1167,7 +1283,7 @@ a { color: inherit; }
 
 .source-text {
   margin: 0;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: 1.05rem;
   line-height: 1.55;
   max-width: 90ch;
@@ -1238,11 +1354,11 @@ a { color: inherit; }
   position: relative;
   width: 4rem;
   height: 4rem;
-  border: 1px solid rgba(139, 213, 255, .28);
+  border: 1px solid rgba(var(--accent-rgb), .28);
   border-radius: 999px;
   background:
     radial-gradient(circle at 35% 24%, rgba(255,255,255,.20), transparent 36%),
-    linear-gradient(180deg, rgba(139,213,255,.16), rgba(180,140,255,.12));
+    linear-gradient(180deg, rgba(var(--accent-rgb),.16), rgba(var(--accent-2-rgb),.12));
   color: var(--text);
   cursor: pointer;
   display: grid;
@@ -1257,7 +1373,7 @@ a { color: inherit; }
 .stella-node:focus-visible,
 .stella-node.tooltip-open {
   transform: translateY(-2px);
-  border-color: rgba(139, 213, 255, .85);
+  border-color: rgba(var(--accent-rgb), .85);
   outline: none;
 }
 
@@ -1280,9 +1396,9 @@ a { color: inherit; }
   transform: translateX(-50%) translateY(.25rem);
   opacity: 0;
   pointer-events: none;
-  border: 1px solid rgba(139, 213, 255, .36);
+  border: 1px solid rgba(var(--accent-rgb), .36);
   border-radius: 14px;
-  background: #1f2630;
+  background: var(--panel-2);
   color: var(--text);
   box-shadow: var(--shadow);
   padding: .72rem .78rem;
@@ -1302,9 +1418,9 @@ a { color: inherit; }
   width: .75rem;
   height: .75rem;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #1f2630;
-  border-right: 1px solid rgba(139, 213, 255, .36);
-  border-bottom: 1px solid rgba(139, 213, 255, .36);
+  background: var(--panel-2);
+  border-right: 1px solid rgba(var(--accent-rgb), .36);
+  border-bottom: 1px solid rgba(var(--accent-rgb), .36);
 }
 
 .skill-node:hover .skill-tooltip,
@@ -1328,7 +1444,7 @@ a { color: inherit; }
 .skill-tooltip span,
 .stella-tooltip span,
 .stella-tooltip li {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .82rem;
   font-weight: 650;
 }
@@ -1348,7 +1464,7 @@ a { color: inherit; }
 }
 
 .stella-tier {
-  border: 1px solid rgba(139, 213, 255, .18);
+  border: 1px solid rgba(var(--accent-rgb), .18);
   border-radius: 14px;
   background: rgba(255,255,255,.04);
   padding: .85rem .9rem;
@@ -1368,7 +1484,7 @@ a { color: inherit; }
 }
 
 .stella-tier li {
-  color: #dce8f4;
+  color: var(--text-soft);
   line-height: 1.35;
 }
 
@@ -1418,10 +1534,10 @@ a { color: inherit; }
 }
 
 .rarity-upgrade-summary span {
-  border: 1px solid rgba(139, 213, 255, .20);
+  border: 1px solid rgba(var(--accent-rgb), .20);
   border-radius: 999px;
   background: rgba(255,255,255,.045);
-  color: #dce8f4;
+  color: var(--text-soft);
   padding: .45rem .7rem;
   font-size: .88rem;
   line-height: 1.2;
@@ -1438,7 +1554,7 @@ a { color: inherit; }
 }
 
 .rarity-threshold {
-  border: 1px solid rgba(139, 213, 255, .18);
+  border: 1px solid rgba(var(--accent-rgb), .18);
   border-radius: 14px;
   background: rgba(255,255,255,.04);
   padding: .75rem .82rem;
@@ -1455,7 +1571,7 @@ a { color: inherit; }
 }
 
 .rarity-threshold-reward {
-  color: #eef6ff;
+  color: var(--text);
   font-weight: 750;
   line-height: 1.28;
 }
@@ -1465,7 +1581,7 @@ a { color: inherit; }
 }
 
 .rarity-threshold-rarity {
-  border-color: rgba(180, 140, 255, .36);
+  border-color: rgba(var(--accent-2-rgb), .36);
 }
 
 /* Skill source outline colors */
@@ -1528,7 +1644,7 @@ a { color: inherit; }
 }
 
 .rarity-threshold-details li {
-  color: #c9d7e6;
+  color: var(--text-soft);
   font-size: .82rem;
   line-height: 1.25;
 }
@@ -1580,10 +1696,10 @@ html.wiki-modal-open body {
   max-height: 86vh;
   min-width: min(72vw, 34rem);
   min-height: min(72vh, 34rem);
-  border: 1px solid rgba(139, 213, 255, .18);
+  border: 1px solid rgba(var(--accent-rgb), .18);
   border-radius: 22px;
   background:
-    radial-gradient(circle at 50% 18%, rgba(139,213,255,.13), transparent 50%),
+    radial-gradient(circle at 50% 18%, rgba(var(--accent-rgb),.13), transparent 50%),
     rgba(8, 13, 20, .42);
   overflow: auto;
   box-shadow: 0 24px 90px rgba(0, 0, 0, .46);
@@ -1690,7 +1806,7 @@ html.wiki-modal-open body {
   max-width: min(88vw, 56rem);
   margin: 0;
   padding: .2rem .9rem 0;
-  color: #dce8f4;
+  color: var(--text-soft);
   text-align: center;
   line-height: 1.35;
 }
@@ -1827,7 +1943,7 @@ html.wiki-modal-open body {
 .stella-tooltip-rewards li strong,
 .stella-reward-single {
   display: block;
-  color: #f2f8ff;
+  color: var(--text);
   font-size: .82rem;
   font-weight: 900;
 }
@@ -1839,7 +1955,7 @@ html.wiki-modal-open body {
 
 .stella-reward-name {
   display: block;
-  color: #aebdca !important;
+  color: var(--muted) !important;
   font-size: calc(.82rem - 2pt) !important;
   font-weight: 620 !important;
   line-height: 1.18;
@@ -1847,7 +1963,7 @@ html.wiki-modal-open body {
 
 .stella-reward-desc {
   display: block;
-  color: #f2f8ff !important;
+  color: var(--text) !important;
   font-size: .82rem !important;
   font-weight: 650 !important;
   line-height: 1.25;
@@ -1861,7 +1977,7 @@ html.wiki-modal-open body {
 
 .stella-reward-multiline span {
   display: block;
-  color: #f2f8ff !important;
+  color: var(--text) !important;
   font-size: .82rem !important;
   font-weight: 650 !important;
   line-height: 1.25;
@@ -1885,11 +2001,11 @@ html.wiki-modal-open body {
   position: relative;
   width: 4rem;
   height: 4rem;
-  border: 1px solid rgba(139, 213, 255, .28);
+  border: 1px solid rgba(var(--accent-rgb), .28);
   border-radius: 999px;
   background:
     radial-gradient(circle at 35% 24%, rgba(255,255,255,.20), transparent 36%),
-    linear-gradient(180deg, rgba(139,213,255,.16), rgba(180,140,255,.12));
+    linear-gradient(180deg, rgba(var(--accent-rgb),.16), rgba(var(--accent-2-rgb),.12));
   color: var(--text);
   cursor: pointer;
   display: grid;
@@ -1922,9 +2038,9 @@ html.wiki-modal-open body {
   transform: translateX(-50%) translateY(.25rem);
   opacity: 0;
   pointer-events: none;
-  border: 1px solid rgba(139, 213, 255, .36);
+  border: 1px solid rgba(var(--accent-rgb), .36);
   border-radius: 14px;
-  background: #1f2630;
+  background: var(--panel-2);
   color: var(--text);
   box-shadow: var(--shadow);
   padding: .68rem .74rem;
@@ -1943,9 +2059,9 @@ html.wiki-modal-open body {
   width: .75rem;
   height: .75rem;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #1f2630;
-  border-right: 1px solid rgba(139, 213, 255, .36);
-  border-bottom: 1px solid rgba(139, 213, 255, .36);
+  background: var(--panel-2);
+  border-right: 1px solid rgba(var(--accent-rgb), .36);
+  border-bottom: 1px solid rgba(var(--accent-rgb), .36);
 }
 
 .costume-node:hover .costume-tooltip,
@@ -1967,13 +2083,13 @@ html.wiki-modal-open body {
 
 .costume-tooltip span,
 .costume-tooltip li {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .82rem;
   font-weight: 650;
 }
 
 .costume-tooltip-desc {
-  color: #aebdca !important;
+  color: var(--muted) !important;
   font-size: calc(.82rem - 2pt) !important;
   font-weight: 560 !important;
   line-height: 1.28;
@@ -2024,7 +2140,7 @@ html.wiki-modal-open body {
 }
 
 .character-nav-link {
-  border: 1px solid rgba(139, 213, 255, .22);
+  border: 1px solid rgba(var(--accent-rgb), .22);
   border-radius: 16px;
   background: rgba(255,255,255,.045);
   color: var(--text);
@@ -2036,8 +2152,8 @@ html.wiki-modal-open body {
 }
 
 .character-nav-link:hover {
-  border-color: rgba(139, 213, 255, .55);
-  background: rgba(139,213,255,.08);
+  border-color: rgba(var(--accent-rgb), .55);
+  background: rgba(var(--accent-rgb),.08);
 }
 
 .character-nav-link span {
@@ -2168,7 +2284,7 @@ html.wiki-modal-open body {
 .awakening-direct-text span {
   display: block;
   line-height: 1.35;
-  color: #eef4ff;
+  color: var(--text);
 }
 
 .custom-blessing-node {
@@ -2283,11 +2399,11 @@ html.wiki-modal-open body {
 }
 
 .awakening-direct-text .awakening-skill-line {
-  color: #eef4ff;
+  color: var(--text);
 }
 
 .awakening-tooltip .awakening-skill-line {
-  color: #eef4ff;
+  color: var(--text);
 }
 
 .family-blessing-pill {
@@ -2351,7 +2467,7 @@ html.wiki-modal-open body {
 
 .object-stat strong {
   display: block;
-  color: #eef4ff;
+  color: var(--text);
   font-size: 1.05rem;
 }
 
@@ -2370,8 +2486,8 @@ html.wiki-modal-open body {
 }
 
 .object-skill-node {
-  border-color: rgba(139, 213, 255, .75);
-  box-shadow: 0 0 0 2px rgba(139, 213, 255, .16), inset 0 1px 0 rgba(255,255,255,.08), 0 10px 22px rgba(0,0,0,.22);
+  border-color: rgba(var(--accent-rgb), .75);
+  box-shadow: 0 0 0 2px rgba(var(--accent-rgb), .16), inset 0 1px 0 rgba(255,255,255,.08), 0 10px 22px rgba(0,0,0,.22);
 }
 
 
@@ -2405,9 +2521,9 @@ html.wiki-modal-open body {
 .inline-help-mark {
   width: 1.12rem;
   height: 1.12rem;
-  border: 1px solid rgba(139, 213, 255, .58);
+  border: 1px solid rgba(var(--accent-rgb), .58);
   border-radius: 999px;
-  background: rgba(139, 213, 255, .12);
+  background: rgba(var(--accent-rgb), .12);
   color: #bce8ff;
   display: inline-flex;
   align-items: center;
@@ -2423,7 +2539,7 @@ html.wiki-modal-open body {
   left: 0;
   top: calc(100% + .45rem);
   width: min(18rem, calc(100vw - 2rem));
-  border: 1px solid rgba(139, 213, 255, .35);
+  border: 1px solid rgba(var(--accent-rgb), .35);
   border-radius: 12px;
   background: rgba(10, 18, 31, .98);
   color: #eaf5ff;
@@ -2577,7 +2693,7 @@ html.wiki-modal-open body {
 }
 
 .echo-skill-panel {
-  border: 1px solid rgba(139, 213, 255, .22);
+  border: 1px solid rgba(var(--accent-rgb), .22);
   border-radius: 12px;
   background: rgba(255,255,255,.04);
   padding: .65rem .72rem;
@@ -2593,7 +2709,7 @@ html.wiki-modal-open body {
 }
 
 .echo-skill-panel span {
-  color: #dce8f4;
+  color: var(--text-soft);
   line-height: 1.35;
 }
 
@@ -2621,7 +2737,7 @@ html.wiki-modal-open body {
 }
 
 .artifact-cap-group {
-  border: 1px solid rgba(139, 213, 255, .16);
+  border: 1px solid rgba(var(--accent-rgb), .16);
   border-radius: 16px;
   background: rgba(255,255,255,.035);
   padding: .9rem;
@@ -2737,8 +2853,8 @@ html.wiki-modal-open body {
 .nav-dropdown[open] > summary,
 .nav-dropdown > summary:hover,
 .nav-dropdown > summary:focus-visible {
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .08);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .08);
 }
 
 .nav-dropdown-menu {
@@ -2752,7 +2868,7 @@ html.wiki-modal-open body {
   padding: .45rem;
   border: 1px solid var(--line);
   border-radius: 14px;
-  background: rgba(22, 27, 34, .98);
+  background: var(--menu-bg);
   box-shadow: var(--shadow);
 }
 
@@ -2765,8 +2881,61 @@ html.wiki-modal-open body {
 
 .top-links .nav-dropdown-menu a:hover,
 .top-links .nav-dropdown-menu a:focus-visible {
-  background: rgba(139, 213, 255, .08);
+  background: rgba(var(--accent-rgb), .08);
   transform: none;
+}
+
+.theme-picker {
+  display: grid;
+  gap: .22rem;
+  color: var(--muted);
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
+.theme-picker select {
+  min-width: 7.3rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel-2);
+  color: var(--text);
+  padding: .54rem 2rem .54rem .68rem;
+  font: inherit;
+  font-size: .78rem;
+  font-weight: 750;
+  letter-spacing: normal;
+  text-transform: none;
+  text-align: center;
+  text-align-last: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.theme-picker select option {
+  text-align: center;
+}
+
+.theme-picker select:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), .14);
+}
+
+.desktop-theme-picker {
+  justify-self: end;
+}
+
+.mobile-theme-picker {
+  display: none;
+}
+
+:root[data-theme="light"] .top-links a,
+:root[data-theme="light"] .discord-button,
+:root[data-theme="light"] #wiki-search,
+:root[data-theme="light"] .search-wrap [data-wiki-search-input],
+:root[data-theme="light"] .mobile-menu-links a {
+  background: rgba(24, 35, 47, .045);
 }
 
 .mobile-menu-toggle,
@@ -2791,7 +2960,8 @@ html.wiki-modal-open body {
   .brand-short { display: inline; }
 
   .desktop-links,
-  .desktop-search {
+  .desktop-search,
+  .desktop-theme-picker {
     display: none;
   }
 
@@ -2809,7 +2979,7 @@ html.wiki-modal-open body {
     place-items: center;
     gap: .28rem;
     padding: .55rem;
-    border: 1px solid rgba(139, 213, 255, .24);
+    border: 1px solid rgba(var(--accent-rgb), .24);
     border-radius: 12px;
     background: rgba(255,255,255,.045);
     color: var(--text);
@@ -2827,8 +2997,8 @@ html.wiki-modal-open body {
   .mobile-search-toggle:focus-visible,
   .mobile-menu-toggle:hover,
   .mobile-menu-toggle:focus-visible {
-    border-color: rgba(139, 213, 255, .75);
-    background: rgba(139, 213, 255, .08);
+    border-color: rgba(var(--accent-rgb), .75);
+    background: rgba(var(--accent-rgb), .08);
   }
 
   .mobile-search-icon {
@@ -2868,7 +3038,7 @@ html.wiki-modal-open body {
     inset: 0;
     z-index: 120;
     display: block;
-    background: rgba(5, 8, 13, .82);
+    background: var(--overlay-bg);
     backdrop-filter: blur(8px);
   }
 
@@ -2877,10 +3047,10 @@ html.wiki-modal-open body {
     min-height: 100vh;
     padding: 1rem;
     background:
-      radial-gradient(circle at top left, rgba(139, 213, 255, .16), transparent 25rem),
+      radial-gradient(circle at top left, rgba(var(--accent-rgb), .16), transparent 25rem),
       var(--bg);
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto minmax(0, 1fr) auto;
     gap: 1rem;
   }
 
@@ -2911,7 +3081,7 @@ html.wiki-modal-open body {
   .mobile-search [data-wiki-search-input] {
     min-height: 3.15rem;
     border-radius: 999px;
-    border-color: rgba(139, 213, 255, .30);
+    border-color: rgba(var(--accent-rgb), .30);
     background: rgba(255,255,255,.07);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 10px 28px rgba(0,0,0,.18);
     font-size: 1rem;
@@ -2919,7 +3089,7 @@ html.wiki-modal-open body {
   }
 
   .mobile-search [data-wiki-search-input]:focus {
-    border-color: rgba(139, 213, 255, .95);
+    border-color: rgba(var(--accent-rgb), .95);
     background: rgba(255,255,255,.095);
   }
 
@@ -2940,7 +3110,7 @@ html.wiki-modal-open body {
   .mobile-search-popover [data-wiki-search-input] {
     min-height: 3.35rem;
     border-radius: 999px;
-    border-color: rgba(139, 213, 255, .36);
+    border-color: rgba(var(--accent-rgb), .36);
     background: rgba(255,255,255,.075);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 10px 28px rgba(0,0,0,.18);
     font-size: 1.06rem;
@@ -2948,7 +3118,7 @@ html.wiki-modal-open body {
   }
 
   .mobile-search-popover [data-wiki-search-input]:focus {
-    border-color: rgba(139, 213, 255, .95);
+    border-color: rgba(var(--accent-rgb), .95);
     background: rgba(255,255,255,.095);
   }
 
@@ -2964,7 +3134,21 @@ html.wiki-modal-open body {
     display: flex;
     flex-direction: column;
     gap: .7rem;
-    padding-top: .15rem;
+    min-height: 0;
+    overflow-y: auto;
+    padding: .15rem .1rem .35rem 0;
+  }
+
+  .mobile-theme-picker {
+    display: grid;
+    border-top: 1px solid var(--line);
+    padding-top: .85rem;
+  }
+
+  .mobile-theme-picker select {
+    width: 100%;
+    min-height: 3rem;
+    font-size: 1rem;
   }
 
   .mobile-menu-links a {
@@ -2979,8 +3163,8 @@ html.wiki-modal-open body {
 
   .mobile-menu-links a:hover,
   .mobile-menu-links a:focus-visible {
-    border-color: rgba(139, 213, 255, .75);
-    background: rgba(139, 213, 255, .08);
+    border-color: rgba(var(--accent-rgb), .75);
+    background: rgba(var(--accent-rgb), .08);
   }
 }
 
@@ -3012,9 +3196,9 @@ html.wiki-modal-open body {
   min-width: 5.25rem;
   flex: 1 0 auto;
   border: 0;
-  border-right: 1px solid rgba(139, 213, 255, .16);
+  border-right: 1px solid rgba(var(--accent-rgb), .16);
   background: rgba(255,255,255,.025);
-  color: #d8e2ec;
+  color: var(--text-soft);
   font-weight: 900;
   padding: .8rem .65rem;
   cursor: pointer;
@@ -3027,7 +3211,7 @@ html.wiki-modal-open body {
 .family-cg-tab-rail button.active,
 .family-cg-tab-rail button:hover,
 .family-cg-tab-rail button:focus-visible {
-  background: rgba(139, 213, 255, .16);
+  background: rgba(var(--accent-rgb), .16);
   color: #ffffff;
 }
 
@@ -3098,7 +3282,7 @@ html.wiki-modal-open body {
 }
 
 .family-preview-main-rail {
-  border-right: 1px solid rgba(139, 213, 255, .14) !important;
+  border-right: 1px solid rgba(var(--accent-rgb), .14) !important;
 }
 
 .family-cg-tab-rail {
@@ -3121,7 +3305,7 @@ html.wiki-modal-open body {
   border: 1px solid rgba(255,255,255,.16);
   border-radius: 999px;
   background: rgba(255,255,255,.075);
-  color: #d8e2ec;
+  color: var(--text-soft);
   font-weight: 900;
   font-size: .78rem;
   padding: 0;
@@ -3139,8 +3323,8 @@ html.wiki-modal-open body {
 .family-cg-tab-rail button.active,
 .family-cg-tab-rail button:hover,
 .family-cg-tab-rail button:focus-visible {
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .24);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .24);
   color: #ffffff;
 }
 
@@ -3407,10 +3591,10 @@ html.wiki-modal-open body {
   place-items: center;
   width: 2rem;
   height: 2rem;
-  border: 1px solid rgba(139, 213, 255, .36);
+  border: 1px solid rgba(var(--accent-rgb), .36);
   border-radius: 999px;
   color: var(--accent);
-  background: rgba(139, 213, 255, .08);
+  background: rgba(var(--accent-rgb), .08);
   font-size: 1.25rem;
   font-weight: 900;
   line-height: 1;
@@ -3445,7 +3629,7 @@ html.wiki-modal-open body {
 .fish-combination-node {
   position: relative;
   min-width: 0;
-  border: 1px solid rgba(139, 213, 255, .24);
+  border: 1px solid rgba(var(--accent-rgb), .24);
   border-radius: 14px;
   padding: .9rem;
   background: rgba(255, 255, 255, .035);
@@ -3460,8 +3644,8 @@ html.wiki-modal-open body {
 .fish-combination-node.tooltip-open {
   z-index: 50;
   transform: translateY(-2px);
-  border-color: rgba(139, 213, 255, .78);
-  background: rgba(139, 213, 255, .07);
+  border-color: rgba(var(--accent-rgb), .78);
+  background: rgba(var(--accent-rgb), .07);
   outline: none;
 }
 
@@ -3488,7 +3672,7 @@ html.wiki-modal-open body {
   width: 5.5rem;
   height: 5.5rem;
   overflow: hidden;
-  border: 1px solid rgba(139, 213, 255, .3);
+  border: 1px solid rgba(var(--accent-rgb), .3);
   border-radius: 12px;
   background: rgba(255, 255, 255, .05);
   box-shadow: 0 8px 18px rgba(0, 0, 0, .22);
@@ -3519,10 +3703,10 @@ html.wiki-modal-open body {
   transform: translateX(-50%) translateY(.25rem);
   opacity: 0;
   pointer-events: none;
-  border: 1px solid rgba(139, 213, 255, .4);
+  border: 1px solid rgba(var(--accent-rgb), .4);
   border-radius: 14px;
   padding: .78rem .82rem;
-  background: #1f2630;
+  background: var(--panel-2);
   color: var(--text);
   box-shadow: var(--shadow);
   display: grid;
@@ -3540,9 +3724,9 @@ html.wiki-modal-open body {
   width: .75rem;
   height: .75rem;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #1f2630;
-  border-right: 1px solid rgba(139, 213, 255, .4);
-  border-bottom: 1px solid rgba(139, 213, 255, .4);
+  background: var(--panel-2);
+  border-right: 1px solid rgba(var(--accent-rgb), .4);
+  border-bottom: 1px solid rgba(var(--accent-rgb), .4);
 }
 
 .fish-combination-node:hover .fish-combination-tooltip,
@@ -3562,7 +3746,7 @@ html.wiki-modal-open body {
 }
 
 .fish-combination-tooltip-description {
-  color: #aebdca;
+  color: var(--muted);
   font-size: .76rem;
   font-weight: 560;
   line-height: 1.35;
@@ -3577,18 +3761,18 @@ html.wiki-modal-open body {
 .fish-combination-tooltip-skill {
   display: grid;
   gap: .12rem;
-  border-top: 1px solid rgba(139, 213, 255, .16);
+  border-top: 1px solid rgba(var(--accent-rgb), .16);
   padding-top: .4rem;
 }
 
 .fish-combination-tooltip-skill strong {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .78rem;
   font-weight: 900;
 }
 
 .fish-combination-tooltip-skill span {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .8rem;
   font-weight: 650;
 }
@@ -3662,8 +3846,8 @@ html.wiki-modal-open body {
 .fish-antique-node.tooltip-open {
   z-index: 50;
   transform: translateY(-1px);
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .06);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .06);
   outline: none;
 }
 
@@ -3723,10 +3907,10 @@ html.wiki-modal-open body {
   transform: translateX(-50%) translateY(.25rem);
   opacity: 0;
   pointer-events: none;
-  border: 1px solid rgba(139, 213, 255, .4);
+  border: 1px solid rgba(var(--accent-rgb), .4);
   border-radius: 14px;
   padding: .78rem .82rem;
-  background: #1f2630;
+  background: var(--panel-2);
   color: var(--text);
   box-shadow: var(--shadow);
   text-align: left;
@@ -3742,9 +3926,9 @@ html.wiki-modal-open body {
   width: .75rem;
   height: .75rem;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #1f2630;
-  border-right: 1px solid rgba(139, 213, 255, .4);
-  border-bottom: 1px solid rgba(139, 213, 255, .4);
+  background: var(--panel-2);
+  border-right: 1px solid rgba(var(--accent-rgb), .4);
+  border-bottom: 1px solid rgba(var(--accent-rgb), .4);
 }
 
 .fish-antique-node:hover .fish-antique-tooltip,
@@ -3764,16 +3948,16 @@ html.wiki-modal-open body {
 }
 
 .fish-antique-tooltip-description {
-  color: #aebdca;
+  color: var(--muted);
   font-size: .76rem;
   font-weight: 560;
   line-height: 1.35;
 }
 
 .fish-antique-tooltip-skill {
-  border-top: 1px solid rgba(139, 213, 255, .16);
+  border-top: 1px solid rgba(var(--accent-rgb), .16);
   padding-top: .4rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .8rem;
   font-weight: 650;
   line-height: 1.35;
@@ -3860,8 +4044,8 @@ html.wiki-modal-open body {
 .inn-item-node.tooltip-open {
   z-index: 55;
   transform: translateY(-1px);
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .06);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .06);
   outline: none;
 }
 
@@ -3925,10 +4109,10 @@ html.wiki-modal-open body {
   transform: translateX(-50%) translateY(.25rem);
   opacity: 0;
   pointer-events: none;
-  border: 1px solid rgba(139, 213, 255, .4);
+  border: 1px solid rgba(var(--accent-rgb), .4);
   border-radius: 14px;
   padding: .82rem .88rem;
-  background: #1f2630;
+  background: var(--panel-2);
   color: var(--text);
   box-shadow: var(--shadow);
   text-align: left;
@@ -3944,9 +4128,9 @@ html.wiki-modal-open body {
   width: .75rem;
   height: .75rem;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #1f2630;
-  border-right: 1px solid rgba(139, 213, 255, .4);
-  border-bottom: 1px solid rgba(139, 213, 255, .4);
+  background: var(--panel-2);
+  border-right: 1px solid rgba(var(--accent-rgb), .4);
+  border-bottom: 1px solid rgba(var(--accent-rgb), .4);
 }
 
 .inn-item-node:hover .inn-item-tooltip,
@@ -3966,16 +4150,16 @@ html.wiki-modal-open body {
 }
 
 .inn-item-tooltip-description {
-  color: #aebdca;
+  color: var(--muted);
   font-size: .76rem;
   font-weight: 560;
   line-height: 1.35;
 }
 
 .inn-item-tooltip-detail {
-  border-top: 1px solid rgba(139, 213, 255, .16);
+  border-top: 1px solid rgba(var(--accent-rgb), .16);
   padding-top: .42rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .82rem;
   font-weight: 650;
   line-height: 1.4;
@@ -3988,7 +4172,7 @@ html.wiki-modal-open body {
 }
 
 .inn-item-tooltip-detail strong {
-  color: #f0f6fc;
+  color: var(--text);
   font-size: .78rem;
   font-weight: 900;
 }
@@ -4064,9 +4248,9 @@ html.wiki-modal-open body {
 .apothecary-potion-tooltip-detail {
   display: grid;
   gap: .2rem;
-  border-top: 1px solid rgba(139, 213, 255, .16);
+  border-top: 1px solid rgba(var(--accent-rgb), .16);
   padding-top: .42rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .8rem;
   font-weight: 650;
   line-height: 1.35;
@@ -4108,9 +4292,9 @@ html.wiki-modal-open body {
 .magic-farm-plant-tooltip-detail {
   display: grid;
   gap: .28rem;
-  border-top: 1px solid rgba(139, 213, 255, .18);
+  border-top: 1px solid rgba(var(--accent-rgb), .18);
   padding-top: .52rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .8rem;
   font-weight: 620;
   line-height: 1.4;
@@ -4176,9 +4360,9 @@ html.wiki-modal-open body {
 .player-figure-tooltip-detail {
   display: grid;
   gap: .24rem;
-  border-top: 1px solid rgba(139, 213, 255, .18);
+  border-top: 1px solid rgba(var(--accent-rgb), .18);
   padding-top: .48rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .8rem;
   font-weight: 620;
   line-height: 1.4;
@@ -4219,10 +4403,10 @@ html.wiki-modal-open body {
   gap: .65rem;
   width: 100%;
   margin: 0;
-  border: 1px solid rgba(139, 213, 255, .24);
+  border: 1px solid rgba(var(--accent-rgb), .24);
   border-radius: 10px;
   padding: .48rem;
-  background: rgba(139, 213, 255, .055);
+  background: rgba(var(--accent-rgb), .055);
   color: var(--text);
   text-align: left;
   cursor: zoom-in;
@@ -4230,8 +4414,8 @@ html.wiki-modal-open body {
 
 .player-figure-senior-preview-button:hover,
 .player-figure-senior-preview-button:focus-visible {
-  border-color: rgba(139, 213, 255, .72);
-  background: rgba(139, 213, 255, .11);
+  border-color: rgba(var(--accent-rgb), .72);
+  background: rgba(var(--accent-rgb), .11);
   outline: none;
 }
 
@@ -4261,7 +4445,7 @@ html.wiki-modal-open body {
 
 .player-figure-senior-name {
   overflow: hidden;
-  color: #f0f6fc;
+  color: var(--text);
   font-size: .86rem;
   font-weight: 850;
   line-height: 1.25;
@@ -4291,10 +4475,10 @@ html.wiki-modal-open body {
   display: grid;
   min-width: 13rem;
   gap: .15rem;
-  border: 1px solid rgba(139, 213, 255, .35);
+  border: 1px solid rgba(var(--accent-rgb), .35);
   border-radius: 12px;
   padding: .72rem .9rem;
-  background: rgba(139, 213, 255, .07);
+  background: rgba(var(--accent-rgb), .07);
 }
 
 .rs-score-card.compact {
@@ -4332,7 +4516,7 @@ html.wiki-modal-open body {
   min-width: 0;
   border: 1px solid var(--line);
   border-radius: 14px;
-  background: rgba(255, 255, 255, .025);
+  background: color-mix(in srgb, var(--panel) 92%, var(--panel-2) 8%);
 }
 
 .rs-palette-panel {
@@ -4377,7 +4561,7 @@ html.wiki-modal-open body {
 
 .rs-palette-tabs button.active {
   border-color: var(--accent);
-  background: rgba(139, 213, 255, .12);
+  background: rgba(var(--accent-rgb), .12);
   color: var(--accent);
 }
 
@@ -4414,8 +4598,8 @@ html.wiki-modal-open body {
 .rs-palette-entry:hover,
 .rs-palette-entry:focus-visible,
 .rs-palette-entry.selected {
-  border-color: rgba(139, 213, 255, .75);
-  background: rgba(139, 213, 255, .08);
+  border-color: rgba(var(--accent-rgb), .75);
+  background: rgba(var(--accent-rgb), .08);
   outline: none;
 }
 
@@ -4452,7 +4636,7 @@ html.wiki-modal-open body {
   height: 3rem;
   border: 1px solid rgba(255, 255, 255, .24);
   border-radius: 10px;
-  background: linear-gradient(145deg, rgba(139, 213, 255, .18), rgba(255, 255, 255, .035));
+  background: linear-gradient(145deg, rgba(var(--accent-rgb), .18), rgba(255, 255, 255, .035));
   color: var(--text);
   line-height: 1;
 }
@@ -4493,7 +4677,7 @@ html.wiki-modal-open body {
   place-items: stretch;
   min-width: 0;
   aspect-ratio: 1;
-  border: 1px solid rgba(139, 213, 255, .25);
+  border: 1px solid rgba(var(--accent-rgb), .25);
   border-radius: 10px;
   background: rgba(255, 255, 255, .025);
   overflow: hidden;
@@ -4505,7 +4689,7 @@ html.wiki-modal-open body {
 .rs-stage-cell:focus-visible,
 .rs-stage-cell.drag-over {
   border-color: var(--accent);
-  background: rgba(139, 213, 255, .07);
+  background: rgba(var(--accent-rgb), .07);
   outline: none;
 }
 
@@ -4651,10 +4835,10 @@ html.wiki-modal-open body {
   display: grid;
   gap: .7rem;
   width: min(28rem, 100%);
-  border: 1px solid rgba(139, 213, 255, .45);
+  border: 1px solid rgba(var(--accent-rgb), .45);
   border-radius: 14px;
   padding: 1rem;
-  background: #1f2630;
+  background: var(--panel-2);
   box-shadow: var(--shadow);
 }
 
@@ -4845,7 +5029,7 @@ html.wiki-modal-open body {
 }
 
 .treasure-area-card {
-  border: 1px solid rgba(139, 213, 255, .18);
+  border: 1px solid rgba(var(--accent-rgb), .18);
   border-radius: 16px;
   padding: 1rem;
   background: rgba(255,255,255,.035);
@@ -4888,7 +5072,7 @@ html.wiki-modal-open body {
 
 .treasure-map-panel {
   min-width: 0;
-  border: 1px solid rgba(139, 213, 255, .16);
+  border: 1px solid rgba(var(--accent-rgb), .16);
   border-radius: 14px;
   padding: .8rem;
   background: rgba(0,0,0,.10);
@@ -4916,11 +5100,11 @@ html.wiki-modal-open body {
   display: grid;
   place-items: center;
   flex: 0 0 auto;
-  border: 1px dashed rgba(139, 213, 255, .36);
+  border: 1px dashed rgba(var(--accent-rgb), .36);
   border-radius: 12px;
   background:
     radial-gradient(circle at 35% 25%, rgba(255,255,255,.12), transparent 36%),
-    rgba(139, 213, 255, .06);
+    rgba(var(--accent-rgb), .06);
   color: rgba(220, 235, 247, .72);
   font-size: .67rem;
   font-weight: 900;
@@ -4963,7 +5147,7 @@ html.wiki-modal-open body {
   width: 1.8rem;
   height: 1.8rem;
   border-radius: 999px;
-  background: rgba(139, 213, 255, .12);
+  background: rgba(var(--accent-rgb), .12);
   color: var(--accent);
   font-size: .9rem;
 }
@@ -4977,7 +5161,7 @@ html.wiki-modal-open body {
 .treasure-gem-label strong {
   max-width: 12rem;
   overflow: hidden;
-  color: #eef6ff;
+  color: var(--text);
   font-size: .78rem;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -4993,7 +5177,7 @@ html.wiki-modal-open body {
 }
 
 .treasure-gem-tooltip > span {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .8rem;
   font-weight: 700;
 }
@@ -5012,9 +5196,9 @@ html.wiki-modal-open body {
   display: flex;
   justify-content: space-between;
   gap: .75rem;
-  border-top: 1px solid rgba(139, 213, 255, .11);
+  border-top: 1px solid rgba(var(--accent-rgb), .11);
   padding-top: .25rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .78rem;
 }
 
@@ -5089,7 +5273,7 @@ html.wiki-modal-open body {
 .treasure-relic-detail {
   display: grid;
   gap: .2rem;
-  border-top: 1px solid rgba(139, 213, 255, .11);
+  border-top: 1px solid rgba(var(--accent-rgb), .11);
   padding-top: .4rem;
 }
 
@@ -5100,7 +5284,7 @@ html.wiki-modal-open body {
 
 .treasure-relic-detail > span,
 .treasure-relic-detail .muted {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .79rem;
   font-weight: 620;
   line-height: 1.35;
@@ -5176,10 +5360,10 @@ html.wiki-modal-open body {
 
 .museum-exhibit-placeholder {
   display: block;
-  border: 1px dashed rgba(139, 213, 255, .30);
+  border: 1px dashed rgba(var(--accent-rgb), .30);
   background:
     radial-gradient(circle at 35% 25%, rgba(255,255,255,.10), transparent 36%),
-    rgba(139, 213, 255, .045);
+    rgba(var(--accent-rgb), .045);
 }
 
 .museum-exhibit-image-shell .museum-exhibit-placeholder {
@@ -5209,7 +5393,7 @@ html.wiki-modal-open body {
   justify-content: space-between;
   gap: .65rem;
   min-width: 0;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .8rem;
   line-height: 1.25;
 }
@@ -5251,7 +5435,7 @@ html.wiki-modal-open body {
 .museum-exhibit-detail {
   display: grid;
   gap: .2rem;
-  border-top: 1px solid rgba(139, 213, 255, .11);
+  border-top: 1px solid rgba(var(--accent-rgb), .11);
   padding-top: .4rem;
 }
 
@@ -5261,7 +5445,7 @@ html.wiki-modal-open body {
 }
 
 .museum-exhibit-detail > span {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .79rem;
   font-weight: 620;
   line-height: 1.35;
@@ -5272,7 +5456,7 @@ html.wiki-modal-open body {
   padding-left: 1.1rem;
   display: grid;
   gap: .12rem;
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .79rem;
   font-weight: 620;
   line-height: 1.35;
@@ -5318,10 +5502,10 @@ html.wiki-modal-open body {
   display: grid;
   gap: .55rem;
   height: 100%;
-  border: 1px solid rgba(139, 213, 255, .16);
+  border: 1px solid rgba(var(--accent-rgb), .16);
   border-radius: 12px;
   padding: .9rem 1rem;
-  background: rgba(10, 25, 39, .66);
+  background: color-mix(in srgb, var(--panel) 92%, var(--accent) 8%);
   color: inherit;
   text-decoration: none;
   transition: border-color .15s ease, transform .15s ease, background .15s ease;
@@ -5343,9 +5527,9 @@ html.wiki-modal-open body {
   place-items: center;
   width: 76px;
   height: 76px;
-  border: 1px solid rgba(139, 213, 255, .14);
+  border: 1px solid rgba(var(--accent-rgb), .14);
   border-radius: 12px;
-  background: rgba(255, 255, 255, .035);
+  background: color-mix(in srgb, var(--panel-2) 90%, var(--accent) 10%);
   overflow: hidden;
 }
 
@@ -5358,8 +5542,8 @@ html.wiki-modal-open body {
 
 .event-index-card:hover,
 .event-index-card:focus-visible {
-  border-color: rgba(139, 213, 255, .48);
-  background: rgba(18, 39, 58, .82);
+  border-color: rgba(var(--accent-rgb), .48);
+  background: color-mix(in srgb, var(--panel-2) 82%, var(--accent) 18%);
   transform: translateY(-1px);
 }
 
@@ -5407,7 +5591,7 @@ html.wiki-modal-open body {
   display: grid;
   gap: .12rem;
   min-width: 7rem;
-  border: 1px solid rgba(139, 213, 255, .12);
+  border: 1px solid rgba(var(--accent-rgb), .12);
   border-radius: 8px;
   padding: .45rem .6rem;
   background: rgba(255, 255, 255, .025);
@@ -5447,7 +5631,7 @@ html.wiki-modal-open body {
   place-items: center;
   width: 112px;
   height: 112px;
-  border: 1px solid rgba(139, 213, 255, .16);
+  border: 1px solid rgba(var(--accent-rgb), .16);
   border-radius: 16px;
   background: rgba(255, 255, 255, .035);
   overflow: hidden;
@@ -5482,11 +5666,11 @@ html.wiki-modal-open body {
   display: inline-flex;
   align-items: baseline;
   gap: .3rem;
-  border: 1px solid rgba(139, 213, 255, .18);
+  border: 1px solid rgba(var(--accent-rgb), .18);
   border-radius: 999px;
   padding: .32rem .55rem;
-  background: rgba(139, 213, 255, .06);
-  color: #dce8f4;
+  background: rgba(var(--accent-rgb), .06);
+  color: var(--text-soft);
   font-size: .78rem;
   font-weight: 700;
 }
@@ -5502,8 +5686,8 @@ html.wiki-modal-open body {
 
 a.event-reward-chip-featured:hover,
 a.event-reward-chip-featured:focus-visible {
-  border-color: rgba(139, 213, 255, .48);
-  background: rgba(139, 213, 255, .12);
+  border-color: rgba(var(--accent-rgb), .48);
+  background: rgba(var(--accent-rgb), .12);
 }
 
 .event-reward-chip-image {
@@ -5531,7 +5715,7 @@ a.event-reward-chip-featured:focus-visible {
 }
 
 .event-reward-chip-copy > span:first-child {
-  color: #dce8f4;
+  color: var(--text-soft);
   overflow-wrap: anywhere;
 }
 
@@ -5547,6 +5731,32 @@ a.event-reward-chip-featured:focus-visible {
 }
 
 .event-phases-section {
+  display: grid;
+  gap: .8rem;
+}
+
+.event-phase-history-group {
+  display: grid;
+  gap: .8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: .9rem;
+  background: color-mix(in srgb, var(--panel) 94%, var(--accent-2) 6%);
+}
+
+.event-phase-history-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: .8rem;
+  padding: .1rem .15rem;
+}
+
+.event-phase-history-heading h3 {
+  margin: 0;
+}
+
+.event-phase-history-list {
   display: grid;
   gap: .8rem;
 }
@@ -5592,13 +5802,13 @@ a.event-reward-chip-featured:focus-visible {
 .event-phase-content {
   display: grid;
   gap: .85rem;
-  border-top: 1px solid rgba(139, 213, 255, .12);
+  border-top: 1px solid rgba(var(--accent-rgb), .12);
   padding: 1rem;
 }
 
 .event-phase-briefing {
   margin: 0;
-  color: #dce8f4;
+  color: var(--text-soft);
   line-height: 1.55;
 }
 
@@ -5631,7 +5841,7 @@ a.event-reward-chip-featured:focus-visible {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: .15rem .7rem;
-  border: 1px solid rgba(139, 213, 255, .11);
+  border: 1px solid rgba(var(--accent-rgb), .11);
   border-radius: 8px;
   padding: .55rem .65rem;
 }
@@ -5653,7 +5863,7 @@ a.event-reward-chip-featured:focus-visible {
   grid-template-columns: minmax(0, 1fr) auto auto;
   align-items: center;
   gap: .5rem .8rem;
-  border: 1px solid rgba(139, 213, 255, .11);
+  border: 1px solid rgba(var(--accent-rgb), .11);
   border-radius: 8px;
   padding: .55rem .65rem;
 }
@@ -5666,7 +5876,7 @@ a.event-reward-chip-featured:focus-visible {
 }
 
 .event-shop-price {
-  color: #dce8f4;
+  color: var(--text-soft);
   font-size: .78rem;
   white-space: nowrap;
 }
@@ -5681,7 +5891,7 @@ a.event-reward-chip-featured:focus-visible {
 .event-shop-badges > span {
   border-radius: 999px;
   padding: .15rem .4rem;
-  background: rgba(139, 213, 255, .09);
+  background: rgba(var(--accent-rgb), .09);
   color: var(--muted);
   font-size: .65rem;
   font-weight: 800;
@@ -5764,7 +5974,8 @@ a.event-reward-chip-featured:focus-visible {
   border: 1px solid var(--border-color);
   border-radius: 999px;
   padding: 0.28rem 0.58rem;
-  background: color-mix(in srgb, var(--panel-bg) 86%, var(--accent) 14%);
+  background: color-mix(in srgb, var(--panel-2) 82%, var(--accent) 18%);
+  color: var(--text);
   font-size: 0.78rem;
 }
 
@@ -5944,4 +6155,462 @@ a.event-reward-chip-featured:focus-visible {
   .event-extra-grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* Event data grouping: collapsible modules with clearly separated sub-systems */
+.event-module {
+  margin: .15rem 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--panel) 94%, var(--accent) 6%);
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, .12);
+}
+
+.event-module > summary,
+.event-gacha-card > summary,
+.event-ranking-subtype > summary {
+  list-style: none;
+}
+
+.event-module > summary::-webkit-details-marker,
+.event-gacha-card > summary::-webkit-details-marker,
+.event-ranking-subtype > summary::-webkit-details-marker {
+  display: none;
+}
+
+.event-module-summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+  padding: .85rem 1rem;
+  background: color-mix(in srgb, var(--panel-2) 82%, var(--accent) 18%);
+}
+
+.event-module-summary > span:first-child,
+.event-gacha-summary > span {
+  display: grid;
+  gap: .12rem;
+  min-width: 0;
+}
+
+.event-module-summary small,
+.event-gacha-summary small {
+  color: var(--muted);
+  font-size: .66rem;
+  font-weight: 850;
+  letter-spacing: .065em;
+  text-transform: uppercase;
+}
+
+.event-module-summary strong,
+.event-gacha-summary strong {
+  overflow-wrap: anywhere;
+}
+
+.event-module-summary-meta,
+.event-module-summary code,
+.event-gacha-summary code {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 750;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.event-module[open] > .event-module-summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.event-module-body {
+  display: grid;
+  gap: .75rem;
+  padding: 1rem;
+}
+
+.event-ranking-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .8rem;
+  align-items: start;
+}
+
+.event-ranking-column {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.event-ranking-column-heading {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .68rem .75rem;
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--panel-2) 88%, var(--accent) 12%);
+}
+
+.event-ranking-column-heading h5 {
+  margin: 0;
+  font-size: .94rem;
+}
+
+.event-ranking-code {
+  display: inline-grid;
+  place-items: center;
+  min-width: 2rem;
+  height: 1.65rem;
+  padding: 0 .4rem;
+  border: 1px solid rgba(var(--accent-rgb), .32);
+  border-radius: var(--radius-pill);
+  color: var(--accent);
+  font-size: .68rem;
+  font-weight: 900;
+}
+
+.event-ranking-column-body {
+  display: grid;
+  gap: .55rem;
+  padding: .7rem;
+}
+
+.event-ranking-variant-label {
+  margin: .15rem 0 0;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.event-ranking-subtype {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  overflow: hidden;
+  background: color-mix(in srgb, var(--panel) 96%, var(--accent) 4%);
+}
+
+.event-ranking-subtype > summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  padding: .62rem .7rem;
+  font-weight: 750;
+}
+
+.event-ranking-subtype[open] > summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.event-ranking-subtype-body {
+  padding: .05rem .7rem .7rem;
+}
+
+.event-ranking-daily-badge {
+  border: 1px solid rgba(var(--accent-rgb), .3);
+  border-radius: var(--radius-pill);
+  padding: .14rem .38rem;
+  background: rgba(var(--accent-rgb), .09);
+  color: var(--accent);
+  font-size: .62rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.event-gacha-list,
+.event-achievement-tracks {
+  display: grid;
+  gap: .85rem;
+}
+
+.event-gacha-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.event-gacha-summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+  padding: .78rem .85rem;
+  background: color-mix(in srgb, var(--panel-2) 88%, var(--accent-2) 12%);
+}
+
+.event-gacha-summary-main {
+  min-width: 0;
+}
+
+.event-gacha-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem;
+  min-width: 0;
+}
+
+.event-gacha-summary-featured {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+}
+
+.event-gacha-featured-pill {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  border: 1px solid rgba(var(--accent-rgb), .34);
+  border-radius: var(--radius-pill);
+  padding: .16rem .45rem;
+  background: color-mix(in srgb, var(--panel) 76%, var(--accent) 24%);
+  color: var(--text);
+  font-size: .68rem;
+  font-weight: 800;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.event-gacha-card[open] > .event-gacha-summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.event-gacha-body {
+  display: grid;
+  gap: .7rem;
+  padding: .8rem;
+}
+
+.event-gacha-body h6 {
+  margin: .25rem 0 0;
+  color: var(--text-soft);
+  font-size: .78rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.event-gacha-pool {
+  margin-top: .1rem;
+}
+
+.event-battle-pass-rewards {
+  margin-top: .15rem;
+}
+
+.event-achievement-track {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel);
+  padding: .75rem;
+}
+
+.event-achievement-track-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .75rem;
+  padding: 0 .05rem .1rem;
+}
+
+.event-achievement-track-heading h5 {
+  margin: 0;
+}
+
+.event-achievement-track-heading code {
+  max-width: 60%;
+  color: var(--muted);
+  font-size: .66rem;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.event-achievement-page {
+  margin-top: .55rem;
+}
+
+.event-bundles-body {
+  gap: .8rem;
+}
+
+.event-bundle-group > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .7rem;
+}
+
+.event-bundle-group-meta {
+  color: var(--muted);
+  font-size: .7rem;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.event-bundle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: .7rem;
+  padding: .75rem;
+}
+
+.event-bundle-card {
+  display: grid;
+  align-content: start;
+  gap: .7rem;
+  min-width: 0;
+  padding: .8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: color-mix(in srgb, var(--panel) 94%, var(--accent) 6%);
+}
+
+.event-bundle-card-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .65rem;
+  min-width: 0;
+}
+
+.event-bundle-card-heading strong {
+  overflow-wrap: anywhere;
+}
+
+.event-bundle-card-heading code {
+  max-width: 46%;
+  color: var(--muted);
+  font-size: .64rem;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.event-bundle-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
+  gap: .45rem;
+}
+
+.event-bundle-meta > span {
+  display: grid;
+  gap: .1rem;
+  min-width: 0;
+  padding: .48rem .55rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel-2);
+}
+
+.event-bundle-meta small,
+.event-bundle-contents > small {
+  color: var(--muted);
+  font-size: .64rem;
+  font-weight: 850;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+}
+
+.event-bundle-meta strong {
+  overflow-wrap: anywhere;
+}
+
+.event-bundle-contents {
+  display: grid;
+  gap: .42rem;
+}
+
+@media (max-width: 760px) {
+  .event-ranking-columns,
+  .event-bundle-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .event-module-summary,
+  .event-gacha-summary,
+  .event-achievement-track-heading,
+  .event-phase-history-heading {
+    align-items: flex-start;
+  }
+
+  .event-module-summary-meta,
+  .event-module-summary code,
+  .event-gacha-summary code,
+  .event-achievement-track-heading code {
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 520px) {
+  .event-module-summary,
+  .event-gacha-summary,
+  .event-achievement-track-heading,
+  .event-phase-history-heading {
+    flex-direction: column;
+  }
+
+  .event-gacha-title-row {
+    align-items: flex-start;
+  }
+
+  .event-module-summary-meta,
+  .event-module-summary code,
+  .event-gacha-summary code,
+  .event-achievement-track-heading code {
+    max-width: 100%;
+    text-align: left;
+  }
+}
+
+/* Theme-specific shape language. The unusual corner-shape property is progressive
+   enhancement; asymmetric radii remain as a fallback on browsers without it. */
+:root[data-theme="black"] :is(
+  .hero-panel, .section-block, .wiki-card, .search-results, .nav-dropdown-menu,
+  .event-phase-card, .event-phase-history-group, .event-module, .event-gacha-card, .event-ranking-column,
+  .event-ranking-subtype, .event-achievement-track, .event-subdetails, .event-reward-set, .event-bundle-card,
+  .theme-picker select, .top-links a, .discord-button, #wiki-search,
+  .search-wrap [data-wiki-search-input], .mobile-menu-links a, .mobile-menu-toggle,
+  .mobile-search-toggle, .mobile-menu-close
+) {
+  border-radius: 0 !important;
+}
+
+:root[data-theme="earth"] :is(
+  .hero-panel, .section-block, .wiki-card, .search-results, .nav-dropdown-menu,
+  .event-phase-card, .event-phase-history-group, .event-module, .event-gacha-card, .event-ranking-column,
+  .event-achievement-track, .event-bundle-card
+) {
+  border-radius: 0 !important;
+  clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0 calc(100% - 10px), 0 10px);
+}
+
+:root[data-theme="earth"] :is(
+  .event-ranking-subtype, .event-subdetails, .event-reward-set, .theme-picker select,
+  .top-links a, .discord-button, #wiki-search, .search-wrap [data-wiki-search-input],
+  .mobile-menu-links a
+) {
+  border-radius: 3px !important;
+}
+
+:root[data-theme="aqua"] :is(
+  .hero-panel, .section-block, .wiki-card, .search-results, .nav-dropdown-menu,
+  .event-phase-card, .event-phase-history-group, .event-module, .event-gacha-card, .event-ranking-column,
+  .event-ranking-subtype, .event-achievement-track, .event-subdetails, .event-reward-set, .event-bundle-card
+) {
+  border-radius: 24px 8px 24px 8px !important;
+  corner-shape: scoop;
+}
+
+:root[data-theme="aqua"] :is(
+  .theme-picker select, .top-links a, .discord-button, #wiki-search,
+  .search-wrap [data-wiki-search-input], .mobile-menu-links a
+) {
+  border-radius: 16px 5px 16px 5px !important;
+  corner-shape: scoop;
 }

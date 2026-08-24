@@ -25,7 +25,17 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://zik-ascend.github.io/isl-tools/wiki/fellows/athena/#webpage","url":"https://zik-ascend.github.io/isl-tools/wiki/fellows/athena/","name":"Athena – Fellow | Isekai Slow Life Wiki","description":"Athena Fellow guide for Isekai Slow Life. The most renowned goddess of the Cloud Kingdom, powerful and beautiful. With a wave of her hand, she can bless the masses, multiplying their strength a hundredfold—though it doesn't help her. Despite her perfection, she's physically weak and strives to trai…","inLanguage":"en","isPartOf":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#website"},"primaryImageOfPage":{"@type":"ImageObject","contentUrl":"https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_168/default.webp"},"mainEntity":{"@type":"Thing","@id":"https://zik-ascend.github.io/isl-tools/wiki/fellows/athena/#entity","name":"Athena","url":"https://zik-ascend.github.io/isl-tools/wiki/fellows/athena/","description":"Athena Fellow guide for Isekai Slow Life. The most renowned goddess of the Cloud Kingdom, powerful and beautiful. With a wave of her hand, she can bless the masses, multiplying their strength a hundredfold—though it doesn't help her. Despite her perfection, she's physically weak and strives to trai…","identifier":{"@type":"PropertyValue","propertyID":"Isekai Slow Life ID","value":"Hero_168"},"image":"https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_168/default.webp"},"breadcrumb":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/fellows/athena/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://zik-ascend.github.io/isl-tools/wiki/fellows/athena/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"wiki","item":"https://zik-ascend.github.io/isl-tools/wiki/home/"},{"@type":"ListItem","position":2,"name":"fellows","item":"https://zik-ascend.github.io/isl-tools/wiki/fellows/"},{"@type":"ListItem","position":3,"name":"Athena","item":"https://zik-ascend.github.io/isl-tools/wiki/fellows/athena/"}]}]}</script>
   <title>Athena – Fellow | Isekai Slow Life Wiki</title>
   <link rel="sitemap" type="application/xml" href="../../sitemap.xml">
-  <link rel="stylesheet" href="../../assets/wiki.css?v=202608212249">
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("isl-wiki-theme");
+        if (["dark", "light", "mocha", "aqua", "earth", "black"].includes(savedTheme)) {
+          document.documentElement.dataset.theme = savedTheme;
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../assets/wiki.css?v=202608240043">
 </head>
 <body>
   <header class="wiki-topbar">
@@ -52,6 +62,17 @@
         </div>
       </details>
     </nav>
+    <label class="theme-picker desktop-theme-picker">
+      <span>Theme</span>
+      <select data-wiki-theme-select aria-label="Wiki theme">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="mocha">Mocha</option>
+        <option value="aqua">Aqua</option>
+        <option value="earth">Earth</option>
+        <option value="black">Black</option>
+      </select>
+    </label>
     <div class="search-wrap desktop-search">
       <input id="wiki-search" data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
       <div id="wiki-search-results" data-wiki-search-results class="search-results" hidden></div>
@@ -97,13 +118,24 @@
           <a href="../../calculators/">Calculators</a>
           <a href="../../beta/">Beta ★</a>
         </nav>
+        <label class="theme-picker mobile-theme-picker">
+          <span>Theme</span>
+          <select data-wiki-theme-select aria-label="Wiki theme">
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+            <option value="mocha">Mocha</option>
+            <option value="aqua">Aqua</option>
+            <option value="earth">Earth</option>
+            <option value="black">Black</option>
+          </select>
+        </label>
       </div>
     </div>
   </header>
 
   <main class="wiki-page">
     <div class="breadcrumbs" aria-label="Breadcrumbs"><a href="../../home/">wiki</a><span class="crumb-sep">/</span><a href="../../fellows/">fellows</a><span class="crumb-sep">/</span><span>Athena</span></div>
-    <div class="page-meta">Last updated: <time>2026-08-21 22:49 UTC</time></div>
+    <div class="page-meta">Last updated: <time>2026-08-24 00:43 UTC</time></div>
     
 <nav class="character-adjacent-nav" data-character-nav data-category="fellows" data-current-path="../../fellows/athena/" aria-label="Adjacent characters">
   <a class="character-nav-link" data-character-nav-prev href="../../fellows/bell-cranel/"><span>Previous</span><strong>Bell Cranel</strong></a>
@@ -537,6 +569,6 @@
     <a class="issue-footer-link" href="../../beta/">Report an issue</a>
   </footer>
 
-  <script src="../../assets/wiki.js?v=202608212249" data-search-index="../../wiki_manifest.json"></script>
+  <script src="../../assets/wiki.js?v=202608240043" data-search-index="../../wiki_manifest.json"></script>
 </body>
 </html>

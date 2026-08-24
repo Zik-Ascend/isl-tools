@@ -113,6 +113,48 @@
 })();
 
 (() => {
+  const storageKey = 'isl-wiki-theme';
+  const themes = new Set(['dark', 'light', 'mocha', 'aqua', 'earth', 'black']);
+  const selectors = Array.from(document.querySelectorAll('[data-wiki-theme-select]'));
+  if (!selectors.length) return;
+
+  function normalizeTheme(value) {
+    return themes.has(value) ? value : 'dark';
+  }
+
+  function storedTheme() {
+    try {
+      return normalizeTheme(localStorage.getItem(storageKey) || document.documentElement.dataset.theme || 'dark');
+    } catch (error) {
+      return normalizeTheme(document.documentElement.dataset.theme || 'dark');
+    }
+  }
+
+  function applyTheme(value, persist = true) {
+    const theme = normalizeTheme(value);
+    document.documentElement.dataset.theme = theme;
+    selectors.forEach(select => {
+      if (select.value !== theme) select.value = theme;
+    });
+    if (persist) {
+      try {
+        localStorage.setItem(storageKey, theme);
+      } catch (error) {}
+    }
+  }
+
+  selectors.forEach(select => {
+    select.addEventListener('change', () => applyTheme(select.value));
+  });
+
+  window.addEventListener('storage', event => {
+    if (event.key === storageKey) applyTheme(event.newValue || 'dark', false);
+  });
+
+  applyTheme(storedTheme(), false);
+})();
+
+(() => {
   const topbar = document.querySelector('.wiki-topbar');
   const menu = document.querySelector('[data-mobile-menu]');
   const toggle = document.querySelector('[data-mobile-menu-toggle]');

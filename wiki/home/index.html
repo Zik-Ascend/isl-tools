@@ -19,7 +19,17 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#website","url":"https://zik-ascend.github.io/isl-tools/wiki/home/","name":"Isekai Slow Life Wiki","alternateName":"ISL Wiki","description":"A fanmade wiki for Isekai Slow Life maintained by The Ascended discord.","inLanguage":"en"},{"@type":"WebPage","@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#webpage","url":"https://zik-ascend.github.io/isl-tools/wiki/home/","name":"Home | Isekai Slow Life Wiki","description":"A fanmade wiki for Isekai Slow Life maintained by The Ascended discord.","inLanguage":"en","isPartOf":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#website"},"breadcrumb":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"wiki","item":"https://zik-ascend.github.io/isl-tools/wiki/home/"}]}]}</script>
   <title>Home | Isekai Slow Life Wiki</title>
   <link rel="sitemap" type="application/xml" href="../sitemap.xml">
-  <link rel="stylesheet" href="../assets/wiki.css?v=202608212249">
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("isl-wiki-theme");
+        if (["dark", "light", "mocha", "aqua", "earth", "black"].includes(savedTheme)) {
+          document.documentElement.dataset.theme = savedTheme;
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../assets/wiki.css?v=202608240043">
 </head>
 <body>
   <header class="wiki-topbar">
@@ -46,6 +56,17 @@
         </div>
       </details>
     </nav>
+    <label class="theme-picker desktop-theme-picker">
+      <span>Theme</span>
+      <select data-wiki-theme-select aria-label="Wiki theme">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="mocha">Mocha</option>
+        <option value="aqua">Aqua</option>
+        <option value="earth">Earth</option>
+        <option value="black">Black</option>
+      </select>
+    </label>
     <div class="search-wrap desktop-search">
       <input id="wiki-search" data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
       <div id="wiki-search-results" data-wiki-search-results class="search-results" hidden></div>
@@ -91,13 +112,24 @@
           <a href="../calculators/">Calculators</a>
           <a href="../beta/">Beta ★</a>
         </nav>
+        <label class="theme-picker mobile-theme-picker">
+          <span>Theme</span>
+          <select data-wiki-theme-select aria-label="Wiki theme">
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+            <option value="mocha">Mocha</option>
+            <option value="aqua">Aqua</option>
+            <option value="earth">Earth</option>
+            <option value="black">Black</option>
+          </select>
+        </label>
       </div>
     </div>
   </header>
 
   <main class="wiki-page">
     <div class="breadcrumbs" aria-label="Breadcrumbs"><span>wiki</span></div>
-    <div class="page-meta">Last updated: <time>2026-08-21 22:49 UTC</time></div>
+    <div class="page-meta">Last updated: <time>2026-08-24 00:43 UTC</time></div>
     
 <section class="hero-panel">
   <h1>Wiki Home</h1>
@@ -185,6 +217,6 @@
     <a class="issue-footer-link" href="../beta/">Report an issue</a>
   </footer>
 
-  <script src="../assets/wiki.js?v=202608212249" data-search-index="../wiki_manifest.json"></script>
+  <script src="../assets/wiki.js?v=202608240043" data-search-index="../wiki_manifest.json"></script>
 </body>
 </html>
