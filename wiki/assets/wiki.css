@@ -2430,6 +2430,17 @@ html.wiki-modal-open body {
   box-shadow: 0 6px 14px rgba(0,0,0,.28);
 }
 
+.pill-link-badge-bottom {
+  top: auto;
+  bottom: -.36rem;
+  right: -.28rem;
+  min-width: 1.55rem;
+  height: 1.1rem;
+  padding: 0 .34rem;
+  font-size: .62rem;
+  letter-spacing: .05em;
+}
+
 /* Familiars / Artifacts */
 .object-card-role {
   color: var(--muted);
