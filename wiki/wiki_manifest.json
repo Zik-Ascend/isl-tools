@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24 01:26 UTC",
+  "generated_at": "2026-08-29 01:59 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -10433,10 +10433,10 @@
       "id": "Jackpot",
       "internal_id": "Jackpot",
       "url": "events/jackpot/",
-      "summary": "18 phases · 6 days · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2), Costume [Mascot Trainee Maid] (★4), Costume [Perfect Trainee Maid] (★3), Costume [Cool Trainee Maid] (★2)"
+      "summary": "16 phases · 6 days · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2), Costume [Mascot Trainee Maid] (★4), Costume [Perfect Trainee Maid] (★3), Costume [Cool Trainee Maid] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Legend of the Sea",
       "category": "event phases",
       "id": "Jackpot01",
       "internal_id": "Jackpot",
@@ -10444,7 +10444,7 @@
       "summary": "Crow's Theatre phase · Not configured · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Legend of the Sea",
       "category": "event phases",
       "id": "Jackpot01_FEVER",
       "internal_id": "Jackpot",
@@ -10452,7 +10452,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Legend of the Sea",
       "category": "event phases",
       "id": "Jackpot01_FEVER_N",
       "internal_id": "Jackpot",
@@ -10460,7 +10460,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Sea Explorer!] (★4), Costume [Catnap by the Sea] (★3), Costume [Seaside Scholar] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "MaidsxSweets",
       "category": "event phases",
       "id": "Jackpot02_FEVER",
       "internal_id": "Jackpot",
@@ -10468,7 +10468,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Mascot Trainee Maid] (★4), Costume [Perfect Trainee Maid] (★3), Costume [Cool Trainee Maid] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "MaidsxSweets",
       "category": "event phases",
       "id": "Jackpot02_FEVER_N",
       "internal_id": "Jackpot",
@@ -10476,7 +10476,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Mascot Trainee Maid] (★4), Costume [Perfect Trainee Maid] (★3), Costume [Cool Trainee Maid] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Queen Anne's Expedition",
       "category": "event phases",
       "id": "Jackpot03_FEVER",
       "internal_id": "Jackpot",
@@ -10484,7 +10484,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Storm Slasher] (★4), Costume [Unexpected Doctor] (★3), Costume [Lil Helper in Ship] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Queen Anne's Expedition",
       "category": "event phases",
       "id": "Jackpot03_FEVER_N",
       "internal_id": "Jackpot",
@@ -10492,7 +10492,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Storm Slasher] (★4), Costume [Unexpected Doctor] (★3), Costume [Lil Helper in Ship] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "The Past of Magicians",
       "category": "event phases",
       "id": "Jackpot04_FEVER",
       "internal_id": "Jackpot",
@@ -10500,7 +10500,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [[Magic King]] (★4), Costume [Diligent Genius] (★3), Costume [Magician's Assistant] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "The Past of Magicians",
       "category": "event phases",
       "id": "Jackpot04_FEVER_N",
       "internal_id": "Jackpot",
@@ -10508,7 +10508,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [[Magic King]] (★4), Costume [Diligent Genius] (★3), Costume [Magician's Assistant] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Transform! Magical Girl✩!",
       "category": "event phases",
       "id": "Jackpot05_FEVER",
       "internal_id": "Jackpot",
@@ -10516,7 +10516,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Fallen! Shining Heart!] (★4), Costume [Dark Heart, Transform!] (★3), Costume [Little Mascot] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Transform! Magical Girl✩!",
       "category": "event phases",
       "id": "Jackpot05_FEVER_N",
       "internal_id": "Jackpot",
@@ -10524,7 +10524,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Fallen! Shining Heart!] (★4), Costume [Dark Heart, Transform!] (★3), Costume [Little Mascot] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Old Dungeon Quest",
       "category": "event phases",
       "id": "Jackpot06_FEVER_N",
       "internal_id": "Jackpot",
@@ -10532,7 +10532,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [New Adventurer Pro] (★4), Costume [Open the Treasure Chest!] (★3), Costume [Fresh Honey Bread!] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Solved! Bankruptcy Conspiracy",
       "category": "event phases",
       "id": "Jackpot07_FEVER_N",
       "internal_id": "Jackpot",
@@ -10540,7 +10540,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Night Journey] (★4), Costume [Resolute Guardian] (★3), Costume [Suit in Style] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "The Hero is a Pupil!",
       "category": "event phases",
       "id": "Jackpot08_FEVER_N",
       "internal_id": "Jackpot",
@@ -10548,7 +10548,7 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Rebellious Adventurer] (★4), Costume [Fearless Adventurer] (★3), Costume [Trainee Teacher] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Let's Farm! My Princess!",
       "category": "event phases",
       "id": "Jackpot09_FEVER_N",
       "internal_id": "Jackpot",
@@ -10556,28 +10556,12 @@
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Princess's Harvest] (★4), Costume [Fruit Salesperson] (★3), Costume [A Good Wife's Fruit List] (★2)"
     },
     {
-      "title": "Crow's Theatre",
+      "title": "Survival Stranded",
       "category": "event phases",
       "id": "Jackpot10_FEVER_N",
       "internal_id": "Jackpot",
       "url": "events/jackpot/#event-phase-jackpot10-fever-n",
       "summary": "Crow's Theatre phase · 6 days · Core rewards: Costume [Shelter Guardian] (★4), Costume [Hunter or Prey?] (★3), Costume [Aim, smash!] (★2)"
-    },
-    {
-      "title": "Crow's Theatre",
-      "category": "event phases",
-      "id": "Jackpot_Rerun",
-      "internal_id": "Jackpot",
-      "url": "events/jackpot/#event-phase-jackpot-rerun",
-      "summary": "Crow's Theatre phase · 6 days"
-    },
-    {
-      "title": "Crow's Theatre",
-      "category": "event phases",
-      "id": "Jackpot_Rerun_N",
-      "internal_id": "Jackpot",
-      "url": "events/jackpot/#event-phase-jackpot-rerun-n",
-      "summary": "Crow's Theatre phase · 6 days"
     },
     {
       "title": "Dash! Familiar Track & Field",

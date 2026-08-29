@@ -6762,3 +6762,222 @@ body {
     overscroll-behavior: contain;
   }
 }
+
+/* Jackpot event detail modules */
+.event-jackpot-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: .6rem;
+}
+
+.event-jackpot-overview > span {
+  display: grid;
+  gap: .18rem;
+  min-width: 0;
+  padding: .65rem .75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel);
+}
+
+.event-jackpot-overview small {
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 850;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
+.event-jackpot-overview em {
+  color: var(--muted);
+  font-size: .78rem;
+  font-style: normal;
+}
+
+.event-jackpot-pools,
+.event-jackpot-pool-groups,
+.event-jackpot-threshold-pages {
+  display: grid;
+  gap: .65rem;
+}
+
+.event-jackpot-pool > summary,
+.event-jackpot-tier > summary,
+.event-jackpot-thresholds > summary,
+.event-jackpot-threshold-page > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.event-jackpot-summary-meta {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 750;
+  text-align: right;
+}
+
+.event-jackpot-description {
+  margin: 0;
+  max-width: 82ch;
+  color: var(--text);
+}
+
+.event-jackpot-pool-table td:first-child,
+.event-jackpot-pool-table td:nth-child(2) {
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .event-jackpot-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .event-jackpot-pool > summary,
+  .event-jackpot-tier > summary,
+  .event-jackpot-thresholds > summary,
+  .event-jackpot-threshold-page > summary {
+    align-items: flex-start;
+  }
+
+  .event-jackpot-summary-meta {
+    max-width: 45%;
+  }
+}
+
+/* Event rules and ranking-scoring explanations */
+.event-rules-body {
+  gap: .7rem;
+}
+
+.event-rule-section {
+  display: grid;
+  gap: .32rem;
+  min-width: 0;
+  padding: .72rem .78rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel);
+}
+
+.event-rule-section h5 {
+  margin: 0 0 .08rem;
+  color: var(--text);
+  font-size: .9rem;
+}
+
+.event-rule-section p {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.48;
+  overflow-wrap: anywhere;
+}
+
+.event-ranking-rule-copy {
+  display: grid;
+  gap: .3rem;
+  padding: .58rem .68rem;
+  border: 1px solid color-mix(in srgb, var(--line) 80%, var(--accent) 20%);
+  border-radius: var(--radius-small);
+  background: color-mix(in srgb, var(--panel-2) 90%, var(--accent) 10%);
+}
+
+.event-ranking-rule-note {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.45;
+}
+
+/* Mobile event pages: keep one useful outer outline and reclaim horizontal space
+   from deeply nested cards/modules. */
+@media (max-width: 700px) {
+  .event-phases-section {
+    margin-inline: -.75rem;
+  }
+
+  .event-phase-history-group {
+    gap: .55rem;
+    padding: .35rem 0;
+    border-inline: 0;
+    border-radius: 0 !important;
+    background: transparent;
+  }
+
+  .event-phase-history-heading {
+    padding-inline: .55rem;
+  }
+
+  .event-phase-history-list {
+    gap: .55rem;
+  }
+
+  .event-phase-summary {
+    padding: .72rem .6rem;
+  }
+
+  .event-phase-content {
+    gap: .6rem;
+    padding: .55rem .12rem .7rem;
+  }
+
+  .event-phase-content > .event-phase-block,
+  .event-phase-content > .event-phase-briefing,
+  .event-phase-content > .event-restriction,
+  .event-phase-content > .event-phase-stats {
+    margin-inline: .35rem;
+  }
+
+  .event-module {
+    margin-inline: 0;
+    border-inline: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+  }
+
+  .event-module-summary {
+    padding: .72rem .5rem;
+  }
+
+  .event-module-body {
+    padding: .55rem .12rem .65rem;
+  }
+
+  .event-gacha-card,
+  .event-ranking-column,
+  .event-ranking-subtype,
+  .event-achievement-track,
+  .event-subdetails,
+  .event-reward-set,
+  .event-bundle-card,
+  .event-rule-section {
+    border-inline: 0;
+    border-radius: 0 !important;
+  }
+
+  .event-gacha-summary,
+  .event-gacha-body,
+  .event-ranking-column-heading,
+  .event-ranking-column-body,
+  .event-ranking-subtype > summary,
+  .event-ranking-subtype-body,
+  .event-achievement-track,
+  .event-bundle-grid,
+  .event-rule-section,
+  .event-ranking-rule-copy {
+    padding-left: .38rem;
+    padding-right: .38rem;
+  }
+
+  .event-ranking-columns,
+  .event-gacha-list,
+  .event-achievement-tracks,
+  .event-bundle-grid {
+    gap: .45rem;
+  }
+
+  .event-table-wrap {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
