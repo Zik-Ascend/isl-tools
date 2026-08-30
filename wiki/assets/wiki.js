@@ -254,6 +254,10 @@
     const unlockSelect = tools.querySelector('[data-wiki-unlock-filter]');
     const stationSelect = tools.querySelector('[data-wiki-station-filter]');
     const characterRequirementSelect = tools.querySelector('[data-wiki-character-requirement-filter]');
+    const itemBackpackSelect = tools.querySelector('[data-wiki-item-backpack-filter]');
+    const itemActivitySelect = tools.querySelector('[data-wiki-item-activity-filter]');
+    const itemCurrencySelect = tools.querySelector('[data-wiki-item-currency-filter]');
+    const itemPresetSelect = tools.querySelector('[data-wiki-item-preset-filter]');
     const countEl = tools.querySelector('[data-wiki-visible-count]');
     const category = tools.getAttribute('data-category') || '';
     const storageKey = category ? `wiki:list-state:${category}` : '';
@@ -271,6 +275,10 @@
         if (saved.unlock && unlockSelect) unlockSelect.value = saved.unlock;
         if (saved.station && stationSelect) stationSelect.value = saved.station;
         if (saved.characterRequirement && characterRequirementSelect) characterRequirementSelect.value = saved.characterRequirement;
+        if (saved.itemBackpack && itemBackpackSelect) itemBackpackSelect.value = saved.itemBackpack;
+        if (saved.itemActivity && itemActivitySelect) itemActivitySelect.value = saved.itemActivity;
+        if (saved.itemCurrency && itemCurrencySelect) itemCurrencySelect.value = saved.itemCurrency;
+        if (saved.itemPreset && itemPresetSelect) itemPresetSelect.value = saved.itemPreset;
       } catch (_err) {}
     }
 
@@ -285,6 +293,10 @@
       const unlock = unlockSelect ? unlockSelect.value : '';
       const station = stationSelect ? stationSelect.value : '';
       const characterRequirement = characterRequirementSelect ? characterRequirementSelect.value : '';
+      const itemBackpack = itemBackpackSelect ? itemBackpackSelect.value : '';
+      const itemActivity = itemActivitySelect ? itemActivitySelect.value : '';
+      const itemCurrency = itemCurrencySelect ? itemCurrencySelect.value : '';
+      const itemPreset = itemPresetSelect ? itemPresetSelect.value : '';
       const rows = Array.from(list.querySelectorAll('.sortable-character'));
 
       rows.sort((a, b) => {
@@ -302,6 +314,12 @@
         }
         if (sortMode === 'id-desc') {
           return (asNumber(b.dataset.idNum) - asNumber(a.dataset.idNum)) || naturalCompare(a.dataset.name || '', b.dataset.name || '');
+        }
+        if (sortMode === 'id-text-asc') {
+          return naturalCompare(a.dataset.idText || '', b.dataset.idText || '') || naturalCompare(a.dataset.name || '', b.dataset.name || '');
+        }
+        if (sortMode === 'id-text-desc') {
+          return naturalCompare(b.dataset.idText || '', a.dataset.idText || '') || naturalCompare(a.dataset.name || '', b.dataset.name || '');
         }
         if (sortMode === 'country-asc') {
           return naturalCompare(a.dataset.countrySort || '', b.dataset.countrySort || '') || naturalCompare(a.dataset.name || '', b.dataset.name || '');
@@ -355,7 +373,12 @@
         const unlockMatches = !unlock || row.dataset.unlockType === unlock;
         const stationMatches = !station || row.dataset.stationId === station;
         const characterRequirementMatches = !characterRequirement || row.dataset.characterRequirement === characterRequirement;
-        const isVisible = rarityMatches && countryMatches && typeMatches && roleMatches && locationMatches && textMatches && unlockMatches && stationMatches && characterRequirementMatches;
+        const itemBackpackMatches = !itemBackpack || row.dataset.itemBackpack === itemBackpack;
+        const itemActivityMatches = !itemActivity || row.dataset.itemActivity === itemActivity;
+        const itemCurrencyMatches = !itemCurrency || row.dataset.itemCurrency === itemCurrency;
+        const itemPresetTags = (row.dataset.itemPresetTags || '').split('|').filter(Boolean);
+        const itemPresetMatches = !itemPreset || itemPresetTags.includes(itemPreset);
+        const isVisible = rarityMatches && countryMatches && typeMatches && roleMatches && locationMatches && textMatches && unlockMatches && stationMatches && characterRequirementMatches && itemBackpackMatches && itemActivityMatches && itemCurrencyMatches && itemPresetMatches;
         row.hidden = !isVisible;
         if (isVisible) visible += 1;
         list.appendChild(row);
@@ -387,6 +410,10 @@
             unlock,
             station,
             characterRequirement,
+            itemBackpack,
+            itemActivity,
+            itemCurrency,
+            itemPreset,
             items: visibleItems
           }));
         } catch (_err) {}
@@ -403,6 +430,10 @@
     if (unlockSelect) unlockSelect.addEventListener('change', update);
     if (stationSelect) stationSelect.addEventListener('change', update);
     if (characterRequirementSelect) characterRequirementSelect.addEventListener('change', update);
+    if (itemBackpackSelect) itemBackpackSelect.addEventListener('change', update);
+    if (itemActivitySelect) itemActivitySelect.addEventListener('change', update);
+    if (itemCurrencySelect) itemCurrencySelect.addEventListener('change', update);
+    if (itemPresetSelect) itemPresetSelect.addEventListener('change', update);
     update();
   }
 

@@ -6981,3 +6981,201 @@ body {
     margin-right: 0;
   }
 }
+
+/* Special direct rarity advancement (SSR -> UR without an M-stage). */
+.rarity-direct-upgrade {
+  display: grid;
+  gap: .8rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(var(--accent-rgb), .045);
+}
+
+.rarity-direct-upgrade-heading {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  font-size: 1.08rem;
+  font-weight: 900;
+}
+
+.rarity-direct-upgrade-heading > span {
+  padding: .35rem .65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255,255,255,.045);
+}
+
+.rarity-direct-upgrade-meta,
+.event-bingo-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: .65rem;
+}
+
+.rarity-direct-upgrade-meta > span,
+.event-bingo-items > span {
+  display: grid;
+  gap: .18rem;
+  padding: .65rem .75rem;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * .7);
+  background: rgba(255,255,255,.025);
+}
+
+.rarity-direct-upgrade-meta small,
+.event-bingo-items small {
+  color: var(--muted);
+  font-size: .76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.rarity-direct-upgrade-description {
+  margin: 0;
+  color: var(--muted);
+}
+
+.event-bingo-items {
+  margin-bottom: .75rem;
+}
+
+.event-bingo-sheets {
+  display: grid;
+  gap: .65rem;
+}
+
+.event-bingo-sheet > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.event-bingo-sheet > summary small {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .rarity-direct-upgrade,
+  .event-bingo-items > span {
+    border-radius: calc(var(--radius) * .55);
+  }
+
+  .rarity-direct-upgrade-meta,
+  .event-bingo-items {
+    grid-template-columns: 1fr;
+  }
+
+  .event-bingo-sheet > summary {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .2rem;
+  }
+}
+
+
+/* Items */
+.item-list-card .character-card-main {
+  min-width: 0;
+}
+
+.item-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  min-height: 1.55rem;
+  margin: .25rem 0 .35rem;
+}
+
+.item-card-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: .18rem .48rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(var(--accent-rgb), .07);
+  font-size: .72rem;
+  font-weight: 750;
+}
+
+.item-detail-header {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  margin-bottom: 1.25rem;
+}
+
+.item-detail-image {
+  width: clamp(112px, 20vw, 192px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * .75);
+  background: rgba(255,255,255,.035);
+  overflow: hidden;
+}
+
+.item-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.item-source-details > summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.item-source-details-body {
+  padding-top: 1rem;
+}
+
+.item-source-summary {
+  color: var(--muted);
+}
+
+.item-source-list {
+  display: grid;
+  gap: .7rem;
+  padding-left: 1.15rem;
+}
+
+.item-source-list li > span,
+.item-source-list li > small {
+  display: block;
+  margin-top: .2rem;
+}
+
+.item-source-list li > small {
+  color: var(--muted);
+}
+
+.item-inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.item-inline-link:hover,
+.item-inline-link:focus-visible {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .item-detail-header {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: .8rem;
+  }
+
+  .item-detail-image {
+    width: 88px;
+  }
+}
