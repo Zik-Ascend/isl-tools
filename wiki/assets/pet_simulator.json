@@ -16419,6 +16419,72 @@
       "EffectAttr": 10,
       "EffectNumType": 2,
       "EffectNum": 3000
+    },
+    "8041505_1": {
+      "_id": "8041505_1",
+      "Icon": "Icon_Pet_Skill_2",
+      "EffectANIType": "2",
+      "Effect": "Fx_Pet_Skill_4",
+      "StorageEffect": "Fx_Pet_Storage_4",
+      "BoomEffect": "Fx_Pet_SkillHit_4",
+      "sound": "Sound_PetSkill",
+      "SkillType": 2,
+      "EffectType": 1,
+      "TargetCamp": 3,
+      "TargetType": 4,
+      "TargetNum": 5,
+      "EffectTargetBase": 1,
+      "EffectAttr": 1,
+      "EffectNumType": 1,
+      "EffectNum": 15000,
+      "BuffID": [
+        "8041505_1_1"
+      ],
+      "Combatcoef": 18000
+    },
+    "8041505_2": {
+      "_id": "8041505_2",
+      "Icon": "Icon_Pet_PSkill_2",
+      "SkillType": 4,
+      "EffectType": 4,
+      "TargetCamp": 1,
+      "TargetType": 1,
+      "TargetNum": 1,
+      "EffectTargetBase": 1,
+      "EffectAttr": 1,
+      "EffectNumType": 1,
+      "EffectNum": 3000
+    },
+    "8041505_3": {
+      "_id": "8041505_3",
+      "Icon": "Icon_Pet_Skill_3",
+      "SkillType": 3,
+      "EffectType": 1,
+      "Trigger": 13,
+      "TriggerParam": "2500",
+      "TargetCamp": 3,
+      "TargetType": 4,
+      "TargetNum": 5,
+      "BuffID": [
+        "8041505_3_1",
+        "8041505_3_2"
+      ],
+      "TriggerLimitType": 1,
+      "TriggerMax": 1,
+      "Combatcoef": 9000
+    },
+    "8041505_4": {
+      "_id": "8041505_4",
+      "Icon": "Icon_Pet_PSkill_4",
+      "SkillType": 4,
+      "EffectType": 4,
+      "TargetCamp": 1,
+      "TargetType": 1,
+      "TargetNum": 1,
+      "EffectTargetBase": 1,
+      "EffectAttr": 9,
+      "EffectNumType": 2,
+      "EffectNum": 3000
     }
   }
 }

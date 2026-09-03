@@ -3512,6 +3512,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/familiars/phoenix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/familiars/Pet_8041505/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/familiars/seasonfox/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/familiars/Pet_8042501/default.webp</image:loc>
@@ -6512,6 +6518,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-110/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_110/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame5-2409/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame5_2409/default.webp</image:loc>
@@ -7706,6 +7718,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-125/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_125/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-konosuba-emotion-01/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Konosuba_emotion_01/default.webp</image:loc>
@@ -8186,6 +8204,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-121/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_121/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-headframe-konosuba/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_HeadFrame_Konosuba/default.webp</image:loc>
@@ -8393,6 +8417,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-franticforest-stamrecover-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FranticForest_StamRecover_2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-101/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_101/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -8930,6 +8960,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-109/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_109/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-konosuba-heropiece-box/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Konosuba_HeroPiece_Box/default.webp</image:loc>
@@ -9209,6 +9245,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame5piece-2204/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame5Piece_2204/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-103/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_103/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -10781,6 +10823,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-w4c3/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_W4C3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h126c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H126C2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-h126c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_H126C2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -13562,6 +13616,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-106/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_106/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rtd-staminarecover-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RTD_StaminaRecover_2/default.webp</image:loc>
@@ -15080,6 +15140,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-118/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_118/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-roguetd/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_RogueTD/default.webp</image:loc>
@@ -16079,6 +16145,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rtd-monpiece-7/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RTD_MonPiece_7/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-122/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_122/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -17156,6 +17228,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-117/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_117/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-7-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Weapon_Equipment_7_2/default.webp</image:loc>
@@ -17648,831 +17726,9 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-title-title1/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_Title_Title1/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-101/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_101/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-102/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_102/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-103/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_103/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-104/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_104/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-105/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_105/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-106/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_106/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-107/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_107/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-108/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_108/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-109/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_109/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-110/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_110/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-111/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_111/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-112/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_112/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-113/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_113/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-114/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_114/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-115/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_115/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-116/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_116/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-117/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_117/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-118/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_118/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-119/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_119/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-120/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_120/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-121/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_121/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-122/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_122/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-123/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_123/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-124/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_124/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-125/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_125/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-126/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_126/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-127/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_127/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-128/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_128/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-129/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_129/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-130/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_130/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-131/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_131/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-132/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_132/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-133/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_133/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-134/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_134/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-141/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_141/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-142/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_142/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-143/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_143/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-144/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_144/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-145/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_145/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-146/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_146/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-147/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_147/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-148/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_148/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-149/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_149/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-150/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_150/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-151/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_151/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-152/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_152/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-169/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_169/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-170/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_170/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-171/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_171/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-172/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_172/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-173/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_173/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-174/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_174/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-223/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_223/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-224/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_224/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-225/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_225/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-226/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_226/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-227/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_227/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-228/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_228/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-229/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_229/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-230/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_230/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-231/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_231/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-232/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_232/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-233/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_233/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-234/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_234/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-235/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_235/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-236/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_236/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-237/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_237/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-238/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_238/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-239/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_239/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-240/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_240/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-241/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_241/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-242/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_242/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-243/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_243/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-244/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_244/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-245/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_245/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-246/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_246/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-247/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_247/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-248/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_248/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-249/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_249/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-250/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_250/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-251/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_251/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-252/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_252/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-253/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_253/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-254/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_254/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-255/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_255/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-256/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_256/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-257/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_257/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-258/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_258/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-259/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_259/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-260/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_260/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-261/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_261/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-262/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_262/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-263/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_263/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-264/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_264/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-265/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_265/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-266/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_266/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-267/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_267/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-268/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_268/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-269/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_269/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-270/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_270/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-271/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_271/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-272/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_272/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-273/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_273/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-274/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_274/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-275/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_275/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-276/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_276/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-277/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_277/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-278/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_278/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-279/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_279/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-280/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_280/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-drakenbergarena-challenge/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_DrakenbergArena_Challenge/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-101/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_101/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-102/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_102/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-103/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_103/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-104/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_104/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-105/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_105/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-106/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_106/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-107/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_107/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-108/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_108/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-109/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_109/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-110/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_110/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-111/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_111/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-112/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_112/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-113/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_113/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-114/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_114/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-115/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_115/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-116/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_116/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-117/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_117/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-118/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_118/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-119/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_119/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-120/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_120/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-121/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_121/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-122/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_122/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-123/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_123/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-124/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_124/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-125/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_125/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-129/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_129/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -20036,6 +19292,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-116/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_116/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-tensura-quest-individual-5/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_TenSura_Quest_Individual_5/default.webp</image:loc>
@@ -20336,6 +19598,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-124/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_124/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-150/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_150/default.webp</image:loc>
@@ -20591,6 +19859,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame5piece-2301/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame5Piece_2301/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-111/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_111/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -20903,6 +20177,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-35/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Weapon_Equipment_6_35/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-102/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_102/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -21926,6 +21206,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-107/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_107/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame4-pearl/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame4_Pearl/default.webp</image:loc>
@@ -22079,6 +21365,24 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-heropiece-137/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_HeroPiece_137/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-pet-8041505/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Pet_8041505/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-pet-sp-8041505/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Pet_SP_8041505/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-petpiece-8041505/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_PetPiece_8041505/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -24212,6 +23516,336 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-121/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_121/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-171/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_171/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-231/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_231/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-141/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_141/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-261/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_261/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-101/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_101/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-233/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_233/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-275/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_275/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-127/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_127/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-271/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_271/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-113/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_113/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-251/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_251/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-229/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_229/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-255/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_255/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-259/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_259/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-149/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_149/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-227/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_227/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-129/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_129/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-131/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_131/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-249/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_249/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-143/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_143/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-107/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_107/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-247/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_247/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-173/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_173/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-237/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_237/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-241/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_241/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-263/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_263/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-109/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_109/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-269/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_269/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-147/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_147/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-145/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_145/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-223/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_223/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-257/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_257/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-273/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_273/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-103/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_103/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-117/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_117/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-123/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_123/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-243/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_243/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-111/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_111/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-151/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_151/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-225/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_225/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-239/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_239/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-115/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_115/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-235/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_235/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-245/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_245/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-253/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_253/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-125/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_125/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-119/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_119/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-169/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_169/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-279/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_279/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-277/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_277/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-133/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_133/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-105/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_105/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-3-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Weapon_Equipment_3_2/default.webp</image:loc>
@@ -24701,6 +24335,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-springfcollction-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SpringFCollction_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-119/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_119/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -25319,6 +24959,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-recallgoal/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RecallGoal/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-120/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_120/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-115/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_115/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -25949,6 +25601,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-petpiece-8042501/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_PetPiece_8042501/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-112/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_112/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -27452,6 +27110,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-114/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_114/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-jackpotstory-01/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/item_JackpotStory_01/default.webp</image:loc>
@@ -28385,6 +28049,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w4c3-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W4C3_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-h126c2-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_H126C2_showoff_suffix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -29468,6 +29138,336 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-244/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_244/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-118/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_118/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-270/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_270/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-236/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_236/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-112/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_112/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-150/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_150/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-146/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_146/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-128/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_128/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-276/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_276/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-120/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_120/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-106/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_106/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-124/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_124/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-174/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_174/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-230/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_230/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-148/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_148/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-254/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_254/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-274/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_274/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-278/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_278/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-170/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_170/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-130/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_130/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-266/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_266/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-252/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_252/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-272/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_272/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-122/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_122/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-248/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_248/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-238/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_238/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-104/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_104/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-228/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_228/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-232/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_232/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-126/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_126/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-264/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_264/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-144/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_144/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-250/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_250/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-102/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_102/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-234/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_234/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-240/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_240/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-108/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_108/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-142/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_142/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-134/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_134/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-132/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_132/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-224/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_224/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-226/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_226/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-242/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_242/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-116/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_116/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-262/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_262/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-256/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_256/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-258/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_258/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-110/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_110/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-260/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_260/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-152/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_152/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-246/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_246/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-268/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_268/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-280/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_280/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-172/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_172/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-114/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_114/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-summer2025-clothesbox-3star/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Summer2025_ClothesBox_3Star/default.webp</image:loc>
@@ -29594,6 +29594,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-129/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_129/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-dungeon-ticket/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Dungeon_ticket/default.webp</image:loc>
@@ -29645,6 +29651,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-22/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Weapon_Equipment_6_22/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-105/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_105/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -29906,6 +29918,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-113/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_113/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/test-eqipment/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Test_Eqipment/default.webp</image:loc>
@@ -29939,6 +29957,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/djdemoncastle-01f/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/DJDemonCastle_01F/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-104/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_104/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -31256,6 +31280,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-108/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_108/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame3-plant101/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame3_Plant101/default.webp</image:loc>
@@ -31517,6 +31547,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-navigation-lotterycoin-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Navigation_LotteryCoin_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fixedtitle-123/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FixedTitle_123/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -31787,6 +31823,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-headframe-creation-jp/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_HeadFrame_Creation_JP/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-headframe-thirdparty-creator/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_HeadFrame_ThirdParty_Creator/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -32552,6 +32594,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-ranktitle-thirdparty-creator/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RankTitle_ThirdParty_Creator/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-monstergirl-emotion-03/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MonsterGirl_emotion_03/default.webp</image:loc>
@@ -32801,6 +32849,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-overlord-quest-specialkey/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_Overlord_Quest_SpecialKey/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-title-title1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_Title_Title1/default.webp</image:loc>
     </image:image>
   </url>
   <url>
