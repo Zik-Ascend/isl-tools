@@ -16436,7 +16436,7 @@
       "EffectTargetBase": 1,
       "EffectAttr": 1,
       "EffectNumType": 1,
-      "EffectNum": 15000,
+      "EffectNum": 18000,
       "BuffID": [
         "8041505_1_1"
       ],
@@ -16459,7 +16459,7 @@
       "_id": "8041505_3",
       "Icon": "Icon_Pet_Skill_3",
       "SkillType": 3,
-      "EffectType": 1,
+      "EffectType": 3,
       "Trigger": 13,
       "TriggerParam": "2500",
       "TargetCamp": 3,

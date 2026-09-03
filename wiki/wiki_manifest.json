@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02 23:36 UTC",
+  "generated_at": "2026-09-03 10:08 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -672,11 +672,11 @@
       "summary": "Fellow ID 79 · Rarity SR"
     },
     {
-      "title": "デミウルゴス",
+      "title": "Demiurge",
       "category": "fellows",
       "id": "81",
       "internal_id": "Hero_81",
-      "url": "fellows/hero-81/",
+      "url": "fellows/demiurge/",
       "rarity": "SR",
       "rarity_sort": 3,
       "country": "4",
@@ -1416,11 +1416,11 @@
       "summary": "Fellow ID 186 · Rarity SR -> SSR+ -> UR"
     },
     {
-      "title": "アインズ・ウール・ゴウン",
+      "title": "Ainz Ooal Gown",
       "category": "fellows",
       "id": "187",
       "internal_id": "Hero_187",
-      "url": "fellows/hero-187/",
+      "url": "fellows/ainz-ooal-gown/",
       "rarity": "SSR+",
       "rarity_sort": 5,
       "country": "4",
@@ -1428,11 +1428,11 @@
       "summary": "Fellow ID 187 · Rarity SSR+"
     },
     {
-      "title": "ナーベラル・ガンマ",
+      "title": "Narberal Gamma",
       "category": "fellows",
       "id": "188",
       "internal_id": "Hero_188",
-      "url": "fellows/hero-188/",
+      "url": "fellows/narberal-gamma/",
       "rarity": "SSR+",
       "rarity_sort": 5,
       "country": "3",
@@ -1632,11 +1632,11 @@
       "summary": "Fellow ID 260 · Rarity SSR+ -> UR -> LR"
     },
     {
-      "title": "アルベド",
+      "title": "Albedo",
       "category": "fellows",
       "id": "261",
       "internal_id": "Hero_261",
-      "url": "fellows/hero-261/",
+      "url": "fellows/albedo/",
       "rarity": "SSR -> SSR+ -> UR -> LR",
       "rarity_sort": 8,
       "country": "3",
@@ -3022,11 +3022,11 @@
       "summary": "Family ID 173 · Rarity UR"
     },
     {
-      "title": "アルベド",
+      "title": "Albedo",
       "category": "family",
       "id": "176",
       "internal_id": "Wife_176",
-      "url": "family/wife-176/",
+      "url": "family/albedo/",
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Family ID 176 · Rarity UR"
@@ -3282,11 +3282,11 @@
       "summary": "Family ID 175 · Rarity SSR+ -> UR"
     },
     {
-      "title": "シャルティア・ブラッドフォールン",
+      "title": "Shalltear Bloodfallen",
       "category": "family",
       "id": "177",
       "internal_id": "Wife_177",
-      "url": "family/wife-177/",
+      "url": "family/shalltear-bloodfallen/",
       "rarity": "SSR+ -> UR",
       "rarity_sort": 6,
       "summary": "Family ID 177 · Rarity SSR+ -> UR"
@@ -5083,41 +5083,41 @@
       "summary": "Artifact ID Weapon_6_H304 · Rarity UR"
     },
     {
-      "title": "アルベドのぬいぐるみ",
+      "title": "Albedo Plushie",
       "category": "artifacts",
       "id": "Weapon_6_H261",
       "internal_id": "Weapon_6_H261",
-      "url": "artifacts/artifact-weapon-6-h261/",
+      "url": "artifacts/albedo-plushie/",
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Artifact ID Weapon_6_H261 · Rarity UR"
     },
     {
-      "title": "アインズ・ウール・ゴウンの杖",
+      "title": "Staff of Ainz Ooal Gown",
       "category": "artifacts",
       "id": "Weapon_6_H187",
       "internal_id": "Weapon_6_H187",
-      "url": "artifacts/artifact-weapon-6-h187/",
+      "url": "artifacts/staff-of-ainz-ooal-gown/",
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Artifact ID Weapon_6_H187 · Rarity UR"
     },
     {
-      "title": "ナーベラルの杖",
+      "title": "Narberal's Staff",
       "category": "artifacts",
       "id": "Weapon_6_H188",
       "internal_id": "Weapon_6_H188",
-      "url": "artifacts/artifact-weapon-6-h188/",
+      "url": "artifacts/narberal-s-staff/",
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Artifact ID Weapon_6_H188 · Rarity UR"
     },
     {
-      "title": "シャルティアのぬいぐるみ",
+      "title": "Shalltear Plushie",
       "category": "artifacts",
       "id": "Weapon_6_W177",
       "internal_id": "Weapon_6_W177",
-      "url": "artifacts/artifact-weapon-6-w177/",
+      "url": "artifacts/shalltear-plushie/",
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Artifact ID Weapon_6_W177 · Rarity UR"
@@ -8304,7 +8304,7 @@
       "summary": "Player figure ID shap43"
     },
     {
-      "title": "漆黒のモモン",
+      "title": "Momon of Darkness",
       "category": "player figures",
       "id": "shap44",
       "internal_id": "Play_C44",
@@ -9144,6 +9144,16 @@
       "summary": "Museum exhibit Collection_47 · Hall1 · Rarity SR · Complete story missions in the [Mushoku Tensei and Magic Creativity Show] crossover event to get."
     },
     {
+      "title": "Statue of Ainz Ooal Gown",
+      "category": "museum exhibits",
+      "id": "Collection_Overlord",
+      "internal_id": "Collection_Overlord",
+      "url": "museum/#museum-exhibit-collection-overlord",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_Overlord · Hall1 · Rarity SR · Obtain by completing main exploration tasks in the [OVERLORD vs. Isekai Farm Story] crossover event."
+    },
+    {
       "title": "Statue of Shinobu",
       "category": "museum exhibits",
       "id": "Collection_DemonSlayer",
@@ -9162,16 +9172,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Museum exhibit Collection_TenSuraS2 · Hall1 · Rarity SR · Complete story missions in the [Camping with A Slime Season 2] crossover event to get."
-    },
-    {
-      "title": "アインズ・ウール・ゴウンの彫像",
-      "category": "museum exhibits",
-      "id": "Collection_Overlord",
-      "internal_id": "Collection_Overlord",
-      "url": "museum/#museum-exhibit-collection-overlord",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Museum exhibit Collection_Overlord · Hall1 · Rarity SR · 「オーバーロード農園物語」イベントでメイン探索ミッションを完了すると獲得できる。"
     },
     {
       "title": "Obsidian Compass",
@@ -13934,6 +13934,36 @@
       "summary": "Item Item_Konosuba_emotion_05 · Rarity SR · Obtained from the crossover event [God's Blessing on This Laid-Back Isekai!]'s [Check-In]."
     },
     {
+      "title": "Ainz Ooal Gown",
+      "category": "items",
+      "id": "Item_Owner_Hero_187",
+      "internal_id": "Item_Owner_Hero_187",
+      "url": "items/item-owner-hero-187/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_187 · Rarity SSR · OVERLORD vs. Isekai Farm Story"
+    },
+    {
+      "title": "Ainz Ooal Gown's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_187",
+      "internal_id": "Item_Owner_HeroPiece_187",
+      "url": "items/item-owner-heropiece-187/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_187 · Rarity SSR · Backpack · OVERLORD vs. Isekai Farm Story"
+    },
+    {
+      "title": "Ainz Ooal Gown's Title",
+      "category": "items",
+      "id": "Item_Hero_187_showoff_prefix",
+      "internal_id": "Item_Hero_187_showoff_prefix",
+      "url": "items/item-hero-187-showoff-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_187_showoff_prefix · Rarity UR · Ainz Ooal Gown's Stella Level Reaches 5"
+    },
+    {
       "title": "Airship Double Tickets",
       "category": "items",
       "id": "Item_Date_Wife_Special_1",
@@ -14064,6 +14094,136 @@
       "summary": "Item Item_Owner_WifePiece_119 · Rarity SSR · Backpack · Bubble Island"
     },
     {
+      "title": "Albedo",
+      "category": "items",
+      "id": "Item_Owner_Hero_261",
+      "internal_id": "Item_Owner_Hero_261",
+      "url": "items/item-owner-hero-261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_261 · Rarity UR · Obtain [Albedo's Crystal Fragments] in the [OVERLORD vs. Isekai Farm Story] crossover event to advance Albedo's rarity."
+    },
+    {
+      "title": "Albedo",
+      "category": "items",
+      "id": "Item_Owner_Hero_261M1",
+      "internal_id": "Item_Owner_Hero_261M1",
+      "url": "items/item-owner-hero-261m1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_261M1 · Rarity UR · Obtain [Albedo's Crystal Fragments] in the [OVERLORD vs. Isekai Farm Story] crossover event to advance Albedo's rarity."
+    },
+    {
+      "title": "Albedo",
+      "category": "items",
+      "id": "Item_Owner_Hero_261M1_500",
+      "internal_id": "Item_Owner_Hero_261M1_500",
+      "url": "items/item-owner-hero-261m1-500/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_261M1_500 · Rarity UR · Obtain [Albedo's Crystal Fragments] in the [OVERLORD vs. Isekai Farm Story] crossover event to advance Albedo's rarity."
+    },
+    {
+      "title": "Albedo",
+      "category": "items",
+      "id": "Item_Owner_Hero_261M3",
+      "internal_id": "Item_Owner_Hero_261M3",
+      "url": "items/item-owner-hero-261m3/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_261M3 · Rarity UR · Obtain [Albedo's Crystal Fragments] in the [OVERLORD vs. Isekai Farm Story] crossover event to advance Albedo's rarity."
+    },
+    {
+      "title": "Albedo",
+      "category": "items",
+      "id": "Item_Owner_Wife_176",
+      "internal_id": "Item_Owner_Wife_176",
+      "url": "items/item-owner-wife-176/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Wife_176 · Rarity UR · Increase the Trust Level of LR Albedo as your Fellow to make her your Family member."
+    },
+    {
+      "title": "Albedo Dynamic Avatar",
+      "category": "items",
+      "id": "Item_ActiveHead_Hero_261",
+      "internal_id": "Item_ActiveHead_Hero_261",
+      "url": "items/item-activehead-hero-261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_ActiveHead_Hero_261 · Rarity UR · Albedo (Fellow)'s Stella Level Reaches 10"
+    },
+    {
+      "title": "Albedo Plushie",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_H261",
+      "internal_id": "Item_Weapon_Equipment_6_H261",
+      "url": "items/item-weapon-equipment-6-h261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_H261 · Rarity UR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event's [Recharge Rebate]"
+    },
+    {
+      "title": "Albedo Title Underframe",
+      "category": "items",
+      "id": "Item_TitleBasemap_Hero_261",
+      "internal_id": "Item_TitleBasemap_Hero_261",
+      "url": "items/item-titlebasemap-hero-261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_TitleBasemap_Hero_261 · Rarity UR · Albedo (Fellow)'s Stella Level Reaches 8"
+    },
+    {
+      "title": "Albedo's Crystal Fragment",
+      "category": "items",
+      "id": "Item_RarityUpgrade_Hero_261",
+      "internal_id": "Item_RarityUpgrade_Hero_261",
+      "url": "items/item-rarityupgrade-hero-261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_RarityUpgrade_Hero_261 · Rarity UR · Backpack · Obtained from the [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha]."
+    },
+    {
+      "title": "Albedo's Crystal of Trust",
+      "category": "items",
+      "id": "Item_IntimacyDegree_Hero261",
+      "internal_id": "Item_IntimacyDegree_Hero261",
+      "url": "items/item-intimacydegree-hero261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_IntimacyDegree_Hero261 · Rarity UR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event's [Albedo's Trust Bundles]"
+    },
+    {
+      "title": "Albedo's Gaze",
+      "category": "items",
+      "id": "Item_Appearance_ChatFrame_Overlord",
+      "internal_id": "Item_Appearance_ChatFrame_Overlord",
+      "url": "items/item-appearance-chatframe-overlord/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Appearance_ChatFrame_Overlord · Rarity SSR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Albedo's Origin Orb",
+      "category": "items",
+      "id": "Item_LRTalentSkill_Hero_261",
+      "internal_id": "Item_LRTalentSkill_Hero_261",
+      "url": "items/item-lrtalentskill-hero-261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_LRTalentSkill_Hero_261 · Rarity UR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Albedo's Resonance Crystal",
+      "category": "items",
+      "id": "Item_HeroPledge_261",
+      "internal_id": "Item_HeroPledge_261",
+      "url": "items/item-heropledge-261/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_HeroPledge_261 · Rarity UR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event's [Albedo's Resonance Bundles]"
+    },
+    {
       "title": "Allucia",
       "category": "items",
       "id": "Item_Owner_Hero_146",
@@ -14112,6 +14272,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_Weapon_Equipment_6_21 · Rarity UR · Backpack · Obtained by exchanging in the [From Old Country Bumpkin to Master Swordsman in Isekai] event's shop."
+    },
+    {
+      "title": "Ally of Nazarick",
+      "category": "items",
+      "id": "Item_OverlordTitle_2",
+      "internal_id": "Item_OverlordTitle_2",
+      "url": "items/item-overlordtitle-2/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_OverlordTitle_2 · Rarity UR · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Ally of the Demon Lord",
@@ -14636,6 +14806,16 @@
     {
       "title": "Apple",
       "category": "items",
+      "id": "Item_Explore_Overlord_Apple",
+      "internal_id": "Item_Explore_Overlord_Apple",
+      "url": "items/item-explore-overlord-apple/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Apple · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Apple",
+      "category": "items",
       "id": "Item_Explore_Sanrio_Apple",
       "internal_id": "Item_Explore_Sanrio_Apple",
       "url": "items/item-explore-sanrio-apple/",
@@ -15122,6 +15302,26 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Owner_HeroPiece_199 · Rarity SSR · Backpack · Crimson Moon Fantasia"
+    },
+    {
+      "title": "Auto-Planter",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Workshop_1",
+      "internal_id": "Item_Explore_Overlord_Workshop_1",
+      "url": "items/item-explore-overlord-workshop-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Workshop_1 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Auto-Planter Blueprint",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Drawing",
+      "internal_id": "Item_Explore_Overlord_Quest_Drawing",
+      "url": "items/item-explore-overlord-quest-drawing/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Drawing · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Auto-Walk Shoe Polish Formula",
@@ -15714,6 +15914,16 @@
       "summary": "Item Item_Ceremony_02 · Rarity SR · Backpack"
     },
     {
+      "title": "Beeswax",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Individual_6",
+      "internal_id": "Item_Explore_Overlord_Quest_Individual_6",
+      "url": "items/item-explore-overlord-quest-individual-6/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Individual_6 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Behemoth Footprint",
       "category": "items",
       "id": "Item_SimGame5_1202",
@@ -16132,6 +16342,16 @@
       "rarity": "N",
       "rarity_sort": 1,
       "summary": "Item Item_MP05_Expend_1 · Rarity N · Currency · Muscle Hustle Gym"
+    },
+    {
+      "title": "Bomb",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Boom",
+      "internal_id": "Item_Explore_Overlord_Quest_Boom",
+      "url": "items/item-explore-overlord-quest-boom/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Boom · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Bomb",
@@ -17774,6 +17994,26 @@
       "summary": "Item Item_Owner_Wife_58 · Rarity SR · Daily Tasks, Achievements, Events, Shop"
     },
     {
+      "title": "Clay",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Individual_7",
+      "internal_id": "Item_Explore_Overlord_Quest_Individual_7",
+      "url": "items/item-explore-overlord-quest-individual-7/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Individual_7 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Clay Fairy Doll",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Global_4",
+      "internal_id": "Item_Explore_Overlord_Quest_Global_4",
+      "url": "items/item-explore-overlord-quest-global-4/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Global_4 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Clearance",
       "category": "items",
       "id": "Item_2048_Remove",
@@ -17822,6 +18062,16 @@
       "rarity": "N",
       "rarity_sort": 1,
       "summary": "Item Item_SimGame2Forge_1_2 · Rarity N · Backpack · Guild Shop"
+    },
+    {
+      "title": "Cold Sweat",
+      "category": "items",
+      "id": "Item_Overlord_emotion_01",
+      "internal_id": "Item_Overlord_emotion_01",
+      "url": "items/item-overlord-emotion-01/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Overlord_emotion_01 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event's Achievements"
     },
     {
       "title": "Combo Artifact or Breakthrough Materia Chest",
@@ -18032,6 +18282,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_MP04_Expend_3 · Rarity SR · Currency · Picnic in the Forest"
+    },
+    {
+      "title": "Copper",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Individual_5",
+      "internal_id": "Item_Explore_Overlord_Quest_Individual_5",
+      "url": "items/item-explore-overlord-quest-individual-5/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Individual_5 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Copper Hot Pot",
@@ -23136,6 +23396,36 @@
     {
       "title": "Costume Blueprint Chest",
       "category": "items",
+      "id": "Item_Overlord_CothesboxPiece_1",
+      "internal_id": "Item_Overlord_CothesboxPiece_1",
+      "url": "items/item-overlord-cothesboxpiece-1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Overlord_CothesboxPiece_1 · Rarity SSR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Costume Blueprint Chest",
+      "category": "items",
+      "id": "Item_Overlord_CothesboxPiece_JP",
+      "internal_id": "Item_Overlord_CothesboxPiece_JP",
+      "url": "items/item-overlord-cothesboxpiece-jp/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Overlord_CothesboxPiece_JP · Rarity SSR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Costume Blueprint Chest",
+      "category": "items",
+      "id": "Item_Overlord_CothesboxPiece_TW",
+      "internal_id": "Item_Overlord_CothesboxPiece_TW",
+      "url": "items/item-overlord-cothesboxpiece-tw/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Overlord_CothesboxPiece_TW · Rarity SSR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Costume Blueprint Chest",
+      "category": "items",
       "id": "Item_ResidentGB_CothesboxPiece_1",
       "internal_id": "Item_ResidentGB_CothesboxPiece_1",
       "url": "items/item-residentgb-cothesboxpiece-1/",
@@ -24072,6 +24362,16 @@
       "rarity": "R",
       "rarity_sort": 2,
       "summary": "Item Item_Moonlight_Score · Rarity R · Currency · Moonlit Chill Work"
+    },
+    {
+      "title": "Demiurge",
+      "category": "items",
+      "id": "Item_Owner_Hero_81",
+      "internal_id": "Item_Owner_Hero_81",
+      "url": "items/item-owner-hero-81/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Owner_Hero_81 · Rarity SR · OVERLORD vs. Isekai Farm Story"
     },
     {
       "title": "Demon Blade Benizakura",
@@ -26064,6 +26364,16 @@
       "summary": "Item Item_HeroEXP_Resources_1 · Rarity R · Backpack · Drakenberg Challenge Shop, Guild Shop"
     },
     {
+      "title": "Expansion Material",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Global_5",
+      "internal_id": "Item_Explore_Overlord_Quest_Global_5",
+      "url": "items/item-explore-overlord-quest-global-5/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Global_5 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Expert Fertilizer",
       "category": "items",
       "id": "Item_PlantStarUp_5",
@@ -26544,6 +26854,26 @@
       "summary": "Item Item_ClothesSkill_Wife_02 · Rarity SSR · Backpack"
     },
     {
+      "title": "Family Costume Voucher",
+      "category": "items",
+      "id": "Item_PopuLarityVoting_CostumeCoupon_Wife",
+      "internal_id": "Item_PopuLarityVoting_CostumeCoupon_Wife",
+      "url": "items/item-popularityvoting-costumecoupon-wife/",
+      "rarity": "0",
+      "rarity_sort": 0,
+      "summary": "Item Item_PopuLarityVoting_CostumeCoupon_Wife · Rarity 0 · Activity, Backpack"
+    },
+    {
+      "title": "Family Voting Ticket",
+      "category": "items",
+      "id": "Item_PopuLarityVoting_VoteTicket02",
+      "internal_id": "Item_PopuLarityVoting_VoteTicket02",
+      "url": "items/item-popularityvoting-voteticket02/",
+      "rarity": "0",
+      "rarity_sort": 0,
+      "summary": "Item Item_PopuLarityVoting_VoteTicket02 · Rarity 0 · Activity, Backpack"
+    },
+    {
       "title": "Far Seas Pirate",
       "category": "items",
       "id": "Item_PirateChess_Title_02",
@@ -26564,6 +26894,56 @@
       "summary": "Item Item_PirateChess_Title_01 · Rarity UR"
     },
     {
+      "title": "Farm Bread",
+      "category": "items",
+      "id": "Item_Explore_Overlord_StamRecover",
+      "internal_id": "Item_Explore_Overlord_StamRecover",
+      "url": "items/item-explore-overlord-stamrecover/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Explore_Overlord_StamRecover · Rarity SSR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Farm Coupon",
+      "category": "items",
+      "id": "Item_Overlord_LotteryScore",
+      "internal_id": "Item_Overlord_LotteryScore",
+      "url": "items/item-overlord-lotteryscore/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Overlord_LotteryScore · Rarity SSR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Farm EXP",
+      "category": "items",
+      "id": "Item_Explore_Overlord_VillageExp",
+      "internal_id": "Item_Explore_Overlord_VillageExp",
+      "url": "items/item-explore-overlord-villageexp/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_VillageExp · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Farm Gacha Ticket",
+      "category": "items",
+      "id": "Item_CommonLottery_Overlord",
+      "internal_id": "Item_CommonLottery_Overlord",
+      "url": "items/item-commonlottery-overlord/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_CommonLottery_Overlord · Rarity SSR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Farm Gold",
+      "category": "items",
+      "id": "Item_Explore_Overlord_ObjGold",
+      "internal_id": "Item_Explore_Overlord_ObjGold",
+      "url": "items/item-explore-overlord-objgold/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_ObjGold · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Farm Points",
       "category": "items",
       "id": "Item_CountrySide01_Point",
@@ -26582,6 +26962,16 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item item_TowerDefense_CountrySide_01 · Rarity SSR · Activity · Build! A Leisurely Countryside Village!"
+    },
+    {
+      "title": "Farm Shop Token",
+      "category": "items",
+      "id": "Item_Explore_Overlord_ExchangeGold",
+      "internal_id": "Item_Explore_Overlord_ExchangeGold",
+      "url": "items/item-explore-overlord-exchangegold/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_ExchangeGold · Rarity SR · Currency, Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Farm Ticket",
@@ -26744,6 +27134,16 @@
       "summary": "Item Item_ClothesSkill_Hero_01 · Rarity SR · Backpack"
     },
     {
+      "title": "Fellow Costume Voucher",
+      "category": "items",
+      "id": "Item_PopuLarityVoting_CostumeCoupon_Hero",
+      "internal_id": "Item_PopuLarityVoting_CostumeCoupon_Hero",
+      "url": "items/item-popularityvoting-costumecoupon-hero/",
+      "rarity": "0",
+      "rarity_sort": 0,
+      "summary": "Item Item_PopuLarityVoting_CostumeCoupon_Hero · Rarity 0 · Activity, Backpack"
+    },
+    {
       "title": "Fellow EXP",
       "category": "items",
       "id": "1",
@@ -26752,6 +27152,16 @@
       "rarity": "R",
       "rarity_sort": 2,
       "summary": "Item 1 · Rarity R · Currency · Stages [Clear Stages], Classroom [Educate], {ItemName} [Use], {ItemName} [Use]"
+    },
+    {
+      "title": "Fellow Voting Ticket",
+      "category": "items",
+      "id": "Item_PopuLarityVoting_VoteTicket01",
+      "internal_id": "Item_PopuLarityVoting_VoteTicket01",
+      "url": "items/item-popularityvoting-voteticket01/",
+      "rarity": "0",
+      "rarity_sort": 0,
+      "summary": "Item Item_PopuLarityVoting_VoteTicket01 · Rarity 0 · Activity, Backpack"
     },
     {
       "title": "Fenrir",
@@ -26814,6 +27224,16 @@
       "summary": "Item Item_KeepAnimals_Fodder_03 · Rarity SR · Activity, Backpack · Fafnyria's Garden event"
     },
     {
+      "title": "Fertilizer Spreader",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Workshop_3",
+      "internal_id": "Item_Explore_Overlord_Workshop_3",
+      "url": "items/item-explore-overlord-workshop-3/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Workshop_3 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Festival 3-Star Costume Chest",
       "category": "items",
       "id": "Item_SummerFestival2025_ClothesBox_3Star",
@@ -26872,6 +27292,16 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_CommonLottery_Token_03 · Rarity SSR · Activity · Limited Costume"
+    },
+    {
+      "title": "Fiber",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Individual_3",
+      "internal_id": "Item_Explore_Overlord_Quest_Individual_3",
+      "url": "items/item-explore-overlord-quest-individual-3/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Individual_3 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Fifi",
@@ -27202,6 +27632,16 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_ClothesChip_ShapeshiftClothes13 · Rarity SSR · Backpack · Sweet Xocolate"
+    },
+    {
+      "title": "Figure [Momon of Darkness]",
+      "category": "items",
+      "id": "Item_ClothesChip_ShapeshiftClothes44",
+      "internal_id": "Item_ClothesChip_ShapeshiftClothes44",
+      "url": "items/item-clotheschip-shapeshiftclothes44/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_ShapeshiftClothes44 · Rarity SSR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event's [Pass]"
     },
     {
       "title": "Figure [Mr. Reindeer] (★2)",
@@ -29346,6 +29786,16 @@
     {
       "title": "Golden Apple",
       "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Global_1",
+      "internal_id": "Item_Explore_Overlord_Quest_Global_1",
+      "url": "items/item-explore-overlord-quest-global-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Global_1 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Golden Apple",
+      "category": "items",
       "id": "Item_Weapon_Equipment_7_1",
       "internal_id": "Item_Weapon_Equipment_7_1",
       "url": "items/item-weapon-equipment-7-1/",
@@ -29642,6 +30092,16 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Owner_PetPiece_33241 · Rarity SSR · Backpack · Familiar"
+    },
+    {
+      "title": "Grape",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Crops_5",
+      "internal_id": "Item_Explore_Overlord_Crops_5",
+      "url": "items/item-explore-overlord-crops-5/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Crops_5 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Grape",
@@ -31204,6 +31664,26 @@
       "summary": "Item Item_DIYURPlus3_emotion_1 · Rarity SR · Obtained in the [Dash! Familiar Track & Field] event's [Growth Rewards]."
     },
     {
+      "title": "I Let It Slip",
+      "category": "items",
+      "id": "Item_Overlord_emotion_04",
+      "internal_id": "Item_Overlord_emotion_04",
+      "url": "items/item-overlord-emotion-04/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Overlord_emotion_04 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha - Shop]"
+    },
+    {
+      "title": "I See",
+      "category": "items",
+      "id": "Item_Overlord_emotion_05",
+      "internal_id": "Item_Overlord_emotion_05",
+      "url": "items/item-overlord-emotion-05/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Overlord_emotion_05 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha - Shop]"
+    },
+    {
       "title": "I'm here!",
       "category": "items",
       "id": "Item_TenSuraS2_emotion_04",
@@ -31644,6 +32124,16 @@
       "summary": "Item Item_giftRandom_Intimacy · Rarity SSR · Backpack · Roaming"
     },
     {
+      "title": "Intimidation",
+      "category": "items",
+      "id": "Item_Overlord_emotion_02",
+      "internal_id": "Item_Overlord_emotion_02",
+      "url": "items/item-overlord-emotion-02/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Overlord_emotion_02 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha - Shop]"
+    },
+    {
       "title": "Intricate Trap",
       "category": "items",
       "id": "Item_FranticFores_TargetedExplore",
@@ -31804,6 +32294,16 @@
       "summary": "Item Item_SimGame5Piece_2408 · Rarity SSR · Backpack · Treasure Hunt"
     },
     {
+      "title": "Irrigator",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Workshop_4",
+      "internal_id": "Item_Explore_Overlord_Workshop_4",
+      "url": "items/item-explore-overlord-workshop-4/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Workshop_4 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Isatilra",
       "category": "items",
       "id": "Item_Owner_Wife_61",
@@ -31812,6 +32312,26 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Owner_Wife_61 · Rarity SR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Isekai Creator",
+      "category": "items",
+      "id": "Item_RankTitle_ThirdParty_Creator",
+      "internal_id": "Item_RankTitle_ThirdParty_Creator",
+      "url": "items/item-ranktitle-thirdparty-creator/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_RankTitle_ThirdParty_Creator · Rarity SSR"
+    },
+    {
+      "title": "Isekai Creator Avatar Frame",
+      "category": "items",
+      "id": "Item_Appearance_HeadFrame_ThirdParty_Creator",
+      "internal_id": "Item_Appearance_HeadFrame_ThirdParty_Creator",
+      "url": "items/item-appearance-headframe-thirdparty-creator/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Appearance_HeadFrame_ThirdParty_Creator · Rarity SSR"
     },
     {
       "title": "Item_Anniversary_JP2EN3_URHero",
@@ -33062,6 +33582,16 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Owner_WifePiece_143 · Rarity SSR · Backpack · Mushroom's Travels Event"
+    },
+    {
+      "title": "Let's Have a Look...",
+      "category": "items",
+      "id": "Item_Overlord_emotion_03",
+      "internal_id": "Item_Overlord_emotion_03",
+      "url": "items/item-overlord-emotion-03/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Overlord_emotion_03 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event's [Growth Rewards]"
     },
     {
       "title": "Letter of Recommendation",
@@ -34534,6 +35064,16 @@
       "summary": "Item Item_SimGame5Piece_2407 · Rarity SSR · Backpack · Treasure Hunt"
     },
     {
+      "title": "Management Simulation Master",
+      "category": "items",
+      "id": "Item_OverlordTitle_1",
+      "internal_id": "Item_OverlordTitle_1",
+      "url": "items/item-overlordtitle-1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_OverlordTitle_1 · Rarity UR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Mandrake",
       "category": "items",
       "id": "Item_MP04_Output_1",
@@ -35424,6 +35964,16 @@
       "summary": "Item Item_FixedTitle_111 · Rarity R"
     },
     {
+      "title": "Mithril",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Global_2",
+      "internal_id": "Item_Explore_Overlord_Quest_Global_2",
+      "url": "items/item-explore-overlord-quest-global-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Global_2 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Mithril Ore",
       "category": "items",
       "id": "Item_SimGame2Forge_8_1",
@@ -35984,6 +36534,16 @@
       "summary": "Item SG3AinawenPoison · Rarity SR"
     },
     {
+      "title": "Mysterious Key",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_SpecialKey",
+      "internal_id": "Item_Explore_Overlord_Quest_SpecialKey",
+      "url": "items/item-explore-overlord-quest-specialkey/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Explore_Overlord_Quest_SpecialKey · Rarity SSR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Mysterious Magic Fragment",
       "category": "items",
       "id": "Item_HeroBond1_ExchangePiece",
@@ -36072,6 +36632,46 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_TitleBasemap_Wife_124 · Rarity UR · Namiko's Stella Level Reaches 8"
+    },
+    {
+      "title": "Narberal Gamma",
+      "category": "items",
+      "id": "Item_Owner_Hero_188",
+      "internal_id": "Item_Owner_Hero_188",
+      "url": "items/item-owner-hero-188/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_188 · Rarity SSR · OVERLORD vs. Isekai Farm Story"
+    },
+    {
+      "title": "Narberal Gamma's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_188",
+      "internal_id": "Item_Owner_HeroPiece_188",
+      "url": "items/item-owner-heropiece-188/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_188 · Rarity SSR · Backpack · OVERLORD vs. Isekai Farm Story"
+    },
+    {
+      "title": "Narberal Gamma's Title",
+      "category": "items",
+      "id": "Item_Hero_188_showoff_prefix",
+      "internal_id": "Item_Hero_188_showoff_prefix",
+      "url": "items/item-hero-188-showoff-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_188_showoff_prefix · Rarity UR · Narberal Gamma's Stella Level Reaches 5"
+    },
+    {
+      "title": "Narberal's Staff",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_H188",
+      "internal_id": "Item_Weapon_Equipment_6_H188",
+      "url": "items/item-weapon-equipment-6-h188/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_H188 · Rarity UR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha - Shop]"
     },
     {
       "title": "Narwhal Fossil",
@@ -37596,6 +38196,16 @@
     {
       "title": "Pass Points",
       "category": "items",
+      "id": "Item_Overlord_BPScore",
+      "internal_id": "Item_Overlord_BPScore",
+      "url": "items/item-overlord-bpscore/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Overlord_BPScore · Rarity SR · Activity · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Pass Points",
+      "category": "items",
       "id": "Item_Sanrio_BPScore",
       "internal_id": "Item_Sanrio_BPScore",
       "url": "items/item-sanrio-bpscore/",
@@ -38246,6 +38856,16 @@
     {
       "title": "Pom-Pom Cheerleading Squad",
       "category": "items",
+      "id": "Item_Explore_Overlord_SpecialItem",
+      "internal_id": "Item_Explore_Overlord_SpecialItem",
+      "url": "items/item-explore-overlord-specialitem/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Explore_Overlord_SpecialItem · Rarity SSR · Activity · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Pom-Pom Cheerleading Squad",
+      "category": "items",
       "id": "Item_Explore_TenSura_SpecialItem",
       "internal_id": "Item_Explore_TenSura_SpecialItem",
       "url": "items/item-explore-tensura-specialitem/",
@@ -38554,6 +39174,16 @@
       "summary": "Item Item_Hero_135_uniqueName_prefix · Rarity UR · Aegle's Stella Level Reaches 6"
     },
     {
+      "title": "Prefix Title: Ainz Ooal Gown",
+      "category": "items",
+      "id": "Item_Hero_187_uniqueName_prefix",
+      "internal_id": "Item_Hero_187_uniqueName_prefix",
+      "url": "items/item-hero-187-uniquename-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_187_uniqueName_prefix · Rarity UR · Ainz Ooal Gown's Stella Level Reaches 10"
+    },
+    {
       "title": "Prefix Title: Aisha Greyrat",
       "category": "items",
       "id": "Item_Hero_177_uniqueName_prefix",
@@ -38582,6 +39212,26 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_Wife_119_uniqueName_prefix · Rarity UR · Alanna's Stella Level Reaches 10"
+    },
+    {
+      "title": "Prefix Title: Albedo",
+      "category": "items",
+      "id": "Item_Hero_261_showoff_prefix",
+      "internal_id": "Item_Hero_261_showoff_prefix",
+      "url": "items/item-hero-261-showoff-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_261_showoff_prefix · Rarity UR · Albedo (Fellow)'s Stella Level Reaches 5"
+    },
+    {
+      "title": "Prefix Title: Albedo",
+      "category": "items",
+      "id": "Item_Hero_261_uniqueName_prefix",
+      "internal_id": "Item_Hero_261_uniqueName_prefix",
+      "url": "items/item-hero-261-uniquename-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_261_uniqueName_prefix · Rarity UR · Albedo (Fellow)'s Stella Level Reaches 6"
     },
     {
       "title": "Prefix Title: Amaterasu",
@@ -40444,6 +41094,16 @@
       "summary": "Item Item_Wife_124_uniqueName_prefix · Rarity UR · Namiko's Stella Level Reaches 6"
     },
     {
+      "title": "Prefix Title: Narberal Gamma",
+      "category": "items",
+      "id": "Item_Hero_188_uniqueName_prefix",
+      "internal_id": "Item_Hero_188_uniqueName_prefix",
+      "url": "items/item-hero-188-uniquename-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_188_uniqueName_prefix · Rarity UR · Narberal Gamma's Stella Level Reaches 10"
+    },
+    {
       "title": "Prefix Title: Natsu",
       "category": "items",
       "id": "Item_Hero_256_showoff_prefix",
@@ -40942,6 +41602,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_Wife_102_uniqueName_prefix · Rarity UR · Sera's Stella Level Reaches 10"
+    },
+    {
+      "title": "Prefix Title: Shalltear Bloodfallen",
+      "category": "items",
+      "id": "Item_Wife_177_uniqueName_prefix",
+      "internal_id": "Item_Wife_177_uniqueName_prefix",
+      "url": "items/item-wife-177-uniquename-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Wife_177_uniqueName_prefix · Rarity UR · Shalltear Bloodfallen's Stella Level Reaches 6"
     },
     {
       "title": "Prefix Title: Shinobu Kocho",
@@ -42494,6 +43164,16 @@
       "summary": "Item Item_Owner_Hero_5 · Rarity N · Daily Tasks, Achievements, Events, Shop"
     },
     {
+      "title": "Pumpkin",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Crops_2",
+      "internal_id": "Item_Explore_Overlord_Crops_2",
+      "url": "items/item-explore-overlord-crops-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Crops_2 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Pure Water",
       "category": "items",
       "id": "Item_Explore_FairyTail_Quest_Individual_3",
@@ -42502,6 +43182,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Explore_FairyTail_Quest_Individual_3 · Rarity SR · Activity, Backpack · [Fight! FAIRY TAIL and the Magic Academy Sports Day!] crossover event."
+    },
+    {
+      "title": "Pure White Demon",
+      "category": "items",
+      "id": "Item_OverlordTitle_3",
+      "internal_id": "Item_OverlordTitle_3",
+      "url": "items/item-overlordtitle-3/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_OverlordTitle_3 · Rarity UR · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Purgatory Demon Egg",
@@ -43804,6 +44494,16 @@
       "summary": "Item Item_Breach_Hero_3_2 · Rarity UR · Backpack"
     },
     {
+      "title": "Refinery",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Workshop_2",
+      "internal_id": "Item_Explore_Overlord_Workshop_2",
+      "url": "items/item-explore-overlord-workshop-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Workshop_2 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Reforge essential oil",
       "category": "items",
       "id": "Item_Quenching_Equipment_1",
@@ -44774,6 +45474,16 @@
       "summary": "Item Item_MP04_Expend_4 · Rarity SSR · Currency · Picnic in the Forest"
     },
     {
+      "title": "Sap",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Individual_4",
+      "internal_id": "Item_Explore_Overlord_Quest_Individual_4",
+      "url": "items/item-explore-overlord-quest-individual-4/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Individual_4 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Sapphire Crown",
       "category": "items",
       "id": "Item_Weapon_Equipment_6_5",
@@ -45222,6 +45932,76 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_MoonEvent_ExchangeItem_08 · Rarity SSR · Mushroom's Travels Event"
+    },
+    {
+      "title": "Shalltear Bloodfallen",
+      "category": "items",
+      "id": "Item_Owner_Wife_177",
+      "internal_id": "Item_Owner_Wife_177",
+      "url": "items/item-owner-wife-177/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Wife_177 · Rarity UR · Obtained from the [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha]."
+    },
+    {
+      "title": "Shalltear Bloodfallen",
+      "category": "items",
+      "id": "Item_Owner_Wife_177M1",
+      "internal_id": "Item_Owner_Wife_177M1",
+      "url": "items/item-owner-wife-177m1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Wife_177M1 · Rarity UR · Obtained from [Farm Story Gacha] in the [OVERLORD vs. Isekai Farm Story] crossover event."
+    },
+    {
+      "title": "Shalltear Bloodfallen Dynamic Avatar",
+      "category": "items",
+      "id": "Item_ActiveHead_Wife_177",
+      "internal_id": "Item_ActiveHead_Wife_177",
+      "url": "items/item-activehead-wife-177/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_ActiveHead_Wife_177 · Rarity UR · Shalltear Bloodfallen's Stella Level Reaches 10"
+    },
+    {
+      "title": "Shalltear Bloodfallen Title Underframe",
+      "category": "items",
+      "id": "Item_TitleBasemap_Wife_177",
+      "internal_id": "Item_TitleBasemap_Wife_177",
+      "url": "items/item-titlebasemap-wife-177/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_TitleBasemap_Wife_177 · Rarity UR · Shalltear Bloodfallen's Stella Level Reaches 8"
+    },
+    {
+      "title": "Shalltear Bloodfallen's Crystal Fragment",
+      "category": "items",
+      "id": "Item_RarityUpgrade_Wife_177",
+      "internal_id": "Item_RarityUpgrade_Wife_177",
+      "url": "items/item-rarityupgrade-wife-177/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_RarityUpgrade_Wife_177 · Rarity UR · Backpack · Obtained from the [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha]."
+    },
+    {
+      "title": "Shalltear Bloodfallen's Title",
+      "category": "items",
+      "id": "Item_Wife_177_showoff_prefix",
+      "internal_id": "Item_Wife_177_showoff_prefix",
+      "url": "items/item-wife-177-showoff-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Wife_177_showoff_prefix · Rarity UR · Shalltear Bloodfallen's Stella Level Reaches 5"
+    },
+    {
+      "title": "Shalltear Plushie",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_W177",
+      "internal_id": "Item_Weapon_Equipment_6_W177",
+      "url": "items/item-weapon-equipment-6-w177/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_W177 · Rarity UR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha - Shop]"
     },
     {
       "title": "Shelter Runes",
@@ -46944,6 +47724,16 @@
       "summary": "Item Item_Owner_PetPiece_32331 · Rarity SR · Backpack · Familiar"
     },
     {
+      "title": "Staff of Ainz Ooal Gown",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_H187",
+      "internal_id": "Item_Weapon_Equipment_6_H187",
+      "url": "items/item-weapon-equipment-6-h187/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_H187 · Rarity UR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event's [Farm Story Gacha - Shop]"
+    },
+    {
       "title": "Staff of Revive",
       "category": "items",
       "id": "Item_RTD_BP_Revive",
@@ -47092,6 +47882,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Explore_Mushoku_Stamina · Rarity SR · [Mushoku Tensei and Magic Creativity Show] crossover event."
+    },
+    {
+      "title": "Stamina",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Stamina",
+      "internal_id": "Item_Explore_Overlord_Stamina",
+      "url": "items/item-explore-overlord-stamina/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Stamina · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Stamina",
@@ -47304,6 +48104,16 @@
       "summary": "Item Item_PictureGuess_1 · Rarity SR · Currency, Activity · Koi Blessing"
     },
     {
+      "title": "Star of Bethlehem",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Global_3",
+      "internal_id": "Item_Explore_Overlord_Quest_Global_3",
+      "url": "items/item-explore-overlord-quest-global-3/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Global_3 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Star of Sweetland",
       "category": "items",
       "id": "Item_SanrioTitle_3",
@@ -47342,6 +48152,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_TenSura_emotion_02 · Rarity SR · Obtained from the Crossover Event - Camping with A Slime"
+    },
+    {
+      "title": "Statue of Ainz Ooal Gown",
+      "category": "items",
+      "id": "Collection_Overlord",
+      "internal_id": "Collection_Overlord",
+      "url": "items/collection-overlord/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Collection_Overlord · Rarity SR · Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Statue of Shinobu",
@@ -47442,6 +48262,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Explore_DanMachi_Quest_Individual_1 · Rarity SR · Activity, Backpack · Encounter in Another World crossover event."
+    },
+    {
+      "title": "Stone",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Individual_1",
+      "internal_id": "Item_Explore_Overlord_Quest_Individual_1",
+      "url": "items/item-explore-overlord-quest-individual-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Individual_1 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Stone Dumbbell",
@@ -47612,6 +48442,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Monopoly02_WifeCharm · Rarity SR · Activity, Backpack · Adeline's \"Treasure\""
+    },
+    {
+      "title": "Strawberry",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Crops_4",
+      "internal_id": "Item_Explore_Overlord_Crops_4",
+      "url": "items/item-explore-overlord-crops-4/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Crops_4 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Stream Coupon",
@@ -51466,6 +52306,16 @@
     {
       "title": "Sunflower",
       "category": "items",
+      "id": "Item_Explore_Overlord_Crops_3",
+      "internal_id": "Item_Explore_Overlord_Crops_3",
+      "url": "items/item-explore-overlord-crops-3/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Crops_3 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Sunflower",
+      "category": "items",
       "id": "Item_RaphaelStage_StagePropsMaterial_02",
       "internal_id": "Item_RaphaelStage_StagePropsMaterial_02",
       "url": "items/item-raphaelstage-stagepropsmaterial-02/",
@@ -53486,6 +54336,16 @@
     {
       "title": "Treasure Key",
       "category": "items",
+      "id": "Item_Explore_Overlord_Key",
+      "internal_id": "Item_Explore_Overlord_Key",
+      "url": "items/item-explore-overlord-key/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Explore_Overlord_Key · Rarity SSR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
+      "title": "Treasure Key",
+      "category": "items",
       "id": "Item_Explore_Sanrio_Key",
       "internal_id": "Item_Explore_Sanrio_Key",
       "url": "items/item-explore-sanrio-key/",
@@ -54444,6 +55304,16 @@
       "summary": "Item Item_LegendaryWeapon_1_2_Piece · Rarity UR · Backpack"
     },
     {
+      "title": "Warehouse",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Workshop_6",
+      "internal_id": "Item_Explore_Overlord_Workshop_6",
+      "url": "items/item-explore-overlord-workshop-6/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Workshop_6 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
+    },
+    {
       "title": "Warm Ghost Light",
       "category": "items",
       "id": "Item_FixedTitle_108",
@@ -54582,6 +55452,16 @@
       "rarity": "N",
       "rarity_sort": 1,
       "summary": "Item Item_WaterFight_Weapon_3 · Rarity N · World Tree: Water Fight"
+    },
+    {
+      "title": "Wheat",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Crops_1",
+      "internal_id": "Item_Explore_Overlord_Crops_1",
+      "url": "items/item-explore-overlord-crops-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Crops_1 · Rarity SR · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Whirlwind Lollipop",
@@ -54832,6 +55712,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Explore_DanMachi_Quest_Individual_2 · Rarity SR · Activity, Backpack · Encounter in Another World crossover event."
+    },
+    {
+      "title": "Wood",
+      "category": "items",
+      "id": "Item_Explore_Overlord_Quest_Individual_2",
+      "internal_id": "Item_Explore_Overlord_Quest_Individual_2",
+      "url": "items/item-explore-overlord-quest-individual-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Explore_Overlord_Quest_Individual_2 · Rarity SR · Activity, Backpack · [OVERLORD vs. Isekai Farm Story] crossover event"
     },
     {
       "title": "Wool Cloth",
@@ -55354,16 +56244,6 @@
       "summary": "Item Item_Appearance_HeadFrame_Creation_JP · Rarity SSR"
     },
     {
-      "title": "「异世界创作者」头像框",
-      "category": "items",
-      "id": "Item_Appearance_HeadFrame_ThirdParty_Creator",
-      "internal_id": "Item_Appearance_HeadFrame_ThirdParty_Creator",
-      "url": "items/item-appearance-headframe-thirdparty-creator/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Appearance_HeadFrame_ThirdParty_Creator · Rarity SSR"
-    },
-    {
       "title": "「約束のしるし」チャットフレーム",
       "category": "items",
       "id": "Item_Appearance_ChatFrame_Open_JP",
@@ -55392,46 +56272,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_MonsterGirl_emotion_04 · Rarity SR · 氷雪の町校外実習～頑張れ！モンスター娘！"
-    },
-    {
-      "title": "いちご",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Crops_4",
-      "internal_id": "Item_Explore_Overlord_Crops_4",
-      "url": "items/item-explore-overlord-crops-4/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Crops_4 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "お花チアチーム",
-      "category": "items",
-      "id": "Item_Explore_Overlord_SpecialItem",
-      "internal_id": "Item_Explore_Overlord_SpecialItem",
-      "url": "items/item-explore-overlord-specialitem/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Explore_Overlord_SpecialItem · Rarity SSR · Activity · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "どれどれ…",
-      "category": "items",
-      "id": "Item_Overlord_emotion_03",
-      "internal_id": "Item_Overlord_emotion_03",
-      "url": "items/item-overlord-emotion-03/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Overlord_emotion_03 · Rarity SR · コラボイベント「オーバーロード農園物語」の「育成報酬」で獲得"
-    },
-    {
-      "title": "なるほど",
-      "category": "items",
-      "id": "Item_Overlord_emotion_05",
-      "internal_id": "Item_Overlord_emotion_05",
-      "url": "items/item-overlord-emotion-05/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Overlord_emotion_05 · Rarity SR · コラボイベント「オーバーロード農園物語」の「農園物語抽選-引換窓口」で獲得"
     },
     {
       "title": "のんびり芸術家",
@@ -55464,216 +56304,6 @@
       "summary": "Item Item_CommonLottery_MonsterGirl · Rarity SSR · Activity, Backpack · 氷雪の町校外実習～頑張れ！モンスター娘！"
     },
     {
-      "title": "アインズ・ウール・ゴウン",
-      "category": "items",
-      "id": "Item_Owner_Hero_187",
-      "internal_id": "Item_Owner_Hero_187",
-      "url": "items/item-owner-hero-187/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Owner_Hero_187 · Rarity SSR · オーバーロードvs異世界農園物語"
-    },
-    {
-      "title": "アインズ・ウール・ゴウンの前置きワード",
-      "category": "items",
-      "id": "Item_Hero_187_uniqueName_prefix",
-      "internal_id": "Item_Hero_187_uniqueName_prefix",
-      "url": "items/item-hero-187-uniquename-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_187_uniqueName_prefix · Rarity UR · アインズ・ウール・ゴウンのステラがLv.10になると獲得"
-    },
-    {
-      "title": "アインズ・ウール・ゴウンの彫像",
-      "category": "items",
-      "id": "Collection_Overlord",
-      "internal_id": "Collection_Overlord",
-      "url": "items/collection-overlord/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Collection_Overlord · Rarity SR · Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "アインズ・ウール・ゴウンの杖",
-      "category": "items",
-      "id": "Item_Weapon_Equipment_6_H187",
-      "internal_id": "Item_Weapon_Equipment_6_H187",
-      "url": "items/item-weapon-equipment-6-h187/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Weapon_Equipment_6_H187 · Rarity UR · Backpack · コラボイベント「オーバーロード農園物語」の「農園物語抽選-引換窓口」で獲得"
-    },
-    {
-      "title": "アインズ・ウール・ゴウンの欠片",
-      "category": "items",
-      "id": "Item_Owner_HeroPiece_187",
-      "internal_id": "Item_Owner_HeroPiece_187",
-      "url": "items/item-owner-heropiece-187/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Owner_HeroPiece_187 · Rarity SSR · Backpack · オーバーロードvs異世界農園物語"
-    },
-    {
-      "title": "アインズ・ウール・ゴウンの称号",
-      "category": "items",
-      "id": "Item_Hero_187_showoff_prefix",
-      "internal_id": "Item_Hero_187_showoff_prefix",
-      "url": "items/item-hero-187-showoff-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_187_showoff_prefix · Rarity UR · アインズ・ウール・ゴウンのステラがLv.5になると獲得"
-    },
-    {
-      "title": "アルベド",
-      "category": "items",
-      "id": "Item_Owner_Hero_261",
-      "internal_id": "Item_Owner_Hero_261",
-      "url": "items/item-owner-hero-261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Hero_261 · Rarity UR · 「オーバーロード農園物語」で獲得できる「アルベドの結晶の欠片」。アルベドのレア度をランクアップするのに使用できる。"
-    },
-    {
-      "title": "アルベド",
-      "category": "items",
-      "id": "Item_Owner_Hero_261M1",
-      "internal_id": "Item_Owner_Hero_261M1",
-      "url": "items/item-owner-hero-261m1/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Hero_261M1 · Rarity UR · 「オーバーロード農園物語」で獲得できる「アルベドの結晶の欠片」。アルベドのレア度をランクアップするのに使用できる。"
-    },
-    {
-      "title": "アルベド",
-      "category": "items",
-      "id": "Item_Owner_Hero_261M1_500",
-      "internal_id": "Item_Owner_Hero_261M1_500",
-      "url": "items/item-owner-hero-261m1-500/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Hero_261M1_500 · Rarity UR · 「オーバーロード農園物語」で獲得できる「アルベドの結晶の欠片」。アルベドのレア度をランクアップするのに使用できる。"
-    },
-    {
-      "title": "アルベド",
-      "category": "items",
-      "id": "Item_Owner_Hero_261M3",
-      "internal_id": "Item_Owner_Hero_261M3",
-      "url": "items/item-owner-hero-261m3/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Hero_261M3 · Rarity UR · 「オーバーロード農園物語」で獲得できる「アルベドの結晶の欠片」。アルベドのレア度をランクアップするのに使用できる。"
-    },
-    {
-      "title": "アルベド",
-      "category": "items",
-      "id": "Item_Owner_Wife_176",
-      "internal_id": "Item_Owner_Wife_176",
-      "url": "items/item-owner-wife-176/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Wife_176 · Rarity UR · LR仲間アルベドの信頼度を上げると家族にできる"
-    },
-    {
-      "title": "アルベドのぬいぐるみ",
-      "category": "items",
-      "id": "Item_Weapon_Equipment_6_H261",
-      "internal_id": "Item_Weapon_Equipment_6_H261",
-      "url": "items/item-weapon-equipment-6-h261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Weapon_Equipment_6_H261 · Rarity UR · Backpack · コラボイベント「オーバーロード農園物語」の「購入還元」で獲得"
-    },
-    {
-      "title": "アルベドのクリスタル",
-      "category": "items",
-      "id": "Item_HeroPledge_261",
-      "internal_id": "Item_HeroPledge_261",
-      "url": "items/item-heropledge-261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_HeroPledge_261 · Rarity UR · Backpack · コラボイベント「オーバーロード農園物語」の「アルベドのリンクパック」で獲得"
-    },
-    {
-      "title": "アルベドのセット称号フレーム",
-      "category": "items",
-      "id": "Item_TitleBasemap_Hero_261",
-      "internal_id": "Item_TitleBasemap_Hero_261",
-      "url": "items/item-titlebasemap-hero-261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_TitleBasemap_Hero_261 · Rarity UR · アルベド（仲間）のステラがLv.8になると獲得"
-    },
-    {
-      "title": "アルベドの信頼の結晶",
-      "category": "items",
-      "id": "Item_IntimacyDegree_Hero261",
-      "internal_id": "Item_IntimacyDegree_Hero261",
-      "url": "items/item-intimacydegree-hero261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_IntimacyDegree_Hero261 · Rarity UR · Backpack · コラボ記念「アルベドの信頼度サポートパック」で獲得"
-    },
-    {
-      "title": "アルベドの凝視",
-      "category": "items",
-      "id": "Item_Appearance_ChatFrame_Overlord",
-      "internal_id": "Item_Appearance_ChatFrame_Overlord",
-      "url": "items/item-appearance-chatframe-overlord/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Appearance_ChatFrame_Overlord · Rarity SSR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "アルベドの前置きワード",
-      "category": "items",
-      "id": "Item_Hero_261_showoff_prefix",
-      "internal_id": "Item_Hero_261_showoff_prefix",
-      "url": "items/item-hero-261-showoff-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_261_showoff_prefix · Rarity UR · アルベド（仲間）のステラがLv.5になると獲得"
-    },
-    {
-      "title": "アルベドの前置きワード",
-      "category": "items",
-      "id": "Item_Hero_261_uniqueName_prefix",
-      "internal_id": "Item_Hero_261_uniqueName_prefix",
-      "url": "items/item-hero-261-uniquename-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_261_uniqueName_prefix · Rarity UR · アルベド（仲間）のステラがLv.6になると獲得"
-    },
-    {
-      "title": "アルベドの動くアイコン",
-      "category": "items",
-      "id": "Item_ActiveHead_Hero_261",
-      "internal_id": "Item_ActiveHead_Hero_261",
-      "url": "items/item-activehead-hero-261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_ActiveHead_Hero_261 · Rarity UR · アルベド（仲間）のステラがLv.10になると獲得"
-    },
-    {
-      "title": "アルベドの根源の宝珠",
-      "category": "items",
-      "id": "Item_LRTalentSkill_Hero_261",
-      "internal_id": "Item_LRTalentSkill_Hero_261",
-      "url": "items/item-lrtalentskill-hero-261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_LRTalentSkill_Hero_261 · Rarity UR · Backpack · 「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "アルベドの結晶の欠片",
-      "category": "items",
-      "id": "Item_RarityUpgrade_Hero_261",
-      "internal_id": "Item_RarityUpgrade_Hero_261",
-      "url": "items/item-rarityupgrade-hero-261/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_RarityUpgrade_Hero_261 · Rarity UR · Backpack · コラボイベント「オーバーロード農園物語」の「農園物語抽選」で獲得"
-    },
-    {
       "title": "ウサギ",
       "category": "items",
       "id": "Item_Explore_MonsterGirl_Rabbit",
@@ -55692,16 +56322,6 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_test_customreward · Rarity SSR · Backpack"
-    },
-    {
-      "title": "カボチャ",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Crops_2",
-      "internal_id": "Item_Explore_Overlord_Crops_2",
-      "url": "items/item-explore-overlord-crops-2/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Crops_2 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "カラフルコットンフラワー",
@@ -55752,96 +56372,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_MonsterGirl_emotion_01 · Rarity SR · 氷雪の町校外実習～頑張れ！モンスター娘！"
-    },
-    {
-      "title": "シャルティアのぬいぐるみ",
-      "category": "items",
-      "id": "Item_Weapon_Equipment_6_W177",
-      "internal_id": "Item_Weapon_Equipment_6_W177",
-      "url": "items/item-weapon-equipment-6-w177/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Weapon_Equipment_6_W177 · Rarity UR · Backpack · コラボイベント「オーバーロード農園物語」の「農園物語抽選-引換窓口」で獲得"
-    },
-    {
-      "title": "シャルティア・ブラッドフォールン",
-      "category": "items",
-      "id": "Item_Owner_Wife_177",
-      "internal_id": "Item_Owner_Wife_177",
-      "url": "items/item-owner-wife-177/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Wife_177 · Rarity UR · コラボイベント「オーバーロード農園物語」の「農園物語抽選」で獲得"
-    },
-    {
-      "title": "シャルティア・ブラッドフォールン",
-      "category": "items",
-      "id": "Item_Owner_Wife_177M1",
-      "internal_id": "Item_Owner_Wife_177M1",
-      "url": "items/item-owner-wife-177m1/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Wife_177M1 · Rarity UR · コラボイベント「オーバーロード農園物語」の「農園物語抽選」で獲得"
-    },
-    {
-      "title": "シャルティア・ブラッドフォールンのセット称号フレーム",
-      "category": "items",
-      "id": "Item_TitleBasemap_Wife_177",
-      "internal_id": "Item_TitleBasemap_Wife_177",
-      "url": "items/item-titlebasemap-wife-177/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_TitleBasemap_Wife_177 · Rarity UR · シャルティア・ブラッドフォールンのステラがLv.8になると獲得"
-    },
-    {
-      "title": "シャルティア・ブラッドフォールンの前置きワード",
-      "category": "items",
-      "id": "Item_Wife_177_uniqueName_prefix",
-      "internal_id": "Item_Wife_177_uniqueName_prefix",
-      "url": "items/item-wife-177-uniquename-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Wife_177_uniqueName_prefix · Rarity UR · シャルティア・ブラッドフォールンのステラがLv.6になると獲得"
-    },
-    {
-      "title": "シャルティア・ブラッドフォールンの動くアイコン",
-      "category": "items",
-      "id": "Item_ActiveHead_Wife_177",
-      "internal_id": "Item_ActiveHead_Wife_177",
-      "url": "items/item-activehead-wife-177/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_ActiveHead_Wife_177 · Rarity UR · シャルティア・ブラッドフォールンのステラがLv.10になると獲得"
-    },
-    {
-      "title": "シャルティア・ブラッドフォールンの称号",
-      "category": "items",
-      "id": "Item_Wife_177_showoff_prefix",
-      "internal_id": "Item_Wife_177_showoff_prefix",
-      "url": "items/item-wife-177-showoff-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Wife_177_showoff_prefix · Rarity UR · シャルティア・ブラッドフォールンのステラがLv.5になると獲得"
-    },
-    {
-      "title": "シャルティア・ブラッドフォールンの結晶の欠片",
-      "category": "items",
-      "id": "Item_RarityUpgrade_Wife_177",
-      "internal_id": "Item_RarityUpgrade_Wife_177",
-      "url": "items/item-rarityupgrade-wife-177/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_RarityUpgrade_Wife_177 · Rarity UR · Backpack · コラボイベント「オーバーロード農園物語」の「農園物語抽選」で獲得"
-    },
-    {
-      "title": "スタミナ",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Stamina",
-      "internal_id": "Item_Explore_Overlord_Stamina",
-      "url": "items/item-explore-overlord-stamina/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Stamina · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "スノーコーヒー豆",
@@ -55914,76 +56444,6 @@
       "summary": "Item test_reward_item_01 · Rarity SR · Backpack"
     },
     {
-      "title": "デミウルゴス",
-      "category": "items",
-      "id": "Item_Owner_Hero_81",
-      "internal_id": "Item_Owner_Hero_81",
-      "url": "items/item-owner-hero-81/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Owner_Hero_81 · Rarity SR · オーバーロードvs異世界農園物語"
-    },
-    {
-      "title": "ナザリックの協力者",
-      "category": "items",
-      "id": "Item_OverlordTitle_2",
-      "internal_id": "Item_OverlordTitle_2",
-      "url": "items/item-overlordtitle-2/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_OverlordTitle_2 · Rarity UR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "ナーベラルの杖",
-      "category": "items",
-      "id": "Item_Weapon_Equipment_6_H188",
-      "internal_id": "Item_Weapon_Equipment_6_H188",
-      "url": "items/item-weapon-equipment-6-h188/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Weapon_Equipment_6_H188 · Rarity UR · Backpack · コラボイベント「オーバーロード農園物語」の「農園物語抽選-引換窓口」で獲得"
-    },
-    {
-      "title": "ナーベラル・ガンマ",
-      "category": "items",
-      "id": "Item_Owner_Hero_188",
-      "internal_id": "Item_Owner_Hero_188",
-      "url": "items/item-owner-hero-188/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Owner_Hero_188 · Rarity SSR · オーバーロードvs異世界農園物語"
-    },
-    {
-      "title": "ナーベラル・ガンマの前置きワード",
-      "category": "items",
-      "id": "Item_Hero_188_uniqueName_prefix",
-      "internal_id": "Item_Hero_188_uniqueName_prefix",
-      "url": "items/item-hero-188-uniquename-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_188_uniqueName_prefix · Rarity UR · ナーベラル・ガンマのステラがLv.10になると獲得"
-    },
-    {
-      "title": "ナーベラル・ガンマの欠片",
-      "category": "items",
-      "id": "Item_Owner_HeroPiece_188",
-      "internal_id": "Item_Owner_HeroPiece_188",
-      "url": "items/item-owner-heropiece-188/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Owner_HeroPiece_188 · Rarity SSR · Backpack · オーバーロードvs異世界農園物語"
-    },
-    {
-      "title": "ナーベラル・ガンマの称号",
-      "category": "items",
-      "id": "Item_Hero_188_showoff_prefix",
-      "internal_id": "Item_Hero_188_showoff_prefix",
-      "url": "items/item-hero-188-showoff-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_188_showoff_prefix · Rarity UR · ナーベラル・ガンマのステラがLv.5になると獲得"
-    },
-    {
       "title": "バディファッション2",
       "category": "items",
       "id": "Item_OutFit_Hero_T2_5",
@@ -55992,16 +56452,6 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_OutFit_Hero_T2_5 · Rarity SSR · Backpack · Daily Tasks, Achievements, Events, Shop"
-    },
-    {
-      "title": "バトルパスポイント",
-      "category": "items",
-      "id": "Item_Overlord_BPScore",
-      "internal_id": "Item_Overlord_BPScore",
-      "url": "items/item-overlord-bpscore/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Overlord_BPScore · Rarity SR · Activity · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "パピ",
@@ -56052,16 +56502,6 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_HC_Skill_LevelUp_02 · Rarity UR · Backpack · Daily Tasks, Achievements, Events, Shop"
-    },
-    {
-      "title": "ヒマワリ",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Crops_3",
-      "internal_id": "Item_Explore_Overlord_Crops_3",
-      "url": "items/item-explore-overlord-crops-3/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Crops_3 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "ファッションイラストの断片",
@@ -56124,26 +56564,6 @@
       "summary": "Item Item_Explore_MonsterGirl_StamRecover · Rarity SSR · Activity, Backpack · 氷雪の町校外実習～頑張れ！モンスター娘！"
     },
     {
-      "title": "ブドウ",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Crops_5",
-      "internal_id": "Item_Explore_Overlord_Crops_5",
-      "url": "items/item-explore-overlord-crops-5/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Crops_5 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "ベツレヘムの星",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Global_3",
-      "internal_id": "Item_Explore_Overlord_Quest_Global_3",
-      "url": "items/item-explore-overlord-quest-global-3/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Global_3 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "ホットココアの氷の彫刻",
       "category": "items",
       "id": "Collection_25",
@@ -56162,16 +56582,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Explore_MonsterGirl_Quest_Individual_5 · Rarity SR · Activity, Backpack · 氷雪の町校外実習～頑張れ！モンスター娘！"
-    },
-    {
-      "title": "ミスリル",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Global_2",
-      "internal_id": "Item_Explore_Overlord_Quest_Global_2",
-      "url": "items/item-explore-overlord-quest-global-2/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Global_2 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "ミッションテストアイテムを引き換える",
@@ -56284,16 +56694,6 @@
       "summary": "Item Item_Wife_140_showoff_dialog · Rarity UR · ラクネラのステラがLv.5になると獲得"
     },
     {
-      "title": "リンゴ",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Apple",
-      "internal_id": "Item_Explore_Overlord_Apple",
-      "url": "items/item-explore-overlord-apple/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Apple · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "レベル3 3点セット（ドロップパッケージ）",
       "category": "items",
       "id": "Item_Breach_ItemPack_3",
@@ -56302,26 +56702,6 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_Breach_ItemPack_3 · Rarity UR · Backpack"
-    },
-    {
-      "title": "仲間投票券",
-      "category": "items",
-      "id": "Item_PopuLarityVoting_VoteTicket01",
-      "internal_id": "Item_PopuLarityVoting_VoteTicket01",
-      "url": "items/item-popularityvoting-voteticket01/",
-      "rarity": "0",
-      "rarity_sort": 0,
-      "summary": "Item Item_PopuLarityVoting_VoteTicket01 · Rarity 0 · Activity, Backpack"
-    },
-    {
-      "title": "仲間着せ替え引換券",
-      "category": "items",
-      "id": "Item_PopuLarityVoting_CostumeCoupon_Hero",
-      "internal_id": "Item_PopuLarityVoting_CostumeCoupon_Hero",
-      "url": "items/item-popularityvoting-costumecoupon-hero/",
-      "rarity": "0",
-      "rarity_sort": 0,
-      "summary": "Item Item_PopuLarityVoting_CostumeCoupon_Hero · Rarity 0 · Activity, Backpack"
     },
     {
       "title": "保留中のコレクション 07",
@@ -56454,46 +56834,6 @@
       "summary": "Item Item_IntimacyDegree_Hero150 · Rarity SSR · Backpack · 氷雪の町校外実習～頑張れ！モンスター娘！"
     },
     {
-      "title": "倉庫",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Workshop_6",
-      "internal_id": "Item_Explore_Overlord_Workshop_6",
-      "url": "items/item-explore-overlord-workshop-6/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Workshop_6 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "倉庫拡張材料",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Global_5",
-      "internal_id": "Item_Explore_Overlord_Quest_Global_5",
-      "url": "items/item-explore-overlord-quest-global-5/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Global_5 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "冷や汗",
-      "category": "items",
-      "id": "Item_Overlord_emotion_01",
-      "internal_id": "Item_Overlord_emotion_01",
-      "url": "items/item-overlord-emotion-01/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Overlord_emotion_01 · Rarity SR · コラボイベント「オーバーロード農園物語」の「達成報酬」で獲得"
-    },
-    {
-      "title": "口が滑った",
-      "category": "items",
-      "id": "Item_Overlord_emotion_04",
-      "internal_id": "Item_Overlord_emotion_04",
-      "url": "items/item-overlord-emotion-04/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Overlord_emotion_04 · Rarity SR · コラボイベント「オーバーロード農園物語」の「農園物語抽選-引換窓口」で獲得"
-    },
-    {
       "title": "只今準備中",
       "category": "items",
       "id": "Item_Monopoly04_HeroAtk_01",
@@ -56534,46 +56874,6 @@
       "summary": "Item Item_Monopoly04_WifeIntimacy · Rarity SR · Activity, Backpack · Another Story"
     },
     {
-      "title": "変身着せ替え「漆黒のモモン」",
-      "category": "items",
-      "id": "Item_ClothesChip_ShapeshiftClothes44",
-      "internal_id": "Item_ClothesChip_ShapeshiftClothes44",
-      "url": "items/item-clotheschip-shapeshiftclothes44/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_ClothesChip_ShapeshiftClothes44 · Rarity SSR · Backpack · コラボイベント「オーバーロード農園物語」の「バトルパス」で獲得"
-    },
-    {
-      "title": "妖精の泥人形",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Global_4",
-      "internal_id": "Item_Explore_Overlord_Quest_Global_4",
-      "url": "items/item-explore-overlord-quest-global-4/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Global_4 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "威圧",
-      "category": "items",
-      "id": "Item_Overlord_emotion_02",
-      "internal_id": "Item_Overlord_emotion_02",
-      "url": "items/item-overlord-emotion-02/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Overlord_emotion_02 · Rarity SR · コラボイベント「オーバーロード農園物語」の「農園物語抽選-引換窓口」で獲得"
-    },
-    {
-      "title": "宝物エリアの鍵",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Key",
-      "internal_id": "Item_Explore_Overlord_Key",
-      "url": "items/item-explore-overlord-key/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Explore_Overlord_Key · Rarity SSR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "家族が建物に特別な小道具を追加する",
       "category": "items",
       "id": "Item_WifeManagerment_Building_1",
@@ -56594,36 +56894,6 @@
       "summary": "Item Item_WC_Skill_LevelUp_02 · Rarity SSR · Backpack · Daily Tasks, Achievements, Events, Shop"
     },
     {
-      "title": "家族投票券",
-      "category": "items",
-      "id": "Item_PopuLarityVoting_VoteTicket02",
-      "internal_id": "Item_PopuLarityVoting_VoteTicket02",
-      "url": "items/item-popularityvoting-voteticket02/",
-      "rarity": "0",
-      "rarity_sort": 0,
-      "summary": "Item Item_PopuLarityVoting_VoteTicket02 · Rarity 0 · Activity, Backpack"
-    },
-    {
-      "title": "家族着せ替え引換券",
-      "category": "items",
-      "id": "Item_PopuLarityVoting_CostumeCoupon_Wife",
-      "internal_id": "Item_PopuLarityVoting_CostumeCoupon_Wife",
-      "url": "items/item-popularityvoting-costumecoupon-wife/",
-      "rarity": "0",
-      "rarity_sort": 0,
-      "summary": "Item Item_PopuLarityVoting_CostumeCoupon_Wife · Rarity 0 · Activity, Backpack"
-    },
-    {
-      "title": "小麦",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Crops_1",
-      "internal_id": "Item_Explore_Overlord_Crops_1",
-      "url": "items/item-explore-overlord-crops-1/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Crops_1 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "幸子",
       "category": "items",
       "id": "Item_PreRegistration_W66",
@@ -56632,16 +56902,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_PreRegistration_W66 · Rarity SR · Backpack · 事前登録報酬"
-    },
-    {
-      "title": "异世界创作者",
-      "category": "items",
-      "id": "Item_RankTitle_ThirdParty_Creator",
-      "internal_id": "Item_RankTitle_ThirdParty_Creator",
-      "url": "items/item-ranktitle-thirdparty-creator/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_RankTitle_ThirdParty_Creator · Rarity SSR"
     },
     {
       "title": "怖がる",
@@ -56654,26 +56914,6 @@
       "summary": "Item Item_MonsterGirl_emotion_03 · Rarity SR · 氷雪の町校外実習～頑張れ！モンスター娘！"
     },
     {
-      "title": "施肥機",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Workshop_3",
-      "internal_id": "Item_Explore_Overlord_Workshop_3",
-      "url": "items/item-explore-overlord-workshop-3/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Workshop_3 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "木材",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Individual_2",
-      "internal_id": "Item_Explore_Overlord_Quest_Individual_2",
-      "url": "items/item-explore-overlord-quest-individual-2/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Individual_2 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "極寒ベリー",
       "category": "items",
       "id": "Item_Explore_MonsterGirl_Quest_Individual_2",
@@ -56682,16 +56922,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Explore_MonsterGirl_Quest_Individual_2 · Rarity SR · Activity, Backpack · 氷雪の町校外実習～頑張れ！モンスター娘！"
-    },
-    {
-      "title": "樹液",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Individual_4",
-      "internal_id": "Item_Explore_Overlord_Quest_Individual_4",
-      "url": "items/item-explore-overlord-quest-individual-4/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Individual_4 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "比類のないコレクションの断片",
@@ -56732,16 +56962,6 @@
       "rarity": "N",
       "rarity_sort": 1,
       "summary": "Item Item_GveInfernoRally_textshenhe_Weapon_1 · Rarity N · Savage! Inferno Rally"
-    },
-    {
-      "title": "水やり機",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Workshop_4",
-      "internal_id": "Item_Explore_Overlord_Workshop_4",
-      "url": "items/item-explore-overlord-workshop-4/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Workshop_4 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "氷の花",
@@ -56864,16 +57084,6 @@
       "summary": "Item Item_part_test_03 · Rarity SR · Backpack · momoca"
     },
     {
-      "title": "爆弾",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Boom",
-      "internal_id": "Item_Explore_Overlord_Quest_Boom",
-      "url": "items/item-explore-overlord-quest-boom/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Boom · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "異世界の人気者",
       "category": "items",
       "id": "Item_FixedTitle_OP_01",
@@ -56904,46 +57114,6 @@
       "summary": "Item Item_ClothesChip_H1C5 · Rarity SSR · Backpack · ログイン報酬"
     },
     {
-      "title": "着せ替え設計図セレクトパック",
-      "category": "items",
-      "id": "Item_Overlord_CothesboxPiece_1",
-      "internal_id": "Item_Overlord_CothesboxPiece_1",
-      "url": "items/item-overlord-cothesboxpiece-1/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Overlord_CothesboxPiece_1 · Rarity SSR · Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "着せ替え設計図セレクトパック",
-      "category": "items",
-      "id": "Item_Overlord_CothesboxPiece_JP",
-      "internal_id": "Item_Overlord_CothesboxPiece_JP",
-      "url": "items/item-overlord-cothesboxpiece-jp/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Overlord_CothesboxPiece_JP · Rarity SSR · Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "着せ替え設計図セレクトパック",
-      "category": "items",
-      "id": "Item_Overlord_CothesboxPiece_TW",
-      "internal_id": "Item_Overlord_CothesboxPiece_TW",
-      "url": "items/item-overlord-cothesboxpiece-tw/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Overlord_CothesboxPiece_TW · Rarity SSR · Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "石",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Individual_1",
-      "internal_id": "Item_Explore_Overlord_Quest_Individual_1",
-      "url": "items/item-explore-overlord-quest-individual-1/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Individual_1 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "穴釣りのエサ",
       "category": "items",
       "id": "Item_Explore_MonsterGirl_Quest_Individual_4",
@@ -56952,76 +57122,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_Explore_MonsterGirl_Quest_Individual_4 · Rarity SR · Activity, Backpack · 氷雪の町校外実習～頑張れ！モンスター娘！"
-    },
-    {
-      "title": "粘土",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Individual_7",
-      "internal_id": "Item_Explore_Overlord_Quest_Individual_7",
-      "url": "items/item-explore-overlord-quest-individual-7/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Individual_7 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "精錬炉",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Workshop_2",
-      "internal_id": "Item_Explore_Overlord_Workshop_2",
-      "url": "items/item-explore-overlord-workshop-2/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Workshop_2 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "純白の悪魔",
-      "category": "items",
-      "id": "Item_OverlordTitle_3",
-      "internal_id": "Item_OverlordTitle_3",
-      "url": "items/item-overlordtitle-3/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_OverlordTitle_3 · Rarity UR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "経営シミュレーションマスター",
-      "category": "items",
-      "id": "Item_OverlordTitle_1",
-      "internal_id": "Item_OverlordTitle_1",
-      "url": "items/item-overlordtitle-1/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_OverlordTitle_1 · Rarity UR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "繊維",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Individual_3",
-      "internal_id": "Item_Explore_Overlord_Quest_Individual_3",
-      "url": "items/item-explore-overlord-quest-individual-3/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Individual_3 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "自動田植え機",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Workshop_1",
-      "internal_id": "Item_Explore_Overlord_Workshop_1",
-      "url": "items/item-explore-overlord-workshop-1/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Workshop_1 · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "自動田植え機の設計図",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Drawing",
-      "internal_id": "Item_Explore_Overlord_Quest_Drawing",
-      "url": "items/item-explore-overlord-quest-drawing/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Drawing · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "药剂店挂机卡",
@@ -57044,26 +57144,6 @@
       "summary": "Item Item_Explore_MonsterGirl_Quest_Global_4 · Rarity SR · Activity, Backpack · 氷雪の町校外実習～頑張れ！モンスター娘！"
     },
     {
-      "title": "蜜蝋",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Individual_6",
-      "internal_id": "Item_Explore_Overlord_Quest_Individual_6",
-      "url": "items/item-explore-overlord-quest-individual-6/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Individual_6 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "謎の鍵",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_SpecialKey",
-      "internal_id": "Item_Explore_Overlord_Quest_SpecialKey",
-      "url": "items/item-explore-overlord-quest-specialkey/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Explore_Overlord_Quest_SpecialKey · Rarity SSR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
       "title": "賢い王",
       "category": "items",
       "id": "Item_Appearance_Title_Title1",
@@ -57072,86 +57152,6 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Appearance_Title_Title1 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
-    },
-    {
-      "title": "農園ショップ引換券",
-      "category": "items",
-      "id": "Item_Explore_Overlord_ExchangeGold",
-      "internal_id": "Item_Explore_Overlord_ExchangeGold",
-      "url": "items/item-explore-overlord-exchangegold/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_ExchangeGold · Rarity SR · Currency, Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "農園パン",
-      "category": "items",
-      "id": "Item_Explore_Overlord_StamRecover",
-      "internal_id": "Item_Explore_Overlord_StamRecover",
-      "url": "items/item-explore-overlord-stamrecover/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Explore_Overlord_StamRecover · Rarity SSR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "農園引換券",
-      "category": "items",
-      "id": "Item_Overlord_LotteryScore",
-      "internal_id": "Item_Overlord_LotteryScore",
-      "url": "items/item-overlord-lotteryscore/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Overlord_LotteryScore · Rarity SSR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "農園抽選券",
-      "category": "items",
-      "id": "Item_CommonLottery_Overlord",
-      "internal_id": "Item_CommonLottery_Overlord",
-      "url": "items/item-commonlottery-overlord/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_CommonLottery_Overlord · Rarity SSR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "農園経験値",
-      "category": "items",
-      "id": "Item_Explore_Overlord_VillageExp",
-      "internal_id": "Item_Explore_Overlord_VillageExp",
-      "url": "items/item-explore-overlord-villageexp/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_VillageExp · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "農園金貨",
-      "category": "items",
-      "id": "Item_Explore_Overlord_ObjGold",
-      "internal_id": "Item_Explore_Overlord_ObjGold",
-      "url": "items/item-explore-overlord-objgold/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_ObjGold · Rarity SR · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "金のリンゴ",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Global_1",
-      "internal_id": "Item_Explore_Overlord_Quest_Global_1",
-      "url": "items/item-explore-overlord-quest-global-1/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Global_1 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
-    },
-    {
-      "title": "銅の塊",
-      "category": "items",
-      "id": "Item_Explore_Overlord_Quest_Individual_5",
-      "internal_id": "Item_Explore_Overlord_Quest_Individual_5",
-      "url": "items/item-explore-overlord-quest-individual-5/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_Explore_Overlord_Quest_Individual_5 · Rarity SR · Activity, Backpack · コラボイベント「オーバーロード農園物語」で獲得"
     },
     {
       "title": "饮料水枪",
@@ -57368,7 +57368,7 @@
       "summary": "Be My Family phase · 13 days · Core rewards: Skill Pearl, Gemstone Ring, Jewel Necklace"
     },
     {
-      "title": "キャラクター人気投票",
+      "title": "Character Popularity Poll",
       "category": "event phases",
       "id": "PopuLarityVoting",
       "internal_id": "HeroVote",
@@ -57864,12 +57864,12 @@
       "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Roxy Migurdia, Sylphiette Greyrat, Aisha Greyrat, Norn Greyrat, Rudeus Greyrat"
     },
     {
-      "title": "オーバーロードvs異世界農園物語",
+      "title": "OVERLORD vs. Isekai Farm Story",
       "category": "event phases",
       "id": "Overlord",
       "internal_id": "Maidragon",
       "url": "events/maidragon/#event-phase-overlord",
-      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: アルベド, シャルティア・ブラッドフォールン, アインズ・ウール・ゴウン, ナーベラル・ガンマ, デミウルゴス, 変身着せ替え「漆黒のモモン」"
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Albedo, Shalltear Bloodfallen, Ainz Ooal Gown, Narberal Gamma, Demiurge, Figure [Momon of Darkness]"
     },
     {
       "title": "Kawaiimush",
