@@ -6091,6 +6091,36 @@ a.event-reward-chip-featured:focus-visible {
   margin-right: 0.8rem;
 }
 
+.event-urget-body > .event-subdetails > summary,
+.event-urget-layered-shop > .event-urget-shop-level > summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.event-urget-body > .event-subdetails > summary small,
+.event-urget-layered-shop > .event-urget-shop-level > summary small {
+  color: var(--muted);
+  font-size: .74rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .event-urget-body > .event-subdetails > summary,
+  .event-urget-layered-shop > .event-urget-shop-level > summary {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .18rem;
+  }
+
+  .event-urget-body > .event-subdetails > summary small,
+  .event-urget-layered-shop > .event-urget-shop-level > summary small {
+    text-align: left;
+  }
+}
+
 .event-ranking-group h5,
 .event-phase-block h5 {
   margin: 0.85rem 0 0.35rem;
@@ -6982,6 +7012,73 @@ body {
   }
 }
 
+.event-pet-lottery-body {
+  display: grid;
+  gap: .7rem;
+}
+
+.event-pet-lottery-system > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.event-pet-lottery-system > summary small {
+  color: var(--muted-text);
+  font-weight: 600;
+  text-align: right;
+}
+
+.event-pet-hall-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: .65rem;
+  margin-top: .7rem;
+  margin-bottom: .8rem;
+}
+
+.event-pet-hall-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: .7rem;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  padding: .7rem;
+  background: color-mix(in srgb, var(--panel) 94%, var(--accent) 6%);
+}
+
+.event-pet-hall-copy {
+  min-width: 0;
+}
+
+.event-pet-hall-copy h6,
+.event-pet-hall-copy p {
+  margin: 0 0 .45rem;
+}
+
+.event-pet-hall-image {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: var(--radius-small);
+  border: 1px solid var(--line);
+}
+
+@media (max-width: 700px) {
+  .event-pet-hall-grid {
+    grid-template-columns: 1fr;
+    gap: .45rem;
+  }
+
+  .event-pet-hall-card {
+    border-inline: 0;
+    border-radius: 0 !important;
+    padding-inline: .38rem;
+  }
+}
+
 /* Special direct rarity advancement (SSR -> UR without an M-stage). */
 .rarity-direct-upgrade {
   display: grid;
@@ -7164,9 +7261,51 @@ body {
   font-weight: 700;
 }
 
+.item-backlink-card {
+  display: inline-flex;
+  align-items: center;
+  gap: .38rem;
+  max-width: 100%;
+  padding: .18rem .45rem .18rem .2rem;
+  border: 1px solid rgba(var(--accent-rgb), .2);
+  border-radius: 9px;
+  background: rgba(var(--accent-rgb), .055);
+  vertical-align: middle;
+  line-height: 1.2;
+}
+
+.item-backlink-thumb {
+  flex: 0 0 32px;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, .16);
+  overflow: hidden;
+}
+
+.item-backlink-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.item-backlink-label {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .item-inline-link:hover,
 .item-inline-link:focus-visible {
   text-decoration: underline;
+}
+
+.item-backlink-card:hover,
+.item-backlink-card:focus-visible {
+  border-color: rgba(var(--accent-rgb), .48);
+  background: rgba(var(--accent-rgb), .11);
 }
 
 @media (max-width: 640px) {

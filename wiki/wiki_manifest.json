@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03 10:08 UTC",
+  "generated_at": "2026-09-05 21:09 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -58445,31 +58445,7 @@
       "id": "CommonLottery",
       "internal_id": "CommonLottery",
       "url": "events/common-lottery/",
-      "summary": "6 phases · 6, 7, 8, 9, 12, 14, 15, or 21 days · Core rewards: Avril, Stephanie, Kaye, Nip, Lux, Super"
-    },
-    {
-      "title": "Gift Tree",
-      "category": "event phases",
-      "id": "CG01",
-      "internal_id": "CommonLottery",
-      "url": "events/common-lottery/#event-phase-cg01",
-      "summary": "Hero Summon phase · 15 days"
-    },
-    {
-      "title": "Love's Gift",
-      "category": "event phases",
-      "id": "CG02",
-      "internal_id": "CommonLottery",
-      "url": "events/common-lottery/#event-phase-cg02",
-      "summary": "Hero Summon phase · 6 or 7 days"
-    },
-    {
-      "title": "Demiplane Supply Station",
-      "category": "event phases",
-      "id": "CG03",
-      "internal_id": "CommonLottery",
-      "url": "events/common-lottery/#event-phase-cg03",
-      "summary": "Hero Summon phase · 6, 9, 12, 14, or 21 days"
+      "summary": "3 phases · 8 or 14 days · Core rewards: Avril, Stephanie, Kaye, Nip, Lux, Super"
     },
     {
       "title": "Hero Summon",
@@ -59029,7 +59005,7 @@
       "id": "MoonlitEvent",
       "internal_id": "MoonlitEvent",
       "url": "events/moonlit-event/",
-      "summary": "7 phases · 6, 9, 12, 14, or 21 days · Core rewards: Tomoe, Mio, Shiki, Emma's Token, Costume [Justice in the Night] (★5)"
+      "summary": "3 phases · 6, 9, 12, 14, or 21 days · Core rewards: Tomoe, Mio, Shiki, Emma's Token, Costume [Justice in the Night] (★5)"
     },
     {
       "title": "Moonlit Chill Work",
@@ -59045,47 +59021,15 @@
       "id": "MoonlitEvent_02_EN",
       "internal_id": "MoonlitEvent",
       "url": "events/moonlit-event/#event-phase-moonlitevent-02-en",
-      "summary": "Moonlit Chill Work phase · 12 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+      "summary": "Moonlit Chill Work phase · 6 or 12 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
     },
     {
       "title": "Moonlit Chill Work",
       "category": "event phases",
-      "id": "MoonlitEvent_02_EN_Day6",
+      "id": "MoonlitEvent_02_JP",
       "internal_id": "MoonlitEvent",
-      "url": "events/moonlit-event/#event-phase-moonlitevent-02-en-day6",
-      "summary": "Moonlit Chill Work phase · 6 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
-    },
-    {
-      "title": "Moonlit Chill Work",
-      "category": "event phases",
-      "id": "MoonlitEvent_02_JP_Day6",
-      "internal_id": "MoonlitEvent",
-      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day6",
-      "summary": "Moonlit Chill Work phase · 6 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
-    },
-    {
-      "title": "Moonlit Chill Work",
-      "category": "event phases",
-      "id": "MoonlitEvent_02_JP_Day9",
-      "internal_id": "MoonlitEvent",
-      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day9",
-      "summary": "Moonlit Chill Work phase · 9 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
-    },
-    {
-      "title": "Moonlit Chill Work",
-      "category": "event phases",
-      "id": "MoonlitEvent_02_JP_Day14",
-      "internal_id": "MoonlitEvent",
-      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day14",
-      "summary": "Moonlit Chill Work phase · 14 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
-    },
-    {
-      "title": "Moonlit Chill Work",
-      "category": "event phases",
-      "id": "MoonlitEvent_02_JP_Day21",
-      "internal_id": "MoonlitEvent",
-      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp-day21",
-      "summary": "Moonlit Chill Work phase · 21 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
+      "url": "events/moonlit-event/#event-phase-moonlitevent-02-jp",
+      "summary": "Moonlit Chill Work phase · 6, 9, 14, or 21 days · Core rewards: Costume [Justice in the Night] (★5), Tomoe, Mio, Shiki, Emma's Token"
     },
     {
       "title": "Mushroom Adventure",
@@ -59112,7 +59056,7 @@
       "summary": "9 phases · 6 days · Core rewards: Willo, Costume [Queen of the Night] (★4), Costume [Howl of the Night] (★2), Phetia, Costume [Dream of a Giant] (★4), Costume [Focus Please] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · Misty Castle",
       "category": "event phases",
       "id": "MoonEvent_01",
       "internal_id": "MoonEvent",
@@ -59120,7 +59064,7 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Willo, Costume [Queen of the Night] (★4), Costume [Howl of the Night] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · Elf Wonderland",
       "category": "event phases",
       "id": "MoonEvent_02",
       "internal_id": "MoonEvent",
@@ -59128,7 +59072,7 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Phetia, Costume [Dream of a Giant] (★4), Costume [Focus Please] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · The Dragon Mafia",
       "category": "event phases",
       "id": "MoonEvent_03",
       "internal_id": "MoonEvent",
@@ -59136,7 +59080,7 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Connie, Costume [Return of the Victor] (★4), Costume [Waiter in Disguise] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · Summer Chill Festival",
       "category": "event phases",
       "id": "MoonEvent_04",
       "internal_id": "MoonEvent",
@@ -59144,7 +59088,7 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Puffair, Costume [Coco Bowl and Service] (★4), Costume [Sorbet Girl] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · Runaway Princess",
       "category": "event phases",
       "id": "MoonEvent_05",
       "internal_id": "MoonEvent",
@@ -59152,7 +59096,7 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Devileer, Costume [The Archdemon's Arrival] (★4), Costume [Welcome Bear] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · The Last Survival Trial",
       "category": "event phases",
       "id": "MoonEvent_06",
       "internal_id": "MoonEvent",
@@ -59160,7 +59104,7 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Leopolda, Costume [Polar Rescue] (★4), Costume [Culture Fit-In] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · Unyielding Resolve to Protect",
       "category": "event phases",
       "id": "MoonEvent_07",
       "internal_id": "MoonEvent",
@@ -59168,7 +59112,7 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Pengia, Costume [Undercover Operation] (★4), Costume [Bad Fifi!] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · Sin above Firmament",
       "category": "event phases",
       "id": "MoonEvent_08",
       "internal_id": "MoonEvent",
@@ -59176,12 +59120,12 @@
       "summary": "Mushroom's Travels phase · 6 days · Core rewards: Chitana, Costume [Armed Maid] (★4), Costume [\"Lingering Melody\"] (★2)"
     },
     {
-      "title": "Mushroom's Travels",
+      "title": "Mushroom's Travels · Rerun Selection",
       "category": "event phases",
       "id": "MoonEvent_Rerun",
       "internal_id": "MoonEvent",
       "url": "events/moon-event/#event-phase-moonevent-rerun",
-      "summary": "Mushroom's Travels phase · 6 days"
+      "summary": "Mushroom's Travels phase · 6 days · Core rewards: Willo, Costume [Queen of the Night] (★4), Costume [Howl of the Night] (★2), Phetia, Costume [Dream of a Giant] (★4), Costume [Focus Please] (★2)"
     },
     {
       "title": "Northern Odyssey",
@@ -59325,7 +59269,7 @@
       "id": "UrGet_02",
       "internal_id": "UrGet",
       "url": "events/ur-get/#event-phase-urget-02",
-      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Amaterasu, Tsukuyomi, Tamamo, Orivita, Namiko"
+      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Orivita, Namiko"
     },
     {
       "title": "Prayer to the Heavens III",
@@ -59333,7 +59277,7 @@
       "id": "UrGet_03",
       "internal_id": "UrGet",
       "url": "events/ur-get/#event-phase-urget-03",
-      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Amaterasu, Tsukuyomi, Tamamo, Orivita, Namiko, Master Tongxuan"
+      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Master Tongxuan, Cranelia"
     },
     {
       "title": "Prayer to the Heavens IV",
@@ -59341,7 +59285,7 @@
       "id": "UrGet_04",
       "internal_id": "UrGet",
       "url": "events/ur-get/#event-phase-urget-04",
-      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Amaterasu, Tsukuyomi, Tamamo, Orivita, Namiko, Master Tongxuan"
+      "summary": "Prayer to the Heavens I phase · 14 days · Core rewards: Leon, Mia"
     },
     {
       "title": "Profiteer Card",
@@ -59664,7 +59608,7 @@
       "summary": "17 phases · 12 days · Core rewards: Costume [Highly Praised Business!] (★3), Boudoir Photo: Gina, Costume [Witch in the Wind] (★3), Costume [Archmage of Light] (★3), Boudoir Photo: Catherine & Ena, Costume [Wisteria Beauty] (★3)"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · A Delicious Dream",
       "category": "event phases",
       "id": "PhotoEvent_01",
       "internal_id": "PhotoEvent",
@@ -59672,7 +59616,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Highly Praised Business!] (★3), Boudoir Photo: Gina"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Colorful Magic",
       "category": "event phases",
       "id": "PhotoEvent_02",
       "internal_id": "PhotoEvent",
@@ -59680,7 +59624,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Witch in the Wind] (★3), Costume [Archmage of Light] (★3), Boudoir Photo: Catherine & Ena"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Spring Blossom",
       "category": "event phases",
       "id": "PhotoEvent_03",
       "internal_id": "PhotoEvent",
@@ -59688,7 +59632,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Wisteria Beauty] (★3), Costume [Charming Flower] (★3), Boudoir Photo: Melody & Isatilra"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Ice and Drink",
       "category": "event phases",
       "id": "PhotoEvent_04",
       "internal_id": "PhotoEvent",
@@ -59696,7 +59640,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Cool Feast] (★3), Costume [Dreamy Bubbles] (★3), Boudoir Photo: Maynard & Sofia"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Beauty on the Stage",
       "category": "event phases",
       "id": "PhotoEvent_05",
       "internal_id": "PhotoEvent",
@@ -59704,7 +59648,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Shy Cheerleader] (★3), Costume [Royal Cheerleader] (★3), Boudoir Photo: Lulu & Merry"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Workout Time",
       "category": "event phases",
       "id": "PhotoEvent_06",
       "internal_id": "PhotoEvent",
@@ -59712,7 +59656,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Sculpt Perfect Curves] (★3), Costume [Vibrant] (★3), Boudoir Photo: Chihaya & Mater"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Day & Night in Trading Post",
       "category": "event phases",
       "id": "PhotoEvent_07",
       "internal_id": "PhotoEvent",
@@ -59720,7 +59664,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Morning after Overtime] (★3), Costume [Secrets after Work] (★3), Boudoir Photo: Nene & Freyja"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Night at the Club",
       "category": "event phases",
       "id": "PhotoEvent_08",
       "internal_id": "PhotoEvent",
@@ -59728,7 +59672,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [The Silent Dealer] (★3), Costume [The Noble Escort] (★3), Boudoir Photo: Wenreesa & Vlad XIII"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · A Delicious Dream",
       "category": "event phases",
       "id": "PhotoEvent_N1",
       "internal_id": "PhotoEvent",
@@ -59736,7 +59680,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Highly Praised Business!] (★3), Boudoir Photo: Gina"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Colorful Magic",
       "category": "event phases",
       "id": "PhotoEvent_N2",
       "internal_id": "PhotoEvent",
@@ -59744,7 +59688,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Witch in the Wind] (★3), Costume [Archmage of Light] (★3), Boudoir Photo: Catherine & Ena"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Spring Blossom",
       "category": "event phases",
       "id": "PhotoEvent_N3",
       "internal_id": "PhotoEvent",
@@ -59752,7 +59696,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Wisteria Beauty] (★3), Costume [Charming Flower] (★3), Boudoir Photo: Melody & Isatilra"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Ice and Drink",
       "category": "event phases",
       "id": "PhotoEvent_N4",
       "internal_id": "PhotoEvent",
@@ -59760,7 +59704,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Cool Feast] (★3), Costume [Dreamy Bubbles] (★3), Boudoir Photo: Maynard & Sofia"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Beauty on the Stage",
       "category": "event phases",
       "id": "PhotoEvent_N5",
       "internal_id": "PhotoEvent",
@@ -59768,7 +59712,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Shy Cheerleader] (★3), Costume [Royal Cheerleader] (★3), Boudoir Photo: Lulu & Merry"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Workout Time",
       "category": "event phases",
       "id": "PhotoEvent_N6",
       "internal_id": "PhotoEvent",
@@ -59776,7 +59720,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Sculpt Perfect Curves] (★3), Costume [Vibrant] (★3), Boudoir Photo: Chihaya & Mater"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Day & Night in Trading Post",
       "category": "event phases",
       "id": "PhotoEvent_N7",
       "internal_id": "PhotoEvent",
@@ -59784,7 +59728,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [Morning after Overtime] (★3), Costume [Secrets after Work] (★3), Boudoir Photo: Nene & Freyja"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Night at the Club",
       "category": "event phases",
       "id": "PhotoEvent_N8",
       "internal_id": "PhotoEvent",
@@ -59792,7 +59736,7 @@
       "summary": "Sepia Portrait Studio phase · 12 days · Core rewards: Costume [The Silent Dealer] (★3), Costume [The Noble Escort] (★3), Boudoir Photo: Wenreesa & Vlad XIII"
     },
     {
-      "title": "Sepia Portrait Studio",
+      "title": "Sepia Portrait Studio · Night at the Club · Rerun",
       "category": "event phases",
       "id": "PhotoEvent_rerun",
       "internal_id": "PhotoEvent",
@@ -60392,7 +60336,7 @@
       "summary": "5 phases · 3 or 4 days · Core rewards: Championship Statue, Valiant Insignia Fragment, Acquaint Stone Fragment, Song: “Unlucky Succubus”, Deep Sea Barreleye, Flaming Lion"
     },
     {
-      "title": "MP01",
+      "title": "Wrestling Championship",
       "category": "event phases",
       "id": "MP01",
       "internal_id": "miniposter",
@@ -60400,7 +60344,7 @@
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Championship Statue, Valiant Insignia Fragment, Acquaint Stone Fragment"
     },
     {
-      "title": "MP02",
+      "title": "Camping Under the Stars",
       "category": "event phases",
       "id": "MP02",
       "internal_id": "miniposter",
@@ -60408,7 +60352,7 @@
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Song: “Unlucky Succubus”, Valiant Insignia Fragment, Acquaint Stone Fragment"
     },
     {
-      "title": "MP03",
+      "title": "Sea Fishing",
       "category": "event phases",
       "id": "MP03",
       "internal_id": "miniposter",
@@ -60416,7 +60360,7 @@
       "summary": "Wrestling Championship phase · Not configured · Core rewards: Deep Sea Barreleye, Valiant Insignia Fragment, Acquaint Stone Fragment"
     },
     {
-      "title": "MP04",
+      "title": "Picnic in the Forest",
       "category": "event phases",
       "id": "MP04",
       "internal_id": "miniposter",
@@ -60424,7 +60368,7 @@
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Flaming Lion, Valiant Insignia Fragment, Acquaint Stone Fragment"
     },
     {
-      "title": "MP05",
+      "title": "Muscle Hustle Gym",
       "category": "event phases",
       "id": "MP05",
       "internal_id": "miniposter",
