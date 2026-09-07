@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05 21:09 UTC",
+  "generated_at": "2026-09-06 23:59 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -9,6 +9,7 @@
     "inn": 102,
     "apothecary": 20,
     "magic-farm": 39,
+    "expo": 144,
     "player-figures": 60,
     "treasure-hunt": 49,
     "museum": 135,
@@ -88,6 +89,12 @@
       "category": "category",
       "url": "magic-farm/",
       "summary": "Magic Farm plant category index"
+    },
+    {
+      "title": "Mushroom Expo",
+      "category": "category",
+      "url": "expo/",
+      "summary": "Mushroom Expo stalls and stage category index"
     },
     {
       "title": "Player Figures",
@@ -7910,6 +7917,1263 @@
       "country": "2",
       "country_label": "Diligent",
       "summary": "Plant ID Plant1001 · Diligent · Rarity SSR"
+    },
+    {
+      "title": "Time String Melody",
+      "category": "mushroom expo stalls",
+      "id": "Stall402",
+      "internal_id": "Stall402",
+      "url": "expo/#expo-stall-stall402",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall402 · Gifts · Rarity SSR+"
+    },
+    {
+      "title": "Slime-Chewed Coffee",
+      "category": "mushroom expo stalls",
+      "id": "Stall801",
+      "internal_id": "Stall801",
+      "url": "expo/#expo-stall-stall801",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall801 · Beverage · Rarity SSR+"
+    },
+    {
+      "title": "Ceremony Cake Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall403",
+      "internal_id": "Stall403",
+      "url": "expo/#expo-stall-stall403",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "country_label": "Food",
+      "summary": "Stall ID Stall403 · Food · Rarity SSR+"
+    },
+    {
+      "title": "Fruit platter shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall502",
+      "internal_id": "Stall502",
+      "url": "expo/#expo-stall-stall502",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "country_label": "Food",
+      "summary": "Stall ID Stall502 · Food · Rarity SSR+"
+    },
+    {
+      "title": "Hiemspresent Dryad",
+      "category": "mushroom expo stalls",
+      "id": "Stall602",
+      "internal_id": "Stall602",
+      "url": "expo/#expo-stall-stall602",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "country_label": "Food",
+      "summary": "Stall ID Stall602 · Food · Rarity SSR+"
+    },
+    {
+      "title": "Mermaid Seafood",
+      "category": "mushroom expo stalls",
+      "id": "Stall702",
+      "internal_id": "Stall702",
+      "url": "expo/#expo-stall-stall702",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "country_label": "Food",
+      "summary": "Stall ID Stall702 · Food · Rarity SSR+"
+    },
+    {
+      "title": "Adventurer's Potion",
+      "category": "mushroom expo stalls",
+      "id": "Stall206",
+      "internal_id": "Stall206",
+      "url": "expo/#expo-stall-stall206",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall206 · Beverage · Rarity SSR"
+    },
+    {
+      "title": "Isekai Drinks",
+      "category": "mushroom expo stalls",
+      "id": "Stall207",
+      "internal_id": "Stall207",
+      "url": "expo/#expo-stall-stall207",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall207 · Beverage · Rarity SSR"
+    },
+    {
+      "title": "Archdemon Wine & Restaurant",
+      "category": "mushroom expo stalls",
+      "id": "Stall208",
+      "internal_id": "Stall208",
+      "url": "expo/#expo-stall-stall208",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall208 · Beverage · Rarity SSR"
+    },
+    {
+      "title": "Adventurer BBQ",
+      "category": "mushroom expo stalls",
+      "id": "Stall106",
+      "internal_id": "Stall106",
+      "url": "expo/#expo-stall-stall106",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Food",
+      "summary": "Stall ID Stall106 · Food · Rarity SSR"
+    },
+    {
+      "title": "Isekai Noodles",
+      "category": "mushroom expo stalls",
+      "id": "Stall107",
+      "internal_id": "Stall107",
+      "url": "expo/#expo-stall-stall107",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Food",
+      "summary": "Stall ID Stall107 · Food · Rarity SSR"
+    },
+    {
+      "title": "Archdemon’s Mille-Feuille",
+      "category": "mushroom expo stalls",
+      "id": "Stall108",
+      "internal_id": "Stall108",
+      "url": "expo/#expo-stall-stall108",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Food",
+      "summary": "Stall ID Stall108 · Food · Rarity SSR"
+    },
+    {
+      "title": "Adventurer's Firearm",
+      "category": "mushroom expo stalls",
+      "id": "Stall306",
+      "internal_id": "Stall306",
+      "url": "expo/#expo-stall-stall306",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall306 · Gifts · Rarity SSR"
+    },
+    {
+      "title": "Fantastic Arcade",
+      "category": "mushroom expo stalls",
+      "id": "Stall307",
+      "internal_id": "Stall307",
+      "url": "expo/#expo-stall-stall307",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall307 · Gifts · Rarity SSR"
+    },
+    {
+      "title": "Dragon Scale Shield",
+      "category": "mushroom expo stalls",
+      "id": "Stall308",
+      "internal_id": "Stall308",
+      "url": "expo/#expo-stall-stall308",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall308 · Gifts · Rarity SSR"
+    },
+    {
+      "title": "Dream Fountain",
+      "category": "mushroom expo stalls",
+      "id": "Stall401",
+      "internal_id": "Stall401",
+      "url": "expo/#expo-stall-stall401",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall401 · Beverage · Rarity SSR"
+    },
+    {
+      "title": "Angel Night Light",
+      "category": "mushroom expo stalls",
+      "id": "Stall501",
+      "internal_id": "Stall501",
+      "url": "expo/#expo-stall-stall501",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall501 · Gifts · Rarity SSR"
+    },
+    {
+      "title": "Lava Giant's Turkey",
+      "category": "mushroom expo stalls",
+      "id": "Stall601",
+      "internal_id": "Stall601",
+      "url": "expo/#expo-stall-stall601",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall601 · Gifts · Rarity SSR"
+    },
+    {
+      "title": "Frost Monster Shaved Ice",
+      "category": "mushroom expo stalls",
+      "id": "Stall701",
+      "internal_id": "Stall701",
+      "url": "expo/#expo-stall-stall701",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall701 · Beverage · Rarity SSR"
+    },
+    {
+      "title": "Pirate Pub",
+      "category": "mushroom expo stalls",
+      "id": "Stall203",
+      "internal_id": "Stall203",
+      "url": "expo/#expo-stall-stall203",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall203 · Beverage · Rarity SR"
+    },
+    {
+      "title": "Maid Café",
+      "category": "mushroom expo stalls",
+      "id": "Stall204",
+      "internal_id": "Stall204",
+      "url": "expo/#expo-stall-stall204",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall204 · Beverage · Rarity SR"
+    },
+    {
+      "title": "Pearl Milk Tea Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall205",
+      "internal_id": "Stall205",
+      "url": "expo/#expo-stall-stall205",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall205 · Beverage · Rarity SR"
+    },
+    {
+      "title": "Igloo Biscuit Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall103",
+      "internal_id": "Stall103",
+      "url": "expo/#expo-stall-stall103",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Food",
+      "summary": "Stall ID Stall103 · Food · Rarity SR"
+    },
+    {
+      "title": "Jewel Chocolate Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall104",
+      "internal_id": "Stall104",
+      "url": "expo/#expo-stall-stall104",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Food",
+      "summary": "Stall ID Stall104 · Food · Rarity SR"
+    },
+    {
+      "title": "Dragonfire Steak",
+      "category": "mushroom expo stalls",
+      "id": "Stall105",
+      "internal_id": "Stall105",
+      "url": "expo/#expo-stall-stall105",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Food",
+      "summary": "Stall ID Stall105 · Food · Rarity SR"
+    },
+    {
+      "title": "Self-Moving Quill Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall303",
+      "internal_id": "Stall303",
+      "url": "expo/#expo-stall-stall303",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall303 · Gifts · Rarity SR"
+    },
+    {
+      "title": "Eternal Flowers Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall304",
+      "internal_id": "Stall304",
+      "url": "expo/#expo-stall-stall304",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall304 · Gifts · Rarity SR"
+    },
+    {
+      "title": "Magic Ore Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall305",
+      "internal_id": "Stall305",
+      "url": "expo/#expo-stall-stall305",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall305 · Gifts · Rarity SR"
+    },
+    {
+      "title": "Slime Juice Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall202",
+      "internal_id": "Stall202",
+      "url": "expo/#expo-stall-stall202",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall202 · Beverage · Rarity R"
+    },
+    {
+      "title": "Takoyaki Mochi Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall102",
+      "internal_id": "Stall102",
+      "url": "expo/#expo-stall-stall102",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "country_label": "Food",
+      "summary": "Stall ID Stall102 · Food · Rarity R"
+    },
+    {
+      "title": "Fire Seed Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall302",
+      "internal_id": "Stall302",
+      "url": "expo/#expo-stall-stall302",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall302 · Gifts · Rarity R"
+    },
+    {
+      "title": "Lemonade Treehouse",
+      "category": "mushroom expo stalls",
+      "id": "Stall201",
+      "internal_id": "Stall201",
+      "url": "expo/#expo-stall-stall201",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "country_label": "Beverage",
+      "summary": "Stall ID Stall201 · Beverage · Rarity N"
+    },
+    {
+      "title": "Fifi Burger Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall101",
+      "internal_id": "Stall101",
+      "url": "expo/#expo-stall-stall101",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "country_label": "Food",
+      "summary": "Stall ID Stall101 · Food · Rarity N"
+    },
+    {
+      "title": "Spider Silk Yarn Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall301",
+      "internal_id": "Stall301",
+      "url": "expo/#expo-stall-stall301",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "country_label": "Gifts",
+      "summary": "Stall ID Stall301 · Gifts · Rarity N"
+    },
+    {
+      "title": "Grocery Shop",
+      "category": "mushroom expo stalls",
+      "id": "Stall001",
+      "internal_id": "Stall001",
+      "url": "expo/#expo-stall-stall001",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "country_label": "All types",
+      "summary": "Stall ID Stall001 · All types · Rarity N"
+    },
+    {
+      "title": "Stage 1",
+      "category": "mushroom expo stages",
+      "id": "Stage1",
+      "internal_id": "Stage1",
+      "url": "expo/#expo-stage-stage1",
+      "summary": "Stage 1 · Opens on expo day 1 · Power 14,000"
+    },
+    {
+      "title": "Stage 2",
+      "category": "mushroom expo stages",
+      "id": "Stage2",
+      "internal_id": "Stage2",
+      "url": "expo/#expo-stage-stage2",
+      "summary": "Stage 2 · Opens on expo day 1 · Power 18,500"
+    },
+    {
+      "title": "Stage 3",
+      "category": "mushroom expo stages",
+      "id": "Stage3",
+      "internal_id": "Stage3",
+      "url": "expo/#expo-stage-stage3",
+      "summary": "Stage 3 · Opens on expo day 1 · Power 23,000"
+    },
+    {
+      "title": "Stage 4",
+      "category": "mushroom expo stages",
+      "id": "Stage4",
+      "internal_id": "Stage4",
+      "url": "expo/#expo-stage-stage4",
+      "summary": "Stage 4 · Opens on expo day 1 · Power 29,000"
+    },
+    {
+      "title": "Stage 5",
+      "category": "mushroom expo stages",
+      "id": "Stage5",
+      "internal_id": "Stage5",
+      "url": "expo/#expo-stage-stage5",
+      "summary": "Stage 5 · Opens on expo day 1 · Power 34,000"
+    },
+    {
+      "title": "Stage 6",
+      "category": "mushroom expo stages",
+      "id": "Stage6",
+      "internal_id": "Stage6",
+      "url": "expo/#expo-stage-stage6",
+      "summary": "Stage 6 · Opens on expo day 1 · Power 40,000"
+    },
+    {
+      "title": "Stage 7",
+      "category": "mushroom expo stages",
+      "id": "Stage7",
+      "internal_id": "Stage7",
+      "url": "expo/#expo-stage-stage7",
+      "summary": "Stage 7 · Opens on expo day 1 · Power 45,000"
+    },
+    {
+      "title": "Stage 8",
+      "category": "mushroom expo stages",
+      "id": "Stage8",
+      "internal_id": "Stage8",
+      "url": "expo/#expo-stage-stage8",
+      "summary": "Stage 8 · Opens on expo day 1 · Power 59,000"
+    },
+    {
+      "title": "Stage 9",
+      "category": "mushroom expo stages",
+      "id": "Stage9",
+      "internal_id": "Stage9",
+      "url": "expo/#expo-stage-stage9",
+      "summary": "Stage 9 · Opens on expo day 1 · Power 60,500"
+    },
+    {
+      "title": "Stage 10",
+      "category": "mushroom expo stages",
+      "id": "Stage10",
+      "internal_id": "Stage10",
+      "url": "expo/#expo-stage-stage10",
+      "summary": "Stage 10 · Opens on expo day 1 · Power 62,000"
+    },
+    {
+      "title": "Stage 11",
+      "category": "mushroom expo stages",
+      "id": "Stage11",
+      "internal_id": "Stage11",
+      "url": "expo/#expo-stage-stage11",
+      "summary": "Stage 11 · Opens on expo day 2 · Power 70,000"
+    },
+    {
+      "title": "Stage 12",
+      "category": "mushroom expo stages",
+      "id": "Stage12",
+      "internal_id": "Stage12",
+      "url": "expo/#expo-stage-stage12",
+      "summary": "Stage 12 · Opens on expo day 2 · Power 78,000"
+    },
+    {
+      "title": "Stage 13",
+      "category": "mushroom expo stages",
+      "id": "Stage13",
+      "internal_id": "Stage13",
+      "url": "expo/#expo-stage-stage13",
+      "summary": "Stage 13 · Opens on expo day 2 · Power 113,000"
+    },
+    {
+      "title": "Stage 14",
+      "category": "mushroom expo stages",
+      "id": "Stage14",
+      "internal_id": "Stage14",
+      "url": "expo/#expo-stage-stage14",
+      "summary": "Stage 14 · Opens on expo day 2 · Power 127,000"
+    },
+    {
+      "title": "Stage 15",
+      "category": "mushroom expo stages",
+      "id": "Stage15",
+      "internal_id": "Stage15",
+      "url": "expo/#expo-stage-stage15",
+      "summary": "Stage 15 · Opens on expo day 2 · Power 142,000"
+    },
+    {
+      "title": "Stage 16",
+      "category": "mushroom expo stages",
+      "id": "Stage16",
+      "internal_id": "Stage16",
+      "url": "expo/#expo-stage-stage16",
+      "summary": "Stage 16 · Opens on expo day 3 · Power 149,000"
+    },
+    {
+      "title": "Stage 17",
+      "category": "mushroom expo stages",
+      "id": "Stage17",
+      "internal_id": "Stage17",
+      "url": "expo/#expo-stage-stage17",
+      "summary": "Stage 17 · Opens on expo day 3 · Power 156,000"
+    },
+    {
+      "title": "Stage 18",
+      "category": "mushroom expo stages",
+      "id": "Stage18",
+      "internal_id": "Stage18",
+      "url": "expo/#expo-stage-stage18",
+      "summary": "Stage 18 · Opens on expo day 3 · Power 198,000"
+    },
+    {
+      "title": "Stage 19",
+      "category": "mushroom expo stages",
+      "id": "Stage19",
+      "internal_id": "Stage19",
+      "url": "expo/#expo-stage-stage19",
+      "summary": "Stage 19 · Opens on expo day 3 · Power 242,000"
+    },
+    {
+      "title": "Stage 20",
+      "category": "mushroom expo stages",
+      "id": "Stage20",
+      "internal_id": "Stage20",
+      "url": "expo/#expo-stage-stage20",
+      "summary": "Stage 20 · Opens on expo day 3 · Power 272,000"
+    },
+    {
+      "title": "Stage 21",
+      "category": "mushroom expo stages",
+      "id": "Stage21",
+      "internal_id": "Stage21",
+      "url": "expo/#expo-stage-stage21",
+      "summary": "Stage 21 · Opens on expo day 4 · Power 302,000"
+    },
+    {
+      "title": "Stage 22",
+      "category": "mushroom expo stages",
+      "id": "Stage22",
+      "internal_id": "Stage22",
+      "url": "expo/#expo-stage-stage22",
+      "summary": "Stage 22 · Opens on expo day 4 · Power 309,000"
+    },
+    {
+      "title": "Stage 23",
+      "category": "mushroom expo stages",
+      "id": "Stage23",
+      "internal_id": "Stage23",
+      "url": "expo/#expo-stage-stage23",
+      "summary": "Stage 23 · Opens on expo day 4 · Power 316,000"
+    },
+    {
+      "title": "Stage 24",
+      "category": "mushroom expo stages",
+      "id": "Stage24",
+      "internal_id": "Stage24",
+      "url": "expo/#expo-stage-stage24",
+      "summary": "Stage 24 · Opens on expo day 4 · Power 360,000"
+    },
+    {
+      "title": "Stage 25",
+      "category": "mushroom expo stages",
+      "id": "Stage25",
+      "internal_id": "Stage25",
+      "url": "expo/#expo-stage-stage25",
+      "summary": "Stage 25 · Opens on expo day 4 · Power 350,000"
+    },
+    {
+      "title": "Stage 26",
+      "category": "mushroom expo stages",
+      "id": "Stage26",
+      "internal_id": "Stage26",
+      "url": "expo/#expo-stage-stage26",
+      "summary": "Stage 26 · Opens on expo day 5 · Power 340,000"
+    },
+    {
+      "title": "Stage 27",
+      "category": "mushroom expo stages",
+      "id": "Stage27",
+      "internal_id": "Stage27",
+      "url": "expo/#expo-stage-stage27",
+      "summary": "Stage 27 · Opens on expo day 5 · Power 370,000"
+    },
+    {
+      "title": "Stage 28",
+      "category": "mushroom expo stages",
+      "id": "Stage28",
+      "internal_id": "Stage28",
+      "url": "expo/#expo-stage-stage28",
+      "summary": "Stage 28 · Opens on expo day 5 · Power 390,000"
+    },
+    {
+      "title": "Stage 29",
+      "category": "mushroom expo stages",
+      "id": "Stage29",
+      "internal_id": "Stage29",
+      "url": "expo/#expo-stage-stage29",
+      "summary": "Stage 29 · Opens on expo day 5 · Power 410,000"
+    },
+    {
+      "title": "Stage 30",
+      "category": "mushroom expo stages",
+      "id": "Stage30",
+      "internal_id": "Stage30",
+      "url": "expo/#expo-stage-stage30",
+      "summary": "Stage 30 · Opens on expo day 5 · Power 420,000"
+    },
+    {
+      "title": "Stage 31",
+      "category": "mushroom expo stages",
+      "id": "Stage31",
+      "internal_id": "Stage31",
+      "url": "expo/#expo-stage-stage31",
+      "summary": "Stage 31 · Opens on expo day 6 · Power 460,000"
+    },
+    {
+      "title": "Stage 32",
+      "category": "mushroom expo stages",
+      "id": "Stage32",
+      "internal_id": "Stage32",
+      "url": "expo/#expo-stage-stage32",
+      "summary": "Stage 32 · Opens on expo day 6 · Power 475,000"
+    },
+    {
+      "title": "Stage 33",
+      "category": "mushroom expo stages",
+      "id": "Stage33",
+      "internal_id": "Stage33",
+      "url": "expo/#expo-stage-stage33",
+      "summary": "Stage 33 · Opens on expo day 6 · Power 490,000"
+    },
+    {
+      "title": "Stage 34",
+      "category": "mushroom expo stages",
+      "id": "Stage34",
+      "internal_id": "Stage34",
+      "url": "expo/#expo-stage-stage34",
+      "summary": "Stage 34 · Opens on expo day 6 · Power 510,000"
+    },
+    {
+      "title": "Stage 35",
+      "category": "mushroom expo stages",
+      "id": "Stage35",
+      "internal_id": "Stage35",
+      "url": "expo/#expo-stage-stage35",
+      "summary": "Stage 35 · Opens on expo day 6 · Power 530,000"
+    },
+    {
+      "title": "Stage 36",
+      "category": "mushroom expo stages",
+      "id": "Stage36",
+      "internal_id": "Stage36",
+      "url": "expo/#expo-stage-stage36",
+      "summary": "Stage 36 · Opens on expo day 7 · Power 670,000"
+    },
+    {
+      "title": "Stage 37",
+      "category": "mushroom expo stages",
+      "id": "Stage37",
+      "internal_id": "Stage37",
+      "url": "expo/#expo-stage-stage37",
+      "summary": "Stage 37 · Opens on expo day 7 · Power 740,000"
+    },
+    {
+      "title": "Stage 38",
+      "category": "mushroom expo stages",
+      "id": "Stage38",
+      "internal_id": "Stage38",
+      "url": "expo/#expo-stage-stage38",
+      "summary": "Stage 38 · Opens on expo day 7 · Power 750,000"
+    },
+    {
+      "title": "Stage 39",
+      "category": "mushroom expo stages",
+      "id": "Stage39",
+      "internal_id": "Stage39",
+      "url": "expo/#expo-stage-stage39",
+      "summary": "Stage 39 · Opens on expo day 7 · Power 830,000"
+    },
+    {
+      "title": "Stage 40",
+      "category": "mushroom expo stages",
+      "id": "Stage40",
+      "internal_id": "Stage40",
+      "url": "expo/#expo-stage-stage40",
+      "summary": "Stage 40 · Opens on expo day 7 · Power 825,000"
+    },
+    {
+      "title": "Stage 41",
+      "category": "mushroom expo stages",
+      "id": "Stage41",
+      "internal_id": "Stage41",
+      "url": "expo/#expo-stage-stage41",
+      "summary": "Stage 41 · Opens on expo day 8 · Power 820,000"
+    },
+    {
+      "title": "Stage 42",
+      "category": "mushroom expo stages",
+      "id": "Stage42",
+      "internal_id": "Stage42",
+      "url": "expo/#expo-stage-stage42",
+      "summary": "Stage 42 · Opens on expo day 8 · Power 880,000"
+    },
+    {
+      "title": "Stage 43",
+      "category": "mushroom expo stages",
+      "id": "Stage43",
+      "internal_id": "Stage43",
+      "url": "expo/#expo-stage-stage43",
+      "summary": "Stage 43 · Opens on expo day 8 · Power 930,000"
+    },
+    {
+      "title": "Stage 44",
+      "category": "mushroom expo stages",
+      "id": "Stage44",
+      "internal_id": "Stage44",
+      "url": "expo/#expo-stage-stage44",
+      "summary": "Stage 44 · Opens on expo day 9 · Power 980,000"
+    },
+    {
+      "title": "Stage 45",
+      "category": "mushroom expo stages",
+      "id": "Stage45",
+      "internal_id": "Stage45",
+      "url": "expo/#expo-stage-stage45",
+      "summary": "Stage 45 · Opens on expo day 9 · Power 1,020,000"
+    },
+    {
+      "title": "Stage 46",
+      "category": "mushroom expo stages",
+      "id": "Stage46",
+      "internal_id": "Stage46",
+      "url": "expo/#expo-stage-stage46",
+      "summary": "Stage 46 · Opens on expo day 9 · Power 1,140,000"
+    },
+    {
+      "title": "Stage 47",
+      "category": "mushroom expo stages",
+      "id": "Stage47",
+      "internal_id": "Stage47",
+      "url": "expo/#expo-stage-stage47",
+      "summary": "Stage 47 · Opens on expo day 10 · Power 1,190,000"
+    },
+    {
+      "title": "Stage 48",
+      "category": "mushroom expo stages",
+      "id": "Stage48",
+      "internal_id": "Stage48",
+      "url": "expo/#expo-stage-stage48",
+      "summary": "Stage 48 · Opens on expo day 10 · Power 1,230,000"
+    },
+    {
+      "title": "Stage 49",
+      "category": "mushroom expo stages",
+      "id": "Stage49",
+      "internal_id": "Stage49",
+      "url": "expo/#expo-stage-stage49",
+      "summary": "Stage 49 · Opens on expo day 10 · Power 1,280,000"
+    },
+    {
+      "title": "Stage 50",
+      "category": "mushroom expo stages",
+      "id": "Stage50",
+      "internal_id": "Stage50",
+      "url": "expo/#expo-stage-stage50",
+      "summary": "Stage 50 · Opens on expo day 11 · Power 1,340,000"
+    },
+    {
+      "title": "Stage 51",
+      "category": "mushroom expo stages",
+      "id": "Stage51",
+      "internal_id": "Stage51",
+      "url": "expo/#expo-stage-stage51",
+      "summary": "Stage 51 · Opens on expo day 11 · Power 1,400,000"
+    },
+    {
+      "title": "Stage 52",
+      "category": "mushroom expo stages",
+      "id": "Stage52",
+      "internal_id": "Stage52",
+      "url": "expo/#expo-stage-stage52",
+      "summary": "Stage 52 · Opens on expo day 11 · Power 1,490,000"
+    },
+    {
+      "title": "Stage 53",
+      "category": "mushroom expo stages",
+      "id": "Stage53",
+      "internal_id": "Stage53",
+      "url": "expo/#expo-stage-stage53",
+      "summary": "Stage 53 · Opens on expo day 12 · Power 1,580,000"
+    },
+    {
+      "title": "Stage 54",
+      "category": "mushroom expo stages",
+      "id": "Stage54",
+      "internal_id": "Stage54",
+      "url": "expo/#expo-stage-stage54",
+      "summary": "Stage 54 · Opens on expo day 12 · Power 1,650,000"
+    },
+    {
+      "title": "Stage 55",
+      "category": "mushroom expo stages",
+      "id": "Stage55",
+      "internal_id": "Stage55",
+      "url": "expo/#expo-stage-stage55",
+      "summary": "Stage 55 · Opens on expo day 12 · Power 1,830,000"
+    },
+    {
+      "title": "Stage 56",
+      "category": "mushroom expo stages",
+      "id": "Stage56",
+      "internal_id": "Stage56",
+      "url": "expo/#expo-stage-stage56",
+      "summary": "Stage 56 · Opens on expo day 13 · Power 1,910,000"
+    },
+    {
+      "title": "Stage 57",
+      "category": "mushroom expo stages",
+      "id": "Stage57",
+      "internal_id": "Stage57",
+      "url": "expo/#expo-stage-stage57",
+      "summary": "Stage 57 · Opens on expo day 13 · Power 2,010,000"
+    },
+    {
+      "title": "Stage 58",
+      "category": "mushroom expo stages",
+      "id": "Stage58",
+      "internal_id": "Stage58",
+      "url": "expo/#expo-stage-stage58",
+      "summary": "Stage 58 · Opens on expo day 13 · Power 2,120,000"
+    },
+    {
+      "title": "Stage 59",
+      "category": "mushroom expo stages",
+      "id": "Stage59",
+      "internal_id": "Stage59",
+      "url": "expo/#expo-stage-stage59",
+      "summary": "Stage 59 · Opens on expo day 14 · Power 2,180,000"
+    },
+    {
+      "title": "Stage 60",
+      "category": "mushroom expo stages",
+      "id": "Stage60",
+      "internal_id": "Stage60",
+      "url": "expo/#expo-stage-stage60",
+      "summary": "Stage 60 · Opens on expo day 14 · Power 2,280,000"
+    },
+    {
+      "title": "Stage 61",
+      "category": "mushroom expo stages",
+      "id": "Stage61",
+      "internal_id": "Stage61",
+      "url": "expo/#expo-stage-stage61",
+      "summary": "Stage 61 · Opens on expo day 14 · Power 2,330,000"
+    },
+    {
+      "title": "Stage 62",
+      "category": "mushroom expo stages",
+      "id": "Stage62",
+      "internal_id": "Stage62",
+      "url": "expo/#expo-stage-stage62",
+      "summary": "Stage 62 · Opens on expo day 15 · Power 2,500,000"
+    },
+    {
+      "title": "Stage 63",
+      "category": "mushroom expo stages",
+      "id": "Stage63",
+      "internal_id": "Stage63",
+      "url": "expo/#expo-stage-stage63",
+      "summary": "Stage 63 · Opens on expo day 15 · Power 2,600,000"
+    },
+    {
+      "title": "Stage 64",
+      "category": "mushroom expo stages",
+      "id": "Stage64",
+      "internal_id": "Stage64",
+      "url": "expo/#expo-stage-stage64",
+      "summary": "Stage 64 · Opens on expo day 15 · Power 2,700,000"
+    },
+    {
+      "title": "Stage 65",
+      "category": "mushroom expo stages",
+      "id": "Stage65",
+      "internal_id": "Stage65",
+      "url": "expo/#expo-stage-stage65",
+      "summary": "Stage 65 · Opens on expo day 16 · Power 2,800,000"
+    },
+    {
+      "title": "Stage 66",
+      "category": "mushroom expo stages",
+      "id": "Stage66",
+      "internal_id": "Stage66",
+      "url": "expo/#expo-stage-stage66",
+      "summary": "Stage 66 · Opens on expo day 16 · Power 2,900,000"
+    },
+    {
+      "title": "Stage 67",
+      "category": "mushroom expo stages",
+      "id": "Stage67",
+      "internal_id": "Stage67",
+      "url": "expo/#expo-stage-stage67",
+      "summary": "Stage 67 · Opens on expo day 16 · Power 3,200,000"
+    },
+    {
+      "title": "Stage 68",
+      "category": "mushroom expo stages",
+      "id": "Stage68",
+      "internal_id": "Stage68",
+      "url": "expo/#expo-stage-stage68",
+      "summary": "Stage 68 · Opens on expo day 17 · Power 3,300,000"
+    },
+    {
+      "title": "Stage 69",
+      "category": "mushroom expo stages",
+      "id": "Stage69",
+      "internal_id": "Stage69",
+      "url": "expo/#expo-stage-stage69",
+      "summary": "Stage 69 · Opens on expo day 17 · Power 3,400,000"
+    },
+    {
+      "title": "Stage 70",
+      "category": "mushroom expo stages",
+      "id": "Stage70",
+      "internal_id": "Stage70",
+      "url": "expo/#expo-stage-stage70",
+      "summary": "Stage 70 · Opens on expo day 17 · Power 3,450,000"
+    },
+    {
+      "title": "Stage 71",
+      "category": "mushroom expo stages",
+      "id": "Stage71",
+      "internal_id": "Stage71",
+      "url": "expo/#expo-stage-stage71",
+      "summary": "Stage 71 · Opens on expo day 18 · Power 3,500,000"
+    },
+    {
+      "title": "Stage 72",
+      "category": "mushroom expo stages",
+      "id": "Stage72",
+      "internal_id": "Stage72",
+      "url": "expo/#expo-stage-stage72",
+      "summary": "Stage 72 · Opens on expo day 18 · Power 3,550,000"
+    },
+    {
+      "title": "Stage 73",
+      "category": "mushroom expo stages",
+      "id": "Stage73",
+      "internal_id": "Stage73",
+      "url": "expo/#expo-stage-stage73",
+      "summary": "Stage 73 · Opens on expo day 18 · Power 3,600,000"
+    },
+    {
+      "title": "Stage 74",
+      "category": "mushroom expo stages",
+      "id": "Stage74",
+      "internal_id": "Stage74",
+      "url": "expo/#expo-stage-stage74",
+      "summary": "Stage 74 · Opens on expo day 19 · Power 3,800,000"
+    },
+    {
+      "title": "Stage 75",
+      "category": "mushroom expo stages",
+      "id": "Stage75",
+      "internal_id": "Stage75",
+      "url": "expo/#expo-stage-stage75",
+      "summary": "Stage 75 · Opens on expo day 19 · Power 3,900,000"
+    },
+    {
+      "title": "Stage 76",
+      "category": "mushroom expo stages",
+      "id": "Stage76",
+      "internal_id": "Stage76",
+      "url": "expo/#expo-stage-stage76",
+      "summary": "Stage 76 · Opens on expo day 19 · Power 4,000,000"
+    },
+    {
+      "title": "Stage 77",
+      "category": "mushroom expo stages",
+      "id": "Stage77",
+      "internal_id": "Stage77",
+      "url": "expo/#expo-stage-stage77",
+      "summary": "Stage 77 · Opens on expo day 20 · Power 4,200,000"
+    },
+    {
+      "title": "Stage 78",
+      "category": "mushroom expo stages",
+      "id": "Stage78",
+      "internal_id": "Stage78",
+      "url": "expo/#expo-stage-stage78",
+      "summary": "Stage 78 · Opens on expo day 20 · Power 4,300,000"
+    },
+    {
+      "title": "Stage 79",
+      "category": "mushroom expo stages",
+      "id": "Stage79",
+      "internal_id": "Stage79",
+      "url": "expo/#expo-stage-stage79",
+      "summary": "Stage 79 · Opens on expo day 20 · Power 4,500,000"
+    },
+    {
+      "title": "Stage 80",
+      "category": "mushroom expo stages",
+      "id": "Stage80",
+      "internal_id": "Stage80",
+      "url": "expo/#expo-stage-stage80",
+      "summary": "Stage 80 · Opens on expo day 21 · Power 4,800,000"
+    },
+    {
+      "title": "Stage 81",
+      "category": "mushroom expo stages",
+      "id": "Stage81",
+      "internal_id": "Stage81",
+      "url": "expo/#expo-stage-stage81",
+      "summary": "Stage 81 · Opens on expo day 21 · Power 5,100,000"
+    },
+    {
+      "title": "Stage 82",
+      "category": "mushroom expo stages",
+      "id": "Stage82",
+      "internal_id": "Stage82",
+      "url": "expo/#expo-stage-stage82",
+      "summary": "Stage 82 · Opens on expo day 21 · Power 5,600,000"
+    },
+    {
+      "title": "Stage 83",
+      "category": "mushroom expo stages",
+      "id": "Stage83",
+      "internal_id": "Stage83",
+      "url": "expo/#expo-stage-stage83",
+      "summary": "Stage 83 · Opens on expo day 22 · Power 5,900,000"
+    },
+    {
+      "title": "Stage 84",
+      "category": "mushroom expo stages",
+      "id": "Stage84",
+      "internal_id": "Stage84",
+      "url": "expo/#expo-stage-stage84",
+      "summary": "Stage 84 · Opens on expo day 22 · Power 6,200,000"
+    },
+    {
+      "title": "Stage 85",
+      "category": "mushroom expo stages",
+      "id": "Stage85",
+      "internal_id": "Stage85",
+      "url": "expo/#expo-stage-stage85",
+      "summary": "Stage 85 · Opens on expo day 22 · Power 6,400,000"
+    },
+    {
+      "title": "Stage 86",
+      "category": "mushroom expo stages",
+      "id": "Stage86",
+      "internal_id": "Stage86",
+      "url": "expo/#expo-stage-stage86",
+      "summary": "Stage 86 · Opens on expo day 23 · Power 6,800,000"
+    },
+    {
+      "title": "Stage 87",
+      "category": "mushroom expo stages",
+      "id": "Stage87",
+      "internal_id": "Stage87",
+      "url": "expo/#expo-stage-stage87",
+      "summary": "Stage 87 · Opens on expo day 23 · Power 7,500,000"
+    },
+    {
+      "title": "Stage 88",
+      "category": "mushroom expo stages",
+      "id": "Stage88",
+      "internal_id": "Stage88",
+      "url": "expo/#expo-stage-stage88",
+      "summary": "Stage 88 · Opens on expo day 23 · Power 7,800,000"
+    },
+    {
+      "title": "Stage 89",
+      "category": "mushroom expo stages",
+      "id": "Stage89",
+      "internal_id": "Stage89",
+      "url": "expo/#expo-stage-stage89",
+      "summary": "Stage 89 · Opens on expo day 24 · Power 8,300,000"
+    },
+    {
+      "title": "Stage 90",
+      "category": "mushroom expo stages",
+      "id": "Stage90",
+      "internal_id": "Stage90",
+      "url": "expo/#expo-stage-stage90",
+      "summary": "Stage 90 · Opens on expo day 24 · Power 8,500,000"
+    },
+    {
+      "title": "Stage 91",
+      "category": "mushroom expo stages",
+      "id": "Stage91",
+      "internal_id": "Stage91",
+      "url": "expo/#expo-stage-stage91",
+      "summary": "Stage 91 · Opens on expo day 24 · Power 9,000,000"
+    },
+    {
+      "title": "Stage 92",
+      "category": "mushroom expo stages",
+      "id": "Stage92",
+      "internal_id": "Stage92",
+      "url": "expo/#expo-stage-stage92",
+      "summary": "Stage 92 · Opens on expo day 25 · Power 9,600,000"
+    },
+    {
+      "title": "Stage 93",
+      "category": "mushroom expo stages",
+      "id": "Stage93",
+      "internal_id": "Stage93",
+      "url": "expo/#expo-stage-stage93",
+      "summary": "Stage 93 · Opens on expo day 25 · Power 10,100,000"
+    },
+    {
+      "title": "Stage 94",
+      "category": "mushroom expo stages",
+      "id": "Stage94",
+      "internal_id": "Stage94",
+      "url": "expo/#expo-stage-stage94",
+      "summary": "Stage 94 · Opens on expo day 25 · Power 10,400,000"
+    },
+    {
+      "title": "Stage 95",
+      "category": "mushroom expo stages",
+      "id": "Stage95",
+      "internal_id": "Stage95",
+      "url": "expo/#expo-stage-stage95",
+      "summary": "Stage 95 · Opens on expo day 26 · Power 10,900,000"
+    },
+    {
+      "title": "Stage 96",
+      "category": "mushroom expo stages",
+      "id": "Stage96",
+      "internal_id": "Stage96",
+      "url": "expo/#expo-stage-stage96",
+      "summary": "Stage 96 · Opens on expo day 26 · Power 11,200,000"
+    },
+    {
+      "title": "Stage 97",
+      "category": "mushroom expo stages",
+      "id": "Stage97",
+      "internal_id": "Stage97",
+      "url": "expo/#expo-stage-stage97",
+      "summary": "Stage 97 · Opens on expo day 26 · Power 11,400,000"
+    },
+    {
+      "title": "Stage 98",
+      "category": "mushroom expo stages",
+      "id": "Stage98",
+      "internal_id": "Stage98",
+      "url": "expo/#expo-stage-stage98",
+      "summary": "Stage 98 · Opens on expo day 27 · Power 11,900,000"
+    },
+    {
+      "title": "Stage 99",
+      "category": "mushroom expo stages",
+      "id": "Stage99",
+      "internal_id": "Stage99",
+      "url": "expo/#expo-stage-stage99",
+      "summary": "Stage 99 · Opens on expo day 27 · Power 12,600,000"
+    },
+    {
+      "title": "Stage 100",
+      "category": "mushroom expo stages",
+      "id": "Stage100",
+      "internal_id": "Stage100",
+      "url": "expo/#expo-stage-stage100",
+      "summary": "Stage 100 · Opens on expo day 27 · Power 13,400,000"
+    },
+    {
+      "title": "Kemomimi Village Ceremony",
+      "category": "mushroom expo event stages",
+      "id": "Anniversary_01",
+      "internal_id": "Anniversary_01",
+      "url": "events/anniversary/#event-expo-stages-anniversary-01",
+      "summary": "30 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Build! A Leisurely Countryside Village!",
+      "category": "mushroom expo event stages",
+      "id": "CountrySide_01_EN",
+      "internal_id": "CountrySide_01_EN",
+      "url": "events/country-side/#event-expo-stages-countryside-01-en",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Leisurely Village!",
+      "category": "mushroom expo event stages",
+      "id": "CountrySide_01_EN_Day6",
+      "internal_id": "CountrySide_01_EN_Day6",
+      "url": "events/country-side/#event-expo-stages-countryside-01-en-day6",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Dragon Maid on Hiemspresent",
+      "category": "mushroom expo event stages",
+      "id": "Maidragon_EN",
+      "internal_id": "Maidragon_EN",
+      "url": "events/maidragon/#event-expo-stages-maidragon-en",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "氷雪の町校外実習～頑張れ！モンスター娘！",
+      "category": "mushroom expo event stages",
+      "id": "MonsterGirl_EN",
+      "internal_id": "MonsterGirl_EN",
+      "url": "events/maidragon/#event-expo-stages-monstergirl-en",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Encounter in Another World",
+      "category": "mushroom expo event stages",
+      "id": "DanMachi",
+      "internal_id": "DanMachi",
+      "url": "events/maidragon/#event-expo-stages-danmachi",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Kawaiimush",
+      "category": "mushroom expo event stages",
+      "id": "Sanrio",
+      "internal_id": "Sanrio",
+      "url": "events/maidragon/#event-expo-stages-sanrio",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Fight! Magic Academy Sports Day!",
+      "category": "mushroom expo event stages",
+      "id": "FairyTail",
+      "internal_id": "FairyTail",
+      "url": "events/maidragon/#event-expo-stages-fairytail",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Camping with A Slime",
+      "category": "mushroom expo event stages",
+      "id": "TenSura",
+      "internal_id": "TenSura",
+      "url": "events/maidragon/#event-expo-stages-tensura",
+      "summary": "15 stage sets · 5 difficulties"
     },
     {
       "title": "Initial",

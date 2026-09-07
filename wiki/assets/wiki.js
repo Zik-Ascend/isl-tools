@@ -258,7 +258,8 @@
     const itemActivitySelect = tools.querySelector('[data-wiki-item-activity-filter]');
     const itemCurrencySelect = tools.querySelector('[data-wiki-item-currency-filter]');
     const itemPresetSelect = tools.querySelector('[data-wiki-item-preset-filter]');
-    const countEl = tools.querySelector('[data-wiki-visible-count]');
+    const countScope = tools.closest('details, .section-block') || tools.parentElement;
+    const countEls = countScope ? Array.from(countScope.querySelectorAll('[data-wiki-visible-count]')) : [];
     const category = tools.getAttribute('data-category') || '';
     const storageKey = category ? `wiki:list-state:${category}` : '';
 
@@ -383,7 +384,7 @@
         if (isVisible) visible += 1;
         list.appendChild(row);
       }
-      if (countEl) countEl.textContent = String(visible);
+      countEls.forEach(countEl => { countEl.textContent = String(visible); });
 
       if (storageKey) {
         try {
@@ -1872,4 +1873,44 @@
       setStatus(`Calculator data could not be loaded: ${error.message}`, true);
       root.classList.add('load-error');
     });
+})();
+
+
+(() => {
+  function revealHashTarget() {
+    if (!window.location.hash || window.location.hash.length < 2) return;
+    let id = window.location.hash.slice(1);
+    try {
+      id = decodeURIComponent(id);
+    } catch (_err) {}
+    const target = document.getElementById(id);
+    if (!target) return;
+
+    if (target.tagName === 'DETAILS') target.open = true;
+    let ancestor = target.parentElement;
+    while (ancestor) {
+      if (ancestor.tagName === 'DETAILS') ancestor.open = true;
+      ancestor = ancestor.parentElement;
+    }
+
+    document.querySelectorAll('.hash-reveal-target').forEach(node => node.classList.remove('hash-reveal-target'));
+    target.classList.add('hash-reveal-target');
+    window.requestAnimationFrame(() => {
+      target.scrollIntoView({ block: 'start', inline: 'nearest' });
+    });
+  }
+
+  window.addEventListener('hashchange', () => window.setTimeout(revealHashTarget, 0));
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href*="#"]');
+    if (!link) return;
+    try {
+      const url = new URL(link.href, window.location.href);
+      if (url.pathname === window.location.pathname && url.hash) {
+        window.setTimeout(revealHashTarget, 0);
+      }
+    } catch (_err) {}
+  });
+
+  window.setTimeout(revealHashTarget, 0);
 })();
