@@ -1914,3 +1914,239 @@
 
   window.setTimeout(revealHashTarget, 0);
 })();
+
+(() => {
+  function naturalCompare(a, b) {
+    return String(a || '').localeCompare(String(b || ''), undefined, { numeric: true, sensitivity: 'base' });
+  }
+
+  function numberValue(value) {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : 0;
+  }
+
+  document.querySelectorAll('[data-community-resources]').forEach(root => {
+    const list = root.querySelector('[data-community-resource-list]');
+    if (!list) return;
+
+    const search = root.querySelector('[data-community-search]');
+    const author = root.querySelector('[data-community-author]');
+    const type = root.querySelector('[data-community-type]');
+    const dateFrom = root.querySelector('[data-community-date-from]');
+    const dateTo = root.querySelector('[data-community-date-to]');
+    const sort = root.querySelector('[data-community-sort]');
+    const count = root.querySelector('[data-community-visible-count]');
+    const empty = root.querySelector('[data-community-empty]');
+    const storageKey = 'wiki:community-resources:filters';
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
+      if (typeof saved.search === 'string' && search) search.value = saved.search;
+      if (typeof saved.author === 'string' && author) author.value = saved.author;
+      if (typeof saved.type === 'string' && type) type.value = saved.type;
+      if (typeof saved.dateFrom === 'string' && dateFrom) dateFrom.value = saved.dateFrom;
+      if (typeof saved.dateTo === 'string' && dateTo) dateTo.value = saved.dateTo;
+      if (typeof saved.sort === 'string' && sort) sort.value = saved.sort;
+    } catch (_err) {}
+
+    function update() {
+      const query = (search?.value || '').trim().toLowerCase();
+      const authorValue = author?.value || '';
+      const typeValue = type?.value || '';
+      const fromValue = dateFrom?.value || '';
+      const toValue = dateTo?.value || '';
+      const sortValue = sort?.value || 'popularity-desc';
+      const rows = Array.from(list.querySelectorAll('.community-resource-row'));
+
+      rows.sort((a, b) => {
+        if (sortValue === 'date-desc') {
+          return numberValue(b.dataset.dateSort) - numberValue(a.dataset.dateSort) || naturalCompare(a.dataset.name, b.dataset.name);
+        }
+        if (sortValue === 'date-asc') {
+          return numberValue(a.dataset.dateSort) - numberValue(b.dataset.dateSort) || naturalCompare(a.dataset.name, b.dataset.name);
+        }
+        if (sortValue === 'name-desc') return naturalCompare(b.dataset.name, a.dataset.name);
+        if (sortValue === 'name-asc') return naturalCompare(a.dataset.name, b.dataset.name);
+        if (sortValue === 'author-desc') {
+          return naturalCompare(b.dataset.author, a.dataset.author) || naturalCompare(a.dataset.name, b.dataset.name);
+        }
+        if (sortValue === 'author-asc') {
+          return naturalCompare(a.dataset.author, b.dataset.author) || naturalCompare(a.dataset.name, b.dataset.name);
+        }
+        return numberValue(b.dataset.popularity) - numberValue(a.dataset.popularity)
+          || numberValue(b.dataset.dateSort) - numberValue(a.dataset.dateSort)
+          || naturalCompare(a.dataset.name, b.dataset.name);
+      });
+
+      let visible = 0;
+      rows.forEach(row => {
+        const matchesSearch = !query || (row.dataset.searchText || '').includes(query);
+        const matchesAuthor = !authorValue || row.dataset.author === authorValue;
+        const matchesType = !typeValue || row.dataset.resourceType === typeValue;
+        const rowDate = row.dataset.date || '';
+        const matchesFrom = !fromValue || (rowDate && rowDate >= fromValue);
+        const matchesTo = !toValue || (rowDate && rowDate <= toValue);
+        const show = matchesSearch && matchesAuthor && matchesType && matchesFrom && matchesTo;
+        row.hidden = !show;
+        if (show) visible += 1;
+        list.appendChild(row);
+      });
+
+      if (count) count.textContent = String(visible);
+      if (empty) empty.hidden = visible !== 0;
+
+      try {
+        localStorage.setItem(storageKey, JSON.stringify({
+          search: search?.value || '',
+          author: authorValue,
+          type: typeValue,
+          dateFrom: fromValue,
+          dateTo: toValue,
+          sort: sortValue
+        }));
+      } catch (_err) {}
+    }
+
+    [search, author, type, dateFrom, dateTo, sort].forEach(control => {
+      if (!control) return;
+      control.addEventListener(control === search ? 'input' : 'change', update);
+    });
+    root.addEventListener('community-resource-stats-updated', update);
+    update();
+  });
+
+  function openResourceCard(card) {
+    const href = card.getAttribute('data-primary-href') || '';
+    if (!href) return;
+    const resourceId = card.getAttribute('data-community-resource-id') || '';
+    if (resourceId && typeof window.wikiTrackCommunityResourceClick === 'function') {
+      window.wikiTrackCommunityResourceClick(resourceId);
+    }
+    if (card.getAttribute('data-primary-external') === '1') {
+      window.open(href, '_blank', 'noopener,noreferrer');
+    } else {
+      window.location.href = href;
+    }
+  }
+
+  document.addEventListener('click', event => {
+    const card = event.target.closest?.('[data-community-resource-card]');
+    if (!card || event.target.closest('a, button, input, select, textarea, label')) return;
+    openResourceCard(card);
+  });
+
+  document.addEventListener('keydown', event => {
+    const card = event.target.closest?.('[data-community-resource-card]');
+    if (!card || event.target !== card || !['Enter', ' '].includes(event.key)) return;
+    event.preventDefault();
+    openResourceCard(card);
+  });
+})();
+
+(() => {
+  const body = document.body;
+  if (!body || body.dataset.communityClickAnalytics !== '1') return;
+
+  const baseUrl = String(body.dataset.communityClickBaseUrl || '').trim().replace(/\/+$/, '');
+  if (!/^https?:\/\//i.test(baseUrl)) return;
+
+  const dedupeMinutes = Math.max(0, Number(body.dataset.communityClickDedupeMinutes || 30) || 0);
+  const refreshSeconds = Math.max(30, Number(body.dataset.communityClickStatsRefreshSeconds || 300) || 300);
+  const clickEndpoint = `${baseUrl}/v1/community-resource-click`;
+  const statsEndpoint = `${baseUrl}/v1/community-resource-clicks`;
+  const dedupePrefix = 'wiki:community-resource-click:';
+
+  function normalizedResourceId(value) {
+    const id = String(value || '').trim().toLowerCase();
+    return /^[a-z0-9][a-z0-9-]{0,79}$/.test(id) ? id : '';
+  }
+
+  function shouldCountClick(resourceId) {
+    if (!dedupeMinutes) return true;
+    const key = `${dedupePrefix}${resourceId}`;
+    const now = Date.now();
+    try {
+      const previous = Number(localStorage.getItem(key) || 0);
+      if (Number.isFinite(previous) && previous > 0 && now - previous < dedupeMinutes * 60000) {
+        return false;
+      }
+      localStorage.setItem(key, String(now));
+    } catch (_err) {
+      // If storage is unavailable, do not block the click report.
+    }
+    return true;
+  }
+
+  function reportClick(resourceId) {
+    const id = normalizedResourceId(resourceId);
+    if (!id || !shouldCountClick(id)) return false;
+
+    const payload = JSON.stringify({ resourceId: id });
+    let queued = false;
+    try {
+      if (navigator.sendBeacon) {
+        queued = navigator.sendBeacon(clickEndpoint, payload);
+      }
+    } catch (_err) {
+      queued = false;
+    }
+
+    if (!queued) {
+      fetch(clickEndpoint, {
+        method: 'POST',
+        mode: 'cors',
+        credentials: 'omit',
+        cache: 'no-store',
+        keepalive: true,
+        headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+        body: payload
+      }).catch(() => {});
+    }
+    return true;
+  }
+
+  window.wikiTrackCommunityResourceClick = reportClick;
+
+  document.addEventListener('click', event => {
+    const source = event.target.closest?.('[data-community-resource-id]');
+    if (!source) return;
+    reportClick(source.getAttribute('data-community-resource-id'));
+  }, true);
+
+  async function refreshStats() {
+    try {
+      const response = await fetch(statsEndpoint, {
+        method: 'GET',
+        mode: 'cors',
+        credentials: 'omit',
+        cache: 'no-store',
+        headers: { 'Accept': 'application/json' }
+      });
+      if (!response.ok) return;
+      const payload = await response.json();
+      const resources = payload && typeof payload.resources === 'object' ? payload.resources : {};
+
+      document.querySelectorAll('.community-resource-row[data-resource-id]').forEach(row => {
+        const id = normalizedResourceId(row.dataset.resourceId);
+        if (!id || !(id in resources)) return;
+        const raw = resources[id];
+        const clicks = Number(typeof raw === 'object' && raw !== null ? raw.clicks : raw);
+        if (!Number.isFinite(clicks) || clicks < 0) return;
+        row.dataset.clicks = String(Math.floor(clicks));
+        row.dataset.popularity = String(Math.floor(clicks));
+      });
+
+      document.querySelectorAll('[data-community-resources]').forEach(root => {
+        root.dispatchEvent(new CustomEvent('community-resource-stats-updated'));
+      });
+    } catch (_err) {
+      // Keep the static fallback ordering if analytics cannot be reached.
+    }
+  }
+
+  if (document.querySelector('[data-community-resources]')) {
+    refreshStats();
+    window.setInterval(refreshStats, refreshSeconds * 1000);
+  }
+})();
+

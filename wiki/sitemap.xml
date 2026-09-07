@@ -1085,6 +1085,9 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/events/</loc>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/community-resources/</loc>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/calculators/</loc>
   </url>
   <url>
@@ -33504,5 +33507,20 @@
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_MP05/default.webp</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/community-resources/asquare-mid-ciy-tips/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/community-resources/asquare-northern-odyssey-tips/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/community-resources/asquare-northern-odyssey-tips/ice-fruit-monster.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/community-resources/asquare-northern-odyssey-tips/safe-fields-example.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/community-resources/asquare-profiteer-card-tips/</loc>
   </url>
 </urlset>

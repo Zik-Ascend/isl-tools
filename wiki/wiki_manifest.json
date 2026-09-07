@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07 00:16 UTC",
+  "generated_at": "2026-09-07 21:25 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -15,6 +15,7 @@
     "museum": 135,
     "items": 4713,
     "events": 71,
+    "community-resources": 5,
     "calculators": 1
   },
   "entries": [
@@ -125,6 +126,12 @@
       "category": "category",
       "url": "events/",
       "summary": "Event phases, durations, core rewards, related activities, and score-shop offerings"
+    },
+    {
+      "title": "Community Resources",
+      "category": "category",
+      "url": "community-resources/",
+      "summary": "Curated community guides, tools, calculators, leaderboards, and strategy resources"
     },
     {
       "title": "Calculators",
@@ -61638,6 +61645,46 @@
       "internal_id": "miniposter",
       "url": "events/miniposter/#event-phase-mp05",
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Screaming Punching Bag, Valiant Insignia Fragment, Acquaint Stone Fragment"
+    },
+    {
+      "title": "Explore Mines / Casino on Yacht Tips",
+      "category": "community resources",
+      "id": "asquare-mid-ciy-tips",
+      "internal_id": "asquare-mid-ciy-tips",
+      "url": "community-resources/asquare-mid-ciy-tips/",
+      "summary": "Tips and tricks · by A Square · Tips for \"Explore! Mines in Dungeon\" and \"Casino on Yacht\" Events"
+    },
+    {
+      "title": "Global Leaderboards",
+      "category": "community resources",
+      "id": "global-leaderboards",
+      "internal_id": "global-leaderboards",
+      "url": "community-resources/#resource-global-leaderboards",
+      "summary": "Tool · by Zikira · NA - 157 · Cross server and Cross region leaderboards for Power, Intimacy, Earnings, Guild Earnings, and Pet tower."
+    },
+    {
+      "title": "Guild Stats Calculator",
+      "category": "community resources",
+      "id": "guild-stats-calculator",
+      "internal_id": "guild-stats-calculator",
+      "url": "community-resources/#resource-guild-stats-calculator",
+      "summary": "Calculator · by Xia · EU - 288 · Guild power, Intimacy, and Earnings calculator built from leaderboard data."
+    },
+    {
+      "title": "Northern Odyssey Tips",
+      "category": "community resources",
+      "id": "asquare-northern-odyssey-tips",
+      "internal_id": "asquare-northern-odyssey-tips",
+      "url": "community-resources/asquare-northern-odyssey-tips/",
+      "summary": "Tips and tricks · by A Square · Community tips for Story Mode and Endless Mode in Northern Odyssey."
+    },
+    {
+      "title": "Profiteer Card Tips",
+      "category": "community resources",
+      "id": "asquare-profiteer-card-tips",
+      "internal_id": "asquare-profiteer-card-tips",
+      "url": "community-resources/asquare-profiteer-card-tips/",
+      "summary": "Tips and tricks · by A Square · Tips for \"Profiteer Card\" Event"
     }
   ]
 }
