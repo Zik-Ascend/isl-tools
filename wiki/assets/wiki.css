@@ -324,9 +324,10 @@ a { color: inherit; }
 }
 
 .support-blurb {
-  margin: 1rem auto 0;
+  margin: 1rem 0 0;
   color: var(--muted);
   font-size: .98rem;
+  text-align: left;
 }
 
 .support-blurb a {
@@ -7988,4 +7989,215 @@ body {
 .community-guide-code code {
   padding: 0;
   background: transparent;
+}
+
+
+/* 2026-09-07 Community Resource author profiles and submission cleanup */
+.community-resource-submit-blurb {
+  margin-top: .9rem;
+}
+
+.community-resource-submit-blurb a {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.community-resource-submit-template pre {
+  white-space: pre-wrap;
+}
+
+.community-related-event-page-section {
+  margin-bottom: 2.25rem;
+}
+
+.community-related-card {
+  display: grid;
+  gap: .5rem;
+  align-content: start;
+}
+
+.community-related-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+  min-width: 0;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.community-related-main:hover,
+.community-related-main:focus-visible {
+  color: var(--accent);
+  outline: none;
+}
+
+.community-related-author {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .3rem;
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+.community-author-profile {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.community-author-trigger {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 800;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: .16em;
+}
+
+.community-author-trigger:hover,
+.community-author-trigger:focus-visible,
+.community-author-profile.is-open .community-author-trigger {
+  text-decoration-color: currentColor;
+  outline: none;
+}
+
+.community-author-popover {
+  position: absolute;
+  z-index: 90;
+  left: 0;
+  top: calc(100% + .45rem);
+  width: min(340px, calc(100vw - 2rem));
+  display: grid;
+  gap: .7rem;
+  padding: .85rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--panel);
+  color: var(--text);
+  box-shadow: var(--shadow);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-.2rem);
+  transition: opacity .12s ease, transform .12s ease, visibility .12s ease;
+}
+
+.community-author-profile:hover .community-author-popover,
+.community-author-profile:focus-within .community-author-popover,
+.community-author-profile.is-open .community-author-popover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.community-author-popover-heading {
+  display: grid;
+  gap: .1rem;
+}
+
+.community-author-popover-heading strong {
+  font-size: 1rem;
+}
+
+.community-author-popover-heading small,
+.community-author-top > small,
+.community-author-resource-count {
+  color: var(--muted);
+}
+
+.community-author-popover p {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: .88rem;
+  line-height: 1.45;
+}
+
+.community-author-resource-count {
+  font-size: .8rem;
+  font-weight: 750;
+}
+
+.community-author-top {
+  display: grid;
+  gap: .35rem;
+}
+
+.community-author-top ol {
+  display: grid;
+  gap: .3rem;
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.community-author-top a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.community-author-top a:hover,
+.community-author-top a:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.community-author-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
+.community-author-social {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  padding: .25rem .5rem;
+  color: var(--accent);
+  background: var(--panel-2);
+  font-size: .78rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.community-author-social:hover,
+.community-author-social:focus-visible {
+  border-color: var(--accent);
+}
+
+.community-resource-meta .community-author-profile,
+.event-overview-grid .community-author-profile {
+  margin-top: .05rem;
+}
+
+@media (max-width: 640px) {
+  .community-author-popover {
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    top: auto;
+    bottom: 1rem;
+    width: auto;
+    max-height: min(70vh, 520px);
+    overflow-y: auto;
+  }
+}
+
+.community-author-top li:nth-child(n+4) {
+  display: none;
+}
+
+.community-related-section[open] {
+  overflow: visible;
 }

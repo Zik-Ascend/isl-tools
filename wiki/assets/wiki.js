@@ -2044,6 +2044,39 @@
 })();
 
 (() => {
+  function closeAuthorProfiles(except = null) {
+    document.querySelectorAll('.community-author-profile.is-open').forEach(profile => {
+      if (profile === except) return;
+      profile.classList.remove('is-open');
+      const trigger = profile.querySelector('[data-community-author-trigger]');
+      if (trigger) trigger.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  document.addEventListener('click', event => {
+    const trigger = event.target.closest?.('[data-community-author-trigger]');
+    if (trigger) {
+      const profile = trigger.closest('.community-author-profile');
+      if (!profile) return;
+      event.preventDefault();
+      event.stopPropagation();
+      const willOpen = !profile.classList.contains('is-open');
+      closeAuthorProfiles(profile);
+      profile.classList.toggle('is-open', willOpen);
+      trigger.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+      return;
+    }
+    if (event.target.closest?.('.community-author-popover')) return;
+    closeAuthorProfiles();
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    closeAuthorProfiles();
+  });
+})();
+
+(() => {
   const body = document.body;
   if (!body || body.dataset.communityClickAnalytics !== '1') return;
 
@@ -2136,6 +2169,25 @@
         row.dataset.popularity = String(Math.floor(clicks));
       });
 
+      document.querySelectorAll('[data-community-author-resource-id]').forEach(item => {
+        const id = normalizedResourceId(item.getAttribute('data-community-author-resource-id'));
+        if (!id || !(id in resources)) return;
+        const raw = resources[id];
+        const clicks = Number(typeof raw === 'object' && raw !== null ? raw.clicks : raw);
+        if (!Number.isFinite(clicks) || clicks < 0) return;
+        item.dataset.popularity = String(Math.floor(clicks));
+      });
+
+      document.querySelectorAll('.community-author-top ol').forEach(list => {
+        const items = Array.from(list.children);
+        items.sort((a, b) => {
+          const popularityDiff = Number(b.dataset.popularity || 0) - Number(a.dataset.popularity || 0);
+          if (popularityDiff) return popularityDiff;
+          return String(a.dataset.title || '').localeCompare(String(b.dataset.title || ''), undefined, { numeric: true, sensitivity: 'base' });
+        });
+        items.forEach(item => list.appendChild(item));
+      });
+
       document.querySelectorAll('[data-community-resources]').forEach(root => {
         root.dispatchEvent(new CustomEvent('community-resource-stats-updated'));
       });
@@ -2144,7 +2196,7 @@
     }
   }
 
-  if (document.querySelector('[data-community-resources]')) {
+  if (document.querySelector('[data-community-resources], .community-author-profile')) {
     refreshStats();
     window.setInterval(refreshStats, refreshSeconds * 1000);
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07 21:25 UTC",
+  "generated_at": "2026-09-07 22:33 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -15,7 +15,7 @@
     "museum": 135,
     "items": 4713,
     "events": 71,
-    "community-resources": 5,
+    "community-resources": 8,
     "calculators": 1
   },
   "entries": [
@@ -132,6 +132,12 @@
       "category": "category",
       "url": "community-resources/",
       "summary": "Curated community guides, tools, calculators, leaderboards, and strategy resources"
+    },
+    {
+      "title": "Submit a Community Resource",
+      "category": "community resources",
+      "url": "community-resources/submit/",
+      "summary": "Submission instructions for community guides, tools, calculators, data projects, and other helpful resources"
     },
     {
       "title": "Calculators",
@@ -61647,6 +61653,14 @@
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Screaming Punching Bag, Valiant Insignia Fragment, Acquaint Stone Fragment"
     },
     {
+      "title": "Duck's No-Thinky Guide to Penglai Immortal",
+      "category": "community resources",
+      "id": "duck-no-thinky-penglai-immortal",
+      "internal_id": "duck-no-thinky-penglai-immortal",
+      "url": "community-resources/#resource-duck-no-thinky-penglai-immortal",
+      "summary": "Guide · by Duck · NA - 86 · Fear no more, fellow mushrooms! The F2P Friendly, No-Thinky Guide to Isekai:Slow Life's mega event Penglai Immortal is here!!"
+    },
+    {
       "title": "Explore Mines / Casino on Yacht Tips",
       "category": "community resources",
       "id": "asquare-mid-ciy-tips",
@@ -61671,6 +61685,14 @@
       "summary": "Calculator · by Xia · EU - 288 · Guild power, Intimacy, and Earnings calculator built from leaderboard data."
     },
     {
+      "title": "Inferno Rally Encounter Rates",
+      "category": "community resources",
+      "id": "zikira-inferno-rally-encounter-rates",
+      "internal_id": "zikira-inferno-rally-encounter-rates",
+      "url": "community-resources/#resource-zikira-inferno-rally-encounter-rates",
+      "summary": "Tool · by Zikira · NA - 157 · Chubby Ginger behaviour not included."
+    },
+    {
       "title": "Northern Odyssey Tips",
       "category": "community resources",
       "id": "asquare-northern-odyssey-tips",
@@ -61685,6 +61707,14 @@
       "internal_id": "asquare-profiteer-card-tips",
       "url": "community-resources/asquare-profiteer-card-tips/",
       "summary": "Tips and tricks · by A Square · Tips for \"Profiteer Card\" Event"
+    },
+    {
+      "title": "Text Formatting",
+      "category": "community resources",
+      "id": "xia-text-formatting",
+      "internal_id": "xia-text-formatting",
+      "url": "community-resources/xia-text-formatting/",
+      "summary": "Guide · by Xia · EU - 288 · How to format text in chat, bio and other places."
     }
   ]
 }
