@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07 22:33 UTC",
+  "generated_at": "2026-09-08 22:36 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -15,7 +15,7 @@
     "museum": 135,
     "items": 4713,
     "events": 71,
-    "community-resources": 8,
+    "community-resources": 13,
     "calculators": 1
   },
   "entries": [
@@ -61653,6 +61653,22 @@
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Screaming Punching Bag, Valiant Insignia Fragment, Acquaint Stone Fragment"
     },
     {
+      "title": "Siege Warfare Base Placement",
+      "category": "community resources",
+      "id": "xia-siege-base-placement",
+      "internal_id": "xia-siege-base-placement",
+      "url": "community-resources/xia-siege-base-placement/",
+      "summary": "Resource · by Xia · EU - 288 · Guild base placement templates for the “Siege Warfare” event 🗺️"
+    },
+    {
+      "title": "Cross-Server Groups",
+      "category": "community resources",
+      "id": "zikira-cross-server-groups",
+      "internal_id": "zikira-cross-server-groups",
+      "url": "community-resources/#resource-zikira-cross-server-groups",
+      "summary": "Resource · by Zikira · NA - 157 · List of observed NA and EU cross-server groups size 4 and up."
+    },
+    {
       "title": "Duck's No-Thinky Guide to Penglai Immortal",
       "category": "community resources",
       "id": "duck-no-thinky-penglai-immortal",
@@ -61693,6 +61709,14 @@
       "summary": "Tool · by Zikira · NA - 157 · Chubby Ginger behaviour not included."
     },
     {
+      "title": "Mega Event Comparison",
+      "category": "community resources",
+      "id": "zikira-mega-event-comparison",
+      "internal_id": "zikira-mega-event-comparison",
+      "url": "community-resources/#resource-zikira-mega-event-comparison",
+      "summary": "Resource · by Zikira · NA - 157 · Comparison of different mega events from the perspective of resources per dollar spent. No Longer Maintained."
+    },
+    {
       "title": "Northern Odyssey Tips",
       "category": "community resources",
       "id": "asquare-northern-odyssey-tips",
@@ -61701,12 +61725,28 @@
       "summary": "Tips and tricks · by A Square · Community tips for Story Mode and Endless Mode in Northern Odyssey."
     },
     {
+      "title": "PLI Rare Herb spirit heat map",
+      "category": "community resources",
+      "id": "zikira-penglai-immortal-heat-map",
+      "internal_id": "zikira-penglai-immortal-heat-map",
+      "url": "community-resources/#resource-zikira-penglai-immortal-heat-map",
+      "summary": "Tool · by Zikira · NA - 157 · A heat map of the rare herb spirit spawn locations and an optimal path reccomendation. Check the readme."
+    },
+    {
       "title": "Profiteer Card Tips",
       "category": "community resources",
       "id": "asquare-profiteer-card-tips",
       "internal_id": "asquare-profiteer-card-tips",
       "url": "community-resources/asquare-profiteer-card-tips/",
       "summary": "Tips and tricks · by A Square · Tips for \"Profiteer Card\" Event"
+    },
+    {
+      "title": "Siege Warfare Power Debuffs",
+      "category": "community resources",
+      "id": "xia-siege-power-debuff",
+      "internal_id": "xia-siege-power-debuff",
+      "url": "community-resources/#resource-xia-siege-power-debuff",
+      "summary": "Resource · by Xia · EU - 288 · Data recording how the seige power debuff works and scales as more fellows are KO'd"
     },
     {
       "title": "Text Formatting",
