@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 22:36 UTC",
+  "generated_at": "2026-09-08 23:27 UTC",
   "counts": {
     "fellows": 165,
     "family": 128,
@@ -15,7 +15,7 @@
     "museum": 135,
     "items": 4713,
     "events": 71,
-    "community-resources": 13,
+    "community-resources": 14,
     "calculators": 1
   },
   "entries": [
@@ -61661,6 +61661,22 @@
       "summary": "Resource · by Xia · EU - 288 · Guild base placement templates for the “Siege Warfare” event 🗺️"
     },
     {
+      "title": "Siege Warfare Power Debuffs",
+      "category": "community resources",
+      "id": "xia-siege-power-debuff",
+      "internal_id": "xia-siege-power-debuff",
+      "url": "community-resources/#resource-xia-siege-power-debuff",
+      "summary": "Resource · by Xia · EU - 288 · Data recording how the seige power debuff works and scales as more fellows are KO'd"
+    },
+    {
+      "title": "Touno F2P UR Guide",
+      "category": "community resources",
+      "id": "lunatheghost-touno-f2p",
+      "internal_id": "lunatheghost-touno-f2p",
+      "url": "community-resources/lunatheghost-touno-f2p/",
+      "summary": "Guide · by Luna The Ghost · Crystal and stamina spending guide to obtain 100 UR fragments in 4 rotations of Touno."
+    },
+    {
       "title": "Cross-Server Groups",
       "category": "community resources",
       "id": "zikira-cross-server-groups",
@@ -61739,14 +61755,6 @@
       "internal_id": "asquare-profiteer-card-tips",
       "url": "community-resources/asquare-profiteer-card-tips/",
       "summary": "Tips and tricks · by A Square · Tips for \"Profiteer Card\" Event"
-    },
-    {
-      "title": "Siege Warfare Power Debuffs",
-      "category": "community resources",
-      "id": "xia-siege-power-debuff",
-      "internal_id": "xia-siege-power-debuff",
-      "url": "community-resources/#resource-xia-siege-power-debuff",
-      "summary": "Resource · by Xia · EU - 288 · Data recording how the seige power debuff works and scales as more fellows are KO'd"
     },
     {
       "title": "Text Formatting",
