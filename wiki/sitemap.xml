@@ -84,6 +84,21 @@
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/apothecary/potions/20005/default.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/apothecary/potions/1011/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/apothecary/potions/1012/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/apothecary/potions/1013/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/apothecary/potions/1014/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/apothecary/potions/1015/default.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/magic-farm/</loc>
@@ -175,7 +190,13 @@
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant102/default.webp</image:loc>
     </image:image>
     <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant2005/default.webp</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant106/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant2002/default.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant1003/default.webp</image:loc>
@@ -184,7 +205,16 @@
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant1005/default.webp</image:loc>
     </image:image>
     <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant2003/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant2001/default.webp</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant1004/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant2004/default.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/magic-farm/plants/Plant107/default.webp</image:loc>
@@ -1092,6 +1122,9 @@
   </url>
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/calculators/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/</loc>
   </url>
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/calculators/raphaels-stage/</loc>
@@ -2105,6 +2138,15 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_308/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/serious-acedia/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_309/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_309/aa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -6668,6 +6710,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-inherit-hero-309/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Inherit_Hero_309/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-moonevent-exchangeitem-06/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MoonEvent_ExchangeItem_06/default.webp</image:loc>
@@ -6791,6 +6839,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lctaskscore-halloween2025/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LCTaskScore_Halloween2025/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lctaskscore-halloween2026/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LCTaskScore_Halloween2026/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -9740,6 +9794,30 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w66c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W66C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w172c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W172C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-w66c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_W66C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-w172c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_W172C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w155c1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W155C1/default.webp</image:loc>
@@ -10238,6 +10316,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h5c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H5C2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w101c1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W101C1/default.webp</image:loc>
@@ -10445,6 +10529,30 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h1c2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H1C2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w191c5/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W191C5/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-w191c5/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_W191C5/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h129c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H129C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-h129c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_H129C1/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -11210,6 +11318,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w102c6/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W102C6/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-w102c6/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_W102C6/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w18c2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W18C2/default.webp</image:loc>
@@ -11441,6 +11561,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-w104c2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_W104C2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h214c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H214C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-h214c1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_H214C1/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -12521,6 +12653,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-h111c1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_H111C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h59c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H59C2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-h59c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_H59C2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -15152,6 +15296,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-inherit-hero-197/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Inherit_Hero_197/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-moonlight-goods-03/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Moonlight_Goods_03/default.webp</image:loc>
@@ -16280,6 +16430,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-halloween2026-clothesbox-3star/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Halloween2026_ClothesBox_3Star/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-commonlottery-halloween2026/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CommonLottery_Halloween2026/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-commonlottery-halloween2025/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CommonLottery_Halloween2025/default.webp</image:loc>
@@ -16433,6 +16595,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-h301/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H301/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame3-plant2005/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame3_Plant2005/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -17591,6 +17759,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-headframe-honeymee/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_HeadFrame_Honeymee/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame3-plant2002/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame3_Plant2002/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -19892,6 +20066,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-inherit-hero-198/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Inherit_Hero_198/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-56/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_56/default.webp</image:loc>
@@ -21950,6 +22130,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame3-plant2003/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame3_Plant2003/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-token-newthreematch/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Token_NewThreeMatch/default.webp</image:loc>
@@ -22085,6 +22271,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-33/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_33/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame3-plant2001/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame3_Plant2001/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -23690,6 +23882,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-309-showoff-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_309_showoff_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-309-uniquename-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_309_uniqueName_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-177-uniquename-prefix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_177_uniqueName_prefix/default.webp</image:loc>
@@ -24218,6 +24422,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-123/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_123/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-147/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_147/default.webp</image:loc>
@@ -24257,12 +24467,6 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-117/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_117/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-combinedtitle-123/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CombinedTitle_123/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -26258,6 +26462,42 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-309/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_309/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-309m1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_309M1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-hero-309/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Hero_309/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-titlebasemap-hero-309/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_TitleBasemap_Hero_309/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-hero-309/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Hero_309/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-heropiece-309/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_HeroPiece_309/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-trusteeship-card/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Trusteeship_Card/default.webp</image:loc>
@@ -26924,6 +27164,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame3-plant2004/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame3_Plant2004/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-14/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_14/default.webp</image:loc>
@@ -27257,6 +27503,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-firstrecharge-petbox/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FirstRecharge_PetBox/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-thirtydaystier-pet-optionalbox1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ThirtyDaysTier_Pet_OptionalBox1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-thirtydaystier-pet-optionalbox2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ThirtyDaysTier_Pet_OptionalBox2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -27872,6 +28130,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w66c1-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W66C1_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w172c1-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W172C1_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w155c1-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W155C1_showoff_suffix/default.webp</image:loc>
@@ -28298,9 +28568,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w191c5-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W191C5_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-125-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_125_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-h129c1-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_H129C1_showoff_suffix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -28784,6 +29066,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w102c6-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W102C6_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w18c2-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W18C2_showoff_suffix/default.webp</image:loc>
@@ -29045,6 +29333,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w104c2-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W104C2_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-h214c1-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_H214C1_showoff_suffix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -29327,6 +29621,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-w104c3-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_W104C3_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-309-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_309_showoff_suffix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -29681,6 +29981,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-h111c1-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_H111C1_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-h59c2-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_H59C2_showoff_suffix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -32864,6 +33170,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-167s1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_167S1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-preregistration-w66/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_PreRegistration_W66/default.webp</image:loc>
@@ -33029,6 +33341,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gveinfernorally-weapon-0/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveInfernoRally_Weapon_0/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-halloween2026-clothesbox-3star-kr/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Halloween2026_ClothesBox_3Star_KR/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33478,7 +33796,7 @@
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/events/gve-coin-fight/</loc>
     <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_CoinFight01/default.webp</image:loc>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_CoinFight02/default.webp</image:loc>
     </image:image>
   </url>
   <url>

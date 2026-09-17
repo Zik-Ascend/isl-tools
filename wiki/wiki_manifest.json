@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-08 23:27 UTC",
+  "generated_at": "2026-09-17 00:50 UTC",
   "counts": {
-    "fellows": 165,
+    "fellows": 166,
     "family": 128,
     "familiars": 71,
     "artifacts": 99,
     "fishing": 87,
     "inn": 102,
-    "apothecary": 20,
-    "magic-farm": 39,
+    "apothecary": 25,
+    "magic-farm": 44,
     "expo": 144,
     "player-figures": 60,
     "treasure-hunt": 49,
     "museum": 135,
-    "items": 4713,
+    "items": 4759,
     "events": 71,
-    "community-resources": 14,
-    "calculators": 1
+    "community-resources": 16,
+    "calculators": 2
   },
   "entries": [
     {
@@ -144,6 +144,12 @@
       "category": "category",
       "url": "calculators/",
       "summary": "Interactive game calculators and testing tools"
+    },
+    {
+      "title": "Fellow Power Calculator",
+      "category": "calculators",
+      "url": "calculators/fellow-power/",
+      "summary": "Simulate Fellow power from levels, stars, Familiars, Artifacts, and account-wide stat sources"
     },
     {
       "title": "Raphael's Stage Calculator",
@@ -1770,6 +1776,18 @@
       "country": "5",
       "country_label": "Unfettered",
       "summary": "Fellow ID 308 · Rarity SR -> SSR+ -> UR"
+    },
+    {
+      "title": "Serious Acedia",
+      "category": "fellows",
+      "id": "309",
+      "internal_id": "Hero_309",
+      "url": "fellows/serious-acedia/",
+      "rarity": "SSR+ -> UR",
+      "rarity_sort": 6,
+      "country": "2",
+      "country_label": "Diligent",
+      "summary": "Fellow ID 309 · Rarity SSR+ -> UR"
     },
     {
       "title": "Veldora Tempest",
@@ -7464,6 +7482,66 @@
       "summary": "Potion ID 20005 · Inspiring · Rarity UR"
     },
     {
+      "title": "Height-Boosting Potion",
+      "category": "apothecary potions",
+      "id": "1011",
+      "internal_id": "1011",
+      "url": "apothecary/#apothecary-potion-1011",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "country": "3",
+      "country_label": "Brave",
+      "summary": "Potion ID 1011 · Brave · Rarity R"
+    },
+    {
+      "title": "Rust Remover",
+      "category": "apothecary potions",
+      "id": "1012",
+      "internal_id": "1012",
+      "url": "apothecary/#apothecary-potion-1012",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country": "1",
+      "country_label": "Inspiring",
+      "summary": "Potion ID 1012 · Inspiring · Rarity SR"
+    },
+    {
+      "title": "Rainbow Potion",
+      "category": "apothecary potions",
+      "id": "1013",
+      "internal_id": "1013",
+      "url": "apothecary/#apothecary-potion-1013",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "country": "5",
+      "country_label": "Unfettered",
+      "summary": "Potion ID 1013 · Unfettered · Rarity SR"
+    },
+    {
+      "title": "Plant Nutrient",
+      "category": "apothecary potions",
+      "id": "1014",
+      "internal_id": "1014",
+      "url": "apothecary/#apothecary-potion-1014",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country": "2",
+      "country_label": "Diligent",
+      "summary": "Potion ID 1014 · Diligent · Rarity SSR"
+    },
+    {
+      "title": "Lubricant",
+      "category": "apothecary potions",
+      "id": "1015",
+      "internal_id": "1015",
+      "url": "apothecary/#apothecary-potion-1015",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country": "4",
+      "country_label": "Informed",
+      "summary": "Potion ID 1015 · Informed · Rarity SSR"
+    },
+    {
       "title": "Rattle Grapes",
       "category": "magic farm plants",
       "id": "Plant1",
@@ -7812,6 +7890,18 @@
       "summary": "Plant ID Plant102 · Inspiring · Rarity SSR"
     },
     {
+      "title": "Glacial Tulip",
+      "category": "magic farm plants",
+      "id": "Plant2005",
+      "internal_id": "Plant2005",
+      "url": "magic-farm/#magic-farm-plant-plant2005",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "country": "2",
+      "country_label": "Diligent",
+      "summary": "Plant ID Plant2005 · Diligent · Rarity UR"
+    },
+    {
       "title": "Hammerfruit",
       "category": "magic farm plants",
       "id": "Plant106",
@@ -7822,6 +7912,18 @@
       "country": "4",
       "country_label": "Informed",
       "summary": "Plant ID Plant106 · Informed · Rarity SSR"
+    },
+    {
+      "title": "Honeycomb Flower",
+      "category": "magic farm plants",
+      "id": "Plant2002",
+      "internal_id": "Plant2002",
+      "url": "magic-farm/#magic-farm-plant-plant2002",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "country": "5",
+      "country_label": "Unfettered",
+      "summary": "Plant ID Plant2002 · Unfettered · Rarity UR"
     },
     {
       "title": "Macaron Bush",
@@ -7848,6 +7950,30 @@
       "summary": "Plant ID Plant1005 · Unfettered · Rarity UR"
     },
     {
+      "title": "Pocky Sugarcane",
+      "category": "magic farm plants",
+      "id": "Plant2003",
+      "internal_id": "Plant2003",
+      "url": "magic-farm/#magic-farm-plant-plant2003",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country": "3",
+      "country_label": "Brave",
+      "summary": "Plant ID Plant2003 · Brave · Rarity SSR"
+    },
+    {
+      "title": "Popcorn Gypsophila",
+      "category": "magic farm plants",
+      "id": "Plant2001",
+      "internal_id": "Plant2001",
+      "url": "magic-farm/#magic-farm-plant-plant2001",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country": "4",
+      "country_label": "Informed",
+      "summary": "Plant ID Plant2001 · Informed · Rarity SSR"
+    },
+    {
       "title": "Serene World Tree",
       "category": "magic farm plants",
       "id": "Plant1004",
@@ -7858,6 +7984,18 @@
       "country": "4",
       "country_label": "Informed",
       "summary": "Plant ID Plant1004 · Informed · Rarity SSR"
+    },
+    {
+      "title": "Soda-Bottle Bellflower",
+      "category": "magic farm plants",
+      "id": "Plant2004",
+      "internal_id": "Plant2004",
+      "url": "magic-farm/#magic-farm-plant-plant2004",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "country": "1",
+      "country_label": "Inspiring",
+      "summary": "Plant ID Plant2004 · Inspiring · Rarity SSR"
     },
     {
       "title": "Spikeball Guard",
@@ -14511,6 +14649,16 @@
       "summary": "Item Item_Owner_Hero_504 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
     },
     {
+      "title": "Acedia's Inheritance Crystal",
+      "category": "items",
+      "id": "Item_Inherit_Hero_309",
+      "internal_id": "Item_Inherit_Hero_309",
+      "url": "items/item-inherit-hero-309/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Inherit_Hero_309 · Rarity SSR · Backpack · Inheritance Task"
+    },
+    {
       "title": "Achievement Flag",
       "category": "items",
       "id": "Item_MoonEvent_ExchangeItem_06",
@@ -14719,6 +14867,16 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_LCTaskScore_Halloween2025 · Rarity SR · Limited Costume"
+    },
+    {
+      "title": "Active Points",
+      "category": "items",
+      "id": "Item_LCTaskScore_Halloween2026",
+      "internal_id": "Item_LCTaskScore_Halloween2026",
+      "url": "items/item-lctaskscore-halloween2026/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_LCTaskScore_Halloween2026 · Rarity SR · Limited Costume"
     },
     {
       "title": "Active Points",
@@ -19631,6 +19789,46 @@
       "summary": "Item Item_ClothesChip_W191C4 · Rarity SSR · Backpack"
     },
     {
+      "title": "Costume [\"Super Scary\" Ghost] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_W66C1",
+      "internal_id": "Item_ClothesChip_W66C1",
+      "url": "items/item-clotheschip-w66c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W66C1 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [\"Super Scary\" Ghost] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_W172C1",
+      "internal_id": "Item_ClothesChip_W172C1",
+      "url": "items/item-clotheschip-w172c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W172C1 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [\"Super Scary\" Ghost] (★3) Blueprint",
+      "category": "items",
+      "id": "Item_ClothesChipPiece_W66C1",
+      "internal_id": "Item_ClothesChipPiece_W66C1",
+      "url": "items/item-clotheschippiece-w66c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChipPiece_W66C1 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [\"Super Scary\" Ghost] (★3) Blueprint",
+      "category": "items",
+      "id": "Item_ClothesChipPiece_W172C1",
+      "internal_id": "Item_ClothesChipPiece_W172C1",
+      "url": "items/item-clotheschippiece-w172c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChipPiece_W172C1 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
       "title": "Costume [\"Surprise\" Service] (★3)",
       "category": "items",
       "id": "Item_ClothesChip_W155C1",
@@ -20461,6 +20659,16 @@
       "summary": "Item Item_ClothesChipPiece_W11C3 · Rarity SSR · Backpack"
     },
     {
+      "title": "Costume [Carving Pumpkins] (★2)",
+      "category": "items",
+      "id": "Item_ClothesChip_H5C2",
+      "internal_id": "Item_ClothesChip_H5C2",
+      "url": "items/item-clotheschip-h5c2/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_H5C2 · Rarity SSR · Backpack"
+    },
+    {
       "title": "Costume [Catnap by the Sea] (★3)",
       "category": "items",
       "id": "Item_ClothesChip_W101C1",
@@ -20809,6 +21017,46 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_ClothesChip_H1C2 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [Delusion, Set Sail!] (★4)",
+      "category": "items",
+      "id": "Item_ClothesChip_W191C5",
+      "internal_id": "Item_ClothesChip_W191C5",
+      "url": "items/item-clotheschip-w191c5/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W191C5 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [Delusion, Set Sail!] (★4) Blueprint",
+      "category": "items",
+      "id": "Item_ClothesChipPiece_W191C5",
+      "internal_id": "Item_ClothesChipPiece_W191C5",
+      "url": "items/item-clotheschippiece-w191c5/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChipPiece_W191C5 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [Diagnosis at the Museum] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_H129C1",
+      "internal_id": "Item_ClothesChip_H129C1",
+      "url": "items/item-clotheschip-h129c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_H129C1 · Rarity SSR · Backpack · Reach Platinum tier in the Rank Challenge to obtain."
+    },
+    {
+      "title": "Costume [Diagnosis at the Museum] (★3) Blueprint",
+      "category": "items",
+      "id": "Item_ClothesChipPiece_H129C1",
+      "internal_id": "Item_ClothesChipPiece_H129C1",
+      "url": "items/item-clotheschippiece-h129c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChipPiece_H129C1 · Rarity SSR · Backpack"
     },
     {
       "title": "Costume [Diligent Genius] (★3)",
@@ -22081,6 +22329,26 @@
       "summary": "Item Item_ClothesChipPiece_W21C2 · Rarity SSR · Backpack · Limited Costume"
     },
     {
+      "title": "Costume [Leisure Time] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_W102C6",
+      "internal_id": "Item_ClothesChip_W102C6",
+      "url": "items/item-clotheschip-w102c6/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W102C6 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Costume [Leisure Time] (★3) Blueprint",
+      "category": "items",
+      "id": "Item_ClothesChipPiece_W102C6",
+      "internal_id": "Item_ClothesChipPiece_W102C6",
+      "url": "items/item-clotheschippiece-w102c6/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChipPiece_W102C6 · Rarity SSR · Backpack"
+    },
+    {
       "title": "Costume [Leisurely Shopping Spree] (★3)",
       "category": "items",
       "id": "Item_ClothesChip_W18C2",
@@ -22469,6 +22737,26 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_ClothesChipPiece_W104C2 · Rarity SSR · Backpack · Crow's Theatre Event"
+    },
+    {
+      "title": "Costume [Night on the Galactic Railroad] (★4)",
+      "category": "items",
+      "id": "Item_ClothesChip_H214C1",
+      "internal_id": "Item_ClothesChip_H214C1",
+      "url": "items/item-clotheschip-h214c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_H214C1 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [Night on the Galactic Railroad] (★4) Blueprint",
+      "category": "items",
+      "id": "Item_ClothesChipPiece_H214C1",
+      "internal_id": "Item_ClothesChipPiece_H214C1",
+      "url": "items/item-clotheschippiece-h214c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChipPiece_H214C1 · Rarity SSR · Backpack · Limited Costume"
     },
     {
       "title": "Costume [Night Play] (★3)",
@@ -24269,6 +24557,26 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_ClothesChipPiece_H111C1 · Rarity SSR · Backpack · World Tree: Water Fight"
+    },
+    {
+      "title": "Costume [We're All Good Friends] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_H59C2",
+      "internal_id": "Item_ClothesChip_H59C2",
+      "url": "items/item-clotheschip-h59c2/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_H59C2 · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Costume [We're All Good Friends] (★3) Blueprint",
+      "category": "items",
+      "id": "Item_ClothesChipPiece_H59C2",
+      "internal_id": "Item_ClothesChipPiece_H59C2",
+      "url": "items/item-clotheschippiece-h59c2/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChipPiece_H59C2 · Rarity SSR · Backpack · Limited Costume"
     },
     {
       "title": "Costume [Welcome Bear] (★2)",
@@ -28651,6 +28959,16 @@
       "summary": "Item Item_Owner_HeroPiece_197 · Rarity SSR · Backpack · Time to Eat! Delicious Dungeon Quest"
     },
     {
+      "title": "Fifi's Inheritance Crystal",
+      "category": "items",
+      "id": "Item_Inherit_Hero_197",
+      "internal_id": "Item_Inherit_Hero_197",
+      "url": "items/item-inherit-hero-197/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Inherit_Hero_197 · Rarity SSR · Backpack · Inheritance Task"
+    },
+    {
       "title": "Fifi's Special Hamburger",
       "category": "items",
       "id": "Item_Moonlight_Goods_03",
@@ -30531,6 +30849,26 @@
       "summary": "Item Item_Halloween2025_ClothesBox · Rarity SSR · Backpack · Limited Costume"
     },
     {
+      "title": "Ghost Day Carnival 3★ Costume Chest",
+      "category": "items",
+      "id": "Item_Halloween2026_ClothesBox_3Star",
+      "internal_id": "Item_Halloween2026_ClothesBox_3Star",
+      "url": "items/item-halloween2026-clothesbox-3star/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Halloween2026_ClothesBox_3Star · Rarity SSR · Backpack · Limited Costume"
+    },
+    {
+      "title": "Ghost Day Carnival Gacha Ticket",
+      "category": "items",
+      "id": "Item_CommonLottery_Halloween2026",
+      "internal_id": "Item_CommonLottery_Halloween2026",
+      "url": "items/item-commonlottery-halloween2026/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_CommonLottery_Halloween2026 · Rarity SSR · Activity · Limited Costume"
+    },
+    {
       "title": "Ghost Day Ticket",
       "category": "items",
       "id": "Item_CommonLottery_Halloween2025",
@@ -30789,6 +31127,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_Weapon_Equipment_6_H301 · Rarity UR · Backpack · [Isekai Demon Hunter Arc] crossover event's [Demon Slayer Corps Gacha - Shop]"
+    },
+    {
+      "title": "Glacial Tulip",
+      "category": "items",
+      "id": "Item_SimGame3_Plant2005",
+      "internal_id": "Item_SimGame3_Plant2005",
+      "url": "items/item-simgame3-plant2005/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_SimGame3_Plant2005 · Rarity UR · Magic Farm"
     },
     {
       "title": "Glance",
@@ -32719,6 +33067,16 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Appearance_HeadFrame_Honeymee · Rarity SSR"
+    },
+    {
+      "title": "Honeycomb Flower",
+      "category": "items",
+      "id": "Item_SimGame3_Plant2002",
+      "internal_id": "Item_SimGame3_Plant2002",
+      "url": "items/item-simgame3-plant2002/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_SimGame3_Plant2002 · Rarity UR · Magic Farm"
     },
     {
       "title": "Honored Warrior",
@@ -36551,6 +36909,16 @@
       "summary": "Item Item_Owner_Hero_2 · Rarity N · Daily Tasks, Achievements, Events, Shop"
     },
     {
+      "title": "Maxim's Inheritance Crystal",
+      "category": "items",
+      "id": "Item_Inherit_Hero_198",
+      "internal_id": "Item_Inherit_Hero_198",
+      "url": "items/item-inherit-hero-198/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Inherit_Hero_198 · Rarity SSR · Backpack · Inheritance Task"
+    },
+    {
       "title": "Maynard",
       "category": "items",
       "id": "Item_Owner_Wife_56",
@@ -39981,6 +40349,16 @@
       "summary": "Item Item_Weapon_Equipment_6_37 · Rarity UR · Backpack · Kawaiimush crossover event's Land Gacha - Shop."
     },
     {
+      "title": "Pocky Sugarcane",
+      "category": "items",
+      "id": "Item_SimGame3_Plant2003",
+      "internal_id": "Item_SimGame3_Plant2003",
+      "url": "items/item-simgame3-plant2003/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame3_Plant2003 · Rarity SSR · Magic Farm"
+    },
+    {
       "title": "Point",
       "category": "items",
       "id": "Item_Token_NewThreeMatch",
@@ -40209,6 +40587,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_Weapon_Equipment_6_33 · Rarity UR · Backpack · Kawaiimush crossover event's Land Gacha - Shop."
+    },
+    {
+      "title": "Popcorn Gypsophila",
+      "category": "items",
+      "id": "Item_SimGame3_Plant2001",
+      "internal_id": "Item_SimGame3_Plant2001",
+      "url": "items/item-simgame3-plant2001/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame3_Plant2001 · Rarity SSR · Magic Farm"
     },
     {
       "title": "Porcagave",
@@ -42881,6 +43269,26 @@
       "summary": "Item Item_Wife_102_uniqueName_prefix · Rarity UR · Sera's Stella Level Reaches 10"
     },
     {
+      "title": "Prefix Title: Serious Acedia",
+      "category": "items",
+      "id": "Item_Hero_309_showoff_prefix",
+      "internal_id": "Item_Hero_309_showoff_prefix",
+      "url": "items/item-hero-309-showoff-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_309_showoff_prefix · Rarity UR · Serious Acedia's Stella Level Reaches 2"
+    },
+    {
+      "title": "Prefix Title: Serious Acedia",
+      "category": "items",
+      "id": "Item_Hero_309_uniqueName_prefix",
+      "internal_id": "Item_Hero_309_uniqueName_prefix",
+      "url": "items/item-hero-309-uniquename-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_309_uniqueName_prefix · Rarity UR · Serious Acedia's Stella Level Reaches 6"
+    },
+    {
       "title": "Prefix Title: Shalltear Bloodfallen",
       "category": "items",
       "id": "Item_Wife_177_uniqueName_prefix",
@@ -43761,6 +44169,16 @@
       "summary": "Item Item_CombinedTitle_269 · Rarity N"
     },
     {
+      "title": "Prefix: Novice",
+      "category": "items",
+      "id": "Item_CombinedTitle_123",
+      "internal_id": "Item_CombinedTitle_123",
+      "url": "items/item-combinedtitle-123/",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Item Item_CombinedTitle_123 · Rarity N"
+    },
+    {
       "title": "Prefix: Party",
       "category": "items",
       "id": "Item_CombinedTitle_147",
@@ -43829,16 +44247,6 @@
       "rarity": "N",
       "rarity_sort": 1,
       "summary": "Item Item_CombinedTitle_117 · Rarity N"
-    },
-    {
-      "title": "Prefix: Rookie",
-      "category": "items",
-      "id": "Item_CombinedTitle_123",
-      "internal_id": "Item_CombinedTitle_123",
-      "url": "items/item-combinedtitle-123/",
-      "rarity": "N",
-      "rarity_sort": 1,
-      "summary": "Item Item_CombinedTitle_123 · Rarity N"
     },
     {
       "title": "Prefix: Skilled",
@@ -47161,6 +47569,66 @@
       "summary": "Item Item_SimGame3_Plant1004 · Rarity SSR · Magic Farm"
     },
     {
+      "title": "Serious Acedia",
+      "category": "items",
+      "id": "Item_Owner_Hero_309",
+      "internal_id": "Item_Owner_Hero_309",
+      "url": "items/item-owner-hero-309/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_309 · Rarity SSR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Serious Acedia",
+      "category": "items",
+      "id": "Item_Owner_Hero_309M1",
+      "internal_id": "Item_Owner_Hero_309M1",
+      "url": "items/item-owner-hero-309m1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_309M1 · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Serious Acedia Dynamic Avatar",
+      "category": "items",
+      "id": "Item_ActiveHead_Hero_309",
+      "internal_id": "Item_ActiveHead_Hero_309",
+      "url": "items/item-activehead-hero-309/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_ActiveHead_Hero_309 · Rarity UR · Serious Acedia's Stella Level Reaches 10"
+    },
+    {
+      "title": "Serious Acedia Title Underframe",
+      "category": "items",
+      "id": "Item_TitleBasemap_Hero_309",
+      "internal_id": "Item_TitleBasemap_Hero_309",
+      "url": "items/item-titlebasemap-hero-309/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_TitleBasemap_Hero_309 · Rarity UR · Serious Acedia's Stella Level Reaches 8"
+    },
+    {
+      "title": "Serious Acedia's Crystal Fragment",
+      "category": "items",
+      "id": "Item_RarityUpgrade_Hero_309",
+      "internal_id": "Item_RarityUpgrade_Hero_309",
+      "url": "items/item-rarityupgrade-hero-309/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_RarityUpgrade_Hero_309 · Rarity UR · Backpack · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Serious Acedia's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_309",
+      "internal_id": "Item_Owner_HeroPiece_309",
+      "url": "items/item-owner-heropiece-309/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_309 · Rarity SSR · Backpack · Wealth from All Sides: Bazaar Mania"
+    },
+    {
       "title": "Service Card",
       "category": "items",
       "id": "Item_Trusteeship_Card",
@@ -48271,6 +48739,16 @@
       "summary": "Item Item_WaterFight_Weapon_6 · Rarity R · World Tree: Water Fight"
     },
     {
+      "title": "Soda-Bottle Bellflower",
+      "category": "items",
+      "id": "Item_SimGame3_Plant2004",
+      "internal_id": "Item_SimGame3_Plant2004",
+      "url": "items/item-simgame3-plant2004/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame3_Plant2004 · Rarity SSR · Magic Farm"
+    },
+    {
       "title": "Sofia",
       "category": "items",
       "id": "Item_Owner_Wife_14",
@@ -48829,6 +49307,26 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_FirstRecharge_PetBox · Rarity SSR · Backpack · Advanced Rebate"
+    },
+    {
+      "title": "SSR Familiar Chest",
+      "category": "items",
+      "id": "Item_ThirtyDaysTier_Pet_OptionalBox1",
+      "internal_id": "Item_ThirtyDaysTier_Pet_OptionalBox1",
+      "url": "items/item-thirtydaystier-pet-optionalbox1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ThirtyDaysTier_Pet_OptionalBox1 · Rarity SSR · Backpack · Grade System"
+    },
+    {
+      "title": "SSR Familiar Chest",
+      "category": "items",
+      "id": "Item_ThirtyDaysTier_Pet_OptionalBox2",
+      "internal_id": "Item_ThirtyDaysTier_Pet_OptionalBox2",
+      "url": "items/item-thirtydaystier-pet-optionalbox2/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ThirtyDaysTier_Pet_OptionalBox2 · Rarity SSR · Backpack · Grade System"
     },
     {
       "title": "SSR Family",
@@ -49851,6 +50349,26 @@
       "summary": "Item Item_GetDE_10 · Rarity R · Backpack · Fountain of Wishes, Gold Shop, Guild Shop"
     },
     {
+      "title": "Suffix Title: \"Super Scary\" Ghost",
+      "category": "items",
+      "id": "Item_W66C1_showoff_suffix",
+      "internal_id": "Item_W66C1_showoff_suffix",
+      "url": "items/item-w66c1-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_W66C1_showoff_suffix · Rarity UR · \"Super Scary\" Ghost Reaches Lv. 5"
+    },
+    {
+      "title": "Suffix Title: \"Super Scary\" Ghost",
+      "category": "items",
+      "id": "Item_W172C1_showoff_suffix",
+      "internal_id": "Item_W172C1_showoff_suffix",
+      "url": "items/item-w172c1-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_W172C1_showoff_suffix · Rarity UR · \"Super Scary\" Ghost Reaches Lv. 5"
+    },
+    {
       "title": "Suffix Title: \"Surprise\" Service",
       "category": "items",
       "id": "Item_W155C1_showoff_suffix",
@@ -50561,6 +51079,16 @@
       "summary": "Item Item_W191C3_showoff_suffix · Rarity UR · Decorating for New Year Reaches Lv. 5"
     },
     {
+      "title": "Suffix Title: Delusion, Set Sail!",
+      "category": "items",
+      "id": "Item_W191C5_showoff_suffix",
+      "internal_id": "Item_W191C5_showoff_suffix",
+      "url": "items/item-w191c5-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_W191C5_showoff_suffix · Rarity UR · Delusion, Set Sail! Reaches Lv. 5"
+    },
+    {
       "title": "Suffix Title: Devileer",
       "category": "items",
       "id": "Item_Wife_125_showoff_suffix",
@@ -50569,6 +51097,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_Wife_125_showoff_suffix · Rarity UR · Devileer's Stella Level Reaches 5"
+    },
+    {
+      "title": "Suffix Title: Diagnosis at the Museum",
+      "category": "items",
+      "id": "Item_H129C1_showoff_suffix",
+      "internal_id": "Item_H129C1_showoff_suffix",
+      "url": "items/item-h129c1-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_H129C1_showoff_suffix · Rarity UR · Diagnosis at the Museum Reaches Lv. 5"
     },
     {
       "title": "Suffix Title: Diligent Genius",
@@ -51371,6 +51909,16 @@
       "summary": "Item Item_W21C2_showoff_suffix · Rarity UR · Late Night Story Session Reaches Lv. 5"
     },
     {
+      "title": "Suffix Title: Leisure Time",
+      "category": "items",
+      "id": "Item_W102C6_showoff_suffix",
+      "internal_id": "Item_W102C6_showoff_suffix",
+      "url": "items/item-w102c6-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_W102C6_showoff_suffix · Rarity UR · Leisure Time Reaches Lv. 5"
+    },
+    {
       "title": "Suffix Title: Leisurely Shopping Spree",
       "category": "items",
       "id": "Item_W18C2_showoff_suffix",
@@ -51809,6 +52357,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_W104C2_showoff_suffix · Rarity UR · Night Journey Reaches Lv. 5"
+    },
+    {
+      "title": "Suffix Title: Night on the Galactic Railroad",
+      "category": "items",
+      "id": "Item_H214C1_showoff_suffix",
+      "internal_id": "Item_H214C1_showoff_suffix",
+      "url": "items/item-h214c1-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_H214C1_showoff_suffix · Rarity UR · Night on the Galactic Railroad Reaches Lv. 5"
     },
     {
       "title": "Suffix Title: Night Play",
@@ -52279,6 +52837,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_W104C3_showoff_suffix · Rarity UR · Sensory Training Reaches Lv. 5"
+    },
+    {
+      "title": "Suffix Title: Serious Acedia",
+      "category": "items",
+      "id": "Item_Hero_309_showoff_suffix",
+      "internal_id": "Item_Hero_309_showoff_suffix",
+      "url": "items/item-hero-309-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_309_showoff_suffix · Rarity UR · Serious Acedia's Stella Level Reaches 4"
     },
     {
       "title": "Suffix Title: Shelter Guardian",
@@ -52869,6 +53437,16 @@
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Item Item_H111C1_showoff_suffix · Rarity UR · Water Gun Showdown! Reaches Lv. 5"
+    },
+    {
+      "title": "Suffix Title: We're All Good Friends",
+      "category": "items",
+      "id": "Item_H59C2_showoff_suffix",
+      "internal_id": "Item_H59C2_showoff_suffix",
+      "url": "items/item-h59c2-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_H59C2_showoff_suffix · Rarity UR · We're All Good Friends Reaches Lv. 5"
     },
     {
       "title": "Suffix Title: Welcome to the Shadow Kingdom Hotel",
@@ -58171,6 +58749,16 @@
       "summary": "Item Item_WC_Skill_LevelUp_02 · Rarity SSR · Backpack · Daily Tasks, Achievements, Events, Shop"
     },
     {
+      "title": "希希",
+      "category": "items",
+      "id": "Item_Owner_Wife_167S1",
+      "internal_id": "Item_Owner_Wife_167S1",
+      "url": "items/item-owner-wife-167s1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Wife_167S1 · Rarity UR · 培养UR★伙伴希希的信赖度，可激活希希的家人身份"
+    },
+    {
       "title": "幸子",
       "category": "items",
       "id": "Item_PreRegistration_W66",
@@ -58449,6 +59037,16 @@
       "rarity": "0",
       "rarity_sort": 0,
       "summary": "Item Item_GveInfernoRally_Weapon_0 · Rarity 0 · Savage! Inferno Rally"
+    },
+    {
+      "title": "鬼灵游园3星时装自选宝箱",
+      "category": "items",
+      "id": "Item_Halloween2026_ClothesBox_3Star_KR",
+      "internal_id": "Item_Halloween2026_ClothesBox_3Star_KR",
+      "url": "items/item-halloween2026-clothesbox-3star-kr/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Halloween2026_ClothesBox_3Star_KR · Rarity SSR · Backpack · 限时时装活动"
     },
     {
       "title": "魔法のコレクションの断片",
@@ -59218,7 +59816,7 @@
       "id": "MonthlyActivitiesBingo",
       "internal_id": "MonthlyActivitiesBingo",
       "url": "events/monthly-activities-bingo/",
-      "summary": "36 phases · 14 days · Core rewards: Costume [Talented Gardener] (★2), Fairy Bottle, Acquaint Stone Fragment, Costume [Shining Wisdom] (★2), Costume [Woodland Red Hood] (★2), Costume [Flowing Dress] (★2)"
+      "summary": "37 phases · 14 days · Core rewards: Costume [Talented Gardener] (★2), Fairy Bottle, Acquaint Stone Fragment, Costume [Shining Wisdom] (★2), Costume [Woodland Red Hood] (★2), Costume [Flowing Dress] (★2)"
     },
     {
       "title": "Gina's Diary",
@@ -59507,6 +60105,14 @@
       "internal_id": "MonthlyActivitiesBingo",
       "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-36",
       "summary": "Family Diary phase · 14 days · Core rewards: Costume [The Perfect \"Flower\"] (★2), Token Fragment Random Chest, Crystal"
+    },
+    {
+      "title": "Pump's Diary",
+      "category": "event phases",
+      "id": "MonthlyActivitiesBingo_37",
+      "internal_id": "MonthlyActivitiesBingo",
+      "url": "events/monthly-activities-bingo/#event-phase-monthlyactivitiesbingo-37",
+      "summary": "Family Diary phase · 14 days · Core rewards: Costume [Carving Pumpkins] (★2), Token Fragment Random Chest, Crystal"
     },
     {
       "title": "Fluffy Ranch",
@@ -59994,7 +60600,7 @@
       "id": "ClothesLimitFestival",
       "internal_id": "ClothesLimitFestival",
       "url": "events/clothes-limit-festival/",
-      "summary": "18 phases · 6, 7, 9, 12, or 14 days · Core rewards: Costume [Dance of Remembrance] (★4), Costume [Night as a Gown] (★4), Costume [Corner of the Banquet] (★3), Costume [Moonlight Tea Party] (★3), Costume [Rest in Wild] (★4), Costume [Bug Catcher Jewlry!] (★4)"
+      "summary": "19 phases · 6, 7, 9, 12, or 14 days · Core rewards: Costume [Dance of Remembrance] (★4), Costume [Night as a Gown] (★4), Costume [Corner of the Banquet] (★3), Costume [Moonlight Tea Party] (★3), Costume [Rest in Wild] (★4), Costume [Bug Catcher Jewlry!] (★4)"
     },
     {
       "title": "The Gilded Ball",
@@ -60107,6 +60713,14 @@
       "internal_id": "ClothesLimitFestival",
       "url": "events/clothes-limit-festival/#event-phase-halloween2025",
       "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Surprising Prankster] (★4), Costume [Crimson Honey] (★4), Costume [Pumpkin Field Party] (★3), Costume [Late Night Story Session] (★3)"
+    },
+    {
+      "title": "Ghost Day Carnival",
+      "category": "event phases",
+      "id": "Halloween2026",
+      "internal_id": "ClothesLimitFestival",
+      "url": "events/clothes-limit-festival/#event-phase-halloween2026",
+      "summary": "Limited Costume phase · 9 days · Core rewards: Costume [Night on the Galactic Railroad] (★4), Costume [Delusion, Set Sail!] (★4), Costume [We're All Good Friends] (★3), Costume [\"Super Scary\" Ghost] (★3)"
     },
     {
       "title": "Sparks of Destiny",
@@ -60634,7 +61248,7 @@
       "id": "SeasonJourney",
       "internal_id": "SeasonJourney",
       "url": "events/season-journey/",
-      "summary": "5 phases · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3)"
+      "summary": "6 phases · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3), Costume [Diagnosis at the Museum] (★3)"
     },
     {
       "title": "Rank Challenge",
@@ -60675,6 +61289,14 @@
       "internal_id": "SeasonJourney",
       "url": "events/season-journey/#event-phase-season-journey-005",
       "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_006",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-006",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3), Costume [Diagnosis at the Museum] (★3)"
     },
     {
       "title": "Raphael's Stage",
@@ -61426,7 +62048,7 @@
       "id": "GveCoinFight",
       "internal_id": "GveCoinFight",
       "url": "events/gve-coin-fight/",
-      "summary": "1 phases · 7 or 8 days · Core rewards: Linlang, Figure [Harvest Day M], Figure [Harvest Day F]"
+      "summary": "2 phases · 7 or 8 days · Core rewards: Linlang, Figure [Harvest Day M], Figure [Harvest Day F], Serious Acedia"
     },
     {
       "title": "Wealth from All Sides: Bazaar Mania",
@@ -61435,6 +62057,14 @@
       "internal_id": "GveCoinFight",
       "url": "events/gve-coin-fight/#event-phase-gvecoinfight-01",
       "summary": "Wealth from All Sides: Bazaar Mania phase · 7 or 8 days · Core rewards: Linlang, Figure [Harvest Day M], Figure [Harvest Day F]"
+    },
+    {
+      "title": "Wealth from All Sides: Bazaar Mania",
+      "category": "event phases",
+      "id": "GveCoinFight_02",
+      "internal_id": "GveCoinFight",
+      "url": "events/gve-coin-fight/#event-phase-gvecoinfight-02",
+      "summary": "Wealth from All Sides: Bazaar Mania phase · 7 or 8 days · Core rewards: Linlang, Figure [Harvest Day M], Figure [Harvest Day F], Serious Acedia"
     },
     {
       "title": "Wine Goddess and Fine Vintage",
@@ -61653,6 +62283,22 @@
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Screaming Punching Bag, Valiant Insignia Fragment, Acquaint Stone Fragment"
     },
     {
+      "title": "Duck's Easy Artifact Management Approach",
+      "category": "community resources",
+      "id": "duck-easy-artifact-management",
+      "internal_id": "duck-easy-artifact-management",
+      "url": "community-resources/#resource-duck-easy-artifact-management",
+      "summary": "Guide · by Duck · NA - 86 · A progression-focused approach to managing Artifacts, including collection milestones, leveling priorities, recycling, reforging, Materia, and advanced Artifact usage."
+    },
+    {
+      "title": "The Ultimate Power Rush Checklist",
+      "category": "community resources",
+      "id": "duck-ultimate-power-rush-checklist",
+      "internal_id": "duck-ultimate-power-rush-checklist",
+      "url": "community-resources/#resource-duck-ultimate-power-rush-checklist",
+      "summary": "Guide · by Duck · NA - 86 · A checklist and strategy guide for preparing upgrades and managing power growth around Power Rush."
+    },
+    {
       "title": "Siege Warfare Base Placement",
       "category": "community resources",
       "id": "xia-siege-base-placement",
@@ -61666,7 +62312,7 @@
       "id": "xia-siege-power-debuff",
       "internal_id": "xia-siege-power-debuff",
       "url": "community-resources/#resource-xia-siege-power-debuff",
-      "summary": "Resource · by Xia · EU - 288 · Data recording how the seige power debuff works and scales as more fellows are KO'd"
+      "summary": "Resource · by Xia · EU - 288 · Data recording how the siege power debuff works and scales as more fellows are KO'd"
     },
     {
       "title": "Touno F2P UR Guide",

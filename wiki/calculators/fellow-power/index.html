@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive Isekai Slow Life Fellow Power calculator using the game&#x27;s power formula, Fellow levels, stars, Familiars, Artifacts, and editable account-wide stat sources.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  
+  <meta property="og:site_name" content="Isekai Slow Life Wiki">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fellow Power Calculator | Isekai Slow Life Wiki">
+  <meta property="og:description" content="Interactive Isekai Slow Life Fellow Power calculator using the game&#x27;s power formula, Fellow levels, stars, Familiars, Artifacts, and editable account-wide stat sources.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fellow Power Calculator | Isekai Slow Life Wiki">
+  <meta name="twitter:description" content="Interactive Isekai Slow Life Fellow Power calculator using the game&#x27;s power formula, Fellow levels, stars, Familiars, Artifacts, and editable account-wide stat sources.">
+  <link rel="canonical" href="https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/">
+  <meta property="og:url" content="https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/#webpage","url":"https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/","name":"Fellow Power Calculator | Isekai Slow Life Wiki","description":"Interactive Isekai Slow Life Fellow Power calculator using the game's power formula, Fellow levels, stars, Familiars, Artifacts, and editable account-wide stat sources.","inLanguage":"en","isPartOf":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/home/#website"},"mainEntity":{"@type":"WebApplication","name":"Fellow Power Calculator","applicationCategory":"GameApplication","operatingSystem":"Web browser","description":"Simulate Isekai Slow Life Fellow power from game configuration and editable account-wide bonuses.","url":"https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/","@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/#entity"},"breadcrumb":{"@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"wiki","item":"https://zik-ascend.github.io/isl-tools/wiki/home/"},{"@type":"ListItem","position":2,"name":"calculators","item":"https://zik-ascend.github.io/isl-tools/wiki/calculators/"},{"@type":"ListItem","position":3,"name":"Fellow Power","item":"https://zik-ascend.github.io/isl-tools/wiki/calculators/fellow-power/"}]}]}</script>
+  <title>Fellow Power Calculator | Isekai Slow Life Wiki</title>
+  <link rel="sitemap" type="application/xml" href="../../sitemap.xml">
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("isl-wiki-theme");
+        if (["dark", "light", "mocha", "aqua", "earth", "black"].includes(savedTheme)) {
+          document.documentElement.dataset.theme = savedTheme;
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../assets/wiki.css?v=202609170050">
+</head>
+<body data-community-click-analytics="1" data-community-click-base-url="https://isl-community-resource-clicks.younglinkgcn2010.workers.dev" data-community-click-dedupe-minutes="30" data-community-click-stats-refresh-seconds="300">
+  <header class="wiki-topbar">
+    <a class="brand" href="../../home/"><span class="brand-full">Isekai Slow Life Wiki</span><span class="brand-short">ISL Wiki</span></a>
+    <a class="beta-report-link" href="../../beta/" title="found an issue? report it here" aria-label="Beta: found an issue? report it here">Beta ★</a>
+    <nav class="top-links desktop-links" aria-label="Wiki navigation">
+      <a href="../../home/">Home</a>
+      <details class="nav-dropdown">
+        <summary>Categories</summary>
+        <div class="nav-dropdown-menu">
+          <a href="../../fellows/">Fellows</a>
+          <a href="../../family/">Family</a>
+          <a href="../../familiars/">Familiars</a>
+          <a href="../../artifacts/">Artifacts</a>
+          <a href="../../fishing/">Fishing</a>
+          <a href="../../inn/">Inn</a>
+          <a href="../../apothecary/">Apothecary</a>
+          <a href="../../magic-farm/">Magic Farm</a>
+          <a href="../../expo/">Mushroom Expo</a>
+          <a href="../../player-figures/">Player Figures</a>
+          <a href="../../treasure-hunt/">Treasure Hunt</a>
+          <a href="../../museum/">Museum</a>
+          <a href="../../items/">Items</a>
+          <a href="../../events/">Events</a>
+          <a href="../../community-resources/">Community Resources</a>
+          <a href="../../calculators/">Calculators</a>
+        </div>
+      </details>
+    </nav>
+    <label class="theme-picker desktop-theme-picker">
+      <span>Theme</span>
+      <select data-wiki-theme-select aria-label="Wiki theme">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="mocha">Mocha</option>
+        <option value="aqua">Aqua</option>
+        <option value="earth">Earth</option>
+        <option value="black">Black</option>
+      </select>
+    </label>
+    <div class="search-wrap desktop-search">
+      <input id="wiki-search" data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
+      <div id="wiki-search-results" data-wiki-search-results class="search-results" hidden></div>
+    </div>
+    <button class="mobile-search-toggle" type="button" aria-expanded="false" aria-controls="wiki-mobile-search" aria-label="Open wiki search" data-mobile-search-toggle>
+      <span class="mobile-search-icon" aria-hidden="true"></span>
+    </button>
+    <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="wiki-mobile-menu" aria-label="Open wiki navigation" data-mobile-menu-toggle>
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+<div id="wiki-mobile-search" class="mobile-search-overlay" hidden data-mobile-search>
+  <div class="mobile-search-panel" role="dialog" aria-modal="true" aria-label="Wiki search">
+    <div class="mobile-nav-header">
+      <strong>Search Wiki</strong>
+      <button class="mobile-menu-close" type="button" aria-label="Close wiki search" data-mobile-search-close>×</button>
+    </div>
+    <div class="search-wrap mobile-search-popover">
+      <input data-wiki-search-input type="search" placeholder="Search wiki..." autocomplete="off" aria-label="Search wiki">
+      <div data-wiki-search-results class="search-results" hidden></div>
+    </div>
+  </div>
+</div>
+<div id="wiki-mobile-menu" class="mobile-nav-overlay" hidden data-mobile-menu>
+  <div class="mobile-nav-panel" role="dialog" aria-modal="true" aria-label="Wiki navigation menu">
+    <div class="mobile-nav-header">
+      <strong>Wiki Menu</strong>
+      <button class="mobile-menu-close" type="button" aria-label="Close wiki navigation" data-mobile-menu-close>×</button>
+    </div>
+    <nav class="mobile-menu-links" aria-label="Mobile wiki navigation">
+      <a href="../../home/">Home</a>
+      <a href="../../fellows/">Fellows</a>
+      <a href="../../family/">Family</a>
+      <a href="../../familiars/">Familiars</a>
+      <a href="../../artifacts/">Artifacts</a>
+      <a href="../../fishing/">Fishing</a>
+      <a href="../../inn/">Inn</a>
+      <a href="../../apothecary/">Apothecary</a>
+      <a href="../../magic-farm/">Magic Farm</a>
+      <a href="../../expo/">Mushroom Expo</a>
+      <a href="../../player-figures/">Player Figures</a>
+      <a href="../../treasure-hunt/">Treasure Hunt</a>
+      <a href="../../museum/">Museum</a>
+      <a href="../../items/">Items</a>
+      <a href="../../events/">Events</a>
+      <a href="../../community-resources/">Community Resources</a>
+      <a href="../../calculators/">Calculators</a>
+      <a href="../../beta/">Beta ★</a>
+    </nav>
+    <label class="theme-picker mobile-theme-picker">
+      <span>Theme</span>
+      <select data-wiki-theme-select aria-label="Wiki theme">
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+        <option value="mocha">Mocha</option>
+        <option value="aqua">Aqua</option>
+        <option value="earth">Earth</option>
+        <option value="black">Black</option>
+      </select>
+    </label>
+  </div>
+</div>
+
+  <main class="wiki-page">
+    <div class="breadcrumbs" aria-label="Breadcrumbs"><a href="../../home/">wiki</a><span class="crumb-sep">/</span><a href="../">calculators</a><span class="crumb-sep">/</span><span>Fellow Power</span></div>
+    <div class="page-meta">Last updated: <time>2026-09-17 00:50 UTC</time></div>
+    
+<section class="section-block category-summary fp-calculator-intro">
+  <p class="eyebrow">Calculator</p>
+  <h1>Fellow Power</h1>
+  <p class="lead">Recreate a Fellow's power using the game's runtime aggregation formula. Select the Fellow, Familiar, and Artifact, then enter account-wide bonuses from the in-game Power Details screen or other known sources.</p>
+  <div class="summary-chip-row">
+    <span class="summary-chip">166 Fellows</span>
+    <span class="summary-chip">71 Familiars</span>
+    <span class="summary-chip">99 Artifacts</span>
+    <span class="summary-chip">Browser-local presets</span>
+  </div>
+</section>
+
+<section class="section-block fp-calculator" data-fellow-power-calculator data-config="../../assets/fellow-power-data.json">
+  <div class="fp-notice">
+    <strong>Formula coverage</strong>
+    <p>The calculator uses the actual Fellow property formula traced from the game client. The game UI does not expose every possible runtime source, so each formula group includes editable totals and an <em>Other / Unlisted</em> field. Familiar milestone bonuses can require activation in-game; their calculated values are suggestions and remain editable.</p>
+  </div>
+
+  <div class="fp-preset-bar">
+    <label>Saved Fellow
+      <select data-fp-preset-select><option value="">— Unsaved configuration —</option></select>
+    </label>
+    <label>Preset name
+      <input type="text" maxlength="80" placeholder="My Fellow" data-fp-preset-name>
+    </label>
+    <div class="fp-preset-actions">
+      <button class="button primary" type="button" data-fp-preset-save>Save</button>
+      <button class="button" type="button" data-fp-preset-load>Load</button>
+      <button class="button" type="button" data-fp-preset-delete>Delete</button>
+      <button class="button" type="button" data-fp-reset>Reset</button>
+    </div>
+    <p class="fp-status" data-fp-status aria-live="polite"></p>
+  </div>
+
+  <div class="fp-result-grid" aria-live="polite">
+    <div class="fp-result-card primary"><span>Simulated Fellow Power</span><strong data-fp-result-power>0</strong></div>
+    <div class="fp-result-card"><span>Effective Aptitude</span><strong data-fp-result-aptitude>0</strong><small data-fp-result-aptitude-detail></small></div>
+    <div class="fp-result-card"><span>Base Power</span><strong data-fp-result-base-power>0</strong></div>
+    <div class="fp-result-card"><span>Before Final Power</span><strong data-fp-result-prefinal>0</strong></div>
+  </div>
+
+  <div class="fp-config-grid">
+    <section class="fp-panel">
+      <h2>Fellow</h2>
+      <div class="fp-field-grid">
+        <label>Fellow<select data-fp-fellow></select></label>
+        <label>Rarity / Form<select data-fp-fellow-variant></select></label>
+        <label>Level<input type="number" min="1" max="1000" value="1" inputmode="numeric" data-fp-fellow-level></label>
+        <label>Limit Break<select data-fp-quality></select></label>
+        <label>Stars<select data-fp-star></select></label>
+        <label><span class="fp-input-caption">Base factor <button class="fp-auto-badge" type="button" data-fp-base-factor-auto>Auto</button></span><input type="number" min="0" step="any" value="0" readonly data-fp-base-factor-input></label>
+      </div>
+      <dl class="fp-auto-summary fp-auto-summary-three">
+        <div><dt>Country</dt><dd data-fp-fellow-country>—</dd></div>
+        <div><dt>Level cap</dt><dd data-fp-level-cap>—</dd></div>
+        <div><dt>Base aptitude</dt><dd data-fp-base-aptitude>—</dd></div>
+      </dl>
+      <p class="fp-help">Fellows with configured M1/M2/M3 rarity forms can be simulated directly. The selected form changes form-specific base Aptitude, rarity, and type data while retaining the Fellow's configured level-power growth curve.</p>
+    </section>
+
+    <section class="fp-panel fp-inheritance-panel" data-fp-inheritance-panel hidden>
+      <h2>Inheritance</h2>
+      <p class="fp-help" data-fp-inheritance-context></p>
+      <div class="fp-inheritance-skills" data-fp-inheritance-skills></div>
+      <label class="fp-checkbox" data-fp-inheritance-original-toggle-wrap hidden><input type="checkbox" data-fp-inheritance-original-active> Inheritance Bonus activated</label>
+      <p class="fp-help" data-fp-inheritance-cap-note hidden>Aptitude Limit Break raises basic Aptitude skill level caps. It does not directly add Fellow Power here; enter the extra Aptitude gained from those additional skill levels in the normal Skill Aptitude field.</p>
+    </section>
+
+    <section class="fp-panel">
+      <h2>Familiar</h2>
+      <div class="fp-field-grid">
+        <label>Familiar<select data-fp-familiar><option value="">None</option></select></label>
+        <label>Level<input type="number" min="1" max="499" value="1" inputmode="numeric" data-fp-familiar-level></label>
+        <label>Star<input type="number" min="0" max="100" value="0" inputmode="numeric" data-fp-familiar-star></label>
+      </div>
+      <label class="fp-checkbox"><input type="checkbox" checked data-fp-familiar-milestones> Assume eligible level/star ExternalAdd milestones are activated</label>
+      <p class="fp-help">These five values are the Familiar contributions that actually enter Fellow power. Selecting a Familiar calculates its configured base, exclusive, and milestone bonuses; edit any value to match your account exactly.</p>
+      <div class="fp-field-grid fp-five-fields">
+        <label><span class="fp-input-caption">Fixed Power <button class="fp-auto-badge" type="button" data-fp-familiar-auto="fixedPower">Auto</button></span><input type="number" step="any" value="0" readonly data-fp-familiar-value="fixedPower" data-fp-auto-mode="auto"></label>
+        <label><span class="fp-input-caption">Aptitude <button class="fp-auto-badge" type="button" data-fp-familiar-auto="aptitude">Auto</button></span><input type="number" step="any" value="0" readonly data-fp-familiar-value="aptitude" data-fp-auto-mode="auto"></label>
+        <label><span class="fp-input-caption">Power % <button class="fp-auto-badge" type="button" data-fp-familiar-auto="powerPercent">Auto</button></span><input type="number" step="any" value="0" readonly data-fp-familiar-value="powerPercent" data-fp-auto-mode="auto"></label>
+        <label><span class="fp-input-caption">Aptitude % <button class="fp-auto-badge" type="button" data-fp-familiar-auto="aptitudePercent">Auto</button></span><input type="number" step="any" value="0" readonly data-fp-familiar-value="aptitudePercent" data-fp-auto-mode="auto"></label>
+        <label><span class="fp-input-caption">Final Power % <button class="fp-auto-badge" type="button" data-fp-familiar-auto="finalPercent">Auto</button></span><input type="number" step="any" value="0" readonly data-fp-familiar-value="finalPercent" data-fp-auto-mode="auto"></label>
+      </div>
+      <button class="button" type="button" data-fp-familiar-recalculate>Restore Familiar auto values</button>
+    </section>
+
+    <section class="fp-panel fp-artifact-panel">
+      <h2>Artifact</h2>
+      <div class="fp-field-grid">
+        <label>Artifact<select data-fp-artifact><option value="">None</option></select></label>
+        <label>Level<input type="number" min="1" max="1000" value="1" inputmode="numeric" data-fp-artifact-level></label>
+        <label><span class="fp-input-caption">Base Aptitude <button class="fp-auto-badge" type="button" data-fp-artifact-param-auto="initialTalent">Auto</button></span><input type="number" min="0" step="any" value="0" readonly data-fp-artifact-param="initialTalent" data-fp-auto-mode="auto"></label>
+        <label><span class="fp-input-caption">Aptitude / Level <button class="fp-auto-badge" type="button" data-fp-artifact-param-auto="riseTalent">Auto</button></span><input type="number" min="0" step="any" value="0" readonly data-fp-artifact-param="riseTalent" data-fp-auto-mode="auto"></label>
+      </div>
+      <dl class="fp-auto-summary">
+        <div><dt>Configured base level cap</dt><dd data-fp-artifact-base-cap>—</dd></div>
+        <div><dt>Level Aptitude</dt><dd data-fp-artifact-level-aptitude>0</dd></div>
+        <div><dt>Materia Aptitude</dt><dd data-fp-artifact-materia-aptitude>0</dd></div>
+        <div><dt>Total Artifact Aptitude</dt><dd data-fp-artifact-total-aptitude>0</dd></div>
+      </dl>
+      <p class="fp-help">Artifact Aptitude uses the selected Artifact's own configured Aptitude-per-level value. The base 200 level cap is informational only; higher levels can be entered when account-wide cap bonuses allow them. Artifact Power % and other reforge/aura bonuses are intentionally left to the manual Power Details inputs because the in-game Artifact stat block combines several sources.</p>
+      <div class="fp-materia-heading"><div><h3>Materia</h3><p class="fp-help">Activate the Materia slots present on your Artifact and enter each Materia level. Materia Aptitude is calculated from its configured tier and level; click an <strong>Auto</strong> pill to switch that Aptitude value to manual.</p></div><span data-fp-materia-active-count>0 active</span></div>
+      <div class="fp-materia-list" data-fp-materia-list></div>
+    </section>
+  </div>
+
+  <section class="fp-panel fp-breakdown-panel">
+    <div class="fp-panel-heading">
+      <div><p class="eyebrow small-eyebrow">Power Details</p><h2>Source Breakdown</h2></div>
+      <p>Values in percentage groups use ordinary percentages; enter <strong>65</strong> for +65%.</p>
+    </div>
+    <div class="fp-source-groups" data-fp-source-groups></div>
+  </section>
+
+  <section class="fp-panel fp-formula-panel">
+    <h2>Formula</h2>
+    <code>floor((Base Factor × (1 + Power% / 100) × (1 + Secondary Power% / 100) × Aptitude × (1 + Aptitude% / 100) + Fixed Power) × (1 + Final Power% / 100))</code>
+    <div class="fp-formula-totals">
+      <span>Aptitude <strong data-fp-total="aptitude">0</strong></span>
+      <span>Aptitude % <strong data-fp-total="aptitudePercent">0%</strong></span>
+      <span>Power % <strong data-fp-total="powerPercent">0%</strong></span>
+      <span>Fixed Power <strong data-fp-total="fixedPower">0</strong></span>
+      <span>Final Power % <strong data-fp-total="finalPercent">0%</strong></span>
+      <span>Secondary Power % <strong data-fp-total="secondaryPercent">0%</strong></span>
+    </div>
+    <details class="fp-advanced-check">
+      <summary>Compare against an in-game value</summary>
+      <div class="fp-field-grid">
+        <label>Observed in-game Power<input type="number" min="0" step="1" value="0" data-fp-observed-power></label>
+        <div class="fp-observed-result"><span>Difference</span><strong data-fp-observed-difference>—</strong></div>
+      </div>
+      <p class="fp-help">A small difference can occur because the in-game Power Details screen displays a floored Aptitude while the runtime formula can retain fractional Aptitude internally. A large difference usually means an account-wide or server-side source still needs to be entered.</p>
+    </details>
+  </section>
+
+  <noscript><p class="empty-note">JavaScript is required to use this calculator.</p></noscript>
+</section>
+
+  </main>
+
+  <footer class="wiki-footer">
+    <span>Fanmade resource maintained by The Ascended discord.</span>
+    <a href="https://discord.gg/the-ascended" target="_blank" rel="noopener">Join Discord</a>
+    <a class="issue-footer-link" href="../../beta/">Report an issue</a>
+  </footer>
+
+  <script src="../../assets/wiki.js?v=202609170050" data-search-index="../../wiki_manifest.json"></script>
+</body>
+</html>

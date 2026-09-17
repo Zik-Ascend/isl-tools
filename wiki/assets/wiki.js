@@ -445,57 +445,112 @@
   const nodeSelector = '.skill-node, .costume-node, .stella-node, .custom-blessing-node, .inline-help, .fish-combination-node, .fish-antique-node, .inn-item-node';
   const tooltipSelector = '.skill-tooltip, .costume-tooltip, .stella-tooltip, .custom-blessing-tooltip, .inline-help-tooltip, .fish-combination-tooltip, .fish-antique-tooltip, .inn-item-tooltip';
   const mobileViewport = window.matchMedia('(max-width: 780px)');
+  const mobileTooltipByNode = new WeakMap();
+  const mobileTooltipHome = new WeakMap();
+
+  function getTooltip(node) {
+    if (!node) return null;
+    return mobileTooltipByNode.get(node) || (node.querySelector ? node.querySelector(tooltipSelector) : null);
+  }
 
   function clearTooltipPosition(node) {
-    const tooltip = node && node.querySelector ? node.querySelector(tooltipSelector) : null;
+    const tooltip = getTooltip(node);
     if (!tooltip) return;
     tooltip.style.removeProperty('--wiki-tooltip-shift-x');
     tooltip.style.removeProperty('--wiki-tooltip-arrow-x');
+    tooltip.style.removeProperty('--wiki-mobile-tooltip-center-x');
+    tooltip.style.removeProperty('--wiki-mobile-tooltip-center-y');
   }
 
-  function centerTooltipInViewport(node) {
-    if (!node || !node.classList.contains('tooltip-open')) return;
-    const tooltip = node.querySelector(tooltipSelector);
+  function positionMobileTooltip(node) {
+    const tooltip = getTooltip(node);
+    if (!tooltip || !mobileViewport.matches) return;
+    const viewport = window.visualViewport;
+    const centerX = viewport ? viewport.offsetLeft + viewport.width / 2 : window.innerWidth / 2;
+    const centerY = viewport ? viewport.offsetTop + viewport.height / 2 : window.innerHeight / 2;
+    tooltip.style.setProperty('--wiki-mobile-tooltip-center-x', `${Math.round(centerX)}px`);
+    tooltip.style.setProperty('--wiki-mobile-tooltip-center-y', `${Math.round(centerY)}px`);
+  }
+
+  function portalMobileTooltip(node) {
+    if (!node || !mobileViewport.matches) return;
+    let tooltip = getTooltip(node);
     if (!tooltip) return;
 
+    if (!mobileTooltipByNode.has(node)) {
+      mobileTooltipHome.set(tooltip, {
+        parent: tooltip.parentNode,
+        nextSibling: tooltip.nextSibling,
+      });
+      mobileTooltipByNode.set(node, tooltip);
+      tooltip.classList.add('wiki-mobile-tooltip');
+      tooltip.setAttribute('data-wiki-mobile-tooltip', '');
+      document.body.appendChild(tooltip);
+    }
+    positionMobileTooltip(node);
+  }
+
+  function restoreMobileTooltip(node) {
+    const tooltip = node ? mobileTooltipByNode.get(node) : null;
+    if (!tooltip) return;
+    const home = mobileTooltipHome.get(tooltip);
+
+    tooltip.classList.remove('wiki-mobile-tooltip');
+    tooltip.removeAttribute('data-wiki-mobile-tooltip');
     clearTooltipPosition(node);
-    if (!mobileViewport.matches) return;
 
-    window.requestAnimationFrame(() => {
-      if (!node.classList.contains('tooltip-open')) return;
-      const viewportWidth = document.documentElement.clientWidth || window.innerWidth;
-      const margin = 12;
-      const tooltipRect = tooltip.getBoundingClientRect();
-      const nodeRect = node.getBoundingClientRect();
-      if (!tooltipRect.width || !viewportWidth) return;
+    if (home && home.parent && home.parent.isConnected) {
+      if (home.nextSibling && home.nextSibling.parentNode === home.parent) {
+        home.parent.insertBefore(tooltip, home.nextSibling);
+      } else {
+        home.parent.appendChild(tooltip);
+      }
+    }
 
-      let shift = (viewportWidth / 2) - (tooltipRect.left + tooltipRect.width / 2);
-      const shiftedLeft = tooltipRect.left + shift;
-      const shiftedRight = tooltipRect.right + shift;
-      if (shiftedLeft < margin) shift += margin - shiftedLeft;
-      if (shiftedRight > viewportWidth - margin) shift -= shiftedRight - (viewportWidth - margin);
+    mobileTooltipByNode.delete(node);
+    mobileTooltipHome.delete(tooltip);
+  }
 
-      tooltip.style.setProperty('--wiki-tooltip-shift-x', `${Math.round(shift)}px`);
-      const arrowX = (nodeRect.left + nodeRect.width / 2) - (tooltipRect.left + shift);
-      tooltip.style.setProperty('--wiki-tooltip-arrow-x', `${Math.round(arrowX)}px`);
-    });
+  function syncTooltipPresentation(node) {
+    if (!node || !node.classList.contains('tooltip-open')) {
+      restoreMobileTooltip(node);
+      return;
+    }
+    if (mobileViewport.matches) {
+      portalMobileTooltip(node);
+    } else {
+      restoreMobileTooltip(node);
+    }
+  }
+
+  function openTooltipNodes() {
+    return Array.from(document.querySelectorAll(nodeSelector)).filter(node => node.classList.contains('tooltip-open'));
   }
 
   function closeTooltipNodes(exceptNode) {
-    document.querySelectorAll(`${nodeSelector}.tooltip-open`).forEach(node => {
+    openTooltipNodes().forEach(node => {
       if (node !== exceptNode) {
         node.classList.remove('tooltip-open');
+        restoreMobileTooltip(node);
         clearTooltipPosition(node);
         if (node.matches('.fish-combination-node, .fish-antique-node, .inn-item-node')) node.setAttribute('aria-expanded', 'false');
       }
     });
   }
 
-  function recenterOpenTooltips() {
-    document.querySelectorAll(`${nodeSelector}.tooltip-open`).forEach(centerTooltipInViewport);
+  function syncOpenTooltips() {
+    openTooltipNodes().forEach(syncTooltipPresentation);
   }
 
   document.addEventListener('click', event => {
+    // On mobile the open tooltip is temporarily portaled to <body>, so it is
+    // no longer a descendant of its originating node. Keep clicks inside the
+    // bubble interactive without treating them as outside-clicks.
+    if (event.target.closest(tooltipSelector)) {
+      event.stopPropagation();
+      return;
+    }
+
     const node = event.target.closest(nodeSelector);
     if (!node) {
       closeTooltipNodes(null);
@@ -515,11 +570,6 @@
       return;
     }
 
-    if (event.target.closest(tooltipSelector)) {
-      event.stopPropagation();
-      return;
-    }
-
     event.preventDefault();
     event.stopPropagation();
     const wasOpen = node.classList.contains('tooltip-open');
@@ -528,15 +578,20 @@
     if (node.matches('.fish-combination-node, .fish-antique-node, .inn-item-node')) node.setAttribute('aria-expanded', String(!wasOpen));
     if (!wasOpen && typeof node.focus === 'function') {
       node.focus({ preventScroll: true });
-      centerTooltipInViewport(node);
+      syncTooltipPresentation(node);
     } else if (wasOpen && typeof node.blur === 'function') {
+      restoreMobileTooltip(node);
       clearTooltipPosition(node);
       node.blur();
     }
   });
 
-  window.addEventListener('resize', recenterOpenTooltips, { passive: true });
-  window.addEventListener('orientationchange', () => window.setTimeout(recenterOpenTooltips, 50));
+  window.addEventListener('resize', syncOpenTooltips, { passive: true });
+  window.addEventListener('orientationchange', () => window.setTimeout(syncOpenTooltips, 50));
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', syncOpenTooltips, { passive: true });
+    window.visualViewport.addEventListener('scroll', syncOpenTooltips, { passive: true });
+  }
 
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {
@@ -2200,5 +2255,881 @@
     refreshStats();
     window.setInterval(refreshStats, refreshSeconds * 1000);
   }
+})();
+
+
+(() => {
+  const root = document.querySelector('[data-fellow-power-calculator]');
+  if (!root) return;
+
+  const configUrl = root.getAttribute('data-config');
+  if (!configUrl) return;
+
+  const $ = (selector) => root.querySelector(selector);
+  const $$ = (selector) => Array.from(root.querySelectorAll(selector));
+  const numberValue = (value, fallback = 0) => {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : fallback;
+  };
+  const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+  const fmt = (value, digits = 0) => new Intl.NumberFormat(undefined, {
+    maximumFractionDigits: digits,
+    minimumFractionDigits: 0,
+  }).format(numberValue(value, 0));
+  const pct = (value) => `${fmt(value, 4)}%`;
+  const STORAGE_KEY = 'wiki:fellow-power-presets:v1';
+
+  const selectors = {
+    fellow: $('[data-fp-fellow]'),
+    fellowVariant: $('[data-fp-fellow-variant]'),
+    fellowLevel: $('[data-fp-fellow-level]'),
+    quality: $('[data-fp-quality]'),
+    star: $('[data-fp-star]'),
+    baseFactorAuto: $('[data-fp-base-factor-auto]'),
+    baseFactorInput: $('[data-fp-base-factor-input]'),
+    familiar: $('[data-fp-familiar]'),
+    familiarLevel: $('[data-fp-familiar-level]'),
+    familiarStar: $('[data-fp-familiar-star]'),
+    familiarMilestones: $('[data-fp-familiar-milestones]'),
+    familiarRecalculate: $('[data-fp-familiar-recalculate]'),
+    artifact: $('[data-fp-artifact]'),
+    artifactLevel: $('[data-fp-artifact-level]'),
+    materiaList: $('[data-fp-materia-list]'),
+    sourceGroups: $('[data-fp-source-groups]'),
+    inheritancePanel: $('[data-fp-inheritance-panel]'),
+    inheritanceContext: $('[data-fp-inheritance-context]'),
+    inheritanceSkills: $('[data-fp-inheritance-skills]'),
+    inheritanceOriginalWrap: $('[data-fp-inheritance-original-toggle-wrap]'),
+    inheritanceOriginalActive: $('[data-fp-inheritance-original-active]'),
+    inheritanceCapNote: $('[data-fp-inheritance-cap-note]'),
+    observedPower: $('[data-fp-observed-power]'),
+    presetSelect: $('[data-fp-preset-select]'),
+    presetName: $('[data-fp-preset-name]'),
+    presetSave: $('[data-fp-preset-save]'),
+    presetLoad: $('[data-fp-preset-load]'),
+    presetDelete: $('[data-fp-preset-delete]'),
+    reset: $('[data-fp-reset]'),
+    status: $('[data-fp-status]'),
+  };
+
+  let data = null;
+  let maps = null;
+  let autoValues = {};
+
+  const sourceMeta = {
+    aptitude: { title: 'Flat Aptitude (before Aptitude %)', suffix: '', open: true },
+    aptitudePercent: { title: 'Aptitude Percentage Bonus', suffix: '%', open: true },
+    powerPercent: { title: 'Power Percentage Bonus', suffix: '%', open: true },
+    fixedPower: { title: 'Fixed Power Bonus', suffix: '', open: true },
+    finalPercent: { title: 'Final Power Bonus', suffix: '%', open: true },
+    secondaryPercent: { title: 'Secondary Power % (advanced)', suffix: '%', open: false },
+  };
+
+  const setStatus = (text, kind = '') => {
+    if (!selectors.status) return;
+    selectors.status.textContent = text || '';
+    selectors.status.dataset.kind = kind;
+  };
+
+  const option = (value, label) => {
+    const node = document.createElement('option');
+    node.value = value;
+    node.textContent = label;
+    return node;
+  };
+
+  const bindSelectOnFirstClick = (input) => {
+    if (!input || input.dataset.fpSelectBound === '1' || input.type !== 'number') return;
+    input.dataset.fpSelectBound = '1';
+    input.addEventListener('pointerdown', (event) => {
+      if (input.readOnly || input.disabled) return;
+      if (document.activeElement !== input) {
+        event.preventDefault();
+        input.focus();
+        input.select();
+      }
+    });
+  };
+
+  const bindAllNumberInputs = () => $$('input[type="number"]').forEach(bindSelectOnFirstClick);
+
+  const setAutoMode = (input, button, mode) => {
+    if (!input || !button) return;
+    const auto = mode !== 'manual';
+    input.dataset.fpAutoMode = auto ? 'auto' : 'manual';
+    input.readOnly = auto;
+    button.textContent = auto ? 'Auto' : 'Manual';
+    button.classList.toggle('manual', !auto);
+    if (!auto) bindSelectOnFirstClick(input);
+  };
+
+  const toggleAutoMode = (input, button) => {
+    if (!input || !button) return;
+    setAutoMode(input, button, input.dataset.fpAutoMode === 'auto' ? 'manual' : 'auto');
+    update();
+    if (!input.readOnly) {
+      input.focus();
+      input.select();
+    }
+  };
+
+  const findHeroCoefficient = (level) => {
+    const rows = data.heroLevels || [];
+    if (!rows.length) return 0;
+    const max = rows[rows.length - 1].level;
+    const target = clamp(Math.round(numberValue(level, 1)), 1, max);
+    if (maps.levelCoefficients.has(target)) return maps.levelCoefficients.get(target);
+    let found = rows[0].coefficient || 0;
+    for (const row of rows) {
+      if (row.level > target) break;
+      found = row.coefficient || 0;
+    }
+    return found;
+  };
+
+  const currentFellow = () => maps.fellows.get(String(selectors.fellow?.value || '')) || null;
+  const currentVariant = () => {
+    const fellow = currentFellow();
+    if (!fellow) return null;
+    const wanted = String(selectors.fellowVariant?.value || 'base');
+    return (fellow.variants || []).find((row) => String(row.id) === wanted) || (fellow.variants || [])[0] || fellow;
+  };
+  const currentQuality = () => maps.qualities.get(Number(selectors.quality?.value)) || null;
+  const currentStar = () => maps.stars.get(Number(selectors.star?.value)) || null;
+  const currentFamiliar = () => maps.familiars.get(String(selectors.familiar?.value || '')) || null;
+  const currentArtifact = () => maps.artifacts.get(String(selectors.artifact?.value || '')) || null;
+
+  const populateVariantSelector = (wanted = '') => {
+    const fellow = currentFellow();
+    if (!selectors.fellowVariant) return;
+    const previous = wanted || selectors.fellowVariant.value;
+    selectors.fellowVariant.innerHTML = '';
+    const variants = fellow?.variants?.length ? fellow.variants : [{ id: 'base', label: fellow?.rarityLabel || 'Base' }];
+    variants.forEach((row) => selectors.fellowVariant.appendChild(option(String(row.id || 'base'), row.label || row.rarityLabel || row.id || 'Base')));
+    if (variants.some((row) => String(row.id || 'base') === String(previous))) selectors.fellowVariant.value = String(previous);
+  };
+
+  const normalizeExternalAdd = (totals, row) => {
+    if (!row) return;
+    const type = String(row.type || '');
+    const raw = numberValue(row.value, 0);
+    if (type === '1') totals.fixedPower += raw;
+    else if (type === '2') totals.aptitude += raw;
+    else if (type === '3') totals.powerPercent += raw / 100;
+    else if (type === '4') totals.aptitudePercent += raw / 100;
+    else if (type === '5') totals.finalPercent += raw / 100;
+  };
+
+  const familiarSuggestion = () => {
+    const totals = { fixedPower: 0, aptitude: 0, powerPercent: 0, aptitudePercent: 0, finalPercent: 0 };
+    const familiar = currentFamiliar();
+    if (!familiar) return totals;
+    (familiar.baseExternalAdd || []).forEach((row) => normalizeExternalAdd(totals, row));
+    const fellow = currentFellow();
+    if (fellow && familiar.exclusiveHero && String(familiar.exclusiveHero) === String(fellow.id)) {
+      (familiar.exclusiveAdd || []).forEach((row) => normalizeExternalAdd(totals, row));
+    }
+    if (selectors.familiarMilestones?.checked) {
+      const rarity = String(familiar.rarity || '');
+      const level = Math.max(1, Math.round(numberValue(selectors.familiarLevel?.value, 1)));
+      const star = Math.max(0, Math.round(numberValue(selectors.familiarStar?.value, 0)));
+      (data.petLevelMilestones || []).forEach((milestone) => {
+        if (milestone.level <= level) (((milestone.byRarity || {})[rarity]) || []).forEach((row) => normalizeExternalAdd(totals, row));
+      });
+      (data.petStarMilestones || []).forEach((milestone) => {
+        if (milestone.level <= star) (((milestone.byRarity || {})[rarity]) || []).forEach((row) => normalizeExternalAdd(totals, row));
+      });
+    }
+    return totals;
+  };
+
+  const writeFamiliarSuggestion = (force = false) => {
+    const totals = familiarSuggestion();
+    $$('[data-fp-familiar-value]').forEach((input) => {
+      if (force) {
+        const button = root.querySelector(`[data-fp-familiar-auto="${input.dataset.fpFamiliarValue}"]`);
+        if (button) setAutoMode(input, button, 'auto');
+      }
+      if (input.dataset.fpAutoMode !== 'manual') input.value = String(totals[input.dataset.fpFamiliarValue] || 0);
+    });
+    update();
+  };
+
+  const artifactParam = (key, fallback = 0) => {
+    const input = root.querySelector(`[data-fp-artifact-param="${key}"]`);
+    return input ? numberValue(input.value, fallback) : fallback;
+  };
+
+  const refreshArtifactParams = (forceAuto = false) => {
+    const artifact = currentArtifact();
+    ['initialTalent', 'riseTalent'].forEach((key) => {
+      const input = root.querySelector(`[data-fp-artifact-param="${key}"]`);
+      const button = root.querySelector(`[data-fp-artifact-param-auto="${key}"]`);
+      if (!input || !button) return;
+      if (forceAuto) setAutoMode(input, button, 'auto');
+      if (input.dataset.fpAutoMode !== 'manual') input.value = String(artifact ? numberValue(artifact[key], 0) : 0);
+    });
+    const cap = $('[data-fp-artifact-base-cap]');
+    if (cap) cap.textContent = artifact ? fmt(artifact.levelBaseCap || 200) : '—';
+  };
+
+  const materiaAptitudeFor = (slot, level) => {
+    const safeLevel = Math.max(1, Math.round(numberValue(level, 1)));
+    return numberValue(slot.aptitudeInitial, 0) + numberValue(slot.aptitudePerLevel, 0) * (safeLevel - 1);
+  };
+
+  const renderMateria = (savedRows = null) => {
+    if (!selectors.materiaList) return;
+    selectors.materiaList.innerHTML = '';
+    const artifact = currentArtifact();
+    const savedById = new Map((savedRows || []).map((row) => [String(row.id), row]));
+    (artifact?.materiaSlots || []).forEach((slot) => {
+      const saved = savedById.get(String(slot.id));
+      const row = document.createElement('div');
+      row.className = 'fp-materia-row';
+      row.dataset.fpMateriaId = String(slot.id);
+
+      const activeLabel = document.createElement('label');
+      activeLabel.className = 'fp-checkbox fp-materia-active';
+      const active = document.createElement('input');
+      active.type = 'checkbox';
+      active.dataset.fpMateriaActive = '';
+      active.checked = saved ? !!saved.active : false;
+      activeLabel.append(active, document.createTextNode(' Active'));
+
+      const name = document.createElement('div');
+      name.className = 'fp-materia-name';
+      const strong = document.createElement('strong');
+      strong.textContent = slot.label || `Materia ${slot.id}`;
+      const small = document.createElement('small');
+      small.textContent = slot.heroBond && slot.heroId ? `Bond slot · Hero ${slot.heroId}` : `Slot ${slot.id}`;
+      name.append(strong, small);
+
+      const levelLabel = document.createElement('label');
+      levelLabel.textContent = 'Level';
+      const level = document.createElement('input');
+      level.type = 'number';
+      level.min = '1';
+      level.max = String(slot.maxLevel || 999);
+      level.step = '1';
+      level.value = String(saved?.level ?? 1);
+      level.dataset.fpMateriaLevel = '';
+      levelLabel.appendChild(level);
+
+      const aptLabel = document.createElement('label');
+      const caption = document.createElement('span');
+      caption.className = 'fp-input-caption';
+      caption.append(document.createTextNode('Aptitude '));
+      const auto = document.createElement('button');
+      auto.type = 'button';
+      auto.className = 'fp-auto-badge';
+      auto.dataset.fpMateriaAuto = '';
+      auto.textContent = 'Auto';
+      caption.appendChild(auto);
+      const apt = document.createElement('input');
+      apt.type = 'number';
+      apt.step = 'any';
+      apt.value = String(saved?.aptitude ?? materiaAptitudeFor(slot, level.value));
+      apt.dataset.fpMateriaAptitude = '';
+      setAutoMode(apt, auto, saved?.mode || 'auto');
+      aptLabel.append(caption, apt);
+
+      row.append(activeLabel, name, levelLabel, aptLabel);
+      selectors.materiaList.appendChild(row);
+      row._slot = slot;
+      bindSelectOnFirstClick(level);
+      bindSelectOnFirstClick(apt);
+      const sync = () => {
+        if (apt.dataset.fpAutoMode !== 'manual') apt.value = String(materiaAptitudeFor(slot, level.value));
+        update();
+      };
+      active.addEventListener('change', update);
+      level.addEventListener('input', sync);
+      apt.addEventListener('input', update);
+      auto.addEventListener('click', () => toggleAutoMode(apt, auto));
+    });
+    updateMateriaSummary();
+  };
+
+  const updateMateriaSummary = () => {
+    let activeCount = 0;
+    let total = 0;
+    $$('.fp-materia-row').forEach((row) => {
+      const active = row.querySelector('[data-fp-materia-active]');
+      if (!active?.checked) return;
+      activeCount += 1;
+      total += numberValue(row.querySelector('[data-fp-materia-aptitude]')?.value, 0);
+    });
+    const count = $('[data-fp-materia-active-count]');
+    if (count) count.textContent = `${activeCount} active`;
+    const out = $('[data-fp-artifact-materia-aptitude]');
+    if (out) out.textContent = fmt(total, 4);
+    return total;
+  };
+
+  const artifactAptitude = () => {
+    const artifact = currentArtifact();
+    if (!artifact) {
+      const levelOut = $('[data-fp-artifact-level-aptitude]');
+      const totalOut = $('[data-fp-artifact-total-aptitude]');
+      if (levelOut) levelOut.textContent = '0';
+      if (totalOut) totalOut.textContent = '0';
+      updateMateriaSummary();
+      return 0;
+    }
+    const level = Math.max(1, Math.round(numberValue(selectors.artifactLevel?.value, 1)));
+    const base = artifactParam('initialTalent', artifact.initialTalent || 0);
+    const perLevel = artifactParam('riseTalent', artifact.riseTalent || 0);
+    const levelAptitude = base + perLevel * (level - 1);
+    const materia = updateMateriaSummary();
+    const total = levelAptitude + materia;
+    const levelOut = $('[data-fp-artifact-level-aptitude]');
+    const totalOut = $('[data-fp-artifact-total-aptitude]');
+    if (levelOut) levelOut.textContent = fmt(levelAptitude, 4);
+    if (totalOut) totalOut.textContent = fmt(total, 4);
+    return total;
+  };
+
+  const inheritanceTotals = () => {
+    const totals = { aptitude: 0, aptitudePercent: 0, powerPercent: 0 };
+    const fellow = currentFellow();
+    const inheritance = fellow?.inheritance || {};
+    if (inheritance.role === 'sp') {
+      $$('[data-fp-inheritance-skill-level]').forEach((input) => {
+        const skill = (inheritance.skills || []).find((row) => row.id === input.dataset.fpInheritanceSkillLevel);
+        if (!skill) return;
+        const level = clamp(Math.round(numberValue(input.value, 0)), 0, Number(skill.maxLevel || 0));
+        input.value = String(level);
+        if (level <= 0) return;
+        const value = numberValue(skill.initial, 0) + numberValue(skill.perLevel, 0) * (level - 1);
+        if (skill.group === 'aptitude') totals.aptitude += value;
+        else if (skill.group === 'aptitudePercent') totals.aptitudePercent += value;
+        else if (skill.group === 'powerPercent') totals.powerPercent += value;
+      });
+    } else if (inheritance.role === 'original' && selectors.inheritanceOriginalActive?.checked) {
+      totals.powerPercent += numberValue(inheritance.originalBonus?.powerPercent, 0);
+    }
+    return totals;
+  };
+
+  const renderInheritance = (saved = null) => {
+    const fellow = currentFellow();
+    const inheritance = fellow?.inheritance || {};
+    if (!selectors.inheritancePanel) return;
+    const enabled = !!inheritance.role;
+    selectors.inheritancePanel.hidden = !enabled;
+    if (!enabled) return;
+
+    selectors.inheritanceSkills.innerHTML = '';
+    selectors.inheritanceOriginalWrap.hidden = true;
+    selectors.inheritanceCapNote.hidden = true;
+    if (inheritance.role === 'sp') {
+      selectors.inheritanceContext.textContent = `SP inheritance from ${inheritance.counterpartName || `Fellow ${inheritance.counterpartId}`}. Set the current inheritance skill levels for this account.`;
+      (inheritance.skills || []).forEach((skill) => {
+        const row = document.createElement('label');
+        row.className = 'fp-inheritance-skill-row';
+        const text = document.createElement('span');
+        const strong = document.createElement('strong');
+        strong.textContent = skill.name || skill.id;
+        const small = document.createElement('small');
+        if (skill.group === 'cap') small.textContent = 'Basic Aptitude skill cap increase';
+        else if (skill.group === 'aptitude') small.textContent = 'Flat Aptitude';
+        else if (skill.group === 'aptitudePercent') small.textContent = 'Aptitude %';
+        else if (skill.group === 'powerPercent') small.textContent = 'Power %';
+        text.append(strong, small);
+        const input = document.createElement('input');
+        input.type = 'number';
+        input.min = '0';
+        input.max = String(skill.maxLevel || 1);
+        input.step = '1';
+        input.value = String(saved?.skillLevels?.[skill.id] ?? 0);
+        input.dataset.fpInheritanceSkillLevel = skill.id;
+        row.append(text, input);
+        selectors.inheritanceSkills.appendChild(row);
+        bindSelectOnFirstClick(input);
+        input.addEventListener('input', update);
+        if (skill.group === 'cap') selectors.inheritanceCapNote.hidden = false;
+      });
+    } else {
+      const bonus = numberValue(inheritance.originalBonus?.powerPercent, 0);
+      selectors.inheritanceContext.textContent = `${inheritance.counterpartName || `SP Fellow ${inheritance.counterpartId}`} can activate an Inheritance Bonus for this Fellow.`;
+      selectors.inheritanceOriginalWrap.hidden = false;
+      selectors.inheritanceOriginalActive.checked = !!saved?.originalActive;
+      selectors.inheritanceOriginalWrap.lastChild.textContent = ` Inheritance Bonus activated (+${fmt(bonus, 4)}% Power)`;
+    }
+  };
+
+  const renderSourceGroups = () => {
+    selectors.sourceGroups.innerHTML = '';
+    Object.entries(data.sourceGroups || {}).forEach(([groupKey, entries]) => {
+      const meta = sourceMeta[groupKey] || { title: groupKey, suffix: '', open: true };
+      const details = document.createElement('details');
+      details.className = 'fp-source-group';
+      details.dataset.fpSourceGroup = groupKey;
+      details.open = !!meta.open;
+
+      const summary = document.createElement('summary');
+      const title = document.createElement('strong');
+      title.textContent = meta.title;
+      const total = document.createElement('span');
+      total.dataset.fpSourceSummary = groupKey;
+      total.textContent = meta.suffix ? '0%' : '0';
+      summary.append(title, total);
+
+      const body = document.createElement('div');
+      body.className = 'fp-source-body';
+      const override = document.createElement('div');
+      override.className = 'fp-source-override';
+      const overrideCheckLabel = document.createElement('label');
+      overrideCheckLabel.className = 'fp-checkbox';
+      const overrideCheck = document.createElement('input');
+      overrideCheck.type = 'checkbox';
+      overrideCheck.dataset.fpSourceOverride = groupKey;
+      overrideCheckLabel.append(overrideCheck, document.createTextNode(' Override detailed total'));
+      const overrideInputLabel = document.createElement('label');
+      overrideInputLabel.textContent = `Total ${meta.title}`;
+      const overrideInput = document.createElement('input');
+      overrideInput.type = 'number';
+      overrideInput.step = 'any';
+      overrideInput.value = '0';
+      overrideInput.disabled = true;
+      overrideInput.dataset.fpSourceOverrideValue = groupKey;
+      overrideInputLabel.appendChild(overrideInput);
+      override.append(overrideCheckLabel, overrideInputLabel);
+      body.appendChild(override);
+
+      const grid = document.createElement('div');
+      grid.className = 'fp-source-grid';
+      (entries || []).forEach((entry) => {
+        const label = document.createElement('label');
+        label.dataset.fpSourceRow = entry.key;
+        const caption = document.createElement('span');
+        caption.className = 'fp-input-caption';
+        caption.append(document.createTextNode(entry.label));
+        const input = document.createElement('input');
+        input.type = 'number';
+        input.step = 'any';
+        input.value = '0';
+        input.dataset.fpSourceInput = groupKey;
+        input.dataset.fpSourceKey = entry.key;
+        if (entry.auto) {
+          input.dataset.fpAutoKey = entry.auto;
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'fp-auto-badge';
+          button.dataset.fpSourceAutoToggle = entry.auto;
+          caption.append(' ', button);
+          setAutoMode(input, button, 'auto');
+          button.addEventListener('click', () => toggleAutoMode(input, button));
+        }
+        label.append(caption, input);
+        grid.appendChild(label);
+        bindSelectOnFirstClick(input);
+      });
+      body.appendChild(grid);
+      details.append(summary, body);
+      selectors.sourceGroups.appendChild(details);
+    });
+  };
+
+  const computeAutoValues = () => {
+    const fellow = currentFellow();
+    const variant = currentVariant() || fellow;
+    const quality = currentQuality();
+    const star = currentStar();
+    const familiar = {};
+    $$('[data-fp-familiar-value]').forEach((input) => familiar[input.dataset.fpFamiliarValue] = numberValue(input.value, 0));
+    const inheritance = inheritanceTotals();
+    autoValues = {
+      heroBaseTalent: variant ? numberValue(variant.initialTalent, 0) : 0,
+      limitBreak: quality ? numberValue(quality.aptitude, 0) : 0,
+      starPowerPercent: star ? numberValue(star.powerPercent, 0) : 0,
+      starFixedPower: star ? numberValue(star.fixedPower, 0) : 0,
+      familiarFixedPower: familiar.fixedPower || 0,
+      familiarAptitude: familiar.aptitude || 0,
+      familiarPowerPercent: familiar.powerPercent || 0,
+      familiarAptitudePercent: familiar.aptitudePercent || 0,
+      familiarFinalPercent: familiar.finalPercent || 0,
+      artifactAptitude: artifactAptitude(),
+      inheritanceAptitude: inheritance.aptitude || 0,
+      inheritanceAptitudePercent: inheritance.aptitudePercent || 0,
+      inheritancePowerPercent: inheritance.powerPercent || 0,
+    };
+  };
+
+  const sourceTotals = () => {
+    const totals = {};
+    Object.keys(data.sourceGroups || {}).forEach((groupKey) => {
+      const override = root.querySelector(`[data-fp-source-override="${groupKey}"]`);
+      const overrideValue = root.querySelector(`[data-fp-source-override-value="${groupKey}"]`);
+      if (override?.checked) {
+        totals[groupKey] = numberValue(overrideValue?.value, 0);
+        return;
+      }
+      let sum = 0;
+      root.querySelectorAll(`[data-fp-source-input="${groupKey}"]`).forEach((input) => {
+        if (input.dataset.fpAutoKey && input.dataset.fpAutoMode !== 'manual') {
+          input.value = String(numberValue(autoValues[input.dataset.fpAutoKey], 0));
+        }
+        sum += numberValue(input.value, 0);
+      });
+      totals[groupKey] = sum;
+    });
+    return totals;
+  };
+
+  const updateFellowMeta = () => {
+    const fellow = currentFellow();
+    const variant = currentVariant() || fellow;
+    const quality = currentQuality();
+    if (!fellow || !variant) return 0;
+    const maxLevel = data.heroLevels?.length ? data.heroLevels[data.heroLevels.length - 1].level : 1000;
+    const level = clamp(Math.round(numberValue(selectors.fellowLevel?.value, 1)), 1, maxLevel);
+    selectors.fellowLevel.value = String(level);
+    const coefficient = findHeroCoefficient(level);
+    const calculated = numberValue(variant.initialATK, fellow.initialATK || 0) + numberValue(variant.riseATK, fellow.riseATK || 1) * coefficient;
+    $('[data-fp-fellow-country]').textContent = variant.countryLabel || variant.country || fellow.countryLabel || fellow.country || '—';
+    $('[data-fp-level-cap]').textContent = quality?.levelLimit ? fmt(quality.levelLimit) : '—';
+    $('[data-fp-base-aptitude]').textContent = fmt(variant.initialTalent, 4);
+    if (selectors.baseFactorInput?.dataset.fpAutoMode !== 'manual') selectors.baseFactorInput.value = String(calculated);
+    if (quality?.levelLimit && level > quality.levelLimit) {
+      setStatus(`Level ${level} exceeds the selected Limit Break cap of ${quality.levelLimit}. Additional level-cap systems may still make this valid in-game.`, 'warning');
+    } else if (selectors.status?.dataset.kind === 'warning' && selectors.status.textContent.includes('exceeds the selected Limit Break cap')) {
+      setStatus('');
+    }
+    return numberValue(selectors.baseFactorInput?.value, calculated);
+  };
+
+  const update = () => {
+    if (!data || !maps) return;
+    refreshArtifactParams(false);
+    const baseFactor = updateFellowMeta();
+    computeAutoValues();
+    const totals = sourceTotals();
+    Object.entries(totals).forEach(([group, value]) => {
+      const meta = sourceMeta[group] || { suffix: '' };
+      const summary = root.querySelector(`[data-fp-source-summary="${group}"]`);
+      if (summary) summary.textContent = meta.suffix ? pct(value) : fmt(value, 4);
+      const formulaTotal = root.querySelector(`[data-fp-total="${group}"]`);
+      if (formulaTotal) formulaTotal.textContent = meta.suffix ? pct(value) : fmt(value, 4);
+    });
+
+    const aptitude = numberValue(totals.aptitude, 0);
+    const aptitudePercent = numberValue(totals.aptitudePercent, 0);
+    const powerPercent = numberValue(totals.powerPercent, 0);
+    const fixedPower = numberValue(totals.fixedPower, 0);
+    const finalPercent = numberValue(totals.finalPercent, 0);
+    const secondaryPercent = numberValue(totals.secondaryPercent, 0);
+    const effectiveAptitude = aptitude * (1 + aptitudePercent / 100);
+    const basePower = baseFactor * effectiveAptitude;
+    const preFinal = baseFactor * (1 + powerPercent / 100) * (1 + secondaryPercent / 100) * aptitude * (1 + aptitudePercent / 100) + fixedPower;
+    const finalPower = Math.floor(preFinal * (1 + finalPercent / 100));
+
+    $('[data-fp-result-power]').textContent = fmt(finalPower);
+    $('[data-fp-result-aptitude]').textContent = fmt(Math.floor(effectiveAptitude));
+    $('[data-fp-result-aptitude-detail]').textContent = Math.abs(effectiveAptitude - Math.floor(effectiveAptitude)) > 0.000001
+      ? `Runtime value ${fmt(effectiveAptitude, 6)} · game display floors it`
+      : 'Matches displayed integer Aptitude';
+    $('[data-fp-result-base-power]').textContent = fmt(basePower);
+    $('[data-fp-result-prefinal]').textContent = fmt(preFinal);
+    const observed = numberValue(selectors.observedPower?.value, 0);
+    const difference = $('[data-fp-observed-difference]');
+    if (difference) difference.textContent = observed > 0 ? `${finalPower >= observed ? '+' : ''}${fmt(finalPower - observed)}` : '—';
+  };
+
+  const populateSelectors = () => {
+    selectors.fellow.innerHTML = '';
+    (data.fellows || []).forEach((item) => selectors.fellow.appendChild(option(item.id, `${item.name} · ${item.rarityLabel || item.rarity || ''}`)));
+    selectors.quality.innerHTML = '';
+    (data.qualities || []).forEach((item) => selectors.quality.appendChild(option(String(item.quality), `Limit Break ${item.quality} · Lv ${item.levelLimit}`)));
+    selectors.star.innerHTML = '';
+    (data.stars || []).forEach((item) => selectors.star.appendChild(option(String(item.star), `${item.star} star${item.star === 1 ? '' : 's'}`)));
+    (data.familiars || []).forEach((item) => selectors.familiar.appendChild(option(item.id, `${item.name} · ${item.rarityLabel || item.rarity || ''}`)));
+    (data.artifacts || []).forEach((item) => selectors.artifact.appendChild(option(item.id, `${item.name} · ${item.rarityLabel || item.rarity || ''}`)));
+    populateVariantSelector();
+  };
+
+  const collectModes = () => {
+    const result = {};
+    $$('[data-fp-auto-mode]').forEach((input) => {
+      const key = input.dataset.fpAutoKey || input.dataset.fpFamiliarValue || input.dataset.fpArtifactParam || input.dataset.fpSourceKey;
+      const scope = input.dataset.fpSourceInput || (input.dataset.fpFamiliarValue ? 'familiar' : input.dataset.fpArtifactParam ? 'artifact' : 'misc');
+      if (key) result[`${scope}:${key}`] = input.dataset.fpAutoMode;
+    });
+    result['baseFactor'] = selectors.baseFactorInput?.dataset.fpAutoMode || 'auto';
+    return result;
+  };
+
+  const serializeMateria = () => $$('.fp-materia-row').map((row) => ({
+    id: row.dataset.fpMateriaId,
+    active: !!row.querySelector('[data-fp-materia-active]')?.checked,
+    level: numberValue(row.querySelector('[data-fp-materia-level]')?.value, 1),
+    aptitude: numberValue(row.querySelector('[data-fp-materia-aptitude]')?.value, 0),
+    mode: row.querySelector('[data-fp-materia-aptitude]')?.dataset.fpAutoMode || 'auto',
+  }));
+
+  const collectState = () => {
+    const sources = {};
+    $$('[data-fp-source-input]').forEach((input) => {
+      const group = input.dataset.fpSourceInput;
+      sources[group] ||= {};
+      sources[group][input.dataset.fpSourceKey] = numberValue(input.value, 0);
+    });
+    const overrides = {};
+    $$('[data-fp-source-override]').forEach((check) => {
+      const group = check.dataset.fpSourceOverride;
+      overrides[group] = {
+        enabled: check.checked,
+        value: numberValue(root.querySelector(`[data-fp-source-override-value="${group}"]`)?.value, 0),
+      };
+    });
+    const familiarValues = {};
+    $$('[data-fp-familiar-value]').forEach((input) => familiarValues[input.dataset.fpFamiliarValue] = numberValue(input.value, 0));
+    const inheritance = { originalActive: !!selectors.inheritanceOriginalActive?.checked, skillLevels: {} };
+    $$('[data-fp-inheritance-skill-level]').forEach((input) => inheritance.skillLevels[input.dataset.fpInheritanceSkillLevel] = numberValue(input.value, 0));
+    return {
+      fellow: selectors.fellow.value,
+      fellowVariant: selectors.fellowVariant?.value || 'base',
+      fellowLevel: numberValue(selectors.fellowLevel.value, 1),
+      quality: selectors.quality.value,
+      star: selectors.star.value,
+      baseFactor: numberValue(selectors.baseFactorInput?.value, 0),
+      familiar: selectors.familiar.value,
+      familiarLevel: numberValue(selectors.familiarLevel.value, 1),
+      familiarStar: numberValue(selectors.familiarStar.value, 0),
+      familiarMilestones: selectors.familiarMilestones.checked,
+      familiarValues,
+      artifact: selectors.artifact.value,
+      artifactLevel: numberValue(selectors.artifactLevel.value, 1),
+      artifactParams: {
+        initialTalent: artifactParam('initialTalent', 0),
+        riseTalent: artifactParam('riseTalent', 0),
+      },
+      materia: serializeMateria(),
+      inheritance,
+      modes: collectModes(),
+      sources,
+      overrides,
+      observedPower: numberValue(selectors.observedPower?.value, 0),
+    };
+  };
+
+  const restoreModes = (state) => {
+    const modes = state.modes || {};
+    if (selectors.baseFactorInput && selectors.baseFactorAuto) setAutoMode(selectors.baseFactorInput, selectors.baseFactorAuto, modes.baseFactor || (state.baseOverrideEnabled ? 'manual' : 'auto'));
+    $$('[data-fp-familiar-value]').forEach((input) => {
+      const button = root.querySelector(`[data-fp-familiar-auto="${input.dataset.fpFamiliarValue}"]`);
+      if (button) setAutoMode(input, button, modes[`familiar:${input.dataset.fpFamiliarValue}`] || 'auto');
+    });
+    $$('[data-fp-artifact-param]').forEach((input) => {
+      const button = root.querySelector(`[data-fp-artifact-param-auto="${input.dataset.fpArtifactParam}"]`);
+      if (button) setAutoMode(input, button, modes[`artifact:${input.dataset.fpArtifactParam}`] || 'auto');
+    });
+    $$('[data-fp-source-input][data-fp-auto-key]').forEach((input) => {
+      const button = input.closest('label')?.querySelector('[data-fp-source-auto-toggle]');
+      if (button) setAutoMode(input, button, modes[`${input.dataset.fpSourceInput}:${input.dataset.fpSourceKey}`] || 'auto');
+    });
+  };
+
+  const applyState = (state = {}) => {
+    if (state.fellow && maps.fellows.has(String(state.fellow))) selectors.fellow.value = String(state.fellow);
+    populateVariantSelector(state.fellowVariant || 'base');
+    selectors.fellowLevel.value = String(state.fellowLevel ?? 1);
+    if (state.quality && maps.qualities.has(Number(state.quality))) selectors.quality.value = String(state.quality);
+    if (state.star !== undefined && maps.stars.has(Number(state.star))) selectors.star.value = String(state.star);
+    selectors.familiar.value = state.familiar && maps.familiars.has(String(state.familiar)) ? String(state.familiar) : '';
+    selectors.familiarLevel.value = String(state.familiarLevel ?? 1);
+    selectors.familiarStar.value = String(state.familiarStar ?? 0);
+    selectors.familiarMilestones.checked = state.familiarMilestones !== false;
+    selectors.artifact.value = state.artifact && maps.artifacts.has(String(state.artifact)) ? String(state.artifact) : '';
+    selectors.artifactLevel.value = String(state.artifactLevel ?? 1);
+
+    refreshArtifactParams(true);
+    if (state.artifactParams) {
+      $$('[data-fp-artifact-param]').forEach((input) => {
+        if (state.artifactParams[input.dataset.fpArtifactParam] !== undefined) input.value = String(state.artifactParams[input.dataset.fpArtifactParam]);
+      });
+    }
+    renderMateria(state.materia || []);
+    renderInheritance(state.inheritance || {});
+    restoreModes(state);
+    if (selectors.baseFactorInput && state.baseFactor !== undefined) selectors.baseFactorInput.value = String(state.baseFactor);
+
+    if (state.familiarValues) {
+      $$('[data-fp-familiar-value]').forEach((input) => input.value = String(state.familiarValues[input.dataset.fpFamiliarValue] ?? 0));
+    } else {
+      writeFamiliarSuggestion();
+    }
+
+    $$('[data-fp-source-input]').forEach((input) => {
+      const value = state.sources?.[input.dataset.fpSourceInput]?.[input.dataset.fpSourceKey];
+      if (value !== undefined) input.value = String(value);
+    });
+    $$('[data-fp-source-override]').forEach((check) => {
+      const group = check.dataset.fpSourceOverride;
+      const stored = state.overrides?.[group] || {};
+      check.checked = !!stored.enabled;
+      const input = root.querySelector(`[data-fp-source-override-value="${group}"]`);
+      if (input) {
+        input.value = String(stored.value ?? 0);
+        input.disabled = !check.checked;
+      }
+    });
+    if (selectors.observedPower) selectors.observedPower.value = String(state.observedPower ?? 0);
+    bindAllNumberInputs();
+    update();
+  };
+
+  const readPresets = () => {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (_error) {
+      return {};
+    }
+  };
+
+  const writePresets = (presets) => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(presets));
+      return true;
+    } catch (_error) {
+      setStatus('Could not save presets in this browser.', 'error');
+      return false;
+    }
+  };
+
+  const refreshPresetSelect = (selected = '') => {
+    const presets = readPresets();
+    selectors.presetSelect.innerHTML = '';
+    selectors.presetSelect.appendChild(option('', '— Unsaved configuration —'));
+    Object.keys(presets).sort((a, b) => a.localeCompare(b)).forEach((name) => selectors.presetSelect.appendChild(option(name, name)));
+    if (selected && presets[selected]) selectors.presetSelect.value = selected;
+  };
+
+  const bindEvents = () => {
+    selectors.fellow.addEventListener('change', () => {
+      populateVariantSelector();
+      renderInheritance();
+      writeFamiliarSuggestion();
+      update();
+    });
+    selectors.fellowVariant?.addEventListener('change', update);
+    [selectors.fellowLevel, selectors.quality, selectors.star, selectors.artifactLevel, selectors.observedPower].filter(Boolean).forEach((input) => input.addEventListener('input', update));
+    selectors.baseFactorAuto?.addEventListener('click', () => toggleAutoMode(selectors.baseFactorInput, selectors.baseFactorAuto));
+    selectors.baseFactorInput?.addEventListener('input', update);
+
+    selectors.familiar.addEventListener('change', () => writeFamiliarSuggestion());
+    selectors.familiarLevel.addEventListener('input', () => writeFamiliarSuggestion());
+    selectors.familiarStar.addEventListener('input', () => writeFamiliarSuggestion());
+    selectors.familiarMilestones.addEventListener('change', () => writeFamiliarSuggestion());
+    selectors.familiarRecalculate.addEventListener('click', () => writeFamiliarSuggestion(true));
+    $$('[data-fp-familiar-auto]').forEach((button) => {
+      const input = root.querySelector(`[data-fp-familiar-value="${button.dataset.fpFamiliarAuto}"]`);
+      button.addEventListener('click', () => toggleAutoMode(input, button));
+    });
+    $$('[data-fp-familiar-value]').forEach((input) => input.addEventListener('input', update));
+
+    selectors.artifact.addEventListener('change', () => {
+      refreshArtifactParams(true);
+      renderMateria();
+      update();
+    });
+    $$('[data-fp-artifact-param-auto]').forEach((button) => {
+      const input = root.querySelector(`[data-fp-artifact-param="${button.dataset.fpArtifactParamAuto}"]`);
+      button.addEventListener('click', () => toggleAutoMode(input, button));
+    });
+    $$('[data-fp-artifact-param]').forEach((input) => input.addEventListener('input', update));
+
+    selectors.inheritanceOriginalActive?.addEventListener('change', update);
+    selectors.sourceGroups.addEventListener('input', update);
+    selectors.sourceGroups.addEventListener('change', (event) => {
+      const override = event.target.closest('[data-fp-source-override]');
+      if (override) {
+        const group = override.dataset.fpSourceOverride;
+        const input = root.querySelector(`[data-fp-source-override-value="${group}"]`);
+        if (input) input.disabled = !override.checked;
+      }
+      update();
+    });
+
+    selectors.presetSave.addEventListener('click', () => {
+      const name = selectors.presetName.value.trim();
+      if (!name) {
+        setStatus('Enter a preset name first.', 'warning');
+        selectors.presetName.focus();
+        return;
+      }
+      const presets = readPresets();
+      presets[name] = { savedAt: new Date().toISOString(), state: collectState() };
+      if (!writePresets(presets)) return;
+      refreshPresetSelect(name);
+      setStatus(`Saved “${name}” in this browser.`, 'success');
+    });
+    selectors.presetLoad.addEventListener('click', () => {
+      const name = selectors.presetSelect.value;
+      const preset = readPresets()[name];
+      if (!preset?.state) {
+        setStatus('Choose a saved preset to load.', 'warning');
+        return;
+      }
+      selectors.presetName.value = name;
+      applyState(preset.state);
+      setStatus(`Loaded “${name}”.`, 'success');
+    });
+    selectors.presetDelete.addEventListener('click', () => {
+      const name = selectors.presetSelect.value;
+      if (!name) {
+        setStatus('Choose a saved preset to delete.', 'warning');
+        return;
+      }
+      const presets = readPresets();
+      delete presets[name];
+      if (!writePresets(presets)) return;
+      selectors.presetName.value = '';
+      refreshPresetSelect();
+      setStatus(`Deleted “${name}”.`, 'success');
+    });
+    selectors.presetSelect.addEventListener('change', () => {
+      if (selectors.presetSelect.value) selectors.presetName.value = selectors.presetSelect.value;
+    });
+    selectors.reset.addEventListener('click', () => {
+      selectors.presetName.value = '';
+      selectors.presetSelect.value = '';
+      applyState({});
+      setStatus('Calculator reset.', 'success');
+    });
+    bindAllNumberInputs();
+  };
+
+  fetch(configUrl)
+    .then((response) => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    })
+    .then((loaded) => {
+      data = loaded;
+      maps = {
+        fellows: new Map((data.fellows || []).map((row) => [String(row.id), row])),
+        familiars: new Map((data.familiars || []).map((row) => [String(row.id), row])),
+        artifacts: new Map((data.artifacts || []).map((row) => [String(row.id), row])),
+        qualities: new Map((data.qualities || []).map((row) => [Number(row.quality), row])),
+        stars: new Map((data.stars || []).map((row) => [Number(row.star), row])),
+        levelCoefficients: new Map((data.heroLevels || []).map((row) => [Number(row.level), Number(row.coefficient || 0)])),
+      };
+      populateSelectors();
+      renderSourceGroups();
+      refreshArtifactParams(true);
+      renderMateria();
+      renderInheritance();
+      refreshPresetSelect();
+      bindEvents();
+      writeFamiliarSuggestion(true);
+      update();
+    })
+    .catch((error) => {
+      root.classList.add('calculator-load-error');
+      setStatus(`Unable to load Fellow Power configuration: ${error.message}`, 'error');
+    });
 })();
 
