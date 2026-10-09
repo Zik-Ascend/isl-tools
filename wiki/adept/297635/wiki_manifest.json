@@ -1,0 +1,3704 @@
+{
+  "generated_at": "2026-10-09 16:18 UTC",
+  "adept_patch": "297635",
+  "entries": [
+    {
+      "title": "Fellows",
+      "category": "category",
+      "url": "fellows/",
+      "summary": "Fellow category index"
+    },
+    {
+      "title": "Artifacts",
+      "category": "category",
+      "url": "artifacts/",
+      "summary": "Artifact category index"
+    },
+    {
+      "title": "Museum",
+      "category": "category",
+      "url": "museum/",
+      "summary": "Museum exhibits organized by exhibition hall, rarity, source, and skills"
+    },
+    {
+      "title": "Items",
+      "category": "category",
+      "url": "items/",
+      "summary": "Items, currencies, materials, event resources, sources, uses, and conversions"
+    },
+    {
+      "title": "Events",
+      "category": "category",
+      "url": "events/",
+      "summary": "Event phases, durations, core rewards, related activities, and score-shop offerings"
+    },
+    {
+      "title": "Fellow Power Calculator",
+      "category": "calculators",
+      "url": "calculators/fellow-power/",
+      "summary": "Simulate Fellow power from levels, stars, Familiars, Artifacts, and account-wide stat sources"
+    },
+    {
+      "title": "Future Maxim",
+      "category": "fellows",
+      "id": "198",
+      "internal_id": "Hero_198",
+      "url": "fellows/future-maxim/",
+      "rarity": "SSR+ -> UR",
+      "rarity_sort": 6,
+      "country": "4",
+      "country_label": "Informed",
+      "summary": "Fellow ID 198 · Rarity SSR+ -> UR"
+    },
+    {
+      "title": "Hattie",
+      "category": "fellows",
+      "id": "262",
+      "internal_id": "Hero_262",
+      "url": "fellows/hattie/",
+      "rarity": "SSR -> SSR+ -> UR*",
+      "rarity_sort": 7,
+      "country": "4",
+      "country_label": "Informed",
+      "summary": "Fellow ID 262 · Rarity SSR -> SSR+ -> UR*"
+    },
+    {
+      "title": "Shinobu Kocho",
+      "category": "fellows",
+      "id": "264",
+      "internal_id": "Hero_264",
+      "url": "fellows/shinobu-kocho/",
+      "rarity": "SSR+ -> UR -> LR",
+      "rarity_sort": 8,
+      "country": "4",
+      "country_label": "Informed",
+      "summary": "Fellow ID 264 · Rarity SSR+ -> UR -> LR"
+    },
+    {
+      "title": "Violetta",
+      "category": "fellows",
+      "id": "267",
+      "internal_id": "Hero_267",
+      "url": "fellows/violetta/",
+      "rarity": "SSR -> SSR+ -> UR*",
+      "rarity_sort": 7,
+      "country": "2",
+      "country_label": "Diligent",
+      "summary": "Fellow ID 267 · Rarity SSR -> SSR+ -> UR*"
+    },
+    {
+      "title": "Giyu Tomioka",
+      "category": "fellows",
+      "id": "301",
+      "internal_id": "Hero_301",
+      "url": "fellows/giyu-tomioka/",
+      "rarity": "SSR+ -> UR",
+      "rarity_sort": 6,
+      "country": "3",
+      "country_label": "Brave",
+      "summary": "Fellow ID 301 · Rarity SSR+ -> UR"
+    },
+    {
+      "title": "Linlang",
+      "category": "fellows",
+      "id": "305",
+      "internal_id": "Hero_305",
+      "url": "fellows/linlang/",
+      "rarity": "SR -> SSR+ -> UR",
+      "rarity_sort": 6,
+      "country": "4",
+      "country_label": "Informed",
+      "summary": "Fellow ID 305 · Rarity SR -> SSR+ -> UR"
+    },
+    {
+      "title": "Rissette",
+      "category": "fellows",
+      "id": "308",
+      "internal_id": "Hero_308",
+      "url": "fellows/rissette/",
+      "rarity": "SR -> SSR+ -> UR",
+      "rarity_sort": 6,
+      "country": "5",
+      "country_label": "Unfettered",
+      "summary": "Fellow ID 308 · Rarity SR -> SSR+ -> UR"
+    },
+    {
+      "title": "Sera",
+      "category": "family",
+      "id": "102",
+      "internal_id": "Wife_102",
+      "url": "family/sera/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Family ID 102 · Rarity SSR"
+    },
+    {
+      "title": "Bren",
+      "category": "family",
+      "id": "111",
+      "internal_id": "Wife_111",
+      "url": "family/bren/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Family ID 111 · Rarity SSR"
+    },
+    {
+      "title": "Phetia",
+      "category": "family",
+      "id": "114",
+      "internal_id": "Wife_114",
+      "url": "family/phetia/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Family ID 114 · Rarity SSR"
+    },
+    {
+      "title": "Connie",
+      "category": "family",
+      "id": "120",
+      "internal_id": "Wife_120",
+      "url": "family/connie/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Family ID 120 · Rarity SSR"
+    },
+    {
+      "title": "Sylthiel",
+      "category": "family",
+      "id": "157",
+      "internal_id": "Wife_157",
+      "url": "family/sylthiel/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Family ID 157 · Rarity SSR"
+    },
+    {
+      "title": "Mushimi",
+      "category": "family",
+      "id": "167",
+      "internal_id": "Wife_167",
+      "url": "family/mushimi/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Family ID 167 · Rarity UR"
+    },
+    {
+      "title": "Hattie",
+      "category": "family",
+      "id": "183",
+      "internal_id": "Wife_183",
+      "url": "family/hattie/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Family ID 183 · Rarity UR"
+    },
+    {
+      "title": "Tsukuyomi",
+      "category": "family",
+      "id": "122",
+      "internal_id": "Wife_122",
+      "url": "family/tsukuyomi/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Family ID 122 · Rarity UR"
+    },
+    {
+      "title": "Shuna",
+      "category": "family",
+      "id": "144",
+      "internal_id": "Wife_144",
+      "url": "family/shuna/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Family ID 144 · Rarity UR"
+    },
+    {
+      "title": "Dante",
+      "category": "family",
+      "id": "181",
+      "internal_id": "Wife_181",
+      "url": "family/dante/",
+      "rarity": "SSR+ -> UR",
+      "rarity_sort": 6,
+      "summary": "Family ID 181 · Rarity SSR+ -> UR"
+    },
+    {
+      "title": "Nonnette",
+      "category": "family",
+      "id": "182",
+      "internal_id": "Wife_182",
+      "url": "family/nonnette/",
+      "rarity": "SSR+ -> UR",
+      "rarity_sort": 6,
+      "summary": "Family ID 182 · Rarity SSR+ -> UR"
+    },
+    {
+      "title": "Amaterasu",
+      "category": "family",
+      "id": "187",
+      "internal_id": "Wife_187",
+      "url": "family/amaterasu/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Family ID 187 · Rarity UR"
+    },
+    {
+      "title": "Zenitsu Agatsuma's Nichirin Sword",
+      "category": "artifacts",
+      "id": "Weapon_6_H303",
+      "internal_id": "Weapon_6_H303",
+      "url": "artifacts/zenitsu-agatsuma-s-nichirin-sword/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Artifact ID Weapon_6_H303 · Rarity UR"
+    },
+    {
+      "title": "身临其境的魔法书",
+      "category": "artifacts",
+      "id": "Weapon_6_H267",
+      "internal_id": "Weapon_6_H267",
+      "url": "artifacts/artifact-weapon-6-h267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Artifact ID Weapon_6_H267 · Rarity UR"
+    },
+    {
+      "title": "Dragon Maid on Hiemspresent",
+      "category": "mushroom expo event stages",
+      "id": "Maidragon_EN",
+      "internal_id": "Maidragon_EN",
+      "url": "events/maidragon/#event-expo-stages-maidragon-en",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "氷雪の町校外実習～頑張れ！モンスター娘！",
+      "category": "mushroom expo event stages",
+      "id": "MonsterGirl_EN",
+      "internal_id": "MonsterGirl_EN",
+      "url": "events/maidragon/#event-expo-stages-monstergirl-en",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Encounter in Another World",
+      "category": "mushroom expo event stages",
+      "id": "DanMachi",
+      "internal_id": "DanMachi",
+      "url": "events/maidragon/#event-expo-stages-danmachi",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Kawaiimush",
+      "category": "mushroom expo event stages",
+      "id": "Sanrio",
+      "internal_id": "Sanrio",
+      "url": "events/maidragon/#event-expo-stages-sanrio",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Fight! Magic Academy Sports Day!",
+      "category": "mushroom expo event stages",
+      "id": "FairyTail",
+      "internal_id": "FairyTail",
+      "url": "events/maidragon/#event-expo-stages-fairytail",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Camping with A Slime",
+      "category": "mushroom expo event stages",
+      "id": "TenSura",
+      "internal_id": "TenSura",
+      "url": "events/maidragon/#event-expo-stages-tensura",
+      "summary": "15 stage sets · 5 difficulties"
+    },
+    {
+      "title": "Owl Magnifier",
+      "category": "museum exhibits",
+      "id": "Collection_12",
+      "internal_id": "Collection_12",
+      "url": "museum/#museum-exhibit-collection-12",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_12 · Hall1 · Rarity R · Unlocks after building the Museum."
+    },
+    {
+      "title": "Cool tea beverage machine",
+      "category": "museum exhibits",
+      "id": "Collection_2",
+      "internal_id": "Collection_2",
+      "url": "museum/#museum-exhibit-collection-2",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_2 · Hall1 · Rarity R · Inn level: 2\nDish unlocked: Kitty Sandwich\nObtain Fellow: Maxim"
+    },
+    {
+      "title": "Noble Lamp",
+      "category": "museum exhibits",
+      "id": "Collection_3",
+      "internal_id": "Collection_3",
+      "url": "museum/#museum-exhibit-collection-3",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_3 · Hall1 · Rarity R · Inn level: 7\nDish unlocked: Slime Supreme"
+    },
+    {
+      "title": "Twin Dragon",
+      "category": "museum exhibits",
+      "id": "Collection_4",
+      "internal_id": "Collection_4",
+      "url": "museum/#museum-exhibit-collection-4",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_4 · Hall1 · Rarity R · Inn level: 3\nDish unlocked: Spicy Chimera Wings"
+    },
+    {
+      "title": "Phonograph in Sea",
+      "category": "museum exhibits",
+      "id": "Collection_5",
+      "internal_id": "Collection_5",
+      "url": "museum/#museum-exhibit-collection-5",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_5 · Hall1 · Rarity SR · Inn level: 6\nDish unlocked: Instant Noodles\nObtain Family: Selena"
+    },
+    {
+      "title": "Tou's Affinity Umbrella",
+      "category": "museum exhibits",
+      "id": "Collection_6",
+      "internal_id": "Collection_6",
+      "url": "museum/#museum-exhibit-collection-6",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_6 · Hall1 · Rarity R · Inn level: 4\nDish unlocked: Kimchi"
+    },
+    {
+      "title": "Lavish Doghouse",
+      "category": "museum exhibits",
+      "id": "Collection_8",
+      "internal_id": "Collection_8",
+      "url": "museum/#museum-exhibit-collection-8",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_8 · Hall1 · Rarity R · Inn level: 5\nDish unlocked: Oatmeal Porridge"
+    },
+    {
+      "title": "Golden Camel",
+      "category": "museum exhibits",
+      "id": "Collection_9",
+      "internal_id": "Collection_9",
+      "url": "museum/#museum-exhibit-collection-9",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_9 · Hall1 · Rarity R · Inn level: 6\nDish unlocked: Beef Stew"
+    },
+    {
+      "title": "Hunter's Hat",
+      "category": "museum exhibits",
+      "id": "Collection_10",
+      "internal_id": "Collection_10",
+      "url": "museum/#museum-exhibit-collection-10",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_10 · Hall1 · Rarity R · Inn level: 7\nDish unlocked: Onion Rings"
+    },
+    {
+      "title": "Outsized Omamori",
+      "category": "museum exhibits",
+      "id": "Collection_11",
+      "internal_id": "Collection_11",
+      "url": "museum/#museum-exhibit-collection-11",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_11 · Hall1 · Rarity R · Inn level: 9\nDish unlocked: Roast Assorted Food"
+    },
+    {
+      "title": "Remote Control Dragon",
+      "category": "museum exhibits",
+      "id": "Collection_21",
+      "internal_id": "Collection_21",
+      "url": "museum/#museum-exhibit-collection-21",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_21 · Hall1 · Rarity R · Inn level: 4\nDish unlocked: Fried Chicken\nObtain Fellow: Mammon"
+    },
+    {
+      "title": "Monster Statue",
+      "category": "museum exhibits",
+      "id": "Collection_22",
+      "internal_id": "Collection_22",
+      "url": "museum/#museum-exhibit-collection-22",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_22 · Hall1 · Rarity R · Inn level: 10\nDish unlocked: Dungeon Chowder\nObtain Fellow: Anne"
+    },
+    {
+      "title": "Golden Mushroom",
+      "category": "museum exhibits",
+      "id": "Collection_13",
+      "internal_id": "Collection_13",
+      "url": "museum/#museum-exhibit-collection-13",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_13 · Hall1 · Rarity R · After participating actively in the Trade Festival, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Mini World Tree Nightlight",
+      "category": "museum exhibits",
+      "id": "Collection_14",
+      "internal_id": "Collection_14",
+      "url": "museum/#museum-exhibit-collection-14",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_14 · Hall1 · Rarity R · After participating actively in the World Tree series of events, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "King Salmon Statue",
+      "category": "museum exhibits",
+      "id": "Collection_15",
+      "internal_id": "Collection_15",
+      "url": "museum/#museum-exhibit-collection-15",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_15 · Hall1 · Rarity R · After resolving the crisis in the Northrealm, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Mushroom's Trade Route",
+      "category": "museum exhibits",
+      "id": "Collection_16",
+      "internal_id": "Collection_16",
+      "url": "museum/#museum-exhibit-collection-16",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_16 · Hall1 · Rarity R · After toasting with Amaterasu in the Touno Island Story, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Gold Mushroom Mask",
+      "category": "museum exhibits",
+      "id": "Collection_17",
+      "internal_id": "Collection_17",
+      "url": "museum/#museum-exhibit-collection-17",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_17 · Hall1 · Rarity R · After actively participating in the Sandtopia Pilgrimage, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Bubble Music Box",
+      "category": "museum exhibits",
+      "id": "Collection_18",
+      "internal_id": "Collection_18",
+      "url": "museum/#museum-exhibit-collection-18",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_18 · Hall1 · Rarity R · After actively participating in the Aloha, Bubble Island event, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "Dark Flame Grail",
+      "category": "museum exhibits",
+      "id": "Collection_19",
+      "internal_id": "Collection_19",
+      "url": "museum/#museum-exhibit-collection-19",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_19 · Hall1 · Rarity SR · After participating actively in the Trade Festival, you have the chance to obtain rewards through city event."
+    },
+    {
+      "title": "1st Anniversary Cake",
+      "category": "museum exhibits",
+      "id": "Collection_20",
+      "internal_id": "Collection_20",
+      "url": "museum/#museum-exhibit-collection-20",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_20 · Hall1 · Rarity SR · Obtained in Kemomimi Village Ceremony."
+    },
+    {
+      "title": "2nd Anniversary Cake",
+      "category": "museum exhibits",
+      "id": "Collection_33",
+      "internal_id": "Collection_33",
+      "url": "museum/#museum-exhibit-collection-33",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_33 · Hall1 · Rarity SR · Village Ceremony"
+    },
+    {
+      "title": "Celestial Maiden's Goshuin",
+      "category": "museum exhibits",
+      "id": "Collection_23",
+      "internal_id": "Collection_23",
+      "url": "museum/#museum-exhibit-collection-23",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_23 · Hall1 · Rarity SR · Obtainable during the Celestial Maiden Wish Festival."
+    },
+    {
+      "title": "Electric Ant",
+      "category": "museum exhibits",
+      "id": "Collection_37",
+      "internal_id": "Collection_37",
+      "url": "museum/#museum-exhibit-collection-37",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_37 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Golden Dumbbells",
+      "category": "museum exhibits",
+      "id": "Collection_38",
+      "internal_id": "Collection_38",
+      "url": "museum/#museum-exhibit-collection-38",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_38 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Hiemspresent Photo",
+      "category": "museum exhibits",
+      "id": "Collection_24",
+      "internal_id": "Collection_24",
+      "url": "museum/#museum-exhibit-collection-24",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_24 · Hall1 · Rarity SSR · Obtained in Dragon Maid on Hiemspresent event."
+    },
+    {
+      "title": "Red Spider Lily",
+      "category": "museum exhibits",
+      "id": "Collection_36",
+      "internal_id": "Collection_36",
+      "url": "museum/#museum-exhibit-collection-36",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_36 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Valkyrie's Crown",
+      "category": "museum exhibits",
+      "id": "Collection_35",
+      "internal_id": "Collection_35",
+      "url": "museum/#museum-exhibit-collection-35",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_35 · Hall1 · Rarity R · Village Ceremony"
+    },
+    {
+      "title": "Divine Cube",
+      "category": "museum exhibits",
+      "id": "Collection_26",
+      "internal_id": "Collection_26",
+      "url": "museum/#museum-exhibit-collection-26",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_26 · Hall1 · Rarity R · Complete Main Quest in Dungeon Dev to obtain."
+    },
+    {
+      "title": "ホットココアの氷の彫刻",
+      "category": "museum exhibits",
+      "id": "Collection_25",
+      "internal_id": "Collection_25",
+      "url": "museum/#museum-exhibit-collection-25",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_25 · Hall1 · Rarity SR · 「氷雪の町校外実習～頑張れ！モンスター娘！」イベントで獲得。"
+    },
+    {
+      "title": "Axis Order Goddess's Statue",
+      "category": "museum exhibits",
+      "id": "Collection_Konosuba",
+      "internal_id": "Collection_Konosuba",
+      "url": "museum/#museum-exhibit-collection-konosuba",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_Konosuba · Hall1 · Rarity SR · Obtained from [Progress Rewards] from the [God's Blessing on This Laid-Back Isekai!] crossover event."
+    },
+    {
+      "title": "Café LycoReco Memorial Statue",
+      "category": "museum exhibits",
+      "id": "Collection_LycoReco",
+      "internal_id": "Collection_LycoReco",
+      "url": "museum/#museum-exhibit-collection-lycoreco",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_LycoReco · Hall1 · Rarity SR · Food Truck shop in the [Café LycoReco Crossing into Isekai] crossover event."
+    },
+    {
+      "title": "Championship Statue",
+      "category": "museum exhibits",
+      "id": "Collection_48",
+      "internal_id": "Collection_48",
+      "url": "museum/#museum-exhibit-collection-48",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_48 · Hall1 · Rarity SR · Obtained from completing all Story Missions in [Fight! FAIRY TAIL and the Magic Academy Sports Day!] event."
+    },
+    {
+      "title": "Crown of the Park",
+      "category": "museum exhibits",
+      "id": "Collection_44",
+      "internal_id": "Collection_44",
+      "url": "museum/#museum-exhibit-collection-44",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_44 · Hall1 · Rarity SR · Obtained by completing the main exploration tasks in the Kawaiimush crossover event."
+    },
+    {
+      "title": "Dungeon Medal",
+      "category": "museum exhibits",
+      "id": "Collection_41",
+      "internal_id": "Collection_41",
+      "url": "museum/#museum-exhibit-collection-41",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_41 · Hall1 · Rarity SR · Obtained by completing the main exploration tasks in the Encounter in Another World crossover event."
+    },
+    {
+      "title": "Relaxing Camping",
+      "category": "museum exhibits",
+      "id": "Collection_27",
+      "internal_id": "Collection_27",
+      "url": "museum/#museum-exhibit-collection-27",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_27 · Hall1 · Rarity SR · Obtain during the Camping with A Slime event"
+    },
+    {
+      "title": "Roxy Figure",
+      "category": "museum exhibits",
+      "id": "Collection_47",
+      "internal_id": "Collection_47",
+      "url": "museum/#museum-exhibit-collection-47",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_47 · Hall1 · Rarity SR · Complete story missions in the [Mushoku Tensei and Magic Creativity Show] crossover event to get."
+    },
+    {
+      "title": "Statue of Ainz Ooal Gown",
+      "category": "museum exhibits",
+      "id": "Collection_Overlord",
+      "internal_id": "Collection_Overlord",
+      "url": "museum/#museum-exhibit-collection-overlord",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_Overlord · Hall1 · Rarity SR · Obtain by completing main exploration tasks in the [OVERLORD vs. Isekai Farm Story] crossover event."
+    },
+    {
+      "title": "Statue of Shinobu",
+      "category": "museum exhibits",
+      "id": "Collection_DemonSlayer",
+      "internal_id": "Collection_DemonSlayer",
+      "url": "museum/#museum-exhibit-collection-demonslayer",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_DemonSlayer · Hall1 · Rarity SR · [Isekai Demon Hunter Arc] crossover event's [Progress Rewards]"
+    },
+    {
+      "title": "Waterfall Camp Model",
+      "category": "museum exhibits",
+      "id": "Collection_TenSuraS2",
+      "internal_id": "Collection_TenSuraS2",
+      "url": "museum/#museum-exhibit-collection-tensuras2",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_TenSuraS2 · Hall1 · Rarity SR · Complete story missions in the [Camping with A Slime Season 2] crossover event to get."
+    },
+    {
+      "title": "Obsidian Compass",
+      "category": "museum exhibits",
+      "id": "Collection_28",
+      "internal_id": "Collection_28",
+      "url": "museum/#museum-exhibit-collection-28",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_28 · Hall1 · Rarity R · Obtained upon reaching specific levels in Penglai Immortal."
+    },
+    {
+      "title": "Mystic Cauldron",
+      "category": "museum exhibits",
+      "id": "Collection_29",
+      "internal_id": "Collection_29",
+      "url": "museum/#museum-exhibit-collection-29",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_29 · Hall1 · Rarity SSR · Obtained after unlocking Premium Penglai Battle Pass."
+    },
+    {
+      "title": "5,000,000 Gold Check",
+      "category": "museum exhibits",
+      "id": "Collection_30",
+      "internal_id": "Collection_30",
+      "url": "museum/#museum-exhibit-collection-30",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_30 · Hall1 · Rarity SR · Increase Adventurer Team Level in the event From Old Country Bumpkin to Master Swordsman in Isekai to obtain."
+    },
+    {
+      "title": "Signed Poster",
+      "category": "museum exhibits",
+      "id": "Collection_31",
+      "internal_id": "Collection_31",
+      "url": "museum/#museum-exhibit-collection-31",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_31 · Hall1 · Rarity SR · Super Star of Light and Shadow"
+    },
+    {
+      "title": "Gold Poker",
+      "category": "museum exhibits",
+      "id": "Collection_42",
+      "internal_id": "Collection_42",
+      "url": "museum/#museum-exhibit-collection-42",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_42 · Hall1 · Rarity SSR · Unlock Premium Pass in Casino on Yacht to get."
+    },
+    {
+      "title": "Medal of 15 Trails",
+      "category": "museum exhibits",
+      "id": "Collection_32",
+      "internal_id": "Collection_32",
+      "url": "museum/#museum-exhibit-collection-32",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_32 · Hall1 · Rarity SSR · Unlocks Premium Privilege in the Cloud Kingdom Games to obtain."
+    },
+    {
+      "title": "1000000 Fans Plaque",
+      "category": "museum exhibits",
+      "id": "Collection_34",
+      "internal_id": "Collection_34",
+      "url": "museum/#museum-exhibit-collection-34",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_34 · Hall1 · Rarity SR · Obtained in the [Hanamiya Rica Special ~Isekai Episode~] event."
+    },
+    {
+      "title": "Battle Flag",
+      "category": "museum exhibits",
+      "id": "Collection_43",
+      "internal_id": "Collection_43",
+      "url": "museum/#museum-exhibit-collection-43",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Collection_43 · Hall1 · Rarity R · Participate in the Siege Warfare event and obtain it from the guild score ranking."
+    },
+    {
+      "title": "Love Mocktail",
+      "category": "museum exhibits",
+      "id": "Collection_45",
+      "internal_id": "Collection_45",
+      "url": "museum/#museum-exhibit-collection-45",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_45 · Hall1 · Rarity SR · Obtained in [Love Spell ~ Black Cat & Mocktail ~] event."
+    },
+    {
+      "title": "Wild Motorcycle",
+      "category": "museum exhibits",
+      "id": "Collection_46",
+      "internal_id": "Collection_46",
+      "url": "museum/#museum-exhibit-collection-46",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_46 · Hall1 · Rarity SSR · Unlocks in the Inferno Rally event upon purchasing the Premium Pass."
+    },
+    {
+      "title": "Bloodline Puppet",
+      "category": "museum exhibits",
+      "id": "Collection_DJDemonCastle",
+      "internal_id": "Collection_DJDemonCastle",
+      "url": "museum/#museum-exhibit-collection-djdemoncastle",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_DJDemonCastle · Hall1 · Rarity SSR · Unlock Premium Pass in the Crimson Moon Fantasia event to obtain."
+    },
+    {
+      "title": "Money Tree Miniature",
+      "category": "museum exhibits",
+      "id": "Collection_GveCoinFight",
+      "internal_id": "Collection_GveCoinFight",
+      "url": "museum/#museum-exhibit-collection-gvecoinfight",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveCoinFight · Hall1 · Rarity SSR · Unlock the Premium Pass in the Wealth from All Sides: Bazaar Mania event to get."
+    },
+    {
+      "title": "Stoneblade",
+      "category": "museum exhibits",
+      "id": "Collection_GveKingArthur",
+      "internal_id": "Collection_GveKingArthur",
+      "url": "museum/#museum-exhibit-collection-gvekingarthur",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveKingArthur · Hall1 · Rarity SSR · Obtained after unlocking premium pass in the Time to Eat! Delicious Dungeon Quest."
+    },
+    {
+      "title": "Thunder God Helm",
+      "category": "museum exhibits",
+      "id": "Collection_49",
+      "internal_id": "Collection_49",
+      "url": "museum/#museum-exhibit-collection-49",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_49 · Hall1 · Rarity SSR · Obtained by unlocking the Premium Pass of the March of the Northrealm event."
+    },
+    {
+      "title": "Verity's Textbook",
+      "category": "museum exhibits",
+      "id": "Collection_GveMedicine",
+      "internal_id": "Collection_GveMedicine",
+      "url": "museum/#museum-exhibit-collection-gvemedicine",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveMedicine · Hall1 · Rarity SSR · Unlocks Premium Pass during the Apothecary: Proud Mentor & Rebellious Apprentice event to obtain."
+    },
+    {
+      "title": "宝石礼扇",
+      "category": "museum exhibits",
+      "id": "Collection_GveMagicBook",
+      "internal_id": "Collection_GveMagicBook",
+      "url": "museum/#museum-exhibit-collection-gvemagicbook",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveMagicBook · Hall1 · Rarity SSR · 在「转生恶役的漫画之旅」活动中，解锁战令高级档位后获得"
+    },
+    {
+      "title": "Golden Realm Golemore",
+      "category": "museum exhibits",
+      "id": "Collection_50",
+      "internal_id": "Collection_50",
+      "url": "museum/#museum-exhibit-collection-50",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_50 · Hall1 · Rarity SSR · Unlock Premium Pass in the Golden Realm Expedition event to obtain."
+    },
+    {
+      "title": "3rd Anniversary Cake",
+      "category": "museum exhibits",
+      "id": "Collection_Anniversary_EN3",
+      "internal_id": "Collection_Anniversary_EN3",
+      "url": "museum/#museum-exhibit-collection-anniversary-en3",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Collection_Anniversary_EN3 · Hall1 · Rarity SR · Village Ceremony"
+    },
+    {
+      "title": "Construction Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_1",
+      "internal_id": "Achievement_1",
+      "url": "museum/#museum-exhibit-achievement-1",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_1 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Encounters Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_2",
+      "internal_id": "Achievement_2",
+      "url": "museum/#museum-exhibit-achievement-2",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_2 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Progress Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_3",
+      "internal_id": "Achievement_3",
+      "url": "museum/#museum-exhibit-achievement-3",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_3 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Treasure Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_4",
+      "internal_id": "Achievement_4",
+      "url": "museum/#museum-exhibit-achievement-4",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_4 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Lifestyle Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_5",
+      "internal_id": "Achievement_5",
+      "url": "museum/#museum-exhibit-achievement-5",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_5 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "World Tree Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_6",
+      "internal_id": "Achievement_6",
+      "url": "museum/#museum-exhibit-achievement-6",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_6 · Hall2 · Rarity SR · World Tree Series\nPersonal"
+    },
+    {
+      "title": "Sakura Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_7",
+      "internal_id": "Achievement_7",
+      "url": "museum/#museum-exhibit-achievement-7",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_7 · Hall2 · Rarity SR · Touno Island Story\nTotal Sakura Coin"
+    },
+    {
+      "title": "Snowflake Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_8",
+      "internal_id": "Achievement_8",
+      "url": "museum/#museum-exhibit-achievement-8",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_8 · Hall2 · Rarity SR · Northern Odyssey\nExploration"
+    },
+    {
+      "title": "Pirate Chess Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_18",
+      "internal_id": "Achievement_18",
+      "url": "museum/#museum-exhibit-achievement-18",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Achievement_18 · Hall2 · Rarity SSR · Pirate Chess\nChampion Group Points"
+    },
+    {
+      "title": "The Joy of Fishing",
+      "category": "museum exhibits",
+      "id": "Achievement_9",
+      "internal_id": "Achievement_9",
+      "url": "museum/#museum-exhibit-achievement-9",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_9 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Prosperous and Flourishing",
+      "category": "museum exhibits",
+      "id": "Achievement_10",
+      "internal_id": "Achievement_10",
+      "url": "museum/#museum-exhibit-achievement-10",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_10 · Hall2 · Rarity SR · Ranking Rush\nVillage Earnings Ranking Rush"
+    },
+    {
+      "title": "Heartfelt Connection",
+      "category": "museum exhibits",
+      "id": "Achievement_11",
+      "internal_id": "Achievement_11",
+      "url": "museum/#museum-exhibit-achievement-11",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_11 · Hall2 · Rarity SR · Ranking Rush\nFamily Intimacy Ranking Rush"
+    },
+    {
+      "title": "Strength Training",
+      "category": "museum exhibits",
+      "id": "Achievement_12",
+      "internal_id": "Achievement_12",
+      "url": "museum/#museum-exhibit-achievement-12",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_12 · Hall2 · Rarity SR · Ranking Rush\nFellow Power Ranking Rush"
+    },
+    {
+      "title": "Gentle Guardianship",
+      "category": "museum exhibits",
+      "id": "Achievement_13",
+      "internal_id": "Achievement_13",
+      "url": "museum/#museum-exhibit-achievement-13",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_13 · Hall2 · Rarity SR · Ranking Rush\nFamily Blessing Power Ranking"
+    },
+    {
+      "title": "Joyful Gathering",
+      "category": "museum exhibits",
+      "id": "Achievement_14",
+      "internal_id": "Achievement_14",
+      "url": "museum/#museum-exhibit-achievement-14",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_14 · Hall2 · Rarity SR · Ranking Rush\nBanquet Popularity Ranking Rush"
+    },
+    {
+      "title": "Dragon Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_15",
+      "internal_id": "Achievement_15",
+      "url": "museum/#museum-exhibit-achievement-15",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_15 · Hall2 · Rarity SR · Guild Trade Festival\nPoints Ranking"
+    },
+    {
+      "title": "Bubble Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_16",
+      "internal_id": "Achievement_16",
+      "url": "museum/#museum-exhibit-achievement-16",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_16 · Hall2 · Rarity SR · Aloha! Bubble Island\nPoints Ranking"
+    },
+    {
+      "title": "Raphael Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_17",
+      "internal_id": "Achievement_17",
+      "url": "museum/#museum-exhibit-achievement-17",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_17 · Hall2 · Rarity SR · Raphael's Stage\nHighest Support Value"
+    },
+    {
+      "title": "Ore Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_19",
+      "internal_id": "Achievement_19",
+      "url": "museum/#museum-exhibit-achievement-19",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_19 · Hall2 · Rarity SR · Explore! Mines in Dungeon!\nPoints Ranking"
+    },
+    {
+      "title": "Sandtopia Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_20",
+      "internal_id": "Achievement_20",
+      "url": "museum/#museum-exhibit-achievement-20",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_20 · Hall2 · Rarity SR · Sandtopia Pilgrimage\nGuild Race Ranking"
+    },
+    {
+      "title": "Frantic Forest Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_22",
+      "internal_id": "Achievement_22",
+      "url": "museum/#museum-exhibit-achievement-22",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_22 · Hall2 · Rarity SR · Purification of Frantic Forest\nPersonal"
+    },
+    {
+      "title": "Sand Dungeon Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_21",
+      "internal_id": "Achievement_21",
+      "url": "museum/#museum-exhibit-achievement-21",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_21 · Hall2 · Rarity SR · Dungeon Dev\nEndless Dungeon Personal Ranking"
+    },
+    {
+      "title": "Penglai Immortal Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_23",
+      "internal_id": "Achievement_23",
+      "url": "museum/#museum-exhibit-achievement-23",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_23 · Hall2 · Rarity SR · Penglai Immortal\nPersonal Point Ranking"
+    },
+    {
+      "title": "Drakenberg Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_24",
+      "internal_id": "Achievement_24",
+      "url": "museum/#museum-exhibit-achievement-24",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Achievement_24 · Hall2 · Rarity SSR · Drakenberg Arena"
+    },
+    {
+      "title": "Desire Yacht",
+      "category": "museum exhibits",
+      "id": "Achievement_27",
+      "internal_id": "Achievement_27",
+      "url": "museum/#museum-exhibit-achievement-27",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_27 · Hall2 · Rarity SR · Casino on Yacht\nScore Ranking"
+    },
+    {
+      "title": "Trails Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_25",
+      "internal_id": "Achievement_25",
+      "url": "museum/#museum-exhibit-achievement-25",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_25 · Hall2 · Rarity SR · Cloud Kingdom Games\nPersonal Points"
+    },
+    {
+      "title": "Challenge Medal",
+      "category": "museum exhibits",
+      "id": "Achievement_26",
+      "internal_id": "Achievement_26",
+      "url": "museum/#museum-exhibit-achievement-26",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Achievement_26 · Hall2 · Rarity R · Unknown"
+    },
+    {
+      "title": "Commander's Badge",
+      "category": "museum exhibits",
+      "id": "Achievement_28",
+      "internal_id": "Achievement_28",
+      "url": "museum/#museum-exhibit-achievement-28",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Achievement_28 · Hall2 · Rarity SSR · Siege Warfare ~Showdown~\nGuild Score Ranking"
+    },
+    {
+      "title": "Speed Trophy",
+      "category": "museum exhibits",
+      "id": "Achievement_29",
+      "internal_id": "Achievement_29",
+      "url": "museum/#museum-exhibit-achievement-29",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_29 · Hall2 · Rarity SR · Savage! Inferno Rally\nPersonal Ranking"
+    },
+    {
+      "title": "Thunder Hammer",
+      "category": "museum exhibits",
+      "id": "Achievement_30",
+      "internal_id": "Achievement_30",
+      "url": "museum/#museum-exhibit-achievement-30",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_30 · Hall2 · Rarity SR · March of the Northrealm\nPersonal Stamina Consumption Ranking"
+    },
+    {
+      "title": "Totem Pillar",
+      "category": "museum exhibits",
+      "id": "Achievement_31",
+      "internal_id": "Achievement_31",
+      "url": "museum/#museum-exhibit-achievement-31",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_31 · Hall2 · Rarity SR · Golden Realm Expedition\nPersonal Ranking"
+    },
+    {
+      "title": "Treasure Chest Collector",
+      "category": "museum exhibits",
+      "id": "Achievement_32",
+      "internal_id": "Achievement_32",
+      "url": "museum/#museum-exhibit-achievement-32",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_32 · Hall2 · Rarity SR · Delicious Dungeon Quest\nPersonal Exploration Power Ranking"
+    },
+    {
+      "title": "Brewing Cauldron",
+      "category": "museum exhibits",
+      "id": "Achievement_33",
+      "internal_id": "Achievement_33",
+      "url": "museum/#museum-exhibit-achievement-33",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_33 · Hall2 · Rarity SR · Apothecary: Proud Mentor & Rebellious Apprentice\nPersonal Exploration Power Ranking"
+    },
+    {
+      "title": "Antique Candlestick",
+      "category": "museum exhibits",
+      "id": "Achievement_34",
+      "internal_id": "Achievement_34",
+      "url": "museum/#museum-exhibit-achievement-34",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_34 · Hall2 · Rarity SR · Crimson Moon Fantasia\nPersonal Highest Chapter Ranking"
+    },
+    {
+      "title": "God of Wealth's Gold Coin",
+      "category": "museum exhibits",
+      "id": "Achievement_35",
+      "internal_id": "Achievement_35",
+      "url": "museum/#museum-exhibit-achievement-35",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_35 · Hall2 · Rarity SR · Wealth from All Sides: Bazaar Mania\nPersonal Highest Earning Ranking"
+    },
+    {
+      "title": "千金的藏书",
+      "category": "museum exhibits",
+      "id": "Achievement_36",
+      "internal_id": "Achievement_36",
+      "url": "museum/#museum-exhibit-achievement-36",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Achievement_36 · Hall2 · Rarity SR · 转生恶役的漫画之旅\n个人最高通关榜"
+    },
+    {
+      "title": "Owl Clock",
+      "category": "museum exhibits",
+      "id": "Exhibit_1",
+      "internal_id": "Exhibit_1",
+      "url": "museum/#museum-exhibit-exhibit-1",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Exhibit_1 · Hall3 · Rarity R · Museum Rating reaches Lv.1 to unlock"
+    },
+    {
+      "title": "Cheerleader",
+      "category": "museum exhibits",
+      "id": "Exhibit_2",
+      "internal_id": "Exhibit_2",
+      "url": "museum/#museum-exhibit-exhibit-2",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Exhibit_2 · Hall3 · Rarity SR · Obtain through Museum Rating Rewards"
+    },
+    {
+      "title": "Stoneblade",
+      "category": "museum exhibits",
+      "id": "Exhibit_3",
+      "internal_id": "Exhibit_3",
+      "url": "museum/#museum-exhibit-exhibit-3",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Exhibit_3 · Hall3 · Rarity R · Complete the top of the Drakenberg Challenge to obtain."
+    },
+    {
+      "title": "Mushroom Statue",
+      "category": "museum exhibits",
+      "id": "Exhibit_4",
+      "internal_id": "Exhibit_4",
+      "url": "museum/#museum-exhibit-exhibit-4",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit Exhibit_4 · Hall3 · Rarity R · Obtain through Museum Rating Rewards"
+    },
+    {
+      "title": "Golden Scale",
+      "category": "museum exhibits",
+      "id": "Exhibit_5",
+      "internal_id": "Exhibit_5",
+      "url": "museum/#museum-exhibit-exhibit-5",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit Exhibit_5 · Hall3 · Rarity SR · Reaching a certain amount of Influence in the guild to obtain."
+    },
+    {
+      "title": "Ladon's Skeleton",
+      "category": "museum exhibits",
+      "id": "SimGame5_2501",
+      "internal_id": "SimGame5_2501",
+      "url": "museum/#museum-exhibit-simgame5-2501",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Museum exhibit SimGame5_2501 · Hall5 · Rarity UR · Premium Gemstone (Frozen Abyss) 14% | Premium Gemstone (Ice Shipwreck) 14% | Premium Gemstone (Memory Cave) 14%"
+    },
+    {
+      "title": "Ancient Golden Mural",
+      "category": "museum exhibits",
+      "id": "SimGame5_2901",
+      "internal_id": "SimGame5_2901",
+      "url": "museum/#museum-exhibit-simgame5-2901",
+      "rarity": "SSR+",
+      "rarity_sort": 5,
+      "summary": "Museum exhibit SimGame5_2901 · Hall5 · Rarity SSR+ · Premium Gemstone (Frozen Abyss) 21% | Premium Gemstone (Ice Shipwreck) 21% | Premium Gemstone (Memory Cave) 21%"
+    },
+    {
+      "title": "Snow Cyclops' Eye Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_2401",
+      "internal_id": "SimGame5_2401",
+      "url": "museum/#museum-exhibit-simgame5-2401",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2401 · Hall5 · Rarity SSR · Advanced Gemstone (Memory Cave) 1.67% | Limited Gemstone (Memory Cave) 100% | Premium Gemstone (Memory Cave) 8.33%"
+    },
+    {
+      "title": "Iceborg Monster Wolf",
+      "category": "museum exhibits",
+      "id": "SimGame5_2402",
+      "internal_id": "SimGame5_2402",
+      "url": "museum/#museum-exhibit-simgame5-2402",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2402 · Hall5 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Limited Gemstone (Frozen Abyss) 100% | Premium Gemstone (Frozen Abyss) 6.25%"
+    },
+    {
+      "title": "Oyster Trap",
+      "category": "museum exhibits",
+      "id": "SimGame5_2403",
+      "internal_id": "SimGame5_2403",
+      "url": "museum/#museum-exhibit-simgame5-2403",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2403 · Hall5 · Rarity SSR · Advanced Gemstone (Ice Shipwreck) 1.25% | Limited Gemstone (Ice Shipwreck) 100% | Premium Gemstone (Ice Shipwreck) 6.25%"
+    },
+    {
+      "title": "Narwhal Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_2404",
+      "internal_id": "SimGame5_2404",
+      "url": "museum/#museum-exhibit-simgame5-2404",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2404 · Hall5 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Premium Gemstone (Frozen Abyss) 6.25%"
+    },
+    {
+      "title": "Sledge",
+      "category": "museum exhibits",
+      "id": "SimGame5_2405",
+      "internal_id": "SimGame5_2405",
+      "url": "museum/#museum-exhibit-simgame5-2405",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2405 · Hall5 · Rarity SSR · Advanced Gemstone (Ice Shipwreck) 1.25% | Premium Gemstone (Ice Shipwreck) 6.25%"
+    },
+    {
+      "title": "Bear-Eared Seal",
+      "category": "museum exhibits",
+      "id": "SimGame5_2406",
+      "internal_id": "SimGame5_2406",
+      "url": "museum/#museum-exhibit-simgame5-2406",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2406 · Hall5 · Rarity SSR · Advanced Gemstone (Ice Shipwreck) 1.25% | Advanced Gemstone (Memory Cave) 1.67% | Premium Gemstone (Ice Shipwreck) 6.25% | Premium Gemstone (Memory Cave) 8.33%"
+    },
+    {
+      "title": "Golden Dragon Scale",
+      "category": "museum exhibits",
+      "id": "SimGame5_1401",
+      "internal_id": "SimGame5_1401",
+      "url": "museum/#museum-exhibit-simgame5-1401",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_1401 · Hall6 · Rarity SSR · Advanced Gemstone (Original Ruins) 1.67% | Premium Gemstone (Original Ruins) 8.33%"
+    },
+    {
+      "title": "Saber-Toothed Tiger",
+      "category": "museum exhibits",
+      "id": "SimGame5_1402",
+      "internal_id": "SimGame5_1402",
+      "url": "museum/#museum-exhibit-simgame5-1402",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_1402 · Hall6 · Rarity SSR · Advanced Gemstone (Original Ruins) 1.67% | Limited Gemstone (Original Ruins) 100% | Premium Gemstone (Original Ruins) 8.33%"
+    },
+    {
+      "title": "Lucky Megaloceros",
+      "category": "museum exhibits",
+      "id": "SimGame5_1403",
+      "internal_id": "SimGame5_1403",
+      "url": "museum/#museum-exhibit-simgame5-1403",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_1403 · Hall6 · Rarity SSR · Advanced Gemstone (Original Ruins) 1.67% | Premium Gemstone (Original Ruins) 8.33%"
+    },
+    {
+      "title": "Mammoth",
+      "category": "museum exhibits",
+      "id": "SimGame5_2407",
+      "internal_id": "SimGame5_2407",
+      "url": "museum/#museum-exhibit-simgame5-2407",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2407 · Hall6 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Advanced Gemstone (Memory Cave) 1.67% | Premium Gemstone (Frozen Abyss) 6.25% | Premium Gemstone (Memory Cave) 8.33%"
+    },
+    {
+      "title": "Ironhead Turtle",
+      "category": "museum exhibits",
+      "id": "SimGame5_2408",
+      "internal_id": "SimGame5_2408",
+      "url": "museum/#museum-exhibit-simgame5-2408",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2408 · Hall6 · Rarity SSR · Advanced Gemstone (Frozen Abyss) 1.25% | Advanced Gemstone (Ice Shipwreck) 1.25% | Premium Gemstone (Frozen Abyss) 6.25% | Premium Gemstone (Ice Shipwreck) 6.25%"
+    },
+    {
+      "title": "Abandoned Portal",
+      "category": "museum exhibits",
+      "id": "SimGame5_2409",
+      "internal_id": "SimGame5_2409",
+      "url": "museum/#museum-exhibit-simgame5-2409",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit SimGame5_2409 · Hall6 · Rarity SSR · Unlocks after receiving the rewards of Treasure Hunt BP."
+    },
+    {
+      "title": "Golden Mural",
+      "category": "museum exhibits",
+      "id": "SimGame5_1301",
+      "internal_id": "SimGame5_1301",
+      "url": "museum/#museum-exhibit-simgame5-1301",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_1301 · Hall6 · Rarity SR · Advanced Gemstone (Original Ruins) 1.67% | Normal Gemstone (Original Ruins) 1% | Premium Gemstone (Original Ruins) 13.33%"
+    },
+    {
+      "title": "Four-Legged Shark Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1302",
+      "internal_id": "SimGame5_1302",
+      "url": "museum/#museum-exhibit-simgame5-1302",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_1302 · Hall6 · Rarity SR · Advanced Gemstone (Original Ruins) 1.67% | Normal Gemstone (Original Ruins) 1% | Premium Gemstone (Original Ruins) 13.33%"
+    },
+    {
+      "title": "Medusa Statue",
+      "category": "museum exhibits",
+      "id": "SimGame5_1303",
+      "internal_id": "SimGame5_1303",
+      "url": "museum/#museum-exhibit-simgame5-1303",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_1303 · Hall6 · Rarity SR · Advanced Gemstone (Original Ruins) 1.67% | Normal Gemstone (Original Ruins) 1% | Premium Gemstone (Original Ruins) 13.33%"
+    },
+    {
+      "title": "Miracle Medicine",
+      "category": "museum exhibits",
+      "id": "SimGame5_2301",
+      "internal_id": "SimGame5_2301",
+      "url": "museum/#museum-exhibit-simgame5-2301",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2301 · Hall6 · Rarity SR · Advanced Gemstone (Memory Cave) 1.67% | Normal Gemstone (Memory Cave) 1% | Premium Gemstone (Memory Cave) 13.33%"
+    },
+    {
+      "title": "Master Key",
+      "category": "museum exhibits",
+      "id": "SimGame5_2302",
+      "internal_id": "SimGame5_2302",
+      "url": "museum/#museum-exhibit-simgame5-2302",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2302 · Hall6 · Rarity SR · Advanced Gemstone (Frozen Abyss) 1.67% | Normal Gemstone (Frozen Abyss) 1% | Premium Gemstone (Frozen Abyss) 13.33%"
+    },
+    {
+      "title": "Protective Battle Flag",
+      "category": "museum exhibits",
+      "id": "SimGame5_2303",
+      "internal_id": "SimGame5_2303",
+      "url": "museum/#museum-exhibit-simgame5-2303",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2303 · Hall6 · Rarity SR · Advanced Gemstone (Ice Shipwreck) 1.67% | Normal Gemstone (Ice Shipwreck) 1% | Premium Gemstone (Ice Shipwreck) 13.33%"
+    },
+    {
+      "title": "Giant Serpent Egg",
+      "category": "museum exhibits",
+      "id": "SimGame5_2304",
+      "internal_id": "SimGame5_2304",
+      "url": "museum/#museum-exhibit-simgame5-2304",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2304 · Hall6 · Rarity SR · Advanced Gemstone (Frozen Abyss) 1.67% | Advanced Gemstone (Memory Cave) 1.67% | Normal Gemstone (Frozen Abyss) 1% | Normal Gemstone (Memory Cave) 1% | Premium Gemstone (Frozen Abyss) 13.33% | Premium Gemstone (Memory Cave) 13.33%"
+    },
+    {
+      "title": "Spatial Mirror",
+      "category": "museum exhibits",
+      "id": "SimGame5_2305",
+      "internal_id": "SimGame5_2305",
+      "url": "museum/#museum-exhibit-simgame5-2305",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2305 · Hall6 · Rarity SR · Advanced Gemstone (Frozen Abyss) 1.67% | Advanced Gemstone (Ice Shipwreck) 1.67% | Normal Gemstone (Frozen Abyss) 1% | Normal Gemstone (Ice Shipwreck) 1% | Premium Gemstone (Frozen Abyss) 13.33% | Premium Gemstone (Ice Shipwreck) 13.33%"
+    },
+    {
+      "title": "Golden Cloak",
+      "category": "museum exhibits",
+      "id": "SimGame5_2306",
+      "internal_id": "SimGame5_2306",
+      "url": "museum/#museum-exhibit-simgame5-2306",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Museum exhibit SimGame5_2306 · Hall6 · Rarity SR · Advanced Gemstone (Ice Shipwreck) 1.67% | Advanced Gemstone (Memory Cave) 1.67% | Normal Gemstone (Ice Shipwreck) 1% | Normal Gemstone (Memory Cave) 1% | Premium Gemstone (Ice Shipwreck) 13.33% | Premium Gemstone (Memory Cave) 13.33%"
+    },
+    {
+      "title": "Golden Mushroom Statue",
+      "category": "museum exhibits",
+      "id": "SimGame5_1201",
+      "internal_id": "SimGame5_1201",
+      "url": "museum/#museum-exhibit-simgame5-1201",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_1201 · Hall6 · Rarity R · Advanced Gemstone (Original Ruins) 20% | Normal Gemstone (Original Ruins) 7.33%"
+    },
+    {
+      "title": "Behemoth Footprint",
+      "category": "museum exhibits",
+      "id": "SimGame5_1202",
+      "internal_id": "SimGame5_1202",
+      "url": "museum/#museum-exhibit-simgame5-1202",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_1202 · Hall6 · Rarity R · Advanced Gemstone (Original Ruins) 20% | Normal Gemstone (Original Ruins) 7.33%"
+    },
+    {
+      "title": "Survival of the Fittest Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1203",
+      "internal_id": "SimGame5_1203",
+      "url": "museum/#museum-exhibit-simgame5-1203",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_1203 · Hall6 · Rarity R · Advanced Gemstone (Original Ruins) 20% | Normal Gemstone (Original Ruins) 7.33%"
+    },
+    {
+      "title": "Hornstone",
+      "category": "museum exhibits",
+      "id": "SimGame5_2201",
+      "internal_id": "SimGame5_2201",
+      "url": "museum/#museum-exhibit-simgame5-2201",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2201 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Debt Ledger",
+      "category": "museum exhibits",
+      "id": "SimGame5_2202",
+      "internal_id": "SimGame5_2202",
+      "url": "museum/#museum-exhibit-simgame5-2202",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2202 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Copper Hot Pot",
+      "category": "museum exhibits",
+      "id": "SimGame5_2203",
+      "internal_id": "SimGame5_2203",
+      "url": "museum/#museum-exhibit-simgame5-2203",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2203 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Circular Stone Formation",
+      "category": "museum exhibits",
+      "id": "SimGame5_2204",
+      "internal_id": "SimGame5_2204",
+      "url": "museum/#museum-exhibit-simgame5-2204",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Museum exhibit SimGame5_2204 · Hall6 · Rarity R · Advanced Gemstone (Frozen Abyss) 15% | Advanced Gemstone (Ice Shipwreck) 15% | Advanced Gemstone (Memory Cave) 15% | Normal Gemstone (Frozen Abyss) 5.5% | Normal Gemstone (Ice Shipwreck) 5.5% | Normal Gemstone (Memory Cave) 5.5%"
+    },
+    {
+      "title": "Anomalocaris Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1101",
+      "internal_id": "SimGame5_1101",
+      "url": "museum/#museum-exhibit-simgame5-1101",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_1101 · Hall6 · Rarity N · Advanced Gemstone (Original Ruins) 10% | Normal Gemstone (Original Ruins) 25%"
+    },
+    {
+      "title": "Horned Seahorse Fossil",
+      "category": "museum exhibits",
+      "id": "SimGame5_1102",
+      "internal_id": "SimGame5_1102",
+      "url": "museum/#museum-exhibit-simgame5-1102",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_1102 · Hall6 · Rarity N · Advanced Gemstone (Original Ruins) 10% | Normal Gemstone (Original Ruins) 25%"
+    },
+    {
+      "title": "Giant Trilobite",
+      "category": "museum exhibits",
+      "id": "SimGame5_1103",
+      "internal_id": "SimGame5_1103",
+      "url": "museum/#museum-exhibit-simgame5-1103",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_1103 · Hall6 · Rarity N · Advanced Gemstone (Original Ruins) 10% | Normal Gemstone (Original Ruins) 25%"
+    },
+    {
+      "title": "Giant Ammonite",
+      "category": "museum exhibits",
+      "id": "SimGame5_2101",
+      "internal_id": "SimGame5_2101",
+      "url": "museum/#museum-exhibit-simgame5-2101",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2101 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "Unfettered Oracle Stone Tablet",
+      "category": "museum exhibits",
+      "id": "SimGame5_2102",
+      "internal_id": "SimGame5_2102",
+      "url": "museum/#museum-exhibit-simgame5-2102",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2102 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "No Entry Sign",
+      "category": "museum exhibits",
+      "id": "SimGame5_2103",
+      "internal_id": "SimGame5_2103",
+      "url": "museum/#museum-exhibit-simgame5-2103",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2103 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "Beast Taming Gloves",
+      "category": "museum exhibits",
+      "id": "SimGame5_2104",
+      "internal_id": "SimGame5_2104",
+      "url": "museum/#museum-exhibit-simgame5-2104",
+      "rarity": "N",
+      "rarity_sort": 1,
+      "summary": "Museum exhibit SimGame5_2104 · Hall6 · Rarity N · Advanced Gemstone (Frozen Abyss) 7.5% | Advanced Gemstone (Ice Shipwreck) 7.5% | Advanced Gemstone (Memory Cave) 7.5% | Normal Gemstone (Frozen Abyss) 18.75% | Normal Gemstone (Ice Shipwreck) 18.75% | Normal Gemstone (Memory Cave) 18.75%"
+    },
+    {
+      "title": "Fortune Figurine Miniature",
+      "category": "museum exhibits",
+      "id": "GveCoinFight_01",
+      "internal_id": "GveCoinFight_01",
+      "url": "museum/#museum-exhibit-gvecoinfight-01",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Museum exhibit GveCoinFight_01 · Hall7 · Rarity UR · Obtained from the Exhibit Gacha in the Wealth from All Sides: Bazaar Mania event."
+    },
+    {
+      "title": "The Lost City Miniature",
+      "category": "museum exhibits",
+      "id": "DJDemonCastle_01",
+      "internal_id": "DJDemonCastle_01",
+      "url": "museum/#museum-exhibit-djdemoncastle-01",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Museum exhibit DJDemonCastle_01 · Hall7 · Rarity UR · Obtained from the Exhibit Gacha in the Crimson Moon Fantasia event."
+    },
+    {
+      "title": "Secrets of Magic",
+      "category": "museum exhibits",
+      "id": "GveMagicBook_01",
+      "internal_id": "GveMagicBook_01",
+      "url": "museum/#museum-exhibit-gvemagicbook-01",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Museum exhibit GveMagicBook_01 · Hall7 · Rarity UR · 在「转生恶役的漫画之旅」活动中，通过展品抽奖获得"
+    },
+    {
+      "title": "3-Star Costume Chest",
+      "category": "items",
+      "id": "Item_LostAndFound_3StarCothesBox",
+      "internal_id": "Item_LostAndFound_3StarCothesBox",
+      "url": "items/item-lostandfound-3starcothesbox/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_LostAndFound_3StarCothesBox · Rarity SSR · Backpack · 在「失物侦探」活动中获得"
+    },
+    {
+      "title": "Abandoned Portal",
+      "category": "items",
+      "id": "Item_SimGame5_2409",
+      "internal_id": "Item_SimGame5_2409",
+      "url": "items/item-simgame5-2409/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2409 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Abandoned Portal Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2409",
+      "internal_id": "Item_SimGame5Piece_2409",
+      "url": "items/item-simgame5piece-2409/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2409 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Acquaint Stone",
+      "category": "items",
+      "id": "Item_Exchange_Hero_Universal",
+      "internal_id": "Item_Exchange_Hero_Universal",
+      "url": "items/item-exchange-hero-universal/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Exchange_Hero_Universal · Rarity UR · Backpack · Guild Shop"
+    },
+    {
+      "title": "Acquaint Stone Fragment",
+      "category": "items",
+      "id": "Item_Piece_Hero_Universal",
+      "internal_id": "Item_Piece_Hero_Universal",
+      "url": "items/item-piece-hero-universal/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Piece_Hero_Universal · Rarity SSR · Backpack · Fountain of Wishes"
+    },
+    {
+      "title": "Advanced Bait",
+      "category": "items",
+      "id": "Item_Bait2",
+      "internal_id": "Item_Bait2",
+      "url": "items/item-bait2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Bait2 · Rarity SR · Backpack · Fishing"
+    },
+    {
+      "title": "Advanced Essence Chest",
+      "category": "items",
+      "id": "Item_ClothesSkill_Box_02",
+      "internal_id": "Item_ClothesSkill_Box_02",
+      "url": "items/item-clothesskill-box-02/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesSkill_Box_02 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Ancient Slate",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_4_3",
+      "internal_id": "Item_Weapon_Equipment_4_3",
+      "url": "items/item-weapon-equipment-4-3/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Weapon_Equipment_4_3 · Rarity SR · Backpack"
+    },
+    {
+      "title": "Angie",
+      "category": "items",
+      "id": "Item_Owner_Hero_52",
+      "internal_id": "Item_Owner_Hero_52",
+      "url": "items/item-owner-hero-52/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Owner_Hero_52 · Rarity SR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Anne",
+      "category": "items",
+      "id": "Item_Owner_Hero_103",
+      "internal_id": "Item_Owner_Hero_103",
+      "url": "items/item-owner-hero-103/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_103 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Anne's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_103",
+      "internal_id": "Item_Owner_HeroPiece_103",
+      "url": "items/item-owner-heropiece-103/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_103 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Augustine",
+      "category": "items",
+      "id": "Item_Owner_Hero_105",
+      "internal_id": "Item_Owner_Hero_105",
+      "url": "items/item-owner-hero-105/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_105 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Augustine's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_105",
+      "internal_id": "Item_Owner_HeroPiece_105",
+      "url": "items/item-owner-heropiece-105/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_105 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Baity",
+      "category": "items",
+      "id": "Item_Owner_Wife_105",
+      "internal_id": "Item_Owner_Wife_105",
+      "url": "items/item-owner-wife-105/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Wife_105 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Baity's Fragment",
+      "category": "items",
+      "id": "Item_Owner_WifePiece_105",
+      "internal_id": "Item_Owner_WifePiece_105",
+      "url": "items/item-owner-wifepiece-105/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_WifePiece_105 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Basic Earnings Card",
+      "category": "items",
+      "id": "Item_Gcoin_YieldPack_1",
+      "internal_id": "Item_Gcoin_YieldPack_1",
+      "url": "items/item-gcoin-yieldpack-1/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_Gcoin_YieldPack_1 · Rarity R · Backpack · Fountain of Wishes, Trading Post Shop, Guild Shop"
+    },
+    {
+      "title": "Basic Elixir",
+      "category": "items",
+      "id": "Item_Hero_Attribute_Increase_1",
+      "internal_id": "Item_Hero_Attribute_Increase_1",
+      "url": "items/item-hero-attribute-increase-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Hero_Attribute_Increase_1 · Rarity SR · Backpack · Fountain of Wishes, Trading Post Shop"
+    },
+    {
+      "title": "Basic Hire Card",
+      "category": "items",
+      "id": "Item_Building_Recruit_Increase_1",
+      "internal_id": "Item_Building_Recruit_Increase_1",
+      "url": "items/item-building-recruit-increase-1/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_Building_Recruit_Increase_1 · Rarity R · Backpack · Banquet Shop"
+    },
+    {
+      "title": "Bear-Eared Seal",
+      "category": "items",
+      "id": "Item_SimGame5_2406",
+      "internal_id": "Item_SimGame5_2406",
+      "url": "items/item-simgame5-2406/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2406 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Bear-Eared Seal Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2406",
+      "internal_id": "Item_SimGame5Piece_2406",
+      "url": "items/item-simgame5piece-2406/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2406 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Blessing Power Gachapon",
+      "category": "items",
+      "id": "Item_giftRandom_Emblem",
+      "internal_id": "Item_giftRandom_Emblem",
+      "url": "items/item-giftrandom-emblem/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_giftRandom_Emblem · Rarity SSR · Backpack · Roaming"
+    },
+    {
+      "title": "Bravery Crystal Ore",
+      "category": "items",
+      "id": "Item_Breach_Hero_1_1",
+      "internal_id": "Item_Breach_Hero_1_1",
+      "url": "items/item-breach-hero-1-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Breach_Hero_1_1 · Rarity SR · Backpack · Roaming [Roam], Stages [Clear Stagess], Trading Post Shop, Guild Shop, Banquet Shop, Valiant Shop"
+    },
+    {
+      "title": "Breakthrough Materia",
+      "category": "items",
+      "id": "Item_Break_Equipment_1",
+      "internal_id": "Item_Break_Equipment_1",
+      "url": "items/item-break-equipment-1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Break_Equipment_1 · Rarity SSR · Backpack · Event"
+    },
+    {
+      "title": "Cloak of Levitation",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_2",
+      "internal_id": "Item_Weapon_Equipment_6_2",
+      "url": "items/item-weapon-equipment-6-2/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_2 · Rarity UR · Backpack · Guild Shop"
+    },
+    {
+      "title": "Costume [A Bold Change] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_W64C1",
+      "internal_id": "Item_ClothesChip_W64C1",
+      "url": "items/item-clotheschip-w64c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W64C1 · Rarity SSR · Backpack · Obtained from Love's Gift or Love's Day 3-Star Costume Chest in Sweet Xocolate event"
+    },
+    {
+      "title": "Costume [A Loving Painting] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_W57C1",
+      "internal_id": "Item_ClothesChip_W57C1",
+      "url": "items/item-clotheschip-w57c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W57C1 · Rarity SSR · Backpack · Obtained from Love's Gift or Love's Day 3-Star Costume Chest in Sweet Xocolate event"
+    },
+    {
+      "title": "Costume [A Nap on Calming Waves] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_W11C1",
+      "internal_id": "Item_ClothesChip_W11C1",
+      "url": "items/item-clotheschip-w11c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W11C1 · Rarity SSR · Backpack · Limited Costume Event"
+    },
+    {
+      "title": "Costume [An Unexpected Outfit] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_W60C1",
+      "internal_id": "Item_ClothesChip_W60C1",
+      "url": "items/item-clotheschip-w60c1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_W60C1 · Rarity SSR · Backpack · Obtained from Love's Gift or Love's Day 3-Star Costume Chest in Sweet Xocolate event"
+    },
+    {
+      "title": "Costume [Azure Wanderer] (★3)",
+      "category": "items",
+      "id": "Item_ClothesChip_H12C2",
+      "internal_id": "Item_ClothesChip_H12C2",
+      "url": "items/item-clotheschip-h12c2/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_ClothesChip_H12C2 · Rarity SSR · Backpack · Limited Costume Event"
+    },
+    {
+      "title": "Deluxe Gift",
+      "category": "items",
+      "id": "Item_Gift_Ceremony_3",
+      "internal_id": "Item_Gift_Ceremony_3",
+      "url": "items/item-gift-ceremony-3/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Gift_Ceremony_3 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Denier",
+      "category": "items",
+      "id": "Item_Owner_Wife_104",
+      "internal_id": "Item_Owner_Wife_104",
+      "url": "items/item-owner-wife-104/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Wife_104 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Denier's Fragment",
+      "category": "items",
+      "id": "Item_Owner_WifePiece_104",
+      "internal_id": "Item_Owner_WifePiece_104",
+      "url": "items/item-owner-wifepiece-104/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_WifePiece_104 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Diamond Ring",
+      "category": "items",
+      "id": "gift5",
+      "internal_id": "gift5",
+      "url": "items/gift5/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item gift5 · Rarity SSR · Backpack · Pass Shop"
+    },
+    {
+      "title": "Dragon Tamer's Scepter",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_7_5",
+      "internal_id": "Item_Weapon_Equipment_7_5",
+      "url": "items/item-weapon-equipment-7-5/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_7_5 · Rarity UR · Backpack"
+    },
+    {
+      "title": "Emosen",
+      "category": "items",
+      "id": "Item_Owner_Hero_101",
+      "internal_id": "Item_Owner_Hero_101",
+      "url": "items/item-owner-hero-101/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_101 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Emosen's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_101",
+      "internal_id": "Item_Owner_HeroPiece_101",
+      "url": "items/item-owner-heropiece-101/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_101 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Essence Chest",
+      "category": "items",
+      "id": "Item_ClothesSkill_Box_01",
+      "internal_id": "Item_ClothesSkill_Box_01",
+      "url": "items/item-clothesskill-box-01/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_ClothesSkill_Box_01 · Rarity SR · Backpack"
+    },
+    {
+      "title": "Fairy Bottle",
+      "category": "items",
+      "id": "Item_Token_Gacha_Universal",
+      "internal_id": "Item_Token_Gacha_Universal",
+      "url": "items/item-token-gacha-universal/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Token_Gacha_Universal · Rarity SR · Backpack · Stages [Clear Stages], Daily Task, Crystal Shop, Battle Pass Shop"
+    },
+    {
+      "title": "Fame Card",
+      "category": "items",
+      "id": "Item_EXPBox_Resources_1",
+      "internal_id": "Item_EXPBox_Resources_1",
+      "url": "items/item-expbox-resources-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_EXPBox_Resources_1 · Rarity SR · Backpack · Daily Tasks, Banquet Shop"
+    },
+    {
+      "title": "Flower Necklace",
+      "category": "items",
+      "id": "gift3",
+      "internal_id": "gift3",
+      "url": "items/gift3/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item gift3 · Rarity R · Backpack · Roaming, Daily Task"
+    },
+    {
+      "title": "Focus Candy",
+      "category": "items",
+      "id": "Item_GetCE_10",
+      "internal_id": "Item_GetCE_10",
+      "url": "items/item-getce-10/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GetCE_10 · Rarity R · Backpack · Roaming, Daily Task, Fountain of Wishes, Crystal Shop, Guild Shop, Banquet Shop"
+    },
+    {
+      "title": "Fortune Figurine - Blessing Lantern",
+      "category": "items",
+      "id": "GveCoinFight_01E",
+      "internal_id": "GveCoinFight_01E",
+      "url": "items/gvecoinfight-01e/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveCoinFight_01E · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Fortune Figurine - Fortune-Bringing Beast",
+      "category": "items",
+      "id": "GveCoinFight_01C",
+      "internal_id": "GveCoinFight_01C",
+      "url": "items/gvecoinfight-01c/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveCoinFight_01C · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Fortune Figurine - Guardian Beast",
+      "category": "items",
+      "id": "GveCoinFight_01A",
+      "internal_id": "GveCoinFight_01A",
+      "url": "items/gvecoinfight-01a/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveCoinFight_01A · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Fortune Figurine - Money Tree",
+      "category": "items",
+      "id": "GveCoinFight_01D",
+      "internal_id": "GveCoinFight_01D",
+      "url": "items/gvecoinfight-01d/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveCoinFight_01D · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Fortune Figurine - Steadfast Beast",
+      "category": "items",
+      "id": "GveCoinFight_01B",
+      "internal_id": "GveCoinFight_01B",
+      "url": "items/gvecoinfight-01b/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveCoinFight_01B · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Fortune Figurine - Treasure Basin",
+      "category": "items",
+      "id": "GveCoinFight_01F",
+      "internal_id": "GveCoinFight_01F",
+      "url": "items/gvecoinfight-01f/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveCoinFight_01F · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Fortune Figurine Miniature",
+      "category": "items",
+      "id": "GveCoinFight_01",
+      "internal_id": "GveCoinFight_01",
+      "url": "items/gvecoinfight-01/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveCoinFight_01 · Rarity UR · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Gemstone Ring",
+      "category": "items",
+      "id": "gift2",
+      "internal_id": "gift2",
+      "url": "items/gift2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item gift2 · Rarity SR · Backpack · Roaming [Roam], Banquet Shop"
+    },
+    {
+      "title": "Gold Ring",
+      "category": "items",
+      "id": "gift1",
+      "internal_id": "gift1",
+      "url": "items/gift1/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item gift1 · Rarity R · Backpack · Roaming, Daily Task"
+    },
+    {
+      "title": "Golden Apple",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_7_1",
+      "internal_id": "Item_Weapon_Equipment_7_1",
+      "url": "items/item-weapon-equipment-7-1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_7_1 · Rarity UR · Backpack"
+    },
+    {
+      "title": "Golden Dragon Scale",
+      "category": "items",
+      "id": "Item_SimGame5_1401",
+      "internal_id": "Item_SimGame5_1401",
+      "url": "items/item-simgame5-1401/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_1401 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Golden Dragon Scale Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_1401",
+      "internal_id": "Item_SimGame5Piece_1401",
+      "url": "items/item-simgame5piece-1401/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_1401 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Golden Hammer",
+      "category": "items",
+      "id": "Item_URPlusSmashEggs_01",
+      "internal_id": "Item_URPlusSmashEggs_01",
+      "url": "items/item-urplussmasheggs-01/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_URPlusSmashEggs_01 · Rarity SSR · Activity"
+    },
+    {
+      "title": "Hope Crystal Ore",
+      "category": "items",
+      "id": "Item_Breach_Hero_1_3",
+      "internal_id": "Item_Breach_Hero_1_3",
+      "url": "items/item-breach-hero-1-3/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Breach_Hero_1_3 · Rarity SR · Backpack · Roaming [Roam], Stages [Clear Stagess], Drakenberg Challenge Shop, Trading Post Shop, Guild Shop, Banquet Shop, Valiant Shop"
+    },
+    {
+      "title": "Horn of Plenty",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_7_2",
+      "internal_id": "Item_Weapon_Equipment_7_2",
+      "url": "items/item-weapon-equipment-7-2/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_7_2 · Rarity UR · Backpack"
+    },
+    {
+      "title": "Iceborg Monster Wolf",
+      "category": "items",
+      "id": "Item_SimGame5_2402",
+      "internal_id": "Item_SimGame5_2402",
+      "url": "items/item-simgame5-2402/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2402 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Iceborg Monster Wolf Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2402",
+      "internal_id": "Item_SimGame5Piece_2402",
+      "url": "items/item-simgame5piece-2402/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2402 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Intimacy Gachapon",
+      "category": "items",
+      "id": "Item_giftRandom_Intimacy",
+      "internal_id": "Item_giftRandom_Intimacy",
+      "url": "items/item-giftrandom-intimacy/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_giftRandom_Intimacy · Rarity SSR · Backpack · Roaming"
+    },
+    {
+      "title": "Invigorating Harp",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_4_4",
+      "internal_id": "Item_Weapon_Equipment_4_4",
+      "url": "items/item-weapon-equipment-4-4/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Weapon_Equipment_4_4 · Rarity SR · Backpack"
+    },
+    {
+      "title": "Ironhead Turtle",
+      "category": "items",
+      "id": "Item_SimGame5_2408",
+      "internal_id": "Item_SimGame5_2408",
+      "url": "items/item-simgame5-2408/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2408 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Ironhead Turtle Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2408",
+      "internal_id": "Item_SimGame5Piece_2408",
+      "url": "items/item-simgame5piece-2408/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2408 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Jewel Necklace",
+      "category": "items",
+      "id": "gift4",
+      "internal_id": "gift4",
+      "url": "items/gift4/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item gift4 · Rarity SR · Backpack · Roaming [Roam], Banquet Shop"
+    },
+    {
+      "title": "Jewlry",
+      "category": "items",
+      "id": "Item_Owner_Hero_102",
+      "internal_id": "Item_Owner_Hero_102",
+      "url": "items/item-owner-hero-102/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_102 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Jewlry's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_102",
+      "internal_id": "Item_Owner_HeroPiece_102",
+      "url": "items/item-owner-heropiece-102/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_102 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Kosuzu",
+      "category": "items",
+      "id": "Item_Owner_Wife_101",
+      "internal_id": "Item_Owner_Wife_101",
+      "url": "items/item-owner-wife-101/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Wife_101 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Kosuzu's Fragment",
+      "category": "items",
+      "id": "Item_Owner_WifePiece_101",
+      "internal_id": "Item_Owner_WifePiece_101",
+      "url": "items/item-owner-wifepiece-101/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_WifePiece_101 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Lilith",
+      "category": "items",
+      "id": "Item_Owner_Wife_106",
+      "internal_id": "Item_Owner_Wife_106",
+      "url": "items/item-owner-wife-106/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Wife_106 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Lilith's Fragment",
+      "category": "items",
+      "id": "Item_Owner_WifePiece_106",
+      "internal_id": "Item_Owner_WifePiece_106",
+      "url": "items/item-owner-wifepiece-106/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_WifePiece_106 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Lina",
+      "category": "items",
+      "id": "Item_Owner_Wife_103",
+      "internal_id": "Item_Owner_Wife_103",
+      "url": "items/item-owner-wife-103/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Wife_103 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Lina's Fragment",
+      "category": "items",
+      "id": "Item_Owner_WifePiece_103",
+      "internal_id": "Item_Owner_WifePiece_103",
+      "url": "items/item-owner-wifepiece-103/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_WifePiece_103 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Liz",
+      "category": "items",
+      "id": "Item_Owner_Hero_56",
+      "internal_id": "Item_Owner_Hero_56",
+      "url": "items/item-owner-hero-56/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Owner_Hero_56 · Rarity SR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Loya",
+      "category": "items",
+      "id": "Item_Owner_Hero_104",
+      "internal_id": "Item_Owner_Hero_104",
+      "url": "items/item-owner-hero-104/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Hero_104 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Loya's Fragment",
+      "category": "items",
+      "id": "Item_Owner_HeroPiece_104",
+      "internal_id": "Item_Owner_HeroPiece_104",
+      "url": "items/item-owner-heropiece-104/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_HeroPiece_104 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Luck Stone",
+      "category": "items",
+      "id": "Item_Quenching_Wife_1",
+      "internal_id": "Item_Quenching_Wife_1",
+      "url": "items/item-quenching-wife-1/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_Quenching_Wife_1 · Rarity R · Backpack · Drakenberg Challenge shop"
+    },
+    {
+      "title": "Lucky Horseshoe",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_5_3",
+      "internal_id": "Item_Weapon_Equipment_5_3",
+      "url": "items/item-weapon-equipment-5-3/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Weapon_Equipment_5_3 · Rarity SSR · Backpack · Pass Shop"
+    },
+    {
+      "title": "Lucky Megaloceros",
+      "category": "items",
+      "id": "Item_SimGame5_1403",
+      "internal_id": "Item_SimGame5_1403",
+      "url": "items/item-simgame5-1403/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_1403 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Lucky Megaloceros Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_1403",
+      "internal_id": "Item_SimGame5Piece_1403",
+      "url": "items/item-simgame5piece-1403/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_1403 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Magic Lamp",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_7_3",
+      "internal_id": "Item_Weapon_Equipment_7_3",
+      "url": "items/item-weapon-equipment-7-3/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_7_3 · Rarity UR · Backpack"
+    },
+    {
+      "title": "Magic Ore",
+      "category": "items",
+      "id": "Item_Strengthen_Equipment_1",
+      "internal_id": "Item_Strengthen_Equipment_1",
+      "url": "items/item-strengthen-equipment-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Strengthen_Equipment_1 · Rarity SR · Backpack · Stages [Clear Stages], Artifacts [Recycle], Guild Shop, Valiant Shop"
+    },
+    {
+      "title": "Maid Bell",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_3_4",
+      "internal_id": "Item_Weapon_Equipment_3_4",
+      "url": "items/item-weapon-equipment-3-4/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Weapon_Equipment_3_4 · Rarity SR · Backpack"
+    },
+    {
+      "title": "Mammoth",
+      "category": "items",
+      "id": "Item_SimGame5_2407",
+      "internal_id": "Item_SimGame5_2407",
+      "url": "items/item-simgame5-2407/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2407 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Mammoth Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2407",
+      "internal_id": "Item_SimGame5Piece_2407",
+      "url": "items/item-simgame5piece-2407/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2407 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Mask of Nobility",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_3",
+      "internal_id": "Item_Weapon_Equipment_6_3",
+      "url": "items/item-weapon-equipment-6-3/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_3 · Rarity UR · Backpack"
+    },
+    {
+      "title": "Master Key",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_5_1",
+      "internal_id": "Item_Weapon_Equipment_5_1",
+      "url": "items/item-weapon-equipment-5-1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Weapon_Equipment_5_1 · Rarity SSR · Backpack · Valiant Shop"
+    },
+    {
+      "title": "Melody",
+      "category": "items",
+      "id": "Item_Owner_Wife_52",
+      "internal_id": "Item_Owner_Wife_52",
+      "url": "items/item-owner-wife-52/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Owner_Wife_52 · Rarity SR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Mermaid's Tear",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_4",
+      "internal_id": "Item_Weapon_Equipment_6_4",
+      "url": "items/item-weapon-equipment-6-4/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_4 · Rarity UR · Backpack"
+    },
+    {
+      "title": "Money Tree Miniature",
+      "category": "items",
+      "id": "Collection_GveCoinFight",
+      "internal_id": "Collection_GveCoinFight",
+      "url": "items/collection-gvecoinfight/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Collection_GveCoinFight · Rarity SSR · Backpack · Wealth from All Sides: Bazaar Mania"
+    },
+    {
+      "title": "Mushimi",
+      "category": "items",
+      "id": "Item_Owner_Wife_167S1",
+      "internal_id": "Item_Owner_Wife_167S1",
+      "url": "items/item-owner-wife-167s1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Wife_167S1 · Rarity UR · Cultivate the Trust Level of UR★ Mushimi as a Fellow to make her your Family member."
+    },
+    {
+      "title": "Mushimi's Cyrstal of Trust",
+      "category": "items",
+      "id": "Item_IntimacyDegree_Hero255",
+      "internal_id": "Item_IntimacyDegree_Hero255",
+      "url": "items/item-intimacydegree-hero255/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_IntimacyDegree_Hero255 · Rarity UR · Backpack · Kawaiimush crossover event - Mushimi's Trust Bundles."
+    },
+    {
+      "title": "Mysterious Magic Fragment",
+      "category": "items",
+      "id": "Item_HeroBond1_ExchangePiece",
+      "internal_id": "Item_HeroBond1_ExchangePiece",
+      "url": "items/item-herobond1-exchangepiece/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_HeroBond1_ExchangePiece · Rarity SSR · Backpack · No Source Yet"
+    },
+    {
+      "title": "Mysterious Magic Insignia",
+      "category": "items",
+      "id": "Item_HeroBond1_Exchange_01",
+      "internal_id": "Item_HeroBond1_Exchange_01",
+      "url": "items/item-herobond1-exchange-01/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_HeroBond1_Exchange_01 · Rarity UR · Backpack · Trading Post Shop, Guild Shop, {ItemName} [Use], {ItemName} [Use]"
+    },
+    {
+      "title": "Narwhal Fossil",
+      "category": "items",
+      "id": "Item_SimGame5_2404",
+      "internal_id": "Item_SimGame5_2404",
+      "url": "items/item-simgame5-2404/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2404 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Narwhal Fossil Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2404",
+      "internal_id": "Item_SimGame5Piece_2404",
+      "url": "items/item-simgame5piece-2404/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2404 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Normal Bait",
+      "category": "items",
+      "id": "Item_Bait1",
+      "internal_id": "Item_Bait1",
+      "url": "items/item-bait1/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_Bait1 · Rarity R · Backpack · Fishing"
+    },
+    {
+      "title": "Oyster Trap",
+      "category": "items",
+      "id": "Item_SimGame5_2403",
+      "internal_id": "Item_SimGame5_2403",
+      "url": "items/item-simgame5-2403/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2403 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Oyster Trap Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2403",
+      "internal_id": "Item_SimGame5Piece_2403",
+      "url": "items/item-simgame5piece-2403/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2403 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Preliminary Textbook",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_3_2",
+      "internal_id": "Item_Weapon_Equipment_3_2",
+      "url": "items/item-weapon-equipment-3-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Weapon_Equipment_3_2 · Rarity SR · Backpack"
+    },
+    {
+      "title": "Premium Gift",
+      "category": "items",
+      "id": "Item_Gift_Ceremony_2",
+      "internal_id": "Item_Gift_Ceremony_2",
+      "url": "items/item-gift-ceremony-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Gift_Ceremony_2 · Rarity SR · Backpack"
+    },
+    {
+      "title": "Psychical Orbuculum",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_5_4",
+      "internal_id": "Item_Weapon_Equipment_5_4",
+      "url": "items/item-weapon-equipment-5-4/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Weapon_Equipment_5_4 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Random Potion",
+      "category": "items",
+      "id": "Item_Box_Country_Increase",
+      "internal_id": "Item_Box_Country_Increase",
+      "url": "items/item-box-country-increase/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Box_Country_Increase · Rarity SR · Backpack · Event, Shop"
+    },
+    {
+      "title": "Rani",
+      "category": "items",
+      "id": "Item_Owner_Hero_54",
+      "internal_id": "Item_Owner_Hero_54",
+      "url": "items/item-owner-hero-54/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Owner_Hero_54 · Rarity SR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Rare Item Selectable Chest",
+      "category": "items",
+      "id": "Item_Exchange_custom_02",
+      "internal_id": "Item_Exchange_custom_02",
+      "url": "items/item-exchange-custom-02/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Exchange_custom_02 · Rarity SSR · Backpack · Northern Odyssey Events"
+    },
+    {
+      "title": "Refine Materia",
+      "category": "items",
+      "id": "Item_Refine_Equipment_1",
+      "internal_id": "Item_Refine_Equipment_1",
+      "url": "items/item-refine-equipment-1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Refine_Equipment_1 · Rarity SSR · Backpack · Event"
+    },
+    {
+      "title": "Refined Anvil",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_3_3",
+      "internal_id": "Item_Weapon_Equipment_3_3",
+      "url": "items/item-weapon-equipment-3-3/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Weapon_Equipment_3_3 · Rarity SR · Backpack"
+    },
+    {
+      "title": "Reforge essential oil",
+      "category": "items",
+      "id": "Item_Quenching_Equipment_1",
+      "internal_id": "Item_Quenching_Equipment_1",
+      "url": "items/item-quenching-equipment-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Quenching_Equipment_1 · Rarity SR · Backpack · Fountain of Wishes, Drakenberg Challenge Shop, Golemore Mine Shop, Guild Shop, Trading Post Shop"
+    },
+    {
+      "title": "Ring of Spirit Submission",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_7_6",
+      "internal_id": "Item_Weapon_Equipment_7_6",
+      "url": "items/item-weapon-equipment-7-6/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_7_6 · Rarity UR · Backpack"
+    },
+    {
+      "title": "Saber-Toothed Tiger",
+      "category": "items",
+      "id": "Item_SimGame5_1402",
+      "internal_id": "Item_SimGame5_1402",
+      "url": "items/item-simgame5-1402/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_1402 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Saber-Toothed Tiger Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_1402",
+      "internal_id": "Item_SimGame5Piece_1402",
+      "url": "items/item-simgame5piece-1402/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_1402 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Sera",
+      "category": "items",
+      "id": "Item_Owner_Wife_102",
+      "internal_id": "Item_Owner_Wife_102",
+      "url": "items/item-owner-wife-102/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_Wife_102 · Rarity SSR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Sera's Fragment",
+      "category": "items",
+      "id": "Item_Owner_WifePiece_102",
+      "internal_id": "Item_Owner_WifePiece_102",
+      "url": "items/item-owner-wifepiece-102/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Owner_WifePiece_102 · Rarity SSR · Backpack"
+    },
+    {
+      "title": "Skill Pearl",
+      "category": "items",
+      "id": "Item_Talent_Hero_1",
+      "internal_id": "Item_Talent_Hero_1",
+      "url": "items/item-talent-hero-1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Talent_Hero_1 · Rarity UR · Backpack · Battle Pass Shop, Banquet Shop"
+    },
+    {
+      "title": "Skill Pearl Fragment",
+      "category": "items",
+      "id": "Item_Talent_Hero_Piece",
+      "internal_id": "Item_Talent_Hero_Piece",
+      "url": "items/item-talent-hero-piece/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Talent_Hero_Piece · Rarity SSR · Backpack · Guild Shop, Banquet Shop"
+    },
+    {
+      "title": "Sledge",
+      "category": "items",
+      "id": "Item_SimGame5_2405",
+      "internal_id": "Item_SimGame5_2405",
+      "url": "items/item-simgame5-2405/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2405 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Sledge Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2405",
+      "internal_id": "Item_SimGame5Piece_2405",
+      "url": "items/item-simgame5piece-2405/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2405 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "Snow Cyclops' Eye Fossil",
+      "category": "items",
+      "id": "Item_SimGame5_2401",
+      "internal_id": "Item_SimGame5_2401",
+      "url": "items/item-simgame5-2401/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5_2401 · Rarity SSR · Treasure Hunt"
+    },
+    {
+      "title": "Snow Cyclops' Eye Fossil Fragment",
+      "category": "items",
+      "id": "Item_SimGame5Piece_2401",
+      "internal_id": "Item_SimGame5Piece_2401",
+      "url": "items/item-simgame5piece-2401/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_SimGame5Piece_2401 · Rarity SSR · Backpack · Treasure Hunt"
+    },
+    {
+      "title": "SSR+ Familiar Chest",
+      "category": "items",
+      "id": "Item_Pet_OptionalBox_Grade9",
+      "internal_id": "Item_Pet_OptionalBox_Grade9",
+      "url": "items/item-pet-optionalbox-grade9/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Pet_OptionalBox_Grade9 · Rarity SSR · Backpack · Village Ceremony"
+    },
+    {
+      "title": "SSR+ Familiar Universal Insignia",
+      "category": "items",
+      "id": "Item_PetStarup_Grade9",
+      "internal_id": "Item_PetStarup_Grade9",
+      "url": "items/item-petstarup-grade9/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_PetStarup_Grade9 · Rarity SSR · Backpack · Village Ceremony"
+    },
+    {
+      "title": "Stamina Potion",
+      "category": "items",
+      "id": "Item_GetFE_10",
+      "internal_id": "Item_GetFE_10",
+      "url": "items/item-getfe-10/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_GetFE_10 · Rarity SR · Backpack · Banquet Shop"
+    },
+    {
+      "title": "Study Notes",
+      "category": "items",
+      "id": "Item_HeroManagerment_Building",
+      "internal_id": "Item_HeroManagerment_Building",
+      "url": "items/item-heromanagerment-building/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_HeroManagerment_Building · Rarity R · Backpack · Trading Post Shop"
+    },
+    {
+      "title": "Succubus Tonic",
+      "category": "items",
+      "id": "Item_GetDE_10",
+      "internal_id": "Item_GetDE_10",
+      "url": "items/item-getde-10/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GetDE_10 · Rarity R · Backpack · Fountain of Wishes, Gold Shop, Guild Shop"
+    },
+    {
+      "title": "Suffix Title: \"Super Scary\" Ghost",
+      "category": "items",
+      "id": "Item_W172C1_showoff_suffix",
+      "internal_id": "Item_W172C1_showoff_suffix",
+      "url": "items/item-w172c1-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_W172C1_showoff_suffix · Rarity UR · \"Super Scary\" Ghost Reaches Lv. 5"
+    },
+    {
+      "title": "The Immersive Grimoire",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_6_H267",
+      "internal_id": "Item_Weapon_Equipment_6_H267",
+      "url": "items/item-weapon-equipment-6-h267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_6_H267 · Rarity UR · Backpack · 在「转生恶役的漫画之旅」活动的「伙伴的星辉礼包」中获得"
+    },
+    {
+      "title": "Title [Chill Traveler]",
+      "category": "items",
+      "id": "Item_RankTitle1_03_2",
+      "internal_id": "Item_RankTitle1_03_2",
+      "url": "items/item-ranktitle1-03-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_RankTitle1_03_2 · Rarity SR"
+    },
+    {
+      "title": "Title [Chill Wanderer]",
+      "category": "items",
+      "id": "Item_RankTitle1_04_2",
+      "internal_id": "Item_RankTitle1_04_2",
+      "url": "items/item-ranktitle1-04-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_RankTitle1_04_2 · Rarity SR"
+    },
+    {
+      "title": "Title [Skilled Pioneer]",
+      "category": "items",
+      "id": "Item_RankTitle1_03_1",
+      "internal_id": "Item_RankTitle1_03_1",
+      "url": "items/item-ranktitle1-03-1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_RankTitle1_03_1 · Rarity SSR"
+    },
+    {
+      "title": "Title [Skilled Voyager]",
+      "category": "items",
+      "id": "Item_RankTitle1_04_1",
+      "internal_id": "Item_RankTitle1_04_1",
+      "url": "items/item-ranktitle1-04-1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_RankTitle1_04_1 · Rarity SSR"
+    },
+    {
+      "title": "Unidentified Insight",
+      "category": "items",
+      "id": "Item_Box_Talent_1",
+      "internal_id": "Item_Box_Talent_1",
+      "url": "items/item-box-talent-1/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_Box_Talent_1 · Rarity R · Backpack · Roaming, Pupil Union, Daily Task"
+    },
+    {
+      "title": "Unprocessed Druse",
+      "category": "items",
+      "id": "Item_Breach_ItemPack_1",
+      "internal_id": "Item_Breach_ItemPack_1",
+      "url": "items/item-breach-itempack-1/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Breach_ItemPack_1 · Rarity SR · Backpack · Event, Shop"
+    },
+    {
+      "title": "Valiant Insignia",
+      "category": "items",
+      "id": "Item_HeroBond2_Exchange_01",
+      "internal_id": "Item_HeroBond2_Exchange_01",
+      "url": "items/item-herobond2-exchange-01/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_HeroBond2_Exchange_01 · Rarity UR · Backpack · Trading Post Shop, Guild Shop, {ItemName} [Use], {ItemName} [Use]"
+    },
+    {
+      "title": "Verity's Textbook",
+      "category": "items",
+      "id": "Icon_Museum_Collection_Medicine_1",
+      "internal_id": "Icon_Museum_Collection_Medicine_1",
+      "url": "items/icon-museum-collection-medicine-1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Icon_Museum_Collection_Medicine_1 · Rarity SSR · Backpack · Apothecary: Proud Mentor & Rebellious Apprentice"
+    },
+    {
+      "title": "Wenreesa",
+      "category": "items",
+      "id": "Item_Owner_Wife_60",
+      "internal_id": "Item_Owner_Wife_60",
+      "url": "items/item-owner-wife-60/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Owner_Wife_60 · Rarity SR · Daily Tasks, Achievements, Events, Shop"
+    },
+    {
+      "title": "Wisdom Crystal Ore",
+      "category": "items",
+      "id": "Item_Breach_Hero_1_2",
+      "internal_id": "Item_Breach_Hero_1_2",
+      "url": "items/item-breach-hero-1-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_Breach_Hero_1_2 · Rarity SR · Backpack · Roaming [Roam], Stages [Clear Stagess], Trading Post Shop, Guild Shop, Banquet Shop, Valiant Shop"
+    },
+    {
+      "title": "「冰息术」增幅卷轴",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill07",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill07",
+      "url": "items/item-gvemagicbook-lvup-skill07/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill07 · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "「剧毒泡泡」增幅卷轴",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill03",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill03",
+      "url": "items/item-gvemagicbook-lvup-skill03/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill03 · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "「旋风魔法」增幅卷轴",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill06",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill06",
+      "url": "items/item-gvemagicbook-lvup-skill06/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill06 · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "「激光术」增幅卷轴",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill05",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill05",
+      "url": "items/item-gvemagicbook-lvup-skill05/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill05 · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "「雷击术」增幅卷轴",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill04",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill04",
+      "url": "items/item-gvemagicbook-lvup-skill04/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill04 · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "「魔法飞弹」增幅卷轴",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill01",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill01",
+      "url": "items/item-gvemagicbook-lvup-skill01/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill01 · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "「龙息术」增幅卷轴",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill02",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill02",
+      "url": "items/item-gvemagicbook-lvup-skill02/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill02 · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "体力",
+      "category": "items",
+      "id": "Item_GveMagicBook_Stamina",
+      "internal_id": "Item_GveMagicBook_Stamina",
+      "url": "items/item-gvemagicbook-stamina/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_Stamina · Rarity R · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "侦探怀表",
+      "category": "items",
+      "id": "Item_LostAndFound_01_ExtendTime",
+      "internal_id": "Item_LostAndFound_01_ExtendTime",
+      "url": "items/item-lostandfound-01-extendtime/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_LostAndFound_01_ExtendTime · Rarity SR · Activity, Backpack · 在「失物侦探」活动中获得"
+    },
+    {
+      "title": "侦探放大镜",
+      "category": "items",
+      "id": "Item_LostAndFound_01_Stamina",
+      "internal_id": "Item_LostAndFound_01_Stamina",
+      "url": "items/item-lostandfound-01-stamina/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_LostAndFound_01_Stamina · Rarity SR · Activity, Backpack · 在「失物侦探」活动中获得"
+    },
+    {
+      "title": "保留中のコレクション 07",
+      "category": "items",
+      "id": "Item_Weapon_Equipment_7_7",
+      "internal_id": "Item_Weapon_Equipment_7_7",
+      "url": "items/item-weapon-equipment-7-7/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Weapon_Equipment_7_7 · Rarity UR · Backpack"
+    },
+    {
+      "title": "全视之眼",
+      "category": "items",
+      "id": "Item_LostAndFound_Title_1",
+      "internal_id": "Item_LostAndFound_Title_1",
+      "url": "items/item-lostandfound-title-1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_LostAndFound_Title_1 · Rarity UR · 在「失物侦探」活动中获得"
+    },
+    {
+      "title": "千金红茶",
+      "category": "items",
+      "id": "Item_GveMagicBook_StaminaRecover_2",
+      "internal_id": "Item_GveMagicBook_StaminaRecover_2",
+      "url": "items/item-gvemagicbook-staminarecover-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_GveMagicBook_StaminaRecover_2 · Rarity SR · Activity, Backpack · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "宝石礼扇",
+      "category": "items",
+      "id": "Collection_GveMagicBook",
+      "internal_id": "Collection_GveMagicBook",
+      "url": "items/collection-gvemagicbook/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Collection_GveMagicBook · Rarity SSR · Backpack · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "宝石礼扇碎片",
+      "category": "items",
+      "id": "Item_Collection_GveMagicBook_Piece",
+      "internal_id": "Item_Collection_GveMagicBook_Piece",
+      "url": "items/item-collection-gvemagicbook-piece/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Collection_GveMagicBook_Piece · Rarity SSR · Backpack · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "恶役抽奖券",
+      "category": "items",
+      "id": "Item_GveMagicBook_CommonLottery_Token",
+      "internal_id": "Item_GveMagicBook_CommonLottery_Token",
+      "url": "items/item-gvemagicbook-commonlottery-token/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_CommonLottery_Token · Rarity SSR · Activity, Backpack · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "维奥蕾塔",
+      "category": "items",
+      "id": "Item_Owner_Hero_267",
+      "internal_id": "Item_Owner_Hero_267",
+      "url": "items/item-owner-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_267 · Rarity UR · 在「转生恶役的漫画之旅」获得"
+    },
+    {
+      "title": "维奥蕾塔",
+      "category": "items",
+      "id": "Item_Owner_Hero_267M1",
+      "internal_id": "Item_Owner_Hero_267M1",
+      "url": "items/item-owner-hero-267m1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_267M1 · Rarity UR · 在「转生恶役的漫画之旅」活动的抽奖获得"
+    },
+    {
+      "title": "维奥蕾塔",
+      "category": "items",
+      "id": "Item_Owner_Hero_267M2",
+      "internal_id": "Item_Owner_Hero_267M2",
+      "url": "items/item-owner-hero-267m2/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_267M2 · Rarity UR · 在「转生恶役的漫画之旅」活动的抽奖获得"
+    },
+    {
+      "title": "维奥蕾塔的共鸣水晶",
+      "category": "items",
+      "id": "Item_HeroPledge_267",
+      "internal_id": "Item_HeroPledge_267",
+      "url": "items/item-heropledge-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_HeroPledge_267 · Rarity UR · Backpack · 在「转生恶役的漫画之旅」活动的「共鸣礼包」中获得"
+    },
+    {
+      "title": "维奥蕾塔的前缀称号",
+      "category": "items",
+      "id": "Item_Hero_267_showoff_prefix",
+      "internal_id": "Item_Hero_267_showoff_prefix",
+      "url": "items/item-hero-267-showoff-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_267_showoff_prefix · Rarity UR · 维奥蕾塔星辉等级到达5级获得"
+    },
+    {
+      "title": "维奥蕾塔的前缀称号",
+      "category": "items",
+      "id": "Item_Hero_267_uniqueName_prefix",
+      "internal_id": "Item_Hero_267_uniqueName_prefix",
+      "url": "items/item-hero-267-uniquename-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_267_uniqueName_prefix · Rarity UR · 维奥蕾塔星辉等级到达6级获得"
+    },
+    {
+      "title": "维奥蕾塔的动态头像",
+      "category": "items",
+      "id": "Item_ActiveHead_Hero_267",
+      "internal_id": "Item_ActiveHead_Hero_267",
+      "url": "items/item-activehead-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_ActiveHead_Hero_267 · Rarity UR · 维奥蕾塔星辉等级到达10级获得"
+    },
+    {
+      "title": "维奥蕾塔的后缀称号",
+      "category": "items",
+      "id": "Item_Hero_267_showoff_suffix",
+      "internal_id": "Item_Hero_267_showoff_suffix",
+      "url": "items/item-hero-267-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_267_showoff_suffix · Rarity UR · 维奥蕾塔星辉等级到达4级获得"
+    },
+    {
+      "title": "维奥蕾塔的组合称号底框",
+      "category": "items",
+      "id": "Item_TitleBasemap_Hero_267",
+      "internal_id": "Item_TitleBasemap_Hero_267",
+      "url": "items/item-titlebasemap-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_TitleBasemap_Hero_267 · Rarity UR · 维奥蕾塔星辉等级到达8级获得"
+    },
+    {
+      "title": "维奥蕾塔的结晶碎片",
+      "category": "items",
+      "id": "Item_RarityUpgrade_Hero_267",
+      "internal_id": "Item_RarityUpgrade_Hero_267",
+      "url": "items/item-rarityupgrade-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_RarityUpgrade_Hero_267 · Rarity UR · Backpack · 在「转生恶役的漫画之旅」活动的抽奖获得"
+    },
+    {
+      "title": "转生恶役基础战令特权",
+      "category": "items",
+      "id": "Item_GveMagicBook_BP1",
+      "internal_id": "Item_GveMagicBook_BP1",
+      "url": "items/item-gvemagicbook-bp1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_BP1 · Rarity SSR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "转生恶役高级战令特权",
+      "category": "items",
+      "id": "Item_GveMagicBook_BP2",
+      "internal_id": "Item_GveMagicBook_BP2",
+      "url": "items/item-gvemagicbook-bp2/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_BP2 · Rarity SSR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔力增强书页",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Player",
+      "internal_id": "Item_GveMagicBook_LvUp_Player",
+      "url": "items/item-gvemagicbook-lvup-player/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_GveMagicBook_LvUp_Player · Rarity SR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密",
+      "category": "items",
+      "id": "GveMagicBook_01",
+      "internal_id": "GveMagicBook_01",
+      "url": "items/gvemagicbook-01/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01 · Rarity UR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密-仪式烛台",
+      "category": "items",
+      "id": "GveMagicBook_01C",
+      "internal_id": "GveMagicBook_01C",
+      "url": "items/gvemagicbook-01c/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01C · Rarity UR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密-占卜水晶球",
+      "category": "items",
+      "id": "GveMagicBook_01D",
+      "internal_id": "GveMagicBook_01D",
+      "url": "items/gvemagicbook-01d/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01D · Rarity UR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密-实验手札",
+      "category": "items",
+      "id": "GveMagicBook_01F",
+      "internal_id": "GveMagicBook_01F",
+      "url": "items/gvemagicbook-01f/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01F · Rarity UR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密-碎片",
+      "category": "items",
+      "id": "Item_GveMagicBook_01_Piece",
+      "internal_id": "Item_GveMagicBook_01_Piece",
+      "url": "items/item-gvemagicbook-01-piece/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_GveMagicBook_01_Piece · Rarity UR · Backpack · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密-药剂冷凝器",
+      "category": "items",
+      "id": "GveMagicBook_01B",
+      "internal_id": "GveMagicBook_01B",
+      "url": "items/gvemagicbook-01b/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01B · Rarity UR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密-魔导秘典",
+      "category": "items",
+      "id": "GveMagicBook_01A",
+      "internal_id": "GveMagicBook_01A",
+      "url": "items/gvemagicbook-01a/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01A · Rarity UR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密-魔晶法杖",
+      "category": "items",
+      "id": "GveMagicBook_01E",
+      "internal_id": "GveMagicBook_01E",
+      "url": "items/gvemagicbook-01e/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01E · Rarity UR · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法的秘密部件",
+      "category": "items",
+      "id": "Item_GveMagicBook_Collection_Box",
+      "internal_id": "Item_GveMagicBook_Collection_Box",
+      "url": "items/item-gvemagicbook-collection-box/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_GveMagicBook_Collection_Box · Rarity UR · Backpack · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "魔法研究抽奖券",
+      "category": "items",
+      "id": "Item_GveMagicBook_CommonLottery_Exhibit",
+      "internal_id": "Item_GveMagicBook_CommonLottery_Exhibit",
+      "url": "items/item-gvemagicbook-commonlottery-exhibit/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_CommonLottery_Exhibit · Rarity SSR · Activity, Backpack · 转生恶役的漫画之旅"
+    },
+    {
+      "title": "Encounter in Another World",
+      "category": "events",
+      "id": "Maidragon",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/",
+      "summary": "9 phases · 7, 10, 14, or 21 days · Core rewards: Hestia, Ais Wallenstein, Figure [Healer], Ryu Lion, Liliruca Arde, Bell Cranel"
+    },
+    {
+      "title": "Encounter in Another World",
+      "category": "event phases",
+      "id": "DanMachi",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-danmachi",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Hestia, Ais Wallenstein, Figure [Healer], Ryu Lion, Liliruca Arde, Bell Cranel"
+    },
+    {
+      "title": "Fight! Magic Academy Sports Day!",
+      "category": "event phases",
+      "id": "FairyTail",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-fairytail",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Natsu, Lucy, Gray, Erza, Costume [Ignite the field!] (★4), Wendy"
+    },
+    {
+      "title": "Dragon Maid on Hiemspresent",
+      "category": "event phases",
+      "id": "Maidragon_EN",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-maidragon-en",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Kanna, Tohru, Elma, Fafnir, Lucoa"
+    },
+    {
+      "title": "氷雪の町校外実習～頑張れ！モンスター娘！",
+      "category": "event phases",
+      "id": "MonsterGirl_EN",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-monstergirl-en",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Mia, ラクネラ, セントレア, メロ"
+    },
+    {
+      "title": "Mushoku Tensei and Magic Creativity Show",
+      "category": "event phases",
+      "id": "Mushoku",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-mushoku",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Roxy Migurdia, Sylphiette Greyrat, Aisha Greyrat, Norn Greyrat, Rudeus Greyrat"
+    },
+    {
+      "title": "OVERLORD vs. Isekai Farm Story",
+      "category": "event phases",
+      "id": "Overlord",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-overlord",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Albedo, Shalltear Bloodfallen, Ainz Ooal Gown, Narberal Gamma, Demiurge, Figure [Momon of Darkness]"
+    },
+    {
+      "title": "Kawaiimush",
+      "category": "event phases",
+      "id": "Sanrio",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-sanrio",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Mushimi, Costume [Spinning Sunny Day] (★4), Costume [Pudding Day] (★4), Figure [Sweet Melody], Figure [Slide Acceleration], Figure [Hello, Mushroom!]"
+    },
+    {
+      "title": "Camping with A Slime",
+      "category": "event phases",
+      "id": "TenSura",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-tensura",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Rimuru Tempest, Shuna, Diablo, Benimaru, Figure [Happy Camper]"
+    },
+    {
+      "title": "Camping with a Slime Season 2",
+      "category": "event phases",
+      "id": "TenSuraS2",
+      "internal_id": "Maidragon",
+      "url": "events/maidragon/#event-phase-tensuras2",
+      "summary": "Encounter in Another World phase · 7, 10, 14, or 21 days · Core rewards: Milim Nava, Shion, Veldora Tempest, Luminus Valentine, Costume [Surging Through Cascades] (★4), Figure [Happy Camper]"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "events",
+      "id": "URPlusSmashEggs",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/",
+      "summary": "4 phases · 14 days · Core rewards: Hina, Frogella, Gabrael, Thalia, Mushimi"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_01",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-01",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Hina, Frogella"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_02",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-02",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Gabrael, Thalia"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_03",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-03",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Mushimi, Frogella"
+    },
+    {
+      "title": "Golden Egg Smash",
+      "category": "event phases",
+      "id": "URPlusSmashEggs_04",
+      "internal_id": "URPlusSmashEggs",
+      "url": "events/urplus-smash-eggs/#event-phase-urplussmasheggs-04",
+      "summary": "Golden Egg Smash phase · 14 days · Core rewards: Mushimi, Frogella"
+    },
+    {
+      "title": "Isekai Demon Hunter Arc",
+      "category": "events",
+      "id": "Konosuba",
+      "internal_id": "Konosuba",
+      "url": "events/konosuba/",
+      "summary": "2 phases · 7, 10, 14, or 21 days · Core rewards: Shinobu Kocho, Giyu Tomioka, Tanjiro Kamado, Zenitsu Agatsuma, Nezuko Kamado, Inosuke Hashibira"
+    },
+    {
+      "title": "Isekai Demon Hunter Arc",
+      "category": "event phases",
+      "id": "DemonSlayer",
+      "internal_id": "Konosuba",
+      "url": "events/konosuba/#event-phase-demonslayer",
+      "summary": "Isekai Demon Hunter Arc phase · 7, 10, 14, or 21 days · Core rewards: Shinobu Kocho, Giyu Tomioka, Tanjiro Kamado, Zenitsu Agatsuma, Nezuko Kamado, Inosuke Hashibira"
+    },
+    {
+      "title": "God's Blessing on This Laid-Back Isekai!",
+      "category": "event phases",
+      "id": "Konosuba",
+      "internal_id": "Konosuba",
+      "url": "events/konosuba/#event-phase-konosuba",
+      "summary": "Isekai Demon Hunter Arc phase · 7, 10, 14, or 21 days · Core rewards: Aqua, Megumin, Kazuma, Darkness, Figure [Cooking Master]"
+    },
+    {
+      "title": "Mushroom Adventure",
+      "category": "events",
+      "id": "WifeGacha",
+      "internal_id": "WifeGacha",
+      "url": "events/wife-gacha/",
+      "summary": "1 phases · 7 or 8 days · Core rewards: Dante, Nonnette"
+    },
+    {
+      "title": "Mushroom Adventure",
+      "category": "event phases",
+      "id": "WifeGacha_02",
+      "internal_id": "WifeGacha",
+      "url": "events/wife-gacha/#event-phase-wifegacha-02",
+      "summary": "Mushroom Adventure phase · 7 or 8 days · Core rewards: Dante, Nonnette"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "events",
+      "id": "SeasonJourney",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/",
+      "summary": "6 phases · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3), Costume [Diagnosis at the Museum] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_001",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-001",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_002",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-002",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_003",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-003",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_004",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-004",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_005",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-005",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3)"
+    },
+    {
+      "title": "Rank Challenge",
+      "category": "event phases",
+      "id": "Season_Journey_006",
+      "internal_id": "SeasonJourney",
+      "url": "events/season-journey/#event-phase-season-journey-006",
+      "summary": "Rank Challenge phase · 24 days · Core rewards: Costume [Surprise!] (★3), Costume [Under the Spotlight] (★3), Costume [Exclusive Performance] (★3), Costume [Artistic Guidance] (★3), Costume [Candlelit Dinner] (★3), Costume [Diagnosis at the Museum] (★3)"
+    },
+    {
+      "title": "Spring Festival",
+      "category": "events",
+      "id": "SpringFestival2025",
+      "internal_id": "SpringFestival2025",
+      "url": "events/spring-festival2025/",
+      "summary": "1 phases · 14 or 21 days · Core rewards: Costume [Fortune Arrives] (★4), Costume [The Beast Nian] (★4), Costume [Step Right In, Guests!] (★2), Costume [New Year First Bite] (★2), Figure [New Year Cheer], Figure [New Year Cheer]"
+    },
+    {
+      "title": "Happy New Year~Golden Fair Parade~",
+      "category": "event phases",
+      "id": "SpringFestival2025_TW",
+      "internal_id": "SpringFestival2025",
+      "url": "events/spring-festival2025/#event-phase-springfestival2025-tw",
+      "summary": "Spring Festival phase · 14 or 21 days · Core rewards: Costume [Fortune Arrives] (★4), Costume [The Beast Nian] (★4), Costume [Step Right In, Guests!] (★2), Costume [New Year First Bite] (★2), Figure [New Year Cheer], Figure [New Year Cheer]"
+    },
+    {
+      "title": "Sunrise of New Year in Isekai",
+      "category": "events",
+      "id": "NewYear",
+      "internal_id": "NewYear",
+      "url": "events/new-year/",
+      "summary": "1 phases · 14 days · Core rewards: Costume [Full-Power Swing] (★4), Costume [Reward for Hard Work] (★4), Costume [First Sunrise With You] (★3)"
+    },
+    {
+      "title": "Fortune Awaits! Sunrise of New Year in Isekai",
+      "category": "event phases",
+      "id": "NewYear2026",
+      "internal_id": "NewYear",
+      "url": "events/new-year/#event-phase-newyear2026",
+      "summary": "Sunrise of New Year in Isekai phase · 14 days · Core rewards: Costume [Full-Power Swing] (★4), Costume [Reward for Hard Work] (★4), Costume [First Sunrise With You] (★3)"
+    },
+    {
+      "title": "失物侦探",
+      "category": "events",
+      "id": "LostAndFound",
+      "internal_id": "LostAndFound",
+      "url": "events/lost-and-found/",
+      "summary": "1 phases · 3 days · Core rewards: Costume [Azure Wanderer] (★3), Costume [A Nap on Calming Waves] (★3), Costume [An Unexpected Outfit] (★3), Costume [A Bold Change] (★3), Costume [A Loving Painting] (★3)"
+    },
+    {
+      "title": "失物侦探",
+      "category": "event phases",
+      "id": "LostAndFound_01",
+      "internal_id": "LostAndFound",
+      "url": "events/lost-and-found/#event-phase-lostandfound-01",
+      "summary": "失物侦探 phase · 3 days · Core rewards: Costume [Azure Wanderer] (★3), Costume [A Nap on Calming Waves] (★3), Costume [An Unexpected Outfit] (★3), Costume [A Bold Change] (★3), Costume [A Loving Painting] (★3)"
+    },
+    {
+      "title": "转生恶役的漫画之旅",
+      "category": "events",
+      "id": "GveMagicBook",
+      "internal_id": "GveMagicBook",
+      "url": "events/gve-magic-book/",
+      "summary": "1 phases · 7 or 8 days · Core rewards: 维奥蕾塔, 魔法的秘密"
+    },
+    {
+      "title": "转生恶役的漫画之旅",
+      "category": "event phases",
+      "id": "GveMagicBook_01",
+      "internal_id": "GveMagicBook",
+      "url": "events/gve-magic-book/#event-phase-gvemagicbook-01",
+      "summary": "转生恶役的漫画之旅 phase · 7 or 8 days · Core rewards: 维奥蕾塔, 魔法的秘密"
+    }
+  ]
+}

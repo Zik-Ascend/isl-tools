@@ -1,0 +1,2205 @@
+{
+  "schemaVersion": 3,
+  "patch": "297635",
+  "generatedAt": "2026-10-09 16:18 UTC",
+  "baselineGeneratedAt": "2026-10-09 15:29 UTC",
+  "baselineType": "public",
+  "parentPatch": null,
+  "new": [
+    "artifacts/artifact-weapon-6-h267",
+    "events/gve-magic-book",
+    "events/lost-and-found",
+    "fellows/violetta",
+    "items/collection-gvemagicbook",
+    "items/gvemagicbook-01",
+    "items/gvemagicbook-01a",
+    "items/gvemagicbook-01b",
+    "items/gvemagicbook-01c",
+    "items/gvemagicbook-01d",
+    "items/gvemagicbook-01e",
+    "items/gvemagicbook-01f",
+    "items/item-activehead-hero-267",
+    "items/item-collection-gvemagicbook-piece",
+    "items/item-gvemagicbook-01-piece",
+    "items/item-gvemagicbook-bp1",
+    "items/item-gvemagicbook-bp2",
+    "items/item-gvemagicbook-collection-box",
+    "items/item-gvemagicbook-commonlottery-exhibit",
+    "items/item-gvemagicbook-commonlottery-token",
+    "items/item-gvemagicbook-lvup-player",
+    "items/item-gvemagicbook-lvup-skill01",
+    "items/item-gvemagicbook-lvup-skill02",
+    "items/item-gvemagicbook-lvup-skill03",
+    "items/item-gvemagicbook-lvup-skill04",
+    "items/item-gvemagicbook-lvup-skill05",
+    "items/item-gvemagicbook-lvup-skill06",
+    "items/item-gvemagicbook-lvup-skill07",
+    "items/item-gvemagicbook-stamina",
+    "items/item-gvemagicbook-staminarecover-2",
+    "items/item-hero-267-showoff-prefix",
+    "items/item-hero-267-showoff-suffix",
+    "items/item-hero-267-uniquename-prefix",
+    "items/item-heropledge-267",
+    "items/item-lostandfound-01-extendtime",
+    "items/item-lostandfound-01-stamina",
+    "items/item-lostandfound-3starcothesbox",
+    "items/item-lostandfound-title-1",
+    "items/item-owner-hero-267",
+    "items/item-owner-hero-267m1",
+    "items/item-owner-hero-267m2",
+    "items/item-rarityupgrade-hero-267",
+    "items/item-titlebasemap-hero-267",
+    "items/item-weapon-equipment-6-h267"
+  ],
+  "modified": [
+    "artifacts",
+    "artifacts/zenitsu-agatsuma-s-nichirin-sword",
+    "calculators/fellow-power",
+    "events",
+    "events/konosuba",
+    "events/maidragon",
+    "events/new-year",
+    "events/season-journey",
+    "events/spring-festival2025",
+    "events/urplus-smash-eggs",
+    "events/wife-gacha",
+    "family/amaterasu",
+    "family/bren",
+    "family/connie",
+    "family/dante",
+    "family/hattie",
+    "family/mushimi",
+    "family/nonnette",
+    "family/phetia",
+    "family/sera",
+    "family/shuna",
+    "family/sylthiel",
+    "family/tsukuyomi",
+    "fellows",
+    "fellows/future-maxim",
+    "fellows/giyu-tomioka",
+    "fellows/hattie",
+    "fellows/linlang",
+    "fellows/rissette",
+    "fellows/shinobu-kocho",
+    "items",
+    "items/collection-gvecoinfight",
+    "items/gift1",
+    "items/gift2",
+    "items/gift3",
+    "items/gift4",
+    "items/gift5",
+    "items/gvecoinfight-01",
+    "items/gvecoinfight-01a",
+    "items/gvecoinfight-01b",
+    "items/gvecoinfight-01c",
+    "items/gvecoinfight-01d",
+    "items/gvecoinfight-01e",
+    "items/gvecoinfight-01f",
+    "items/icon-museum-collection-medicine-1",
+    "items/item-bait1",
+    "items/item-bait2",
+    "items/item-box-country-increase",
+    "items/item-box-talent-1",
+    "items/item-breach-hero-1-1",
+    "items/item-breach-hero-1-2",
+    "items/item-breach-hero-1-3",
+    "items/item-breach-itempack-1",
+    "items/item-break-equipment-1",
+    "items/item-building-recruit-increase-1",
+    "items/item-clotheschip-h12c2",
+    "items/item-clotheschip-w11c1",
+    "items/item-clotheschip-w57c1",
+    "items/item-clotheschip-w60c1",
+    "items/item-clotheschip-w64c1",
+    "items/item-clothesskill-box-01",
+    "items/item-clothesskill-box-02",
+    "items/item-exchange-custom-02",
+    "items/item-exchange-hero-universal",
+    "items/item-expbox-resources-1",
+    "items/item-gcoin-yieldpack-1",
+    "items/item-getce-10",
+    "items/item-getde-10",
+    "items/item-getfe-10",
+    "items/item-gift-ceremony-2",
+    "items/item-gift-ceremony-3",
+    "items/item-giftrandom-emblem",
+    "items/item-giftrandom-intimacy",
+    "items/item-hero-attribute-increase-1",
+    "items/item-herobond1-exchange-01",
+    "items/item-herobond1-exchangepiece",
+    "items/item-herobond2-exchange-01",
+    "items/item-heromanagerment-building",
+    "items/item-intimacydegree-hero255",
+    "items/item-owner-hero-101",
+    "items/item-owner-hero-102",
+    "items/item-owner-hero-103",
+    "items/item-owner-hero-104",
+    "items/item-owner-hero-105",
+    "items/item-owner-hero-52",
+    "items/item-owner-hero-54",
+    "items/item-owner-hero-56",
+    "items/item-owner-heropiece-101",
+    "items/item-owner-heropiece-102",
+    "items/item-owner-heropiece-103",
+    "items/item-owner-heropiece-104",
+    "items/item-owner-heropiece-105",
+    "items/item-owner-wife-101",
+    "items/item-owner-wife-102",
+    "items/item-owner-wife-103",
+    "items/item-owner-wife-104",
+    "items/item-owner-wife-105",
+    "items/item-owner-wife-106",
+    "items/item-owner-wife-167s1",
+    "items/item-owner-wife-52",
+    "items/item-owner-wife-60",
+    "items/item-owner-wifepiece-101",
+    "items/item-owner-wifepiece-102",
+    "items/item-owner-wifepiece-103",
+    "items/item-owner-wifepiece-104",
+    "items/item-owner-wifepiece-105",
+    "items/item-owner-wifepiece-106",
+    "items/item-pet-optionalbox-grade9",
+    "items/item-petstarup-grade9",
+    "items/item-piece-hero-universal",
+    "items/item-quenching-equipment-1",
+    "items/item-quenching-wife-1",
+    "items/item-ranktitle1-03-1",
+    "items/item-ranktitle1-03-2",
+    "items/item-ranktitle1-04-1",
+    "items/item-ranktitle1-04-2",
+    "items/item-refine-equipment-1",
+    "items/item-simgame5-1401",
+    "items/item-simgame5-1402",
+    "items/item-simgame5-1403",
+    "items/item-simgame5-2401",
+    "items/item-simgame5-2402",
+    "items/item-simgame5-2403",
+    "items/item-simgame5-2404",
+    "items/item-simgame5-2405",
+    "items/item-simgame5-2406",
+    "items/item-simgame5-2407",
+    "items/item-simgame5-2408",
+    "items/item-simgame5-2409",
+    "items/item-simgame5piece-1401",
+    "items/item-simgame5piece-1402",
+    "items/item-simgame5piece-1403",
+    "items/item-simgame5piece-2401",
+    "items/item-simgame5piece-2402",
+    "items/item-simgame5piece-2403",
+    "items/item-simgame5piece-2404",
+    "items/item-simgame5piece-2405",
+    "items/item-simgame5piece-2406",
+    "items/item-simgame5piece-2407",
+    "items/item-simgame5piece-2408",
+    "items/item-simgame5piece-2409",
+    "items/item-strengthen-equipment-1",
+    "items/item-talent-hero-1",
+    "items/item-talent-hero-piece",
+    "items/item-token-gacha-universal",
+    "items/item-urplussmasheggs-01",
+    "items/item-w172c1-showoff-suffix",
+    "items/item-weapon-equipment-3-2",
+    "items/item-weapon-equipment-3-3",
+    "items/item-weapon-equipment-3-4",
+    "items/item-weapon-equipment-4-3",
+    "items/item-weapon-equipment-4-4",
+    "items/item-weapon-equipment-5-1",
+    "items/item-weapon-equipment-5-3",
+    "items/item-weapon-equipment-5-4",
+    "items/item-weapon-equipment-6-2",
+    "items/item-weapon-equipment-6-3",
+    "items/item-weapon-equipment-6-4",
+    "items/item-weapon-equipment-7-1",
+    "items/item-weapon-equipment-7-2",
+    "items/item-weapon-equipment-7-3",
+    "items/item-weapon-equipment-7-5",
+    "items/item-weapon-equipment-7-6",
+    "items/item-weapon-equipment-7-7",
+    "museum"
+  ],
+  "removed": [],
+  "componentChanges": {
+    "artifacts": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Artifacts",
+        "Alphabetical List"
+      ],
+      "removed": []
+    },
+    "artifacts/artifact-weapon-6-h267": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "身临其境的魔法书",
+        "Base Stats"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "artifacts/zenitsu-agatsuma-s-nichirin-sword": {
+      "available": true,
+      "isolated": false,
+      "new": [],
+      "modified": [],
+      "removed": []
+    },
+    "calculators/fellow-power": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fellow Power"
+      ],
+      "removed": []
+    },
+    "events": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event List"
+      ],
+      "removed": []
+    },
+    "events/gve-magic-book": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "转生恶役的漫画之旅",
+        "Core Rewards",
+        "Gameplay Event Rules 5 sections",
+        "Phases"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "events/konosuba": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Variations"
+      ],
+      "removed": []
+    },
+    "events/lost-and-found": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "失物侦探",
+        "Core Rewards",
+        "Gameplay Event Rules 11 sections",
+        "Phases"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "events/maidragon": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Variations"
+      ],
+      "removed": []
+    },
+    "events/new-year": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Gameplay Event Rules 7 sections"
+      ],
+      "removed": []
+    },
+    "events/season-journey": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Task Rotation 1"
+      ],
+      "removed": []
+    },
+    "events/spring-festival2025": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Gameplay Event Rules 4 sections"
+      ],
+      "removed": []
+    },
+    "events/urplus-smash-eggs": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Variations"
+      ],
+      "removed": []
+    },
+    "events/wife-gacha": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Gameplay Event Rules 4 sections"
+      ],
+      "removed": []
+    },
+    "family/amaterasu": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/bren": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/connie": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/dante": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/hattie": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Hattie"
+      ],
+      "removed": []
+    },
+    "family/mushimi": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Mushimi"
+      ],
+      "removed": []
+    },
+    "family/nonnette": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Nonnette",
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/phetia": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/sera": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/shuna": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/sylthiel": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "family/tsukuyomi": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Blessed Fellows"
+      ],
+      "removed": []
+    },
+    "fellows": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fellows",
+        "Alphabetical List"
+      ],
+      "removed": []
+    },
+    "fellows/future-maxim": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Future Maxim"
+      ],
+      "removed": []
+    },
+    "fellows/giyu-tomioka": {
+      "available": true,
+      "isolated": false,
+      "new": [],
+      "modified": [],
+      "removed": []
+    },
+    "fellows/hattie": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Hattie"
+      ],
+      "removed": []
+    },
+    "fellows/linlang": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Linlang"
+      ],
+      "removed": []
+    },
+    "fellows/rissette": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Rissette"
+      ],
+      "removed": []
+    },
+    "fellows/shinobu-kocho": {
+      "available": true,
+      "isolated": false,
+      "new": [],
+      "modified": [],
+      "removed": []
+    },
+    "fellows/violetta": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "Violetta",
+        "Skills",
+        "Rarity Upgrade Track",
+        "Stella Rewards",
+        "Family Blessings"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Items",
+        "Item List"
+      ],
+      "removed": []
+    },
+    "items/collection-gvecoinfight": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Money Tree Miniature"
+      ],
+      "removed": []
+    },
+    "items/collection-gvemagicbook": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "宝石礼扇",
+        "Item Data",
+        "Event reward references"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/gift1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/gift2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/gift3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/gift4": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/gift5": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/gvecoinfight-01": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fortune Figurine Miniature"
+      ],
+      "removed": []
+    },
+    "items/gvecoinfight-01a": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fortune Figurine - Guardian Beast"
+      ],
+      "removed": []
+    },
+    "items/gvecoinfight-01b": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fortune Figurine - Steadfast Beast"
+      ],
+      "removed": []
+    },
+    "items/gvecoinfight-01c": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fortune Figurine - Fortune-Bringing Beast"
+      ],
+      "removed": []
+    },
+    "items/gvecoinfight-01d": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fortune Figurine - Money Tree"
+      ],
+      "removed": []
+    },
+    "items/gvecoinfight-01e": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fortune Figurine - Blessing Lantern"
+      ],
+      "removed": []
+    },
+    "items/gvecoinfight-01f": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Fortune Figurine - Treasure Basin"
+      ],
+      "removed": []
+    },
+    "items/gvemagicbook-01": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密",
+        "Item Data",
+        "Event reward references"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/gvemagicbook-01a": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密-魔导秘典",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/gvemagicbook-01b": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密-药剂冷凝器",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/gvemagicbook-01c": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密-仪式烛台",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/gvemagicbook-01d": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密-占卜水晶球",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/gvemagicbook-01e": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密-魔晶法杖",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/gvemagicbook-01f": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密-实验手札",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/icon-museum-collection-medicine-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Verity's Textbook"
+      ],
+      "removed": []
+    },
+    "items/item-activehead-hero-267": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔的动态头像",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-bait1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-bait2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-box-country-increase": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-box-talent-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-breach-hero-1-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-breach-hero-1-2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-breach-hero-1-3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-breach-itempack-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-break-equipment-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-building-recruit-increase-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-clotheschip-h12c2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-clotheschip-w11c1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-clotheschip-w57c1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-clotheschip-w60c1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-clotheschip-w64c1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-clothesskill-box-01": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-clothesskill-box-02": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-collection-gvemagicbook-piece": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "宝石礼扇碎片",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-exchange-custom-02": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-exchange-hero-universal": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-expbox-resources-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-gcoin-yieldpack-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-getce-10": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-getde-10": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-getfe-10": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-gift-ceremony-2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-gift-ceremony-3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-giftrandom-emblem": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-giftrandom-intimacy": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-gvemagicbook-01-piece": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密-碎片",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-bp1": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "转生恶役基础战令特权",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-bp2": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "转生恶役高级战令特权",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-collection-box": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法的秘密部件",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-commonlottery-exhibit": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔法研究抽奖券",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-commonlottery-token": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "恶役抽奖券",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-player": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "魔力增强书页",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-skill01": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "「魔法飞弹」增幅卷轴",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-skill02": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "「龙息术」增幅卷轴",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-skill03": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "「剧毒泡泡」增幅卷轴",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-skill04": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "「雷击术」增幅卷轴",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-skill05": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "「激光术」增幅卷轴",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-skill06": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "「旋风魔法」增幅卷轴",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-lvup-skill07": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "「冰息术」增幅卷轴",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-stamina": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "体力",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-gvemagicbook-staminarecover-2": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "千金红茶",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-hero-267-showoff-prefix": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔的前缀称号",
+        "Item Data",
+        "Title Details",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-hero-267-showoff-suffix": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔的后缀称号",
+        "Item Data",
+        "Title Details",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-hero-267-uniquename-prefix": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔的前缀称号",
+        "Item Data",
+        "Title Details",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-hero-attribute-increase-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-herobond1-exchange-01": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-herobond1-exchangepiece": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-herobond2-exchange-01": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-heromanagerment-building": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-heropledge-267": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔的共鸣水晶",
+        "Item Data",
+        "Event reward references"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-intimacydegree-hero255": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-lostandfound-01-extendtime": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "侦探怀表",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-lostandfound-01-stamina": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "侦探放大镜",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-lostandfound-3starcothesbox": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "3-Star Costume Chest",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-lostandfound-title-1": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "全视之眼",
+        "Item Data",
+        "Title Details",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-owner-hero-101": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-hero-102": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-hero-103": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-hero-104": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-owner-hero-105": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-hero-267": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔",
+        "Item Data",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-owner-hero-267m1": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔",
+        "Item Data",
+        "Event reward references"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-owner-hero-267m2": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔",
+        "Item Data",
+        "Event reward references"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-owner-hero-52": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-hero-54": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-hero-56": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-heropiece-101": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-heropiece-102": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-heropiece-103": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-heropiece-104": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-heropiece-105": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-101": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-102": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-103": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-104": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-105": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-106": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-167s1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Mushimi",
+        "Sources"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-52": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wife-60": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wifepiece-101": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wifepiece-102": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wifepiece-103": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wifepiece-104": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wifepiece-105": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-owner-wifepiece-106": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-pet-optionalbox-grade9": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "Event reward references"
+      ],
+      "modified": [],
+      "removed": [
+        "Sources"
+      ]
+    },
+    "items/item-petstarup-grade9": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-piece-hero-universal": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-quenching-equipment-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-quenching-wife-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-ranktitle1-03-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-ranktitle1-03-2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-ranktitle1-04-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-ranktitle1-04-2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-rarityupgrade-hero-267": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔的结晶碎片",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-refine-equipment-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-1401": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-1402": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-1403": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2401": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2402": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2403": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2404": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2405": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2406": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2407": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2408": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5-2409": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-1401": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-1402": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-1403": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2401": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2402": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2403": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2404": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2405": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2406": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2407": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2408": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-simgame5piece-2409": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-strengthen-equipment-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-talent-hero-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-talent-hero-piece": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-titlebasemap-hero-267": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "维奥蕾塔的组合称号底框",
+        "Item Data",
+        "Title Details",
+        "Sources"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-token-gacha-universal": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-urplussmasheggs-01": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-w172c1-showoff-suffix": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Title Details"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-3-2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-3-3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-3-4": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-4-3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-4-4": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-5-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-5-3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-5-4": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-6-2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Configured acquisition paths"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-6-3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-6-4": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-6-h267": {
+      "available": true,
+      "isolated": true,
+      "new": [
+        "The Immersive Grimoire",
+        "Item Data",
+        "Configured acquisition paths"
+      ],
+      "modified": [],
+      "removed": []
+    },
+    "items/item-weapon-equipment-7-1": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-7-2": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-7-3": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-7-5": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-7-6": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "items/item-weapon-equipment-7-7": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Event reward references"
+      ],
+      "removed": []
+    },
+    "museum": {
+      "available": true,
+      "isolated": true,
+      "new": [],
+      "modified": [
+        "Museum",
+        "Private Hall",
+        "Honor Room",
+        "Hall of Memories"
+      ],
+      "removed": []
+    }
+  }
+}
