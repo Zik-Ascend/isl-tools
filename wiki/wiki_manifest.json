@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15 01:14 UTC",
+  "generated_at": "2026-10-15 10:13 UTC",
   "counts": {
     "fellows": 167,
     "family": 128,
@@ -5614,11 +5614,11 @@
       "aliases": []
     },
     {
-      "title": "身临其境的魔法书",
+      "title": "The Immersive Grimoire",
       "category": "artifacts",
       "id": "Weapon_6_H267",
       "internal_id": "Weapon_6_H267",
-      "url": "artifacts/artifact-weapon-6-h267/",
+      "url": "artifacts/the-immersive-grimoire/",
       "rarity": "UR",
       "rarity_sort": 6,
       "summary": "Artifact ID Weapon_6_H267 · Rarity UR",
@@ -11772,6 +11772,17 @@
       "aliases": []
     },
     {
+      "title": "Jeweled Fan",
+      "category": "museum exhibits",
+      "id": "Collection_GveMagicBook",
+      "internal_id": "Collection_GveMagicBook",
+      "url": "museum/#museum-exhibit-collection-gvemagicbook",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Museum exhibit Collection_GveMagicBook · Hall1 · Rarity SSR · Unlock Premium Pass in the [Reincarnated Villainess's Manga Journey] event to obtain.",
+      "aliases": []
+    },
+    {
       "title": "Money Tree Miniature",
       "category": "museum exhibits",
       "id": "Collection_GveCoinFight",
@@ -11813,17 +11824,6 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Museum exhibit Collection_GveMedicine · Hall1 · Rarity SSR · Unlocks Premium Pass during the Apothecary: Proud Mentor & Rebellious Apprentice event to obtain.",
-      "aliases": []
-    },
-    {
-      "title": "宝石礼扇",
-      "category": "museum exhibits",
-      "id": "Collection_GveMagicBook",
-      "internal_id": "Collection_GveMagicBook",
-      "url": "museum/#museum-exhibit-collection-gvemagicbook",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Museum exhibit Collection_GveMagicBook · Hall1 · Rarity SSR · 在「转生恶役的漫画之旅」活动中，解锁战令高级档位后获得",
       "aliases": []
     },
     {
@@ -12234,14 +12234,14 @@
       "aliases": []
     },
     {
-      "title": "千金的藏书",
+      "title": "The Heiress's Archives",
       "category": "museum exhibits",
       "id": "Achievement_36",
       "internal_id": "Achievement_36",
       "url": "museum/#museum-exhibit-achievement-36",
       "rarity": "SR",
       "rarity_sort": 3,
-      "summary": "Museum exhibit Achievement_36 · Hall2 · Rarity SR · 转生恶役的漫画之旅\n个人最高通关榜",
+      "summary": "Museum exhibit Achievement_36 · Hall2 · Rarity SR · Reincarnated Villainess's Manga Journey\nHighest Stage Cleared Ranking",
       "aliases": []
     },
     {
@@ -12736,7 +12736,7 @@
       "url": "museum/#museum-exhibit-gvemagicbook-01",
       "rarity": "UR",
       "rarity_sort": 6,
-      "summary": "Museum exhibit GveMagicBook_01 · Hall7 · Rarity UR · 在「转生恶役的漫画之旅」活动中，通过展品抽奖获得",
+      "summary": "Museum exhibit GveMagicBook_01 · Hall7 · Rarity UR · Obtained from the Exhibit Gacha in the [Reincarnated Villainess's Manga Journey] event.",
       "aliases": []
     },
     {
@@ -15663,6 +15663,83 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_MP02_Expend_3 · Rarity SR · Currency · Camping Under the Stars",
+      "aliases": []
+    },
+    {
+      "title": "\"Cyclone\" Boost Scroll",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill06",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill06",
+      "url": "items/item-gvemagicbook-lvup-skill06/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill06 · Rarity R · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "\"Dragon Breath\" Boost Scroll",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill02",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill02",
+      "url": "items/item-gvemagicbook-lvup-skill02/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill02 · Rarity R · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "\"Frost Breath\" Boost Scroll",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill07",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill07",
+      "url": "items/item-gvemagicbook-lvup-skill07/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill07 · Rarity R · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "\"Laser Beam\" Boost Scroll",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill05",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill05",
+      "url": "items/item-gvemagicbook-lvup-skill05/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill05 · Rarity R · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "\"Lightning Bolt\" Boost Scroll",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill04",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill04",
+      "url": "items/item-gvemagicbook-lvup-skill04/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill04 · Rarity R · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "\"Magic Missile\" Boost Scroll",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill01",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill01",
+      "url": "items/item-gvemagicbook-lvup-skill01/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill01 · Rarity R · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "\"Toxic Bubbles\" Boost Scroll",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Skill03",
+      "internal_id": "Item_GveMagicBook_LvUp_Skill03",
+      "url": "items/item-gvemagicbook-lvup-skill03/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_LvUp_Skill03 · Rarity R · Reincarnated Villainess's Manga Journey",
       "aliases": []
     },
     {
@@ -35730,6 +35807,17 @@
       "aliases": []
     },
     {
+      "title": "Heiress's Black Tea",
+      "category": "items",
+      "id": "Item_GveMagicBook_StaminaRecover_2",
+      "internal_id": "Item_GveMagicBook_StaminaRecover_2",
+      "url": "items/item-gvemagicbook-staminarecover-2/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_GveMagicBook_StaminaRecover_2 · Rarity SR · Activity, Backpack · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
       "title": "Hell Demon Egg",
       "category": "items",
       "id": "Item_GveInfernoRally_Chest_Silver",
@@ -37674,6 +37762,28 @@
       "rarity": "SSR+",
       "rarity_sort": 5,
       "summary": "Item Item_Owner_PetPiece_8031901 · Rarity SSR+ · Backpack · Event",
+      "aliases": []
+    },
+    {
+      "title": "Jeweled Fan",
+      "category": "items",
+      "id": "Collection_GveMagicBook",
+      "internal_id": "Collection_GveMagicBook",
+      "url": "items/collection-gvemagicbook/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Collection_GveMagicBook · Rarity SSR · Backpack · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Jeweled Fan Fragment",
+      "category": "items",
+      "id": "Item_Collection_GveMagicBook_Piece",
+      "internal_id": "Item_Collection_GveMagicBook_Piece",
+      "url": "items/item-collection-gvemagicbook-piece/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Collection_GveMagicBook_Piece · Rarity SSR · Backpack · Reincarnated Villainess's Manga Journey",
       "aliases": []
     },
     {
@@ -40152,6 +40262,17 @@
       "aliases": []
     },
     {
+      "title": "Magic Boost Page",
+      "category": "items",
+      "id": "Item_GveMagicBook_LvUp_Player",
+      "internal_id": "Item_GveMagicBook_LvUp_Player",
+      "url": "items/item-gvemagicbook-lvup-player/",
+      "rarity": "SR",
+      "rarity_sort": 3,
+      "summary": "Item Item_GveMagicBook_LvUp_Player · Rarity SR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
       "title": "Magic Bottle",
       "category": "items",
       "id": "Item_magicElement_Hero251",
@@ -40226,6 +40347,17 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Weapon_Equipment_5_2 · Rarity SSR · Backpack · Special Recruit",
+      "aliases": []
+    },
+    {
+      "title": "Magic Research Gacha Ticket",
+      "category": "items",
+      "id": "Item_GveMagicBook_CommonLottery_Exhibit",
+      "internal_id": "Item_GveMagicBook_CommonLottery_Exhibit",
+      "url": "items/item-gvemagicbook-commonlottery-exhibit/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_CommonLottery_Exhibit · Rarity SSR · Activity, Backpack · Reincarnated Villainess's Manga Journey",
       "aliases": []
     },
     {
@@ -40446,6 +40578,28 @@
       "rarity": "N",
       "rarity_sort": 1,
       "summary": "Item Item_MP04_Output_1 · Rarity N · Activity, Backpack · Picnic in the Forest",
+      "aliases": []
+    },
+    {
+      "title": "Manga Journey Basic Pass Privilege",
+      "category": "items",
+      "id": "Item_GveMagicBook_BP1",
+      "internal_id": "Item_GveMagicBook_BP1",
+      "url": "items/item-gvemagicbook-bp1/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_BP1 · Rarity SSR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Manga Journey Premium Pass Privilege",
+      "category": "items",
+      "id": "Item_GveMagicBook_BP2",
+      "internal_id": "Item_GveMagicBook_BP2",
+      "url": "items/item-gvemagicbook-bp2/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_BP2 · Rarity SSR · Reincarnated Villainess's Manga Journey",
       "aliases": []
     },
     {
@@ -48226,6 +48380,28 @@
       "aliases": []
     },
     {
+      "title": "Prefix Title: Violetta",
+      "category": "items",
+      "id": "Item_Hero_267_showoff_prefix",
+      "internal_id": "Item_Hero_267_showoff_prefix",
+      "url": "items/item-hero-267-showoff-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_267_showoff_prefix · Rarity UR · Violetta's Stella Level Reaches 5",
+      "aliases": []
+    },
+    {
+      "title": "Prefix Title: Violetta",
+      "category": "items",
+      "id": "Item_Hero_267_uniqueName_prefix",
+      "internal_id": "Item_Hero_267_uniqueName_prefix",
+      "url": "items/item-hero-267-uniquename-prefix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_267_uniqueName_prefix · Rarity UR · Violetta's Stella Level Reaches 6",
+      "aliases": []
+    },
+    {
       "title": "Prefix Title: Vlad XIII",
       "category": "items",
       "id": "Item_Wife_117_showoff_prefix",
@@ -52219,6 +52395,105 @@
       "aliases": []
     },
     {
+      "title": "Secrets of Magic",
+      "category": "items",
+      "id": "GveMagicBook_01",
+      "internal_id": "GveMagicBook_01",
+      "url": "items/gvemagicbook-01/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01 · Rarity UR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic Fragment",
+      "category": "items",
+      "id": "Item_GveMagicBook_01_Piece",
+      "internal_id": "Item_GveMagicBook_01_Piece",
+      "url": "items/item-gvemagicbook-01-piece/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_GveMagicBook_01_Piece · Rarity UR · Backpack · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic Piece",
+      "category": "items",
+      "id": "Item_GveMagicBook_Collection_Box",
+      "internal_id": "Item_GveMagicBook_Collection_Box",
+      "url": "items/item-gvemagicbook-collection-box/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_GveMagicBook_Collection_Box · Rarity UR · Backpack · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic: Alchemical Condenser",
+      "category": "items",
+      "id": "GveMagicBook_01B",
+      "internal_id": "GveMagicBook_01B",
+      "url": "items/gvemagicbook-01b/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01B · Rarity UR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic: Arcane Grimoire",
+      "category": "items",
+      "id": "GveMagicBook_01A",
+      "internal_id": "GveMagicBook_01A",
+      "url": "items/gvemagicbook-01a/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01A · Rarity UR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic: Crystal Ball",
+      "category": "items",
+      "id": "GveMagicBook_01D",
+      "internal_id": "GveMagicBook_01D",
+      "url": "items/gvemagicbook-01d/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01D · Rarity UR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic: Experimental Journal",
+      "category": "items",
+      "id": "GveMagicBook_01F",
+      "internal_id": "GveMagicBook_01F",
+      "url": "items/gvemagicbook-01f/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01F · Rarity UR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic: Mana-Crystal Staff",
+      "category": "items",
+      "id": "GveMagicBook_01E",
+      "internal_id": "GveMagicBook_01E",
+      "url": "items/gvemagicbook-01e/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01E · Rarity UR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Secrets of Magic: Ritual Candelabra",
+      "category": "items",
+      "id": "GveMagicBook_01C",
+      "internal_id": "GveMagicBook_01C",
+      "url": "items/gvemagicbook-01c/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item GveMagicBook_01C · Rarity UR · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
       "title": "Selectable Costume Blueprint Chest",
       "category": "items",
       "id": "Item_DanMachi_CothesboxPiece_1",
@@ -54790,6 +55065,17 @@
       "rarity": "R",
       "rarity_sort": 2,
       "summary": "Item Item_GveInfernoRally_Stamina · Rarity R · Savage! Inferno Rally",
+      "aliases": []
+    },
+    {
+      "title": "Stamina",
+      "category": "items",
+      "id": "Item_GveMagicBook_Stamina",
+      "internal_id": "Item_GveMagicBook_Stamina",
+      "url": "items/item-gvemagicbook-stamina/",
+      "rarity": "R",
+      "rarity_sort": 2,
+      "summary": "Item Item_GveMagicBook_Stamina · Rarity R · Reincarnated Villainess's Manga Journey",
       "aliases": []
     },
     {
@@ -58819,6 +59105,17 @@
       "aliases": []
     },
     {
+      "title": "Suffix Title: Violetta",
+      "category": "items",
+      "id": "Item_Hero_267_showoff_suffix",
+      "internal_id": "Item_Hero_267_showoff_suffix",
+      "url": "items/item-hero-267-showoff-suffix/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Hero_267_showoff_suffix · Rarity UR · Violetta's Stella Level Reaches 4",
+      "aliases": []
+    },
+    {
       "title": "Suffix Title: Vlad XIII",
       "category": "items",
       "id": "Item_Wife_117_showoff_suffix",
@@ -60553,7 +60850,7 @@
       "url": "items/item-weapon-equipment-6-h267/",
       "rarity": "UR",
       "rarity_sort": 6,
-      "summary": "Item Item_Weapon_Equipment_6_H267 · Rarity UR · Backpack · 在「转生恶役的漫画之旅」活动的「伙伴的星辉礼包」中获得",
+      "summary": "Item Item_Weapon_Equipment_6_H267 · Rarity UR · Backpack · [Reincarnated Villainess's Manga Journey] event's [Fellow Stella Bundle]",
       "aliases": []
     },
     {
@@ -62757,6 +63054,94 @@
       "aliases": []
     },
     {
+      "title": "Villainess Gacha Ticket",
+      "category": "items",
+      "id": "Item_GveMagicBook_CommonLottery_Token",
+      "internal_id": "Item_GveMagicBook_CommonLottery_Token",
+      "url": "items/item-gvemagicbook-commonlottery-token/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_GveMagicBook_CommonLottery_Token · Rarity SSR · Activity, Backpack · Reincarnated Villainess's Manga Journey",
+      "aliases": []
+    },
+    {
+      "title": "Violetta",
+      "category": "items",
+      "id": "Item_Owner_Hero_267",
+      "internal_id": "Item_Owner_Hero_267",
+      "url": "items/item-owner-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_267 · Rarity UR · [Reincarnated Villainess's Manga Journey] event",
+      "aliases": []
+    },
+    {
+      "title": "Violetta",
+      "category": "items",
+      "id": "Item_Owner_Hero_267M1",
+      "internal_id": "Item_Owner_Hero_267M1",
+      "url": "items/item-owner-hero-267m1/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_267M1 · Rarity UR · [Reincarnated Villainess's Manga Journey] event's gacha",
+      "aliases": []
+    },
+    {
+      "title": "Violetta",
+      "category": "items",
+      "id": "Item_Owner_Hero_267M2",
+      "internal_id": "Item_Owner_Hero_267M2",
+      "url": "items/item-owner-hero-267m2/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_Owner_Hero_267M2 · Rarity UR · [Reincarnated Villainess's Manga Journey] event's gacha",
+      "aliases": []
+    },
+    {
+      "title": "Violetta Dynamic Avatar",
+      "category": "items",
+      "id": "Item_ActiveHead_Hero_267",
+      "internal_id": "Item_ActiveHead_Hero_267",
+      "url": "items/item-activehead-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_ActiveHead_Hero_267 · Rarity UR · Violetta's Stella Level Reaches 10",
+      "aliases": []
+    },
+    {
+      "title": "Violetta Title Underframe",
+      "category": "items",
+      "id": "Item_TitleBasemap_Hero_267",
+      "internal_id": "Item_TitleBasemap_Hero_267",
+      "url": "items/item-titlebasemap-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_TitleBasemap_Hero_267 · Rarity UR · Violetta's Stella Level Reaches 8",
+      "aliases": []
+    },
+    {
+      "title": "Violetta's Crystal Fragment",
+      "category": "items",
+      "id": "Item_RarityUpgrade_Hero_267",
+      "internal_id": "Item_RarityUpgrade_Hero_267",
+      "url": "items/item-rarityupgrade-hero-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_RarityUpgrade_Hero_267 · Rarity UR · Backpack · [Reincarnated Villainess's Manga Journey] event's gacha",
+      "aliases": []
+    },
+    {
+      "title": "Violetta's Resonance Crystal",
+      "category": "items",
+      "id": "Item_HeroPledge_267",
+      "internal_id": "Item_HeroPledge_267",
+      "url": "items/item-heropledge-267/",
+      "rarity": "UR",
+      "rarity_sort": 6,
+      "summary": "Item Item_HeroPledge_267 · Rarity UR · Backpack · [Reincarnated Villainess's Manga Journey] event's [Resonance Bundle]",
+      "aliases": []
+    },
+    {
       "title": "VIP Character Fragment",
       "category": "items",
       "id": "Item_VIP_box_2",
@@ -64011,50 +64396,6 @@
       "aliases": []
     },
     {
-      "title": "「冰息术」增幅卷轴",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Skill07",
-      "internal_id": "Item_GveMagicBook_LvUp_Skill07",
-      "url": "items/item-gvemagicbook-lvup-skill07/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_LvUp_Skill07 · Rarity R · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "「剧毒泡泡」增幅卷轴",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Skill03",
-      "internal_id": "Item_GveMagicBook_LvUp_Skill03",
-      "url": "items/item-gvemagicbook-lvup-skill03/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_LvUp_Skill03 · Rarity R · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "「旋风魔法」增幅卷轴",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Skill06",
-      "internal_id": "Item_GveMagicBook_LvUp_Skill06",
-      "url": "items/item-gvemagicbook-lvup-skill06/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_LvUp_Skill06 · Rarity R · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "「激光术」增幅卷轴",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Skill05",
-      "internal_id": "Item_GveMagicBook_LvUp_Skill05",
-      "url": "items/item-gvemagicbook-lvup-skill05/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_LvUp_Skill05 · Rarity R · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
       "title": "「約束のしるし」チャットフレーム",
       "category": "items",
       "id": "Item_Appearance_ChatFrame_Open_JP",
@@ -64074,39 +64415,6 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Appearance_ChatFrame_Open_TW · Rarity SSR",
-      "aliases": []
-    },
-    {
-      "title": "「雷击术」增幅卷轴",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Skill04",
-      "internal_id": "Item_GveMagicBook_LvUp_Skill04",
-      "url": "items/item-gvemagicbook-lvup-skill04/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_LvUp_Skill04 · Rarity R · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "「魔法飞弹」增幅卷轴",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Skill01",
-      "internal_id": "Item_GveMagicBook_LvUp_Skill01",
-      "url": "items/item-gvemagicbook-lvup-skill01/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_LvUp_Skill01 · Rarity R · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "「龙息术」增幅卷轴",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Skill02",
-      "internal_id": "Item_GveMagicBook_LvUp_Skill02",
-      "url": "items/item-gvemagicbook-lvup-skill02/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_LvUp_Skill02 · Rarity R · 转生恶役的漫画之旅",
       "aliases": []
     },
     {
@@ -64594,17 +64902,6 @@
       "aliases": []
     },
     {
-      "title": "体力",
-      "category": "items",
-      "id": "Item_GveMagicBook_Stamina",
-      "internal_id": "Item_GveMagicBook_Stamina",
-      "url": "items/item-gvemagicbook-stamina/",
-      "rarity": "R",
-      "rarity_sort": 2,
-      "summary": "Item Item_GveMagicBook_Stamina · Rarity R · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
       "title": "保留中のコレクション 07",
       "category": "items",
       "id": "Item_Weapon_Equipment_7_7",
@@ -64748,17 +65045,6 @@
       "aliases": []
     },
     {
-      "title": "千金红茶",
-      "category": "items",
-      "id": "Item_GveMagicBook_StaminaRecover_2",
-      "internal_id": "Item_GveMagicBook_StaminaRecover_2",
-      "url": "items/item-gvemagicbook-staminarecover-2/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_GveMagicBook_StaminaRecover_2 · Rarity SR · Activity, Backpack · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
       "title": "只今準備中",
       "category": "items",
       "id": "Item_Monopoly04_HeroAtk_01",
@@ -64803,28 +65089,6 @@
       "aliases": []
     },
     {
-      "title": "宝石礼扇",
-      "category": "items",
-      "id": "Collection_GveMagicBook",
-      "internal_id": "Collection_GveMagicBook",
-      "url": "items/collection-gvemagicbook/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Collection_GveMagicBook · Rarity SSR · Backpack · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "宝石礼扇碎片",
-      "category": "items",
-      "id": "Item_Collection_GveMagicBook_Piece",
-      "internal_id": "Item_Collection_GveMagicBook_Piece",
-      "url": "items/item-collection-gvemagicbook-piece/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Collection_GveMagicBook_Piece · Rarity SSR · Backpack · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
       "title": "家族が建物に特別な小道具を追加する",
       "category": "items",
       "id": "Item_WifeManagerment_Building_1",
@@ -64866,17 +65130,6 @@
       "rarity": "SR",
       "rarity_sort": 3,
       "summary": "Item Item_MonsterGirl_emotion_03 · Rarity SR · 氷雪の町校外実習～頑張れ！モンスター娘！",
-      "aliases": []
-    },
-    {
-      "title": "恶役抽奖券",
-      "category": "items",
-      "id": "Item_GveMagicBook_CommonLottery_Token",
-      "internal_id": "Item_GveMagicBook_CommonLottery_Token",
-      "url": "items/item-gvemagicbook-commonlottery-token/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_GveMagicBook_CommonLottery_Token · Rarity SSR · Activity, Backpack · 转生恶役的漫画之旅",
       "aliases": []
     },
     {
@@ -65111,116 +65364,6 @@
       "aliases": []
     },
     {
-      "title": "维奥蕾塔",
-      "category": "items",
-      "id": "Item_Owner_Hero_267",
-      "internal_id": "Item_Owner_Hero_267",
-      "url": "items/item-owner-hero-267/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Hero_267 · Rarity UR · 在「转生恶役的漫画之旅」获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔",
-      "category": "items",
-      "id": "Item_Owner_Hero_267M1",
-      "internal_id": "Item_Owner_Hero_267M1",
-      "url": "items/item-owner-hero-267m1/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Hero_267M1 · Rarity UR · 在「转生恶役的漫画之旅」活动的抽奖获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔",
-      "category": "items",
-      "id": "Item_Owner_Hero_267M2",
-      "internal_id": "Item_Owner_Hero_267M2",
-      "url": "items/item-owner-hero-267m2/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Owner_Hero_267M2 · Rarity UR · 在「转生恶役的漫画之旅」活动的抽奖获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔的共鸣水晶",
-      "category": "items",
-      "id": "Item_HeroPledge_267",
-      "internal_id": "Item_HeroPledge_267",
-      "url": "items/item-heropledge-267/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_HeroPledge_267 · Rarity UR · Backpack · 在「转生恶役的漫画之旅」活动的「共鸣礼包」中获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔的前缀称号",
-      "category": "items",
-      "id": "Item_Hero_267_showoff_prefix",
-      "internal_id": "Item_Hero_267_showoff_prefix",
-      "url": "items/item-hero-267-showoff-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_267_showoff_prefix · Rarity UR · 维奥蕾塔星辉等级到达5级获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔的前缀称号",
-      "category": "items",
-      "id": "Item_Hero_267_uniqueName_prefix",
-      "internal_id": "Item_Hero_267_uniqueName_prefix",
-      "url": "items/item-hero-267-uniquename-prefix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_267_uniqueName_prefix · Rarity UR · 维奥蕾塔星辉等级到达6级获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔的动态头像",
-      "category": "items",
-      "id": "Item_ActiveHead_Hero_267",
-      "internal_id": "Item_ActiveHead_Hero_267",
-      "url": "items/item-activehead-hero-267/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_ActiveHead_Hero_267 · Rarity UR · 维奥蕾塔星辉等级到达10级获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔的后缀称号",
-      "category": "items",
-      "id": "Item_Hero_267_showoff_suffix",
-      "internal_id": "Item_Hero_267_showoff_suffix",
-      "url": "items/item-hero-267-showoff-suffix/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_Hero_267_showoff_suffix · Rarity UR · 维奥蕾塔星辉等级到达4级获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔的组合称号底框",
-      "category": "items",
-      "id": "Item_TitleBasemap_Hero_267",
-      "internal_id": "Item_TitleBasemap_Hero_267",
-      "url": "items/item-titlebasemap-hero-267/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_TitleBasemap_Hero_267 · Rarity UR · 维奥蕾塔星辉等级到达8级获得",
-      "aliases": []
-    },
-    {
-      "title": "维奥蕾塔的结晶碎片",
-      "category": "items",
-      "id": "Item_RarityUpgrade_Hero_267",
-      "internal_id": "Item_RarityUpgrade_Hero_267",
-      "url": "items/item-rarityupgrade-hero-267/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_RarityUpgrade_Hero_267 · Rarity UR · Backpack · 在「转生恶役的漫画之旅」活动的抽奖获得",
-      "aliases": []
-    },
-    {
       "title": "药剂店挂机卡",
       "category": "items",
       "id": "Item_MedicineIncomeCard",
@@ -65254,28 +65397,6 @@
       "aliases": []
     },
     {
-      "title": "转生恶役基础战令特权",
-      "category": "items",
-      "id": "Item_GveMagicBook_BP1",
-      "internal_id": "Item_GveMagicBook_BP1",
-      "url": "items/item-gvemagicbook-bp1/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_GveMagicBook_BP1 · Rarity SSR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "转生恶役高级战令特权",
-      "category": "items",
-      "id": "Item_GveMagicBook_BP2",
-      "internal_id": "Item_GveMagicBook_BP2",
-      "url": "items/item-gvemagicbook-bp2/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_GveMagicBook_BP2 · Rarity SSR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
       "title": "饮料水枪",
       "category": "items",
       "id": "Item_GveInfernoRally_textshenhe_Weapon_0",
@@ -65295,28 +65416,6 @@
       "rarity": "0",
       "rarity_sort": 0,
       "summary": "Item Item_GveInfernoRally_Weapon_0 · Rarity 0 · Savage! Inferno Rally",
-      "aliases": []
-    },
-    {
-      "title": "鬼灵游园3星时装自选宝箱",
-      "category": "items",
-      "id": "Item_Halloween2026_ClothesBox_3Star_KR",
-      "internal_id": "Item_Halloween2026_ClothesBox_3Star_KR",
-      "url": "items/item-halloween2026-clothesbox-3star-kr/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_Halloween2026_ClothesBox_3Star_KR · Rarity SSR · Backpack · 限时时装活动",
-      "aliases": []
-    },
-    {
-      "title": "魔力增强书页",
-      "category": "items",
-      "id": "Item_GveMagicBook_LvUp_Player",
-      "internal_id": "Item_GveMagicBook_LvUp_Player",
-      "url": "items/item-gvemagicbook-lvup-player/",
-      "rarity": "SR",
-      "rarity_sort": 3,
-      "summary": "Item Item_GveMagicBook_LvUp_Player · Rarity SR · 转生恶役的漫画之旅",
       "aliases": []
     },
     {
@@ -65342,116 +65441,6 @@
       "aliases": []
     },
     {
-      "title": "魔法的秘密",
-      "category": "items",
-      "id": "GveMagicBook_01",
-      "internal_id": "GveMagicBook_01",
-      "url": "items/gvemagicbook-01/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item GveMagicBook_01 · Rarity UR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密-仪式烛台",
-      "category": "items",
-      "id": "GveMagicBook_01C",
-      "internal_id": "GveMagicBook_01C",
-      "url": "items/gvemagicbook-01c/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item GveMagicBook_01C · Rarity UR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密-占卜水晶球",
-      "category": "items",
-      "id": "GveMagicBook_01D",
-      "internal_id": "GveMagicBook_01D",
-      "url": "items/gvemagicbook-01d/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item GveMagicBook_01D · Rarity UR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密-实验手札",
-      "category": "items",
-      "id": "GveMagicBook_01F",
-      "internal_id": "GveMagicBook_01F",
-      "url": "items/gvemagicbook-01f/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item GveMagicBook_01F · Rarity UR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密-碎片",
-      "category": "items",
-      "id": "Item_GveMagicBook_01_Piece",
-      "internal_id": "Item_GveMagicBook_01_Piece",
-      "url": "items/item-gvemagicbook-01-piece/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_GveMagicBook_01_Piece · Rarity UR · Backpack · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密-药剂冷凝器",
-      "category": "items",
-      "id": "GveMagicBook_01B",
-      "internal_id": "GveMagicBook_01B",
-      "url": "items/gvemagicbook-01b/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item GveMagicBook_01B · Rarity UR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密-魔导秘典",
-      "category": "items",
-      "id": "GveMagicBook_01A",
-      "internal_id": "GveMagicBook_01A",
-      "url": "items/gvemagicbook-01a/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item GveMagicBook_01A · Rarity UR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密-魔晶法杖",
-      "category": "items",
-      "id": "GveMagicBook_01E",
-      "internal_id": "GveMagicBook_01E",
-      "url": "items/gvemagicbook-01e/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item GveMagicBook_01E · Rarity UR · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法的秘密部件",
-      "category": "items",
-      "id": "Item_GveMagicBook_Collection_Box",
-      "internal_id": "Item_GveMagicBook_Collection_Box",
-      "url": "items/item-gvemagicbook-collection-box/",
-      "rarity": "UR",
-      "rarity_sort": 6,
-      "summary": "Item Item_GveMagicBook_Collection_Box · Rarity UR · Backpack · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
-      "title": "魔法研究抽奖券",
-      "category": "items",
-      "id": "Item_GveMagicBook_CommonLottery_Exhibit",
-      "internal_id": "Item_GveMagicBook_CommonLottery_Exhibit",
-      "url": "items/item-gvemagicbook-commonlottery-exhibit/",
-      "rarity": "SSR",
-      "rarity_sort": 4,
-      "summary": "Item Item_GveMagicBook_CommonLottery_Exhibit · Rarity SSR · Activity, Backpack · 转生恶役的漫画之旅",
-      "aliases": []
-    },
-    {
       "title": "黄金舞会4星时装自选宝箱",
       "category": "items",
       "id": "Item_Ball2025_ClothesBox",
@@ -65460,6 +65449,17 @@
       "rarity": "SSR",
       "rarity_sort": 4,
       "summary": "Item Item_Ball2025_ClothesBox · Rarity SSR · Backpack · Limited Costume",
+      "aliases": []
+    },
+    {
+      "title": "귀령 놀이공원 3성 코스튬 선택 보물상자",
+      "category": "items",
+      "id": "Item_Halloween2026_ClothesBox_3Star_KR",
+      "internal_id": "Item_Halloween2026_ClothesBox_3Star_KR",
+      "url": "items/item-halloween2026-clothesbox-3star-kr/",
+      "rarity": "SSR",
+      "rarity_sort": 4,
+      "summary": "Item Item_Halloween2026_ClothesBox_3Star_KR · Rarity SSR · Backpack · 기간 한정 코스튬 이벤트",
       "aliases": []
     },
     {
@@ -67482,6 +67482,26 @@
       "aliases": []
     },
     {
+      "title": "Manga Journey",
+      "aliases": [
+        "Reincarnated Villainess's Manga Journey"
+      ],
+      "category": "events",
+      "id": "GveMagicBook",
+      "internal_id": "GveMagicBook",
+      "url": "events/gve-magic-book/",
+      "summary": "1 phases · 7 or 8 days · Core rewards: Violetta, Secrets of Magic"
+    },
+    {
+      "title": "Reincarnated Villainess's Manga Journey",
+      "category": "event phases",
+      "id": "GveMagicBook_01",
+      "internal_id": "GveMagicBook",
+      "url": "events/gve-magic-book/#event-phase-gvemagicbook-01",
+      "summary": "Manga Journey phase · 7 or 8 days · Core rewards: Violetta, Secrets of Magic",
+      "aliases": []
+    },
+    {
       "title": "March of the Northrealm",
       "aliases": [],
       "category": "events",
@@ -69192,24 +69212,6 @@
       "internal_id": "miniposter",
       "url": "events/miniposter/#event-phase-mp05",
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Screaming Punching Bag, Valiant Insignia Fragment, Acquaint Stone Fragment",
-      "aliases": []
-    },
-    {
-      "title": "转生恶役的漫画之旅",
-      "aliases": [],
-      "category": "events",
-      "id": "GveMagicBook",
-      "internal_id": "GveMagicBook",
-      "url": "events/gve-magic-book/",
-      "summary": "1 phases · 7 or 8 days · Core rewards: 维奥蕾塔, 魔法的秘密"
-    },
-    {
-      "title": "转生恶役的漫画之旅",
-      "category": "event phases",
-      "id": "GveMagicBook_01",
-      "internal_id": "GveMagicBook",
-      "url": "events/gve-magic-book/#event-phase-gvemagicbook-01",
-      "summary": "转生恶役的漫画之旅 phase · 7 or 8 days · Core rewards: 维奥蕾塔, 魔法的秘密",
       "aliases": []
     },
     {

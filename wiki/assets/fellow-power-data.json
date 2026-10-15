@@ -23062,6 +23062,77 @@
       ]
     },
     {
+      "id": "Weapon_6_H267",
+      "name": "The Immersive Grimoire",
+      "rarity": "5",
+      "rarityLabel": "UR",
+      "levelBaseCap": 200,
+      "initialTalent": 60.0,
+      "riseTalent": 7.0,
+      "materiaSlots": [
+        {
+          "id": "1",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 0,
+          "heroBond": false,
+          "heroId": "267"
+        },
+        {
+          "id": "2",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 0,
+          "heroBond": true,
+          "heroId": "267"
+        },
+        {
+          "id": "3",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 1,
+          "heroBond": false,
+          "heroId": "267"
+        },
+        {
+          "id": "4",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 2,
+          "heroBond": false,
+          "heroId": "267"
+        },
+        {
+          "id": "5",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 3,
+          "heroBond": false,
+          "heroId": "267"
+        }
+      ]
+    },
+    {
       "id": "Weapon_6_15",
       "name": "Tohru Plush",
       "rarity": "5",
@@ -23623,77 +23694,6 @@
           "unlockQuality": 2,
           "heroBond": false,
           "heroId": "303"
-        }
-      ]
-    },
-    {
-      "id": "Weapon_6_H267",
-      "name": "身临其境的魔法书",
-      "rarity": "5",
-      "rarityLabel": "UR",
-      "levelBaseCap": 200,
-      "initialTalent": 60.0,
-      "riseTalent": 7.0,
-      "materiaSlots": [
-        {
-          "id": "1",
-          "type": "Emblem_2",
-          "label": "Emblem_2",
-          "rarity": 0,
-          "maxLevel": 1,
-          "aptitudeInitial": 0,
-          "aptitudePerLevel": 0,
-          "unlockQuality": 0,
-          "heroBond": false,
-          "heroId": "267"
-        },
-        {
-          "id": "2",
-          "type": "Emblem_2",
-          "label": "Emblem_2",
-          "rarity": 0,
-          "maxLevel": 1,
-          "aptitudeInitial": 0,
-          "aptitudePerLevel": 0,
-          "unlockQuality": 0,
-          "heroBond": true,
-          "heroId": "267"
-        },
-        {
-          "id": "3",
-          "type": "Emblem_2",
-          "label": "Emblem_2",
-          "rarity": 0,
-          "maxLevel": 1,
-          "aptitudeInitial": 0,
-          "aptitudePerLevel": 0,
-          "unlockQuality": 1,
-          "heroBond": false,
-          "heroId": "267"
-        },
-        {
-          "id": "4",
-          "type": "Emblem_2",
-          "label": "Emblem_2",
-          "rarity": 0,
-          "maxLevel": 1,
-          "aptitudeInitial": 0,
-          "aptitudePerLevel": 0,
-          "unlockQuality": 2,
-          "heroBond": false,
-          "heroId": "267"
-        },
-        {
-          "id": "5",
-          "type": "Emblem_2",
-          "label": "Emblem_2",
-          "rarity": 0,
-          "maxLevel": 1,
-          "aptitudeInitial": 0,
-          "aptitudePerLevel": 0,
-          "unlockQuality": 3,
-          "heroBond": false,
-          "heroId": "267"
         }
       ]
     }

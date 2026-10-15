@@ -853,6 +853,9 @@
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_DJDemonCastle/default.webp</image:loc>
     </image:image>
     <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_GveMagicBook/default.webp</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_GveCoinFight/default.webp</image:loc>
     </image:image>
     <image:image>
@@ -863,9 +866,6 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_GveMedicine/default.webp</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_GveMagicBook/default.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_50/default.webp</image:loc>
@@ -4298,7 +4298,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/artifact-weapon-6-h267/</loc>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/the-immersive-grimoire/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H267/default.webp</image:loc>
     </image:image>
@@ -6467,6 +6467,48 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-mp02-expend-3/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MP02_Expend_3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill06/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill06/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill02/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill02/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill07/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill07/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill05/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill05/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill04/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill04/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill01/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill01/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill03/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill03/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -17414,6 +17456,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-staminarecover-2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_StaminaRecover_2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gveinfernorally-chest-silver/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveInfernoRally_Chest_Silver/default.webp</image:loc>
@@ -18473,6 +18521,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-petpiece-8031901/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_PetPiece_8031901/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/collection-gvemagicbook/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Collection_GveMagicBook/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-collection-gvemagicbook-piece/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Collection_GveMagicBook_Piece/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -19826,6 +19886,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-player/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Player/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-magicelement-hero251/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_magicElement_Hero251/default.webp</image:loc>
@@ -19865,6 +19931,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-5-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_5_2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-commonlottery-exhibit/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_CommonLottery_Exhibit/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -19985,6 +20057,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-mp04-output-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MP04_Output_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-bp1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_BP1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-bp2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_BP2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -24230,6 +24314,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-showoff-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_showoff_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-uniquename-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_uniqueName_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-117-showoff-prefix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_117_showoff_prefix/default.webp</image:loc>
@@ -26408,6 +26504,60 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-01-piece/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_01_Piece/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-collection-box/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_Collection_Box/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01b/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01B/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01a/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01A/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01d/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01D/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01f/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01F/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01e/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01E/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01c/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01C/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-danmachi-cothesboxpiece-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_DanMachi_CothesboxPiece_1/default.webp</image:loc>
@@ -27809,6 +27959,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gveinfernorally-stamina/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveInfernoRally_Stamina/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-stamina/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_Stamina/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -30008,6 +30164,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-117-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_117_showoff_suffix/default.webp</image:loc>
@@ -32156,6 +32318,54 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-commonlottery-token/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_CommonLottery_Token/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267m1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267M1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267m2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267M2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-titlebasemap-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_TitleBasemap_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-vip-box-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_VIP_box_2/default.webp</image:loc>
@@ -32840,30 +33050,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill07/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill07/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill03/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill03/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill06/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill06/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill05/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill05/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-chatframe-open-jp/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_ChatFrame_Open_JP/default.webp</image:loc>
@@ -32873,24 +33059,6 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-chatframe-open-tw/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_ChatFrame_Open_TW/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill04/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill04/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill01/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill01/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill02/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill02/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33158,12 +33326,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-stamina/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_Stamina/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-7-7/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_7_7/default.webp</image:loc>
@@ -33242,12 +33404,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-staminarecover-2/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_StaminaRecover_2/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-monopoly04-heroatk-01/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Monopoly04_HeroAtk_01/default.webp</image:loc>
@@ -33272,18 +33428,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/collection-gvemagicbook/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Collection_GveMagicBook/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-collection-gvemagicbook-piece/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Collection_GveMagicBook_Piece/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wifemanagerment-building-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_WifeManagerment_Building_1/default.webp</image:loc>
@@ -33305,12 +33449,6 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-monstergirl-emotion-03/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MonsterGirl_emotion_03/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-commonlottery-token/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_CommonLottery_Token/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33440,66 +33578,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267m1/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267M1/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267m2/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267M2/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-267/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_267/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-showoff-prefix/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_showoff_prefix/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-uniquename-prefix/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_uniqueName_prefix/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-hero-267/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Hero_267/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-showoff-suffix/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_showoff_suffix/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-titlebasemap-hero-267/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_TitleBasemap_Hero_267/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-hero-267/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Hero_267/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-medicineincomecard/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MedicineIncomeCard/default.webp</image:loc>
@@ -33518,18 +33596,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-bp1/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_BP1/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-bp2/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_BP2/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gveinfernorally-textshenhe-weapon-0/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveInfernoRally_textshenhe_Weapon_0/default.webp</image:loc>
@@ -33539,18 +33605,6 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gveinfernorally-weapon-0/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveInfernoRally_Weapon_0/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-halloween2026-clothesbox-3star-kr/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Halloween2026_ClothesBox_3Star_KR/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-player/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Player/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33566,69 +33620,15 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01c/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01C/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01d/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01D/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01f/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01F/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-01-piece/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_01_Piece/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01b/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01B/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01a/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01A/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01e/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01E/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-collection-box/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_Collection_Box/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-commonlottery-exhibit/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_CommonLottery_Exhibit/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-ball2025-clothesbox/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Ball2025_ClothesBox/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-halloween2026-clothesbox-3star-kr/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Halloween2026_ClothesBox_3Star_KR/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33890,6 +33890,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/events/gve-magic-book/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_GveMagicBook01/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/events/djnorthrealm/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_DJNorthrealm02/default.webp</image:loc>
@@ -34097,12 +34103,6 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/events/miniposter/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_MP05/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/events/gve-magic-book/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_GveMagicBook01/default.webp</image:loc>
     </image:image>
   </url>
   <url>
