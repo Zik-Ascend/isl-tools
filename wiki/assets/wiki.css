@@ -8909,3 +8909,44 @@ body {
     display: none !important;
   }
 }
+
+/* Search results and title-first suggestions */
+.search-selected,.search-all:hover { background: var(--panel); outline: 2px solid currentColor; outline-offset: -2px; }
+.search-all { border-top: 2px solid currentColor; }
+.search-page-form input,.search-page-form select {padding:.65rem;max-width:100%;box-sizing:border-box;}
+.search-query {display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;}
+.search-query input {flex:1;min-width:160px;}
+.search-filters {display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0;}
+.search-filters label {display:flex;flex-direction:column;gap:.4rem;}
+.search-page-result {padding:1rem 0;border-bottom:1px solid var(--border, #64748b);}
+.search-page-result>a {font-weight:700;font-size:1.1rem;}
+.search-page-result p {margin:.4rem 0;overflow-wrap:anywhere;}
+.search-category {font-size:.85rem;opacity:.75;margin-top:.3rem;}
+.search-pagination {display:flex;gap:1rem;margin:1rem 0;}
+@media(max-width:600px){.search-filters label{width:100%;}.search-query input{width:100%;}.search-page-result{padding:.8rem 0;}}
+
+.search-result mark,.search-page-result mark{background:transparent;color:inherit;font-weight:800;text-decoration:underline;text-decoration-thickness:2px;}
+.search-alias{display:block;font-size:.85rem;opacity:.85;margin:.25rem 0;}
+.search-advanced{border:1px solid var(--border,#64748b);padding:.75rem;margin:1rem 0;}
+.search-advanced summary{cursor:pointer;font-weight:700;}
+.search-advanced input{width:100%;}
+
+/* Village category */
+.village-nav, .village-contents, .village-pagination { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1rem; }
+.village-nav { padding: .8rem; margin-bottom: 1.2rem; border: 1px solid var(--line); border-radius: var(--radius-small); background: var(--panel); }
+.village-contents { margin: 1.2rem 0; font-size: .9rem; }
+.village-contents:empty { display: none; }
+.village-contents strong { flex-basis: 100%; }
+.village-facts { display: grid; grid-template-columns: minmax(140px, 1fr) minmax(0, 3fr); gap: .5rem 1rem; padding: 1rem; background: var(--panel-2); border-radius: var(--radius-small); }
+.village-facts dt { color: var(--muted); }
+.village-facts dd { margin: 0; overflow-wrap: anywhere; }
+.village-art { width: 96px; height: 96px; object-fit: contain; }
+.village-muted { color: var(--muted); }
+.village-table > label, [data-village-staff] label { display: inline-flex; flex-direction: column; gap: .35rem; margin: .5rem .7rem .5rem 0; max-width: 100%; }
+.village-table input, .village-pagination select, [data-village-staff] input, [data-village-staff] select { color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: .5rem; min-width: 0; max-width: 100%; }
+.village-pagination { margin-top: .8rem; }
+.village-pagination button { color: var(--text); background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: .5rem .9rem; cursor: pointer; }
+.village-pagination button:disabled { opacity: .5; cursor: default; }
+.village-table tr[hidden] { display: none; }
+.village-table td { vertical-align: top; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .village-facts { grid-template-columns: 1fr; } .village-facts dd { margin-bottom: .65rem; } }

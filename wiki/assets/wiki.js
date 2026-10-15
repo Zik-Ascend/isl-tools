@@ -1,115 +1,104 @@
 (() => {
   const script = document.currentScript;
   if (!script) return;
-
-  const widgets = Array.from(document.querySelectorAll('.search-wrap')).map(wrap => ({
-    wrap,
-    input: wrap.querySelector('[data-wiki-search-input], #wiki-search'),
-    results: wrap.querySelector('[data-wiki-search-results], #wiki-search-results')
-  })).filter(widget => widget.input && widget.results);
-
-  if (!widgets.length) return;
-
-  const indexUrl = script.getAttribute('data-search-index') || 'wiki_manifest.json';
-  const manifestUrl = new URL(indexUrl, window.location.href);
-  let entries = [];
-
-  function hideResults(widget) {
-    widget.results.hidden = true;
-    widget.results.innerHTML = '';
+  const manifestUrl = new URL(script.getAttribute('data-search-index') || 'wiki_manifest.json', location.href);
+  const searchUrl = new URL('search/', manifestUrl);
+  const widgets = Array.from(document.querySelectorAll('.search-wrap')).map(wrap => ({wrap, input: wrap.querySelector('[data-wiki-search-input], #wiki-search'), results: wrap.querySelector('[data-wiki-search-results], #wiki-search-results')})).filter(w => w.input && w.results);
+  const page = document.querySelector('[data-search-page]');
+  const normalize = value => String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const escape = value => String(value || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const href = item => new URL(item.url, manifestUrl).href;
+  let entries = [], ready = false, failed = false, active = -1, contentReady = !page;
+  const tokens = value => normalize(value).split(' ').filter(Boolean);
+  function highlight(value, query) {
+    const words = tokens(query).sort((a,b)=>b.length-a.length);
+    const raw = String(value || '');
+    if (!words.length) return escape(raw);
+    // Escape text before adding our own markup; never interpolate source HTML.
+    return raw.split(/([\p{L}\p{N}]+)/u).map(part => words.some(w=>normalize(part).includes(w)) ? `<mark>${escape(part)}</mark>` : escape(part)).join('');
   }
-
-  function hideAllResults() {
-    widgets.forEach(hideResults);
+  function excerpt(item, query) {
+    const text = item.content || item.summary || '';
+    const words = tokens(query), lower = text.toLowerCase();
+    const positions = words.map(w=>lower.indexOf(w)).filter(n=>n>=0);
+    const start = Math.max(0,(positions.length ? Math.min(...positions) : 0)-65);
+    return (start ? '…' : '') + text.slice(start,start+260) + (text.length>start+260 ? '…' : '');
   }
-
-  function escapeHtml(value) {
-    return String(value)
-      .replaceAll('&', '&amp;')
-      .replaceAll('<', '&lt;')
-      .replaceAll('>', '&gt;')
-      .replaceAll('"', '&quot;')
-      .replaceAll("'", '&#039;');
+  function rank(query, category = '', scope = 'all', filters = {}) {
+    const q = normalize(query), words = tokens(query);
+    const phrase = normalize(filters.phrase), excluded = tokens(filters.exclude), any = tokens(filters.any), titleWords = tokens(filters.title);
+    return entries.map(item => {
+      if (category && item.category !== category) return null;
+      const title = item._title || normalize(item.title), aliases = (item.aliases || []).map(normalize);
+      const names = [title,...aliases].join(' '), ids = normalize([item.id,item.internal_id].join(' '));
+      const text = item._text || normalize([item.title,...(item.aliases||[]),item.id,item.internal_id,item.category,item.summary,item.content,item.rarity,item.country_label].join(' '));
+      const haystack = scope === 'title' ? names : text;
+      if (!words.every(w=>haystack.includes(w)) || (phrase && !haystack.includes(phrase)) || excluded.some(w=>(' '+haystack+' ').includes(' '+w+' ')) || (any.length && !any.some(w=>haystack.includes(w))) || !titleWords.every(w=>title.includes(w))) return null;
+      const score = !q ? 0 : title === q ? 1000 : title.startsWith(q) ? 900 : title.includes(q) ? 800 : words.every(w=>title.includes(w)) ? 700 : aliases.some(a=>a===q) ? 650 : aliases.some(a=>words.every(w=>a.includes(w))) ? 620 : ids === q ? 600 : ids.includes(q) ? 500 : 100;
+      return {item,score:score+(['events','category'].includes(item.category)?20:0)};
+    }).filter(Boolean).sort((a,b)=>b.score-a.score || a.item.title.length-b.item.title.length || a.item.title.localeCompare(b.item.title)).map(x=>x.item);
   }
-
-  function resultHref(url) {
-    try {
-      return new URL(url || '#', manifestUrl).href;
-    } catch (_err) {
-      return '#';
-    }
+  function aliasNote(item, query) {
+    const q=normalize(query);
+    const alias=(item.aliases||[]).find(a=>q && normalize(a).includes(q) && normalize(a)!==normalize(item.title));
+    return alias ? `<span class="search-alias">Also known as: ${highlight(alias,query)}</span>` : '';
   }
-
-  function render(widget, matches) {
-    if (!matches.length) {
-      widget.results.innerHTML = '<div class="search-result"><strong>No results</strong><span>Try another name, ID, or category.</span></div>';
-      widget.results.hidden = false;
-      return;
-    }
-    widget.results.innerHTML = matches.slice(0, 10).map(item => {
-      const title = escapeHtml(item.title || 'Untitled');
-      const summary = escapeHtml(item.summary || item.category || '');
-      const href = escapeHtml(resultHref(item.url || '#'));
-      return `<a class="search-result" href="${href}"><strong>${title}</strong><span>${summary}</span></a>`;
-    }).join('');
-    widget.results.hidden = false;
+  function resultsLink(query) { const url = new URL(searchUrl); url.searchParams.set('q',query.trim()); return url.href; }
+  function hide(w) {w.results.hidden = true; w.input.setAttribute('aria-expanded','false');}
+  function render(w) {
+    const q = w.input.value.trim(); active = -1;
+    if (!q) {hide(w); return;}
+    const matches = rank(q);
+    w.results.innerHTML = (!ready ? '<div class="search-result">Loading search…</div>' : failed ? '<div class="search-result">Search could not load. Please reload and try again.</div>' : matches.slice(0,10).map(item => `<a class="search-result" href="${escape(href(item))}"><strong>${highlight(item.title,q)}</strong>${aliasNote(item,q)}<span>${escape(item.category)} · ${highlight(excerpt(item,q),q)}</span></a>`).join('') || '<div class="search-result">No matching pages.</div>') + `<a class="search-result search-all" href="${escape(resultsLink(q))}"><strong>Search all pages for “${escape(q)}”</strong><span>${ready && !failed ? matches.length + ' results' : 'Open search results'}</span></a>`;
+    w.results.hidden=false; w.input.setAttribute('aria-expanded','true');
   }
-
-  function findMatches(query) {
-    const q = query.trim().toLowerCase();
-    if (!q) return [];
-    return entries.filter(item => {
-      const haystack = [
-        item.title,
-        item.category,
-        item.id,
-        item.internal_id,
-        item.summary,
-        item.rarity,
-        item.country_label
-      ]
-        .filter(Boolean)
-        .join(' ')
-        .toLowerCase();
-      return haystack.includes(q);
-    });
-  }
-
-  function search(widget, query) {
-    const q = query.trim();
-    if (!q) {
-      hideResults(widget);
-      return [];
-    }
-    const matches = findMatches(q);
-    render(widget, matches);
-    return matches;
-  }
-
-  fetch(manifestUrl.href, { cache: 'no-cache' })
-    .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
-    .then(data => { entries = Array.isArray(data.entries) ? data.entries : []; })
-    .catch(() => { entries = []; });
-
-  widgets.forEach(widget => {
-    widget.input.addEventListener('input', () => search(widget, widget.input.value));
-    widget.input.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') {
-        widget.input.value = '';
-        hideResults(widget);
-      }
-      if (event.key === 'Enter') {
-        const matches = search(widget, widget.input.value);
-        if (matches.length && matches[0].url) {
-          window.location.href = resultHref(matches[0].url);
-        }
-      }
+  widgets.forEach(w => {
+    w.input.setAttribute('aria-label','Search the wiki'); w.input.setAttribute('aria-expanded','false');
+    w.input.addEventListener('input',() => render(w));
+    w.input.addEventListener('focus',() => render(w));
+    w.input.addEventListener('keydown',e => {
+      let links=Array.from(w.results.querySelectorAll('a'));
+      if (e.key === 'Escape') hide(w);
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {e.preventDefault(); if(w.results.hidden) {render(w); links=Array.from(w.results.querySelectorAll('a'));} active=Math.max(0,Math.min(links.length-1,active+(e.key==='ArrowDown'?1:-1))); links.forEach((a,i)=>a.classList.toggle('search-selected',i===active)); links[active]?.scrollIntoView({block:'nearest'});}
+      if (e.key === 'Enter') {e.preventDefault(); location.href=active>=0 && !w.results.hidden && links[active] ? links[active].href : resultsLink(w.input.value);}
     });
   });
-
-  document.addEventListener('click', (event) => {
-    if (!event.target.closest('.search-wrap')) hideAllResults();
-  });
+  document.addEventListener('click',e => {if(!e.target.closest('.search-wrap')) widgets.forEach(hide);});
+  let offset=0;
+  function renderPage() {
+    if(!page) return;
+    const form=page.querySelector('form'), q=form.elements.q.value, category=form.elements.category.value, scope=form.elements.scope.value, sort=form.elements.sort.value, size=Number(form.elements.size.value);
+    const url=new URL(location.href); ['q','category','scope','sort','size','phrase','exclude','any','title'].forEach(key=>url.searchParams.set(key,form.elements[key].value)); url.searchParams.set('page',String(offset+1)); history.replaceState(null,'',url);
+    let matches=rank(q,category,scope,Object.fromEntries(['phrase','exclude','any','title'].map(key=>[key,form.elements[key].value])));
+    if(sort==='title') matches.sort((a,b)=>a.title.localeCompare(b.title));
+    offset=Math.min(offset,Math.max(0,Math.ceil(matches.length/size)-1));
+    url.searchParams.set('page',String(offset+1)); history.replaceState(null,'',url);
+    page.querySelector('[data-search-count]').textContent=!ready?'Loading search…':failed?'Search could not load. Please reload and try again.':!contentReady?'Loading full page text…':matches.length?`${offset*size+1}–${Math.min((offset+1)*size,matches.length)} of ${matches.length} results`:'No matching pages. Try fewer words or a different category.';
+    page.querySelector('[data-search-items]').innerHTML=matches.slice(offset*size,(offset+1)*size).map(item=>`<article class="search-page-result"><a href="${escape(href(item))}">${highlight(item.title,q)}</a><div class="search-category">${escape(item.category)}${item.id ? ' · ID ' + escape(item.id) : ''}</div>${aliasNote(item,q)}<p>${highlight(excerpt(item,q+' '+form.elements.phrase.value+' '+form.elements.any.value),q+' '+form.elements.phrase.value+' '+form.elements.any.value)}</p></article>`).join('');
+    page.querySelectorAll('[data-search-prev]').forEach(button=>button.disabled=offset===0);
+    page.querySelectorAll('[data-search-next]').forEach(button=>button.disabled=(offset+1)*size>=matches.length);
+  }
+  if(page) {
+    const form=page.querySelector('form'), params=new URLSearchParams(location.search);
+    ['q','scope','sort','size','phrase','exclude','any','title'].forEach(key=>{if(params.has(key)) form.elements[key].value=params.get(key);});
+    if(!form.elements.size.value) form.elements.size.value='20';
+    if(!form.elements.scope.value) form.elements.scope.value='all';
+    if(!form.elements.sort.value) form.elements.sort.value='relevance';
+    if(['phrase','exclude','any','title'].some(key=>params.get(key))) page.querySelector('details').open=true;
+    form.addEventListener('reset',()=>setTimeout(()=>{offset=0;renderPage();},0));
+    offset=Math.max(0,(parseInt(params.get('page'),10)||1)-1);
+    form.addEventListener('submit',e=>{e.preventDefault();offset=0;renderPage();});
+    form.querySelectorAll('select').forEach(el=>el.addEventListener('change',()=>{offset=0;renderPage();}));
+    page.querySelectorAll('[data-search-prev]').forEach(button=>button.addEventListener('click',()=>{offset--;renderPage();}));
+    page.querySelectorAll('[data-search-next]').forEach(button=>button.addEventListener('click',()=>{offset++;renderPage();}));
+  }
+  fetch(manifestUrl.href,{cache:'no-cache'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
+    const seen=new Set(); entries=(data.entries||[]).filter(item=>{const key=item.url+'|'+item.title;if(seen.has(key))return false;seen.add(key);return true;});
+    entries.forEach(item=>{item._title=normalize(item.title);}); ready=true;
+    if(page) {const select=page.querySelector('[name=category]'); Array.from(new Set(entries.map(x=>x.category))).sort().forEach(category=>{const option=document.createElement('option');option.value=category;option.textContent=category;select.append(option);}); select.value=new URLSearchParams(location.search).get('category')||'';}
+    widgets.forEach(w=>{if(w.input.value)render(w);});renderPage();
+    if(page) fetch(new URL('wiki_search_content.json',manifestUrl).href,{cache:'no-cache'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{entries.forEach(item=>{item.content=data.pages?.[item.url]||''; item._text=normalize([item.title,...(item.aliases||[]),item.id,item.internal_id,item.category,item.summary,item.content,item.rarity,item.country_label].join(' '));});contentReady=true;renderPage();}).catch(()=>{contentReady=true;renderPage();const note=document.createElement('p');note.textContent='Full page text is unavailable. Results currently search names, IDs, and summaries.';page.prepend(note);});
+  }).catch(()=>{ready=true;failed=true;widgets.forEach(w=>{if(w.input.value)render(w);});renderPage();});
 })();
 
 (() => {

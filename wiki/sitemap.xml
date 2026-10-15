@@ -865,6 +865,9 @@
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_GveMedicine/default.webp</image:loc>
     </image:image>
     <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_GveMagicBook/default.webp</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_50/default.webp</image:loc>
     </image:image>
     <image:image>
@@ -974,6 +977,9 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Achievement_35/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Achievement_36/default.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Exhibit_1/default.webp</image:loc>
@@ -1106,6 +1112,9 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/DJDemonCastle_01/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/GveMagicBook_01/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2093,6 +2102,15 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_264/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/violetta/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_267/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_267/aa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -4280,6 +4298,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/artifact-weapon-6-h267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/albedo-plushie/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H261/default.webp</image:loc>
@@ -4961,6 +4985,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-cg07-3starclothes/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CG07_3starClothes/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lostandfound-3starcothesbox/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LostAndFound_3StarCothesBox/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -7313,6 +7343,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-261/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_261/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lostandfound-title-1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LostAndFound_Title_1/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -20738,6 +20774,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-167s1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_167S1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-255/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_255/default.webp</image:loc>
@@ -20894,15 +20936,15 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-heropiece-188/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_HeroPiece_188/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-188-showoff-prefix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_188_showoff_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-heropiece-188/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_HeroPiece_188/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -22127,6 +22169,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-37/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_37/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lostandfound-01-extendtime/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LostAndFound_01_ExtendTime/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -26552,12 +26600,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-wife-177/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Wife_177/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-177-showoff-prefix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_177_showoff_prefix/default.webp</image:loc>
@@ -26567,6 +26609,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-w177/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_W177/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-wife-177/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Wife_177/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -27011,6 +27059,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame5piece-2405/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame5Piece_2405/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lostandfound-01-stamina/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LostAndFound_01_Stamina/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -30896,6 +30950,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-h267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/djdemoncastle-01/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/DJDemonCastle_01/default.webp</image:loc>
@@ -32780,6 +32840,30 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill07/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill07/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill03/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill03/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill06/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill06/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill05/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill05/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-chatframe-open-jp/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_ChatFrame_Open_JP/default.webp</image:loc>
@@ -32789,6 +32873,24 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-chatframe-open-tw/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_ChatFrame_Open_TW/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill04/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill04/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill01/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill01/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-skill02/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Skill02/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33056,6 +33158,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-stamina/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_Stamina/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-7-7/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_7_7/default.webp</image:loc>
@@ -33134,6 +33242,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-staminarecover-2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_StaminaRecover_2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-monopoly04-heroatk-01/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Monopoly04_HeroAtk_01/default.webp</image:loc>
@@ -33158,6 +33272,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/collection-gvemagicbook/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Collection_GveMagicBook/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-collection-gvemagicbook-piece/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Collection_GveMagicBook_Piece/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wifemanagerment-building-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_WifeManagerment_Building_1/default.webp</image:loc>
@@ -33170,12 +33296,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-167s1/</loc>
-    <image:image>
-      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_167S1/default.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-preregistration-w66/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_PreRegistration_W66/default.webp</image:loc>
@@ -33185,6 +33305,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-monstergirl-emotion-03/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MonsterGirl_emotion_03/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-commonlottery-token/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_CommonLottery_Token/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33314,6 +33440,66 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267m1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267M1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-267m2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_267M2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-showoff-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_showoff_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-uniquename-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_uniqueName_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-267-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_267_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-titlebasemap-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_TitleBasemap_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-hero-267/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Hero_267/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-medicineincomecard/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MedicineIncomeCard/default.webp</image:loc>
@@ -33329,6 +33515,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-title-title1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_Title_Title1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-bp1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_BP1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-bp2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_BP2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33350,6 +33548,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-lvup-player/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_LvUp_Player/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-equipment-piece-03/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Equipment_Piece_03/default.webp</image:loc>
@@ -33359,6 +33563,66 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-monstergirl-quest-individual-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_MonsterGirl_Quest_Individual_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01c/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01C/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01d/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01D/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01f/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01F/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-01-piece/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_01_Piece/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01b/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01B/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01a/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01A/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/gvemagicbook-01e/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/GveMagicBook_01E/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-collection-box/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_Collection_Box/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvemagicbook-commonlottery-exhibit/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveMagicBook_CommonLottery_Exhibit/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -33644,6 +33908,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/events/lost-and-found/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_LostAndFound/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/events/moonlit-event/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_MoonLight/default.webp</image:loc>
@@ -33830,6 +34100,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/events/gve-magic-book/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_GveMagicBook01/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/community-resources/xia-siege-base-placement/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/community-resources/xia-siege-base-placement/layoutA.webp</image:loc>
@@ -33864,5 +34140,575 @@
   </url>
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/community-resources/xia-text-formatting/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-bank/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-bank/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-101/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-101/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-201/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-201/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-301/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-301/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-401/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-401/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-501/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-501/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-601/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-601/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-701/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-701/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-801/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-801/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-901/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-901/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1001/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1001/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1101/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1101/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1201/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1201/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1301/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1301/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1401/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1401/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1501/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1501/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1601/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1601/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/buildings/building-1701/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/building-1701/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-101-001/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-101-001/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-101-002/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-101-002/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-201-001/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-201-001/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-201-002/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-201-002/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-bank-001/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-bank-001/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-bank-002/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-bank-002/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-401-001/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-401-001/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/item-buildingappearance-401-002/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/item-buildingappearance-401-002/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d5/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d6/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d7/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d10/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d11/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d12/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d13/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d14/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d15/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d16/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d17/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d18/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d19/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d21/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d22/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d23/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d24/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/d25/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/newd1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/newd2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/newd3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/a2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b4/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b5/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b6/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b7/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b8/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b9/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b10/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b11/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b13/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b14/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b15/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b16/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b18/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b19/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b21/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b22/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b24/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b25/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b27/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/b28/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/n01/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/pr65/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/pr66/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/pr69/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/c1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/c2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/c3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/c4/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/csem-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/csem-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/csem-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/csem-4/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/csem-5/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/csem-6/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/w1e1-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/w1e1-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/w1e1-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/w1e1-4/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cseanniversary1-01/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cseanniversary1-02/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cseanniversary1-03/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cseanniversary1-04/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cseanniversary1-05/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cseanniversary1-06/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cseanniversary1-07/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0201-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0201-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0201-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0401-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0401-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0401-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0601-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0601-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr0601-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr1001-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr1001-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr1001-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr201a-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr201a-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr201a-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr401a-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr401a-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr401a-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr801a-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr801a-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr801a-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr1601-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr1601-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/citybusinessman-tlr1601-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-01/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-02/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-03/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-04/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-05/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-06/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-07/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-08/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-09/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-10/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-11/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-12/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-13/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cityexchanger-14/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse01-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse01-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse01-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse01-4/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse01-5/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse01-6/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse02-1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/cse02-1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse02-2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/cse02-2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse03-1/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse03-2/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse03-3/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse03-4/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/cse03-5/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/progression/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/facilities/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/facilities/school/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/school/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/facilities/hall/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/hall/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/facilities/commercial/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/village/objects/commercial/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/facilities/drakenberg/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/facilities/statue/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/skins/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/city-events/</loc>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/village/</loc>
   </url>
 </urlset>
