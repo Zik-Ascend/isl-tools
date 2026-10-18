@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15 10:13 UTC",
+  "generated_at": "2026-10-18 22:29 UTC",
   "counts": {
     "fellows": 167,
     "family": 128,
@@ -15,7 +15,7 @@
     "museum": 138,
     "items": 4799,
     "events": 73,
-    "community-resources": 16,
+    "community-resources": 17,
     "calculators": 2,
     "village": 18
   },
@@ -69212,6 +69212,15 @@
       "internal_id": "miniposter",
       "url": "events/miniposter/#event-phase-mp05",
       "summary": "Wrestling Championship phase · 3 or 4 days · Core rewards: Screaming Punching Bag, Valiant Insignia Fragment, Acquaint Stone Fragment",
+      "aliases": []
+    },
+    {
+      "title": "K's Guild Trade Festival Route Mapper",
+      "category": "community resources",
+      "id": "k-guild-trade-festival-guide",
+      "internal_id": "k-guild-trade-festival-guide",
+      "url": "community-resources/#resource-k-guild-trade-festival-guide",
+      "summary": "Tool · by K · EU S-290 · A tool that solves GTF routes and loops.",
       "aliases": []
     },
     {
