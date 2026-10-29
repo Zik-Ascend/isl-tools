@@ -1899,6 +1899,32 @@
       "inheritance": {}
     },
     {
+      "id": "306",
+      "name": "Genos",
+      "country": "1",
+      "countryLabel": "Inspiring",
+      "rarity": "4",
+      "rarityLabel": "SSR",
+      "initialTalent": 75.0,
+      "initialATK": 0.0,
+      "riseATK": 1.0,
+      "variants": [
+        {
+          "id": "base",
+          "stageId": "",
+          "label": "Base · SSR",
+          "rarity": "4",
+          "rarityLabel": "SSR",
+          "country": "1",
+          "countryLabel": "Inspiring",
+          "initialTalent": 75.0,
+          "initialATK": 0.0,
+          "riseATK": 1.0
+        }
+      ],
+      "inheritance": {}
+    },
+    {
       "id": "301",
       "name": "Giyu Tomioka",
       "country": "3",
@@ -4233,6 +4259,32 @@
       "inheritance": {}
     },
     {
+      "id": "307",
+      "name": "Saitama",
+      "country": "2",
+      "countryLabel": "Diligent",
+      "rarity": "4",
+      "rarityLabel": "SSR",
+      "initialTalent": 75.0,
+      "initialATK": 0.0,
+      "riseATK": 1.0,
+      "variants": [
+        {
+          "id": "base",
+          "stageId": "",
+          "label": "Base · SSR",
+          "rarity": "4",
+          "rarityLabel": "SSR",
+          "country": "2",
+          "countryLabel": "Diligent",
+          "initialTalent": 75.0,
+          "initialATK": 0.0,
+          "riseATK": 1.0
+        }
+      ],
+      "inheritance": {}
+    },
+    {
       "id": "153",
       "name": "Salvo",
       "country": "3",
@@ -4702,6 +4754,68 @@
           "country": "3",
           "countryLabel": "Brave",
           "initialTalent": 100.0,
+          "initialATK": 0.0,
+          "riseATK": 1.0
+        }
+      ],
+      "inheritance": {}
+    },
+    {
+      "id": "265",
+      "name": "Terrible Tornado",
+      "country": "3",
+      "countryLabel": "Brave",
+      "rarity": "4",
+      "rarityLabel": "SSR -> SSR+ -> UR -> LR",
+      "initialTalent": 75.0,
+      "initialATK": 0.0,
+      "riseATK": 1.0,
+      "variants": [
+        {
+          "id": "base",
+          "stageId": "",
+          "label": "Base · SSR",
+          "rarity": "4",
+          "rarityLabel": "SSR",
+          "country": "3",
+          "countryLabel": "Brave",
+          "initialTalent": 75.0,
+          "initialATK": 0.0,
+          "riseATK": 1.0
+        },
+        {
+          "id": "265M1",
+          "stageId": "265M1",
+          "label": "M1 · SSR+",
+          "rarity": "9",
+          "rarityLabel": "SSR+",
+          "country": "3",
+          "countryLabel": "Brave",
+          "initialTalent": 100.0,
+          "initialATK": 0.0,
+          "riseATK": 1.0
+        },
+        {
+          "id": "265M2",
+          "stageId": "265M2",
+          "label": "M2 · UR",
+          "rarity": "5",
+          "rarityLabel": "UR",
+          "country": "3",
+          "countryLabel": "Brave",
+          "initialTalent": 160.0,
+          "initialATK": 0.0,
+          "riseATK": 1.0
+        },
+        {
+          "id": "265M3",
+          "stageId": "265M3",
+          "label": "M3 · LR",
+          "rarity": "7",
+          "rarityLabel": "LR",
+          "country": "3",
+          "countryLabel": "Brave",
+          "initialTalent": 240.0,
           "initialATK": 0.0,
           "riseATK": 1.0
         }
@@ -20632,6 +20746,77 @@
       ]
     },
     {
+      "id": "Weapon_6_W194",
+      "name": "Hellish Blizzard Plushie (Replica)",
+      "rarity": "5",
+      "rarityLabel": "UR",
+      "levelBaseCap": 200,
+      "initialTalent": 60.0,
+      "riseTalent": 7.0,
+      "materiaSlots": [
+        {
+          "id": "1",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 0,
+          "heroBond": false,
+          "heroId": "all"
+        },
+        {
+          "id": "2",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 0,
+          "heroBond": false,
+          "heroId": "all"
+        },
+        {
+          "id": "3",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 1,
+          "heroBond": false,
+          "heroId": "all"
+        },
+        {
+          "id": "4",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 2,
+          "heroBond": false,
+          "heroId": "all"
+        },
+        {
+          "id": "5",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 3,
+          "heroBond": false,
+          "heroId": "all"
+        }
+      ]
+    },
+    {
       "id": "Weapon_6_34",
       "name": "Hello Kitty's doll",
       "rarity": "5",
@@ -23058,6 +23243,77 @@
           "unlockQuality": 2,
           "heroBond": false,
           "heroId": "302"
+        }
+      ]
+    },
+    {
+      "id": "Weapon_6_H265",
+      "name": "Terrible Tornado Plushie (Replica)",
+      "rarity": "5",
+      "rarityLabel": "UR",
+      "levelBaseCap": 200,
+      "initialTalent": 60.0,
+      "riseTalent": 7.0,
+      "materiaSlots": [
+        {
+          "id": "1",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 0,
+          "heroBond": false,
+          "heroId": "265"
+        },
+        {
+          "id": "2",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 0,
+          "heroBond": true,
+          "heroId": "265"
+        },
+        {
+          "id": "3",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 1,
+          "heroBond": false,
+          "heroId": "265"
+        },
+        {
+          "id": "4",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 2,
+          "heroBond": false,
+          "heroId": "265"
+        },
+        {
+          "id": "5",
+          "type": "Emblem_2",
+          "label": "Emblem_2",
+          "rarity": 0,
+          "maxLevel": 1,
+          "aptitudeInitial": 0,
+          "aptitudePerLevel": 0,
+          "unlockQuality": 3,
+          "heroBond": false,
+          "heroId": "265"
         }
       ]
     },

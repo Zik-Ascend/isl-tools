@@ -537,6 +537,12 @@
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/player-figures/figures/Play_C54/default.webp</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/player-figures/figures/Play_C55/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/player-figures/figures/Play_C56/default.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/treasure-hunt/</loc>
@@ -803,6 +809,9 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_41/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_OnePunchMan/default.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/museum/exhibits/Collection_27/default.webp</image:loc>
@@ -2105,6 +2114,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/terrible-tornado/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_265/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_265/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/violetta/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_267/default.webp</image:loc>
@@ -2147,6 +2165,18 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_305/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/genos/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_306/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/fellows/saitama/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/fellows/Hero_307/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3011,6 +3041,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/family/terrible-tornado/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_193/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_193/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/family/mia/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_116/default.webp</image:loc>
@@ -3278,6 +3317,24 @@
     </image:image>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_187/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/family/hellish-blizzard/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_194/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_194/aa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/family/aegle/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_195/default.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/family/Wife_195/aa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -4310,6 +4367,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/terrible-tornado-plushie-replica/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/staff-of-ainz-ooal-gown/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H187/default.webp</image:loc>
@@ -4319,6 +4382,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/narberal-s-staff/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H188/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/artifacts/hellish-blizzard-plushie-replica/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_W194/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -6422,6 +6491,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lotterydd-01-5starclothesbox/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LotteryDD_01_5starclothesbox/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activity-valentinechocolate-11x/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Activity_ValentineChocolate_11X/default.webp</image:loc>
@@ -7184,6 +7259,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-195/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_195/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-hero-135/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Hero_135/default.webp</image:loc>
@@ -7385,6 +7466,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-261/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_261/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-individual-2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Individual_2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -7739,6 +7826,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-mushoku-apple/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_Mushoku_Apple/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-apple/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Apple/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -8618,6 +8711,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-lotteryscore/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_LotteryScore/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/collection-djdemoncastle/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Collection_DJDemonCastle/default.webp</image:loc>
@@ -8879,6 +8978,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-commonlottery-medicine/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CommonLottery_Medicine/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-individual-5/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Individual_5/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -9650,6 +9755,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-individual-7/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Individual_7/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-58/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_58/default.webp</image:loc>
@@ -9677,6 +9788,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-individual-6/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Individual_6/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -10784,6 +10901,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h135c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H135C2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-h135c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_H135C2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h117c3/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H117C3/default.webp</image:loc>
@@ -11537,6 +11666,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-w4c1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_W4C1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h58c2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H58C2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -12596,6 +12731,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-h119c3/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_H119C3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschippiece-h119c3/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChipPiece_H119C3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-w58c1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_W58C1/default.webp</image:loc>
@@ -12983,6 +13130,24 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-mushoku-cothesboxpiece-tw/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Mushoku_CothesboxPiece_TW/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-cothesboxpiece-1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_CothesboxPiece_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-cothesboxpiece-jp/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_CothesboxPiece_JP/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-cothesboxpiece-tw/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_CothesboxPiece_TW/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -14678,6 +14843,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-emotion-06/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_emotion_06/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-herobond3-exchangepiece/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroBond3_ExchangePiece/default.webp</image:loc>
@@ -15500,6 +15671,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-shapeshiftclothes55/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_ShapeshiftClothes55/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-shapeshiftclothes56/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_ShapeshiftClothes56/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-clotheschip-shapeshiftclothes39/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ClothesChip_ShapeshiftClothes39/default.webp</image:loc>
@@ -15893,6 +16076,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-fairytail-emotion-05/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_FairyTail_emotion_05/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-emotion-05/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_emotion_05/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -16490,6 +16679,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-306/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_306/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-commonlottery-token-04/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CommonLottery_Token_04/default.webp</image:loc>
@@ -16601,6 +16796,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-mushoku-quest-global-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_Mushoku_Quest_Global_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-global-1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Global_1/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -17516,6 +17717,48 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-194/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_194/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-194m1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_194M1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-wife-194/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Wife_194/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-w194/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_W194/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-titlebasemap-wife-194/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_TitleBasemap_Wife_194/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-wife-194/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Wife_194/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-194-showoff-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_194_showoff_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-chatframe-sanrio/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_ChatFrame_Sanrio/default.webp</image:loc>
@@ -17525,6 +17768,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-34/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_34/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-individual-4/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Individual_4/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -17597,6 +17846,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-22/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_22/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchmantitle-2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchManTitle_2/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -17759,6 +18014,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-251-showoff-dialog/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_251_showoff_dialog/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-emotion-01/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_emotion_01/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -19040,6 +19301,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-emotion-04/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_emotion_04/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rtd-monpiece-3/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RTD_MonPiece_3/default.webp</image:loc>
@@ -19667,6 +19934,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-mijinlottitle-1/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MijinLotTitle_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lotterydd-01-coin1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LotteryDD_01_Coin1/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -20804,6 +21077,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-commonlottery-onepunchman/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_CommonLottery_OnePunchMan/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/collection-onepunchman/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Collection_OnePunchMan/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-mp04-output-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_MP04_Output_2/default.webp</image:loc>
@@ -21338,6 +21623,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-emotion-02/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_emotion_02/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-182/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_182/default.webp</image:loc>
@@ -21668,6 +21959,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-stamrecover/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_StamRecover/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-esceremony-appotion/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ESCeremony_ApPotion/default.webp</image:loc>
@@ -21908,6 +22205,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-individual-3/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Individual_3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-bpscore-anniversary2half-en/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_BPScore_Anniversary2Half_EN/default.webp</image:loc>
@@ -21947,6 +22250,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-mushoku-bpscore/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Mushoku_BPScore/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-bpscore/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_BPScore/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -22226,6 +22535,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-quest-individual-1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Quest_Individual_1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-gvegoldenrealm-staminarecover-2/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_GveGoldenRealm_StaminaRecover_2/default.webp</image:loc>
@@ -22355,6 +22670,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-mushoku-specialitem/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_Mushoku_SpecialItem/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-specialitem/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_SpecialItem/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -23177,6 +23498,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-130-uniquename-prefix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_130_uniqueName_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-194-uniquename-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_194_uniqueName_prefix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -24173,6 +24500,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-302-uniquename-prefix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_302_uniqueName_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-265-showoff-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_265_showoff_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-265-uniquename-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_265_uniqueName_prefix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -26210,6 +26549,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchmantitle-3/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchManTitle_3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-simgame5-1402/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_SimGame5_1402/default.webp</image:loc>
@@ -26255,6 +26600,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wifepiece-57/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_WifePiece_57/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-307/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_307/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -27350,6 +27701,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lotterydd-01-coin2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LotteryDD_01_Coin2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-demonslayer-stamrecover/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_DemonSlayer_StamRecover/default.webp</image:loc>
@@ -27920,6 +28277,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-stamina/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Stamina/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-overlord-stamina/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_Overlord_Stamina/default.webp</image:loc>
@@ -28325,6 +28688,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heromanagerment-building/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroManagerment_Building/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchman-emotion-03/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchMan_emotion_03/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -28871,6 +29240,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-120-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_120_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-h135c2-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_H135C2_showoff_suffix/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -30092,6 +30467,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-h119c3-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_H119C3_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-wife-122-showoff-suffix/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Wife_122_showoff_suffix/default.webp</image:loc>
@@ -31070,6 +31451,78 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-265m1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_265M1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-265m1-500/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_265M1_500/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-265m3/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_265M3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-wife-193/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Wife_193/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-hero-265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Hero_265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-h265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-titlebasemap-hero-265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_TitleBasemap_Hero_265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-hero-265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Hero_265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-intimacydegree-hero265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_IntimacyDegree_Hero265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lrtalentskill-hero-265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LRTalentSkill_Hero_265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-265/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_265/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/test-eqipment/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Test_Eqipment/default.webp</image:loc>
@@ -31097,6 +31550,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-mushoku-emotion-03/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Mushoku_emotion_03/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-onepunchmantitle-1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_OnePunchManTitle_1/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -31856,6 +32315,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-onepunchman-key/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_OnePunchMan_Key/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-overlord-key/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_Overlord_Key/default.webp</image:loc>
@@ -32189,6 +32654,18 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-petstarup-grade5/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_PetStarup_Grade5/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lotterydd-01-urherobox/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LotteryDD_01_URherobox/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lotterydd-01-urheropiecebox/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LotteryDD_01_URheropiecebox/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -32786,6 +33263,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-appearance-chatframe-onepunchman/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Appearance_ChatFrame_OnePunchMan/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-explore-dragonmaid-quest-individual-4/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Explore_DragonMaid_Quest_Individual_4/default.webp</image:loc>
@@ -33326,6 +33809,78 @@
     </image:image>
   </url>
   <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-511/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_511/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-511m1/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_511M1/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-511m2/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_511M2/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-owner-hero-511m3/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Owner_Hero_511M3/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-heropledge-511/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_HeroPledge_511/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-titlebasemap-hero-511/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_TitleBasemap_Hero_511/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-511-showoff-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_511_showoff_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-511-uniquename-prefix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_511_uniqueName_prefix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-activehead-hero-511/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_ActiveHead_Hero_511/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-hero-511-showoff-suffix/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_Hero_511_showoff_suffix/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-lrtalentskill-hero-511/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_LRTalentSkill_Hero_511/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-rarityupgrade-hero-511/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_RarityUpgrade_Hero_511/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-7-7/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_7_7/default.webp</image:loc>
@@ -33551,6 +34106,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-part-test-03/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/items/Item_part_test_03/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/items/item-weapon-equipment-6-h511/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/artifacts/Weapon_6_H511/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -34079,6 +34640,12 @@
     <loc>https://zik-ascend.github.io/isl-tools/wiki/events/anniversary2-half/</loc>
     <image:image>
       <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_HeroOathEvent/default.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zik-ascend.github.io/isl-tools/wiki/events/lottery-double-decker/</loc>
+    <image:image>
+      <image:loc>https://zik-ascend-isl-wiki.win/wiki/events/icons/Btn_ActivityIcon_LotteryDoubleDecker01/default.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -34711,4 +35278,7 @@
   <url>
     <loc>https://zik-ascend.github.io/isl-tools/wiki/village/</loc>
   </url>
+  <url><loc>https://zik-ascend.github.io/isl-tools/wiki/patch/</loc></url>
+  <url><loc>https://zik-ascend.github.io/isl-tools/wiki/patch/8005/</loc></url>
+  <url><loc>https://zik-ascend.github.io/isl-tools/wiki/patch/8105/</loc></url>
 </urlset>

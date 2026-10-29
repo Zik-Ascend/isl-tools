@@ -8950,3 +8950,28 @@ body {
 .village-table tr[hidden] { display: none; }
 .village-table td { vertical-align: top; overflow-wrap: anywhere; }
 @media (max-width: 600px) { .village-facts { grid-template-columns: 1fr; } .village-facts dd { margin-bottom: .65rem; } }
+
+/* Public game-patch history (separate from unlisted preview presentation). */
+.public-page-history { margin: 2rem 0 0; border: 1px solid var(--line); border-radius: var(--radius-small); background: var(--panel); padding: .8rem 1rem; }
+.public-page-history summary { cursor: pointer; font-weight: 600; }
+.public-page-history summary span, .public-page-history small { color: var(--muted); font-size: .85rem; font-weight: 400; margin-left: .7rem; }
+.public-page-history ol { padding-left: 1.4rem; }
+.public-page-history li { margin: 1rem 0; }
+.public-page-history p, .public-patch-change p, .public-patch-index p { margin: .35rem 0 .7rem; overflow-wrap: anywhere; }
+.public-patch-counts { display: flex; flex-wrap: wrap; gap: .7rem 1.2rem; margin: 1rem 0; }
+.public-patch-status-group details { margin: .6rem 0; border: 1px solid var(--line); border-radius: var(--radius-small); padding: .65rem .8rem; }
+.public-patch-status-group summary { cursor: pointer; }
+.public-patch-status-group summary span { color: var(--muted); margin-left: .5rem; }
+.public-patch-change { margin: .7rem 0; }
+[data-public-patch-filter] { display: block; margin-top: .4rem; padding: .6rem; color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; width: min(100%, 36rem); box-sizing: border-box; }
+.public-patch-change[hidden], [data-public-patch-group][hidden], .public-patch-status-group[hidden] { display: none; }
+@media (max-width: 600px) { .public-page-history small { display: block; margin: .3rem 0; } }
+
+/* Compact, non-sticky public game-patch announcement. */
+.game-patch-notice { box-sizing: border-box; display: flex; align-items: center; gap: .75rem; width: min(1120px, calc(100% - 2rem)); margin: .8rem auto 0; padding: .55rem .8rem; border: 1px solid #d6b44d; border-radius: 8px; background: #ffe9a0; color: #342600; font-size: .9rem; }
+.game-patch-notice[hidden] { display: none; }
+.game-patch-notice p { flex: 1; min-width: 0; margin: 0; overflow-wrap: anywhere; }
+.game-patch-notice a { color: #493100; font-weight: 600; text-decoration: underline; text-underline-offset: .15em; }
+.game-patch-notice button { display: grid; place-items: center; flex: 0 0 36px; width: 36px; height: 36px; padding: 0; border: 0; border-radius: 6px; background: transparent; color: inherit; font-size: 1.5rem; cursor: pointer; }
+.game-patch-notice button:hover { background: #efd789; }
+.game-patch-notice :is(a,button):focus-visible { outline: 2px solid #493100; outline-offset: 3px; }
